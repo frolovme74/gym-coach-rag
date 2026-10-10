@@ -1,0 +1,14 @@
+materials/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Секреты и локальные настройки
+.env
+.claude/
+
+# Артефакты сборки индекса
+data/index/
