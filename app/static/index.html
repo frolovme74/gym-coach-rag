@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Gym Coach</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Unbounded:wght@600;800&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <span class="logo">Gym<span>Coach</span></span>  </header>
+
+  <main class="page">
+    <section class="hero">
+      <h1>Стань сильнее, <span>чем вчера</span></h1>
+      <p class="lead"><strong>Твой тренер на связи.</strong> Спроси про тренировки, питание, добавки или восстановление.</p>
+
+      <div class="switch" role="tablist" aria-label="Режим">
+        <button role="tab" id="tab-ask" aria-controls="panel-ask" aria-selected="true">Вопрос</button>
+        <button role="tab" id="tab-program" aria-controls="panel-program" aria-selected="false">Программа</button>
+      </div>
+
+      <div id="panel-ask" role="tabpanel" aria-labelledby="tab-ask">
+        <form id="ask-form" novalidate>
+          <div class="ask-box">
+            <textarea id="question" rows="2" maxlength="500" aria-label="Ваш вопрос" placeholder="Сколько отдыхать между подходами?"></textarea>
+            <button type="submit" class="primary" data-busy="Ищу…">Спросить</button>
+          </div>
+          <div class="examples" id="examples" aria-label="Примеры вопросов">
+            <button type="button" class="chip">Сколько отдыхать между подходами?</button>
+            <button type="button" class="chip">Сколько белка нужно в день?</button>
+            <button type="button" class="chip">Нужен ли креатин?</button>
+            <button type="button" class="chip">Сколько нужно спать?</button>
+          </div>
+          <p class="hint" id="ask-hint" role="alert"></p>
+        </form>
+      </div>
+
+      <div id="panel-program" role="tabpanel" aria-labelledby="tab-program" hidden>
+        <form id="program-form">
+          <div class="options">
+            <fieldset>
+              <legend>Цель</legend>
+              <label><input type="radio" name="goal" value="muscle" checked><span>Мышечная масса</span></label>
+              <label><input type="radio" name="goal" value="strength"><span>Сила</span></label>
+              <label><input type="radio" name="goal" value="endurance"><span>Выносливость</span></label>
+            </fieldset>
+            <fieldset>
+              <legend>Уровень</legend>
+              <label><input type="radio" name="level" value="beginner" checked><span>Новичок</span></label>
+              <label><input type="radio" name="level" value="intermediate"><span>Средний</span></label>
+            </fieldset>
+            <fieldset>
+              <legend>Дней в неделю</legend>
+              <label><input type="radio" name="days" value="2"><span>2</span></label>
+              <label><input type="radio" name="days" value="3" checked><span>3</span></label>
+              <label><input type="radio" name="days" value="4"><span>4</span></label>
+              <label><input type="radio" name="days" value="5"><span>5</span></label>
+            </fieldset>
+            <fieldset>
+              <legend>Оборудование</legend>
+              <label><input type="radio" name="equipment" value="gym" checked><span>Тренажёрный зал</span></label>
+              <label><input type="radio" name="equipment" value="dumbbells"><span>Только гантели</span></label>
+            </fieldset>
+          </div>
+          <div class="program-actions">
+            <button type="submit" class="primary" data-busy="Составляю…">Составить программу</button>
+            <p class="hint" id="program-hint" role="alert"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="result" id="result" aria-live="polite" hidden>
+      <article class="result-main">
+        <div class="result-head">
+          <h2 id="result-title">Ответ</h2>
+          <span class="badge" id="result-badge" hidden>Демо-данные</span>
+        </div>
+        <p class="trust" id="trust"></p>
+        <div id="result-body"></div>
+        <p class="caution" id="caution" hidden>Перед приёмом добавок посоветуйтесь с врачом, особенно при хронических заболеваниях, беременности и до 18 лет.</p>
+      </article>
+      <aside class="result-sources" id="sources-block" aria-labelledby="sources-title">
+        <h3 id="sources-title">Источники</h3>
+        <ol class="sources" id="sources"></ol>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="footer">
+    Справочная информация. Не заменяет врача, диетолога и очного тренера.
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
