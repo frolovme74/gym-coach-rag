@@ -1,6 +1,5 @@
 """Границы поиска/генерации и происхождение цитат; внешняя сеть не нужна."""
 
-import copy
 import json
 import tempfile
 import unittest
@@ -38,7 +37,7 @@ class ExtractiveClient:
 
     def generate(self, prompt, **kwargs):
         data = json.loads(prompt[1]["content"])
-        if "parameters" in data:
+        if "parameters" in data or "погода" in data.get("question", "").lower():
             value = {"found": False}
         else:
             # Avoid citation marks sometimes present in original corpus text.
@@ -53,23 +52,6 @@ class ExtractiveClient:
                 ],
             }
         return LLMResponse(json.dumps(value, ensure_ascii=False), "test", {})
-
-
-def program_value():
-    exercises = [
-        dict(name=name, sets=2, reps="8–12", evidence=[{"source": 1, "passages": [1]}])
-        for name in ("Приседания с гантелями", "жим гантелей")
-    ]
-    return {
-        "found": True,
-        "days": [{"exercises": copy.deepcopy(exercises)} for _ in range(2)],
-        "claims": [
-            {
-                "text": "Пример использует упражнения с гантелями.",
-                "evidence": [{"source": 1, "passages": [1]}],
-            }
-        ],
-    }
 
 
 class PipelineTest(unittest.TestCase):
@@ -133,6 +115,13 @@ class PipelineTest(unittest.TestCase):
         with self.assertRaises(LLMError):
             self.p.ask({"question": "Вопрос"})
 
+    def test_provider_content_block_is_an_explicit_refusal(self):
+        self.client.generate.side_effect = LLMError("blocked", "Ограничение провайдера")
+        result = self.p.ask({"question": "Вопрос"})
+        self.assertFalse(result["found"])
+        self.assertEqual([], result["sources"])
+        self.assertEqual(1, self.client.generate.call_count)
+
     def test_invalid_json_or_schema_is_not_a_corpus_refusal(self):
         for text in (
             "oops",
@@ -166,27 +155,6 @@ class PipelineTest(unittest.TestCase):
         self.assertEqual([2, 1], refs)
         self.assertEqual(["b", "a"], [s["doc_id"] for s in e.used.values()])
         self.assertEqual(1, len(e.used[2]["quotes"]))
-
-    def test_grounded_program_contract(self):
-        self.response(program_value())
-        result = self.p.program(PARAMS)
-        self.assertTrue(result["found"])
-        self.assertEqual(2, len(result["days"]))
-        self.assertEqual([1], result["days"][0]["exercises"][0]["citations"])
-        self.assertEqual(3000, self.client.generate.call_args.kwargs["max_tokens"])
-
-    def test_program_rejects_wrong_days_numbers_name_equipment(self):
-        for mutation in (
-            lambda v: v["days"].pop(),
-            lambda v: v["days"][0]["exercises"][0].update(sets=9),
-            lambda v: v["days"][0]["exercises"][0].update(name="Приседания со штангой"),
-            lambda v: v["days"][0]["exercises"][0].update(reps="12–8"),
-        ):
-            v = program_value()
-            mutation(v)
-            self.response(v)
-            with self.assertRaises(LLMError):
-                self.p.program(PARAMS)
 
     def test_program_refusal_and_malformed_parameters(self):
         self.response({"found": False})
@@ -283,6 +251,10 @@ class PipelineTest(unittest.TestCase):
         self.assertNotIn("999", result["answer"])
         self.assertIn(QUOTE, result["answer"])
         self.assertEqual([QUOTE], result["sources"][0]["quotes"])
+        feedback = json.loads(self.client.generate.call_args.args[0][-1]["content"])
+        self.assertIn(
+            "999", json.dumps(feedback["validation_error"]["rejected_response"])
+        )
 
     def test_stale_profile_is_rejected_before_generation(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -292,7 +264,7 @@ class PipelineTest(unittest.TestCase):
             p.parent.mkdir(parents=True)
             p.write_text(json.dumps(profile))
             corpus = root / profile["corpus"]
-            corpus.parent.mkdir(parents=True)
+            corpus.parent.mkdir(parents=True, exist_ok=True)
             corpus.write_text("[]")
             with self.assertRaises(LLMError):
                 RAGPipeline.from_project(root, self.client)

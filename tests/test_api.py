@@ -117,7 +117,7 @@ class ApiTest(unittest.TestCase):
                 self.assertEqual(400, status)
                 self.assertIn("error", data)
 
-    def test_program_can_refuse_without_inventing_days(self):
+    def test_program_returns_requested_days_with_real_catalog(self):
         for days in range(2, 6):
             with self.subTest(days=days):
                 status, data = self.json(
@@ -130,9 +130,9 @@ class ApiTest(unittest.TestCase):
                     },
                 )
                 self.assertEqual(200, status)
-                self.assertFalse(data["found"])
-                self.assertEqual([], data["days"])
-                self.assertEqual([], data["sources"])
+                self.assertTrue(data["found"])
+                self.assertEqual(days, len(data["days"]))
+                self.assert_sources(data["sources"])
 
     def test_provider_errors_have_distinct_http_status(self):
         for code, status in (("timeout", 504), ("quota", 503), ("grounding", 502)):

@@ -1,5 +1,17 @@
 # Архитектура
 
+## Текущее состояние v4
+
+Рабочий профиль — `data/corpus-v4/profile.json`, модель — GigaChat-3-Ultra.
+Одна база содержит научные чанки и практические карточки с явным происхождением.
+Вопросы проходят BM25 и приоритет правил FAQ (`runtime_retrieval.py`), программы
+отбирают карточки по метаданным и проверяются `planner.py`. Обе ветви возвращают
+источники из той же базы. Новых зависимостей нет. Сборка:
+`python scripts/build_practical_corpus.py`; повторная оценка:
+`python -m benchmark.practical_v4 --output /tmp/new-v4-report.json`.
+Подробности текущего поведения — `integration.md` и `practical-corpus.md`;
+разделы этапов ниже описывают историю реализации.
+
 ## Путь запроса
 
 ```
@@ -19,9 +31,9 @@ HTTP-сервер (app/server.py)        — валидация, маршрут�
 Ответ {answer, found, sources[]} → браузер показывает текст и источники
 ```
 
-При старте сервер загружает профиль v3.1, корпус `data/corpus-v3/documents.json`
-и `data/index/bm25.v3.json`. При отсутствии файла индекс строится в памяти.
-Явная сборка: `python -m app.rag.retrieval build --corpus data/corpus-v3/documents.json --output data/index/bm25.v3.json --variant concepts`.
+При старте сервер загружает профиль v4, корпус `data/corpus-v4/documents.json`
+и `data/index/bm25.v4.json`. При отсутствии файла индекс строится в памяти.
+Явная сборка: `python scripts/build_practical_corpus.py`.
 Подробный контракт — [integration.md](integration.md).
 
 ## Компоненты
@@ -31,9 +43,9 @@ HTTP-сервер (app/server.py)        — валидация, маршрут�
 | Интерфейс | `app/static/` | Продукт и интерфейс | прототип готов |
 | HTTP-сервер и API | `app/server.py` | Интеграция | готов |
 | Заглушка ответов | `app/stub.py` | Интеграция | исторический файл, сервер не импортирует |
-| Предобработка и индекс BM25 | `app/rag/` | BM25 и RAG | профиль v3.1 подключён к серверу |
+| Предобработка и индекс BM25 | `app/rag/` | BM25 и RAG | корпус v4 и приоритет практических карточек |
 | Клиент LLM | `app/llm.py` | Интеграция | GigaChat подключён, ключ хранится локально |
-| Корпус | `data/corpus/` | BM25 и RAG | 599 рабочих чанков; полная вычитка отдельно |
+| Корпус | `data/corpus-v4/` | BM25 и RAG | 620 документов; полная вычитка прежнего перевода отдельно |
 | Benchmark | `benchmark/` | BM25 и RAG | 36 development + 36 holdout, подбор 120 конфигураций, фиксация профиля и отдельный аудит top-10 v2 |
 | Тесты | `tests/` | все | API, корпус, предобработка, поиск, benchmark, LLM и пайплайн |
 

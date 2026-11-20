@@ -61,7 +61,7 @@ def _env_values(path):
 @dataclass(frozen=True)
 class GigaChatConfig:
     credentials: str = field(repr=False)
-    model: str = "GigaChat-2-Pro"
+    model: str = "GigaChat-3-Ultra"
     scope: str = "GIGACHAT_API_PERS"
     ca_bundle_file: str | None = None
     timeout: float = 30.0
@@ -116,7 +116,7 @@ class GigaChatConfig:
         try:
             return cls(
                 credentials=values.get("GIGACHAT_CREDENTIALS", "").strip(),
-                model=values.get("GIGACHAT_MODEL", "GigaChat-2-Pro").strip(),
+                model=values.get("GIGACHAT_MODEL", "GigaChat-3-Ultra").strip(),
                 scope=values.get("GIGACHAT_SCOPE", "GIGACHAT_API_PERS").strip(),
                 ca_bundle_file=ca or None,
                 timeout=float(values.get("GIGACHAT_TIMEOUT", "30")),

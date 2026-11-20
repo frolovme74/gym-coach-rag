@@ -183,7 +183,7 @@ class LLMTest(unittest.TestCase):
             self.assertEqual(error.exception.code, code)
             self.assertEqual(len(opener.requests), 2)
             self.assertEqual(
-                json.loads(opener.requests[-1][0].data)["model"], "GigaChat-2-Pro"
+                json.loads(opener.requests[-1][0].data)["model"], "GigaChat-3-Ultra"
             )
 
     def test_invalid_expiration_rejected(self):

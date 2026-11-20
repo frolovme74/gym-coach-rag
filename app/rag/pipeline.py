@@ -1,4 +1,4 @@
-"""Поиск v3.1 → GigaChat → проверенные цитаты → контракт API."""
+"""Единый корпус v4 → GigaChat → проверяемые цитаты → контракт API."""
 
 import json
 import math
@@ -10,10 +10,11 @@ from urllib.parse import urlsplit
 
 from app.llm import GigaChatClient, LLMError
 from app.rag.prompts import messages, passages
+from app.rag.runtime_retrieval import RuntimeRetrieval
 from app.rag.retrieval import RULESET, ConceptBM25, _digest, _fingerprint
 
 ROOT = Path(__file__).resolve().parents[2]
-PROFILE = "benchmark/retrieval-v3.1/selected_config.json"
+PROFILE = "data/corpus-v4/profile.json"
 NO_ANSWER = "В найденных материалах недостаточно сведений для обоснованного ответа. Попробуйте уточнить вопрос."
 NO_PROGRAM = "В найденных материалах недостаточно сведений для полной программы с указанными параметрами. Попробуйте другие параметры."
 OUT_OF_SCOPE = "Я отвечаю на общие вопросы о тренировках, питании, спортивных добавках и восстановлении. Лечение, запрещённые средства и экстремальные диеты не входят в задачи ассистента."
@@ -90,7 +91,7 @@ class Evidence:
                 or not 1 <= n <= len(self.candidates)
                 or set(entry) != {"source", "passages"}
                 or not isinstance(ids, list)
-                or not 1 <= len(ids) <= 5
+                or not 1 <= len(ids) <= 100
             ):
                 raise invalid_output()
             parts = passages(self.candidates[n - 1]["fragment"])
@@ -174,9 +175,9 @@ class RAGPipeline:
             raw = (root / profile["corpus"]).read_bytes()
             documents = json.loads(raw)
             if _fingerprint(documents) != profile["corpus_sha256"]:
-                raise ValueError("Корпус отличается от откалиброванного")
+                raise ValueError("Корпус отличается от профиля")
             if _digest(RULESET) != profile["rules_sha256"]:
-                raise ValueError("Правила отличаются от откалиброванных")
+                raise ValueError("Правила отличаются от профиля")
             index_path = root / profile["index"]
             index = (
                 ConceptBM25.load(index_path)
@@ -197,38 +198,45 @@ class RAGPipeline:
             manifest = json.loads(
                 (root / profile["corpus"]).with_name("manifest.json").read_text()
             )
+            if _digest(manifest) != profile["manifest_sha256"]:
+                raise ValueError("Манифест отличается от профиля")
             if {d["doc_id"] for d in documents} != {d["doc_id"] for d in manifest}:
                 raise ValueError("Manifest не соответствует корпусу")
         except (OSError, ValueError, KeyError, TypeError) as exc:
             raise LLMError(
                 "config",
-                "Не удалось загрузить согласованный корпус и индекс v3. Проверьте файлы проекта.",
+                "Не удалось загрузить согласованный корпус и индекс v4. Проверьте файлы проекта.",
             ) from exc
-        return cls(documents, index, manifest, threshold, client)
+        return cls(
+            documents, RuntimeRetrieval(index, manifest), manifest, threshold, client
+        )
 
     def retrieve(self, query):
         hits = self.index.search(query, k=5)
         if not hits or hits[0].score <= self.threshold:
             return []
-        sources = []
-        for hit in hits:
-            d = self.documents[hit.doc_id]
-            url = self.manifest[hit.doc_id].get("source_url", "")
-            parsed = urlsplit(url)
-            if parsed.scheme not in ("https", "http") or not parsed.netloc:
-                url = ""
-            sources.append(
-                dict(
-                    doc_id=d["doc_id"],
-                    topic=d["topic"],
-                    title=d["source"],
-                    section=d["section"],
-                    fragment=d["text"],
-                    score=hit.score,
-                    url=url,
-                )
-            )
-        return sources
+        if len(query) <= 100 and isinstance(self.index, RuntimeRetrieval):
+            preferred = self.index.preferred_ids(query)
+            focused = [h for h in hits if h.doc_id in preferred]
+            if focused:
+                hits = focused
+        return [self.source(hit.doc_id, hit.score) for hit in hits]
+
+    def source(self, doc_id, score):
+        d = self.documents[doc_id]
+        url = self.manifest[doc_id].get("source_url", "")
+        parsed = urlsplit(url)
+        if parsed.scheme not in ("https", "http") or not parsed.netloc:
+            url = ""
+        return dict(
+            doc_id=doc_id,
+            topic=d["topic"],
+            title=d["source"],
+            section=d["section"],
+            fragment=d["text"],
+            score=score,
+            url=url,
+        )
 
     def _generate(self, kind, request, sources, feedback=None):
         with self._client_lock:
@@ -272,6 +280,8 @@ class RAGPipeline:
                 value = self._generate(kind, request, sources, feedback)
                 return render(value) if value["found"] else refusal
             except LLMError as error:
+                if kind == "ask" and error.code == "blocked":
+                    return refusal
                 if error.code != "grounding":
                     raise
                 if attempt:
@@ -281,11 +291,14 @@ class RAGPipeline:
                         except LLMError:
                             pass
                     raise
-                feedback = getattr(
-                    error,
-                    "validation_reason",
-                    "Неверный JSON или неподтверждённые источниками утверждения",
-                )
+                feedback = {
+                    "reason": getattr(
+                        error,
+                        "validation_reason",
+                        "Неверный JSON или неподтверждённые источниками утверждения",
+                    ),
+                    "rejected_response": value,
+                }
 
     @staticmethod
     def _answer(value, sources):
@@ -364,87 +377,6 @@ class RAGPipeline:
         if type(payload.get("days")) is not int or not 2 <= payload["days"] <= 5:
             raise ValueError("Число дней должно быть целым от 2 до 5")
         parameters = {k: payload[k] for k in ("goal", "level", "days", "equipment")}
-        query = (
-            f"Программа силовых тренировок {GOALS[payload['goal']]} "
-            f"{LEVELS[payload['level']]} {payload['days']} дня в неделю "
-            f"{EQUIPMENT[payload['equipment']]} упражнения подходы повторения"
-        )
-        refusal = dict(
-            mode="rag",
-            found=False,
-            title="Программа не составлена",
-            days=[],
-            note=NO_PROGRAM,
-            sources=[],
-        )
-        sources = self.retrieve(query)
-        if not sources:
-            return refusal
-        return self._run(
-            "program",
-            parameters,
-            sources,
-            lambda value: self._program(value, sources, parameters),
-            refusal,
-        )
+        from app.rag.planner import build_program
 
-    @staticmethod
-    def _program(value, sources, payload):
-        days = value.get("days")
-        if not isinstance(days, list) or len(days) != payload["days"]:
-            raise invalid_output(
-                f"days должен содержать ровно {payload['days']} дней, а claims должен быть на верхнем уровне JSON."
-            )
-        evidence = Evidence(sources)
-        clean_days = []
-        for n, day in enumerate(days, 1):
-            if (
-                not isinstance(day, dict)
-                or not isinstance(day.get("exercises"), list)
-                or not 2 <= len(day["exercises"]) <= 5
-            ):
-                raise invalid_output()
-            exercises = []
-            for ex in day["exercises"]:
-                if not isinstance(ex, dict):
-                    raise invalid_output()
-                name, reps = (
-                    text_field(ex.get("name"), 100),
-                    text_field(ex.get("reps"), 30),
-                )
-                sets = ex.get("sets")
-                if (
-                    type(sets) is not int
-                    or not 1 <= sets <= 10
-                    or not re.fullmatch(r"\d{1,2}(?:\s*[-–—]\s*\d{1,2})?", reps)
-                ):
-                    raise invalid_output()
-                endpoints = list(map(int, re.findall(r"\d+", reps)))
-                if (
-                    min(endpoints) < 1
-                    or max(endpoints) > 50
-                    or endpoints != sorted(endpoints)
-                ):
-                    raise invalid_output()
-                refs, quotes = evidence.validate(
-                    f"{name} {sets} {reps}", ex.get("evidence")
-                )
-                if name.casefold() not in " ".join(quotes).casefold():
-                    raise invalid_output(
-                        f"Название упражнения «{name}» отсутствует в выбранных предложениях. Нельзя придумывать упражнения по общим сведениям о свободных весах. Если нет понятных названий упражнений с подходящим оборудованием, верни found:false."
-                    )
-                if payload["equipment"] == "dumbbells" and re.search(
-                    r"штанг|тренаж|блок|турник", name, re.I
-                ):
-                    raise invalid_output()
-                exercises.append(dict(name=name, sets=sets, reps=reps, citations=refs))
-            clean_days.append(dict(name=f"День {n}", exercises=exercises))
-        note = evidence.claims(value.get("claims"))
-        return dict(
-            mode="rag",
-            found=True,
-            title=f"Программа на {payload['days']} дня в неделю",
-            days=clean_days,
-            note=note,
-            sources=list(evidence.used.values()),
-        )
+        return build_program(self, parameters)

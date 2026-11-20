@@ -84,6 +84,9 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--live", action="store_true", required=True)
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument(
+        "--suite", choices=("core", "basic", "refusals"), default="core"
+    )
     args = parser.parse_args()
     if args.output.exists():
         parser.error("Старый отчёт не перезаписывается; задайте новый путь")
@@ -95,13 +98,20 @@ def main():
     report = {
         "run_at": datetime.now(timezone.utc).isoformat(),
         "kind": "live_http_gigachat_smoke_not_quality_benchmark",
-        "profile": "v3.1",
+        "profile": "v4",
+        "suite": args.suite,
         "threshold": pipeline.threshold,
+        "corpus_sha256": pipeline.index.corpus_sha256,
+        "manifest_sha256": json.loads(
+            (ROOT / "data/corpus-v4/profile.json").read_text()
+        )["manifest_sha256"],
         "code_sha256": {
             p: hashlib.sha256((ROOT / p).read_bytes()).hexdigest()
             for p in (
                 "app/rag/pipeline.py",
                 "app/rag/prompts.py",
+                "app/rag/planner.py",
+                "app/rag/runtime_retrieval.py",
                 "app/llm.py",
                 "app/server.py",
             )
@@ -109,7 +119,37 @@ def main():
         "cases": [],
     }
     try:
-        for name, path, payload in CASES:
+        cases = CASES
+        if args.suite == "basic":
+            cases = [
+                (name, "/api/ask", {"question": question})
+                for name, question in [
+                    ("basic_rest", "Сколько отдыхать между подходами?"),
+                    ("basic_protein", "Сколько белка нужно в день?"),
+                    ("basic_creatine", "Нужен ли креатин?"),
+                    ("basic_sleep", "Сколько нужно спать?"),
+                ]
+            ] + [
+                (
+                    "program_five_days",
+                    "/api/program",
+                    {
+                        "goal": "endurance",
+                        "level": "intermediate",
+                        "days": 5,
+                        "equipment": "dumbbells",
+                    },
+                )
+            ]
+        elif args.suite == "refusals":
+            cases = [
+                (q["id"], "/api/ask", {"question": q["query"]})
+                for q in json.loads(
+                    (ROOT / "benchmark/practical-v4/queries.json").read_text()
+                )
+                if q["expected"] == "refuse"
+            ]
+        for name, path, payload in cases:
             start = time.monotonic()
             before = len(client.calls)
             req = Request(
