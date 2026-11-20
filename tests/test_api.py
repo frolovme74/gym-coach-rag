@@ -7,6 +7,10 @@ import urllib.error
 import urllib.request
 
 from app.server import create_server
+from app.rag.pipeline import RAGPipeline
+from app.llm import LLMError
+from test_pipeline import ExtractiveClient, QUESTIONS
+from unittest.mock import patch
 
 TOPICS = {"training", "nutrition", "supplements", "recovery"}
 
@@ -14,7 +18,9 @@ TOPICS = {"training", "nutrition", "supplements", "recovery"}
 class ApiTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.server = create_server("127.0.0.1", 0)
+        cls.server = create_server(
+            "127.0.0.1", 0, pipeline=RAGPipeline.from_project(client=ExtractiveClient())
+        )
         cls.base = f"http://127.0.0.1:{cls.server.server_address[1]}"
         threading.Thread(target=cls.server.serve_forever, daemon=True).start()
 
@@ -24,7 +30,11 @@ class ApiTest(unittest.TestCase):
         cls.server.server_close()
 
     def request(self, path, payload=None, raw=None):
-        data = raw if raw is not None else (json.dumps(payload).encode() if payload is not None else None)
+        data = (
+            raw
+            if raw is not None
+            else (json.dumps(payload).encode() if payload is not None else None)
+        )
         request = urllib.request.Request(self.base + path, data=data)
         try:
             with urllib.request.urlopen(request) as response:
@@ -40,28 +50,38 @@ class ApiTest(unittest.TestCase):
     def assert_sources(self, sources):
         self.assertTrue(sources)
         for source in sources:
-            self.assertEqual({"doc_id", "topic", "title", "fragment", "score"}, set(source))
+            self.assertEqual(
+                {
+                    "doc_id",
+                    "topic",
+                    "title",
+                    "fragment",
+                    "score",
+                    "url",
+                    "section",
+                    "quotes",
+                    "selection",
+                    "references",
+                },
+                set(source),
+            )
             self.assertIn(source["topic"], TOPICS)
 
     def test_health(self):
         status, data = self.json("/api/health")
         self.assertEqual(200, status)
         self.assertEqual("ok", data["status"])
+        self.assertEqual("rag", data["mode"])
 
     def test_ask_returns_answer_with_sources(self):
-        status, data = self.json("/api/ask", {"question": "Сколько отдыхать между подходами?"})
+        status, data = self.json("/api/ask", {"question": QUESTIONS["training"]})
         self.assertEqual(200, status)
         self.assertTrue(data["found"])
         self.assertIn("[1]", data["answer"])
         self.assert_sources(data["sources"])
 
     def test_ask_covers_every_topic(self):
-        questions = {
-            "training": "Как делать разминку?",
-            "nutrition": "Сколько белка нужно в день?",
-            "supplements": "Нужен ли креатин?",
-            "recovery": "Сколько нужно спать?",
-        }
+        questions = QUESTIONS
         self.assertEqual(TOPICS, set(questions))
         for topic, question in questions.items():
             with self.subTest(topic=topic):
@@ -69,7 +89,9 @@ class ApiTest(unittest.TestCase):
                 self.assertEqual(200, status)
                 self.assertTrue(data["found"])
                 self.assert_sources(data["sources"])
-                self.assertEqual({topic}, {source["topic"] for source in data["sources"]})
+                self.assertEqual(
+                    {topic}, {source["topic"] for source in data["sources"]}
+                )
 
     def test_ask_outside_corpus_has_no_sources(self):
         status, data = self.json("/api/ask", {"question": "Какая завтра погода?"})
@@ -79,7 +101,12 @@ class ApiTest(unittest.TestCase):
         self.assertTrue(data["answer"])
 
     def test_ask_rejects_bad_input(self):
-        for payload in ({}, {"question": "   "}, {"question": 5}, {"question": "а" * 501}):
+        for payload in (
+            {},
+            {"question": "   "},
+            {"question": 5},
+            {"question": "а" * 501},
+        ):
             with self.subTest(payload=payload):
                 status, data = self.json("/api/ask", payload)
                 self.assertEqual(400, status)
@@ -92,24 +119,45 @@ class ApiTest(unittest.TestCase):
                 self.assertEqual(400, status)
                 self.assertIn("error", data)
 
-    def test_program_returns_requested_days(self):
+    def test_program_returns_requested_days_with_real_catalog(self):
         for days in range(2, 6):
             with self.subTest(days=days):
                 status, data = self.json(
                     "/api/program",
-                    {"goal": "muscle", "level": "beginner", "days": days, "equipment": "gym"},
+                    {
+                        "goal": "muscle",
+                        "level": "beginner",
+                        "days": days,
+                        "equipment": "gym",
+                    },
                 )
                 self.assertEqual(200, status)
+                self.assertTrue(data["found"])
                 self.assertEqual(days, len(data["days"]))
-                for day in data["days"]:
-                    self.assertTrue(day["exercises"])
-                    for exercise in day["exercises"]:
-                        self.assertEqual({"name", "sets", "reps"}, set(exercise))
                 self.assert_sources(data["sources"])
+
+    def test_provider_errors_have_distinct_http_status(self):
+        for code, status in (("timeout", 504), ("quota", 503), ("grounding", 502)):
+            with patch.object(
+                self.server.pipeline._client,
+                "generate",
+                side_effect=LLMError(code, "Проверка ошибки"),
+            ):
+                actual, data = self.json(
+                    "/api/ask", {"question": QUESTIONS["training"]}
+                )
+            self.assertEqual(status, actual)
+            self.assertEqual(code, data["code"])
 
     def test_program_rejects_bad_input(self):
         valid = {"goal": "muscle", "level": "beginner", "days": 3, "equipment": "gym"}
-        for field, value in (("goal", "fly"), ("level", "pro"), ("days", 7), ("days", "3"), ("equipment", "none")):
+        for field, value in (
+            ("goal", "fly"),
+            ("level", "pro"),
+            ("days", 7),
+            ("days", "3"),
+            ("equipment", "none"),
+        ):
             with self.subTest(field=field, value=value):
                 status, data = self.json("/api/program", {**valid, field: value})
                 self.assertEqual(400, status)
@@ -121,7 +169,12 @@ class ApiTest(unittest.TestCase):
         self.assertIn("Gym Coach", body.decode("utf-8"))
 
     def test_unknown_paths(self):
-        for path, payload in (("/api/nope", None), ("/api/nope", {}), ("/missing.css", None), ("/../server.py", None)):
+        for path, payload in (
+            ("/api/nope", None),
+            ("/api/nope", {}),
+            ("/missing.css", None),
+            ("/../server.py", None),
+        ):
             with self.subTest(path=path):
                 status, _ = self.request(path, payload)
                 self.assertEqual(404, status)

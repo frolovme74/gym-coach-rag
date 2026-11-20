@@ -1,0 +1,99 @@
+"""Покрытие параметров программы, оборудования и происхождения данных."""
+
+import itertools
+import json
+import unittest
+from unittest.mock import Mock
+
+from app.llm import LLMError, LLMResponse
+from app.rag.pipeline import RAGPipeline
+from app.rag.planner import prepare, valid_days
+
+
+class PlannerTest(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.client = Mock()
+        cls.pipeline = RAGPipeline.from_project(client=cls.client)
+
+    def setUp(self):
+        self.client.reset_mock(side_effect=True)
+        self.client.generate.return_value = LLMResponse('{"found":false}', "test", {})
+
+    def test_all_48_combinations_are_complete_and_grounded(self):
+        for goal, level, days, equipment in itertools.product(
+            ["strength", "muscle", "endurance"],
+            ["beginner", "intermediate"],
+            range(2, 6),
+            ["gym", "dumbbells"],
+        ):
+            params = dict(goal=goal, level=level, days=days, equipment=equipment)
+            with self.subTest(**params):
+                result = self.pipeline.program(params)
+                self.assertTrue(result["found"])
+                self.assertEqual(days, len(result["days"]))
+                catalog, rule, _, _, _, _ = prepare(self.pipeline, params)
+                allowed_names = {e["name"] for e in catalog.values()}
+                for i, day in enumerate(result["days"]):
+                    names = [e["name"] for e in day["exercises"]]
+                    self.assertEqual(len(names), len(set(names)))
+                    self.assertGreaterEqual(len(names), 4)
+                    self.assertTrue(set(names) <= allowed_names)
+                    for ex in day["exercises"]:
+                        self.assertEqual(
+                            1 if days == 5 and i == 4 else rule["sets"], ex["sets"]
+                        )
+                        self.assertEqual(rule["reps"], ex["reps"])
+                        evidence = " ".join(
+                            result["sources"][n - 1]["fragment"]
+                            for n in ex["citations"]
+                        )
+                        self.assertIn(ex["name"], evidence)
+                for s in result["sources"]:
+                    self.assertEqual(
+                        s["fragment"], self.pipeline.documents[s["doc_id"]]["text"]
+                    )
+
+    def test_model_can_select_valid_alternative(self):
+        params = dict(goal="muscle", level="beginner", days=2, equipment="gym")
+        catalog, _, _, _, draft, _ = prepare(self.pipeline, params)
+        draft[0]["exercise_ids"][0] = "db_lunge"
+        self.assertTrue(valid_days({"days": draft}, catalog, params))
+        self.client.generate.return_value = LLMResponse(
+            json.dumps({"found": True, "days": draft}), "test", {}
+        )
+        result = self.pipeline.program(params)
+        self.assertEqual(
+            "Выпад назад с гантелями", result["days"][0]["exercises"][0]["name"]
+        )
+
+    def test_unknown_or_wrong_equipment_is_not_published(self):
+        params = dict(goal="strength", level="beginner", days=2, equipment="dumbbells")
+        for eid in ["gym_legpress", "invented_exercise"]:
+            self.client.generate.return_value = LLMResponse(
+                json.dumps({"found": True, "days": [{"exercise_ids": [eid] * 5}] * 2}),
+                "test",
+                {},
+            )
+            result = self.pipeline.program(params)
+            self.assertTrue(result["found"])
+            self.assertNotIn(
+                "Жим ногами в тренажёре",
+                [e["name"] for d in result["days"] for e in d["exercises"]],
+            )
+
+    def test_provider_failure_is_not_hidden_by_template(self):
+        self.client.generate.side_effect = LLMError("auth", "Ошибка авторизации")
+        with self.assertRaises(LLMError):
+            self.pipeline.program(
+                dict(goal="muscle", level="beginner", days=3, equipment="gym")
+            )
+
+    def test_short_questions_reach_retrieval(self):
+        for question in [
+            "Нужен ли креатин?",
+            "Сколько белка нужно в день?",
+            "Сколько нужно спать?",
+            "Сколько отдыхать между подходами?",
+        ]:
+            self.assertTrue(self.pipeline.retrieve(question), question)

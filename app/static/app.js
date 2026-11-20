@@ -63,6 +63,7 @@ async function submit(form, hint, path, payload, render) {
   const button = form.querySelector("button[type=submit]");
   const label = button.textContent;
   hint.textContent = "";
+  $("result").hidden = true;
   button.disabled = true;
   button.textContent = button.dataset.busy;
   try {
@@ -128,6 +129,30 @@ function appendWithCitations(parent, text, sourceCount) {
   }
 }
 
+function highlightedFragment(source) {
+  const fragment = el("span", "source-fragment");
+  const ranges = [];
+  for (const quote of source.quotes || []) {
+    const start = source.fragment.indexOf(quote);
+    if (start >= 0 && quote.length) ranges.push([start, start + quote.length]);
+  }
+  ranges.sort((a, b) => a[0] - b[0]);
+  const merged = [];
+  for (const [start, end] of ranges) {
+    const previous = merged.at(-1);
+    if (previous && start <= previous[1]) previous[1] = Math.max(previous[1], end);
+    else merged.push([start, end]);
+  }
+  let position = 0;
+  for (const [start, end] of merged) {
+    fragment.append(source.fragment.slice(position, start));
+    fragment.append(el("mark", "", source.fragment.slice(start, end)));
+    position = end;
+  }
+  fragment.append(source.fragment.slice(position));
+  return fragment;
+}
+
 function renderSource(source, index, maxScore) {
   const number = index + 1;
   const item = el("li", "source");
@@ -138,18 +163,23 @@ function renderSource(source, index, maxScore) {
   toggle.setAttribute("aria-expanded", "false");
 
   const score = el("span", "source-score");
-  const bar = el("span", "source-bar");
-  const fill = el("i");
-  fill.style.width = `${maxScore > 0 ? Math.round((source.score / maxScore) * 100) : 0}%`;
-  bar.append(fill);
-  score.append("BM25", bar, source.score.toFixed(2));
+  if (source.selection === "parameters" || !Number.isFinite(source.score)) {
+    score.textContent = "Подобрано под программу";
+  } else {
+    const bar = el("span", "source-bar");
+    const fill = el("i");
+    fill.style.width = `${maxScore > 0 ? Math.round((source.score / maxScore) * 100) : 0}%`;
+    bar.append(fill);
+    score.append("BM25", bar, source.score.toFixed(2));
+    score.title = "Оценка совпадения с запросом, не достоверность источника";
+  }
 
   toggle.append(
     el("span", "source-num", String(number)),
     el("span", "source-topic", TOPIC_LABELS[source.topic] ?? source.topic),
     el("span", "source-title", source.title),
     score,
-    el("span", "source-fragment", source.fragment),
+    highlightedFragment(source),
   );
   toggle.addEventListener("click", () => {
     const expanded = toggle.getAttribute("aria-expanded") === "true";
@@ -159,6 +189,21 @@ function renderSource(source, index, maxScore) {
   item.addEventListener("mouseleave", () => setActive(number, false));
 
   item.append(toggle);
+  for (const url of source.references || []) {
+    if (!/^https?:\/\//i.test(url)) continue;
+    const link = el("a", "source-original", "Материал к справке ↗");
+    link.href = url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    item.append(link);
+  }
+  if (/^https?:\/\//i.test(source.url || "")) {
+    const link = el("a", "source-original", "Открыть оригинал ↗");
+    link.href = source.url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    item.append(link);
+  }
   return item;
 }
 
@@ -202,13 +247,18 @@ function renderAnswer(data) {
 }
 
 function renderProgram(data) {
+  if (!data.found) {
+    showResult(data.title, data, [el("p", "answer", data.note)]);
+    return;
+  }
   const days = el("div", "days");
   for (const day of data.days) {
     const block = el("div", "day");
     const table = el("table");
     for (const exercise of day.exercises) {
       const row = table.insertRow();
-      row.insertCell().textContent = exercise.name;
+      const name = row.insertCell();
+      appendWithCitations(name, exercise.name + " " + exercise.citations.map(n => `[${n}]`).join(" "), data.sources.length);
       row.insertCell().textContent = `${exercise.sets} × ${exercise.reps}`;
     }
     block.append(el("h4", "", day.name), table);
