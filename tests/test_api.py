@@ -60,6 +60,8 @@ class ApiTest(unittest.TestCase):
                     "url",
                     "section",
                     "quotes",
+                    "selection",
+                    "references",
                 },
                 set(source),
             )

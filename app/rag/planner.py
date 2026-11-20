@@ -80,7 +80,7 @@ def prepare(pipeline, params):
             [rule_doc, schedule_doc] + [ex["doc_id"] for ex in catalog.values()]
         )
     )
-    sources = [pipeline.source(did, 0.0) for did in ids]
+    sources = [pipeline.source(did, None) for did in ids]
     return catalog, prescription, rule_doc, schedule_doc, drafts, sources
 
 
@@ -149,8 +149,59 @@ def build_program(pipeline, params):
 
     def cite(did):
         if did not in used:
-            source = pipeline.source(did, 0.0)
-            source["quotes"] = [source["fragment"]]
+            source = {
+                k: v
+                for k, v in pipeline.source(did, None).items()
+                if not k.startswith("_")
+            }
+            from app.rag.prompts import passages
+
+            parts = passages(source["fragment"])
+            selected_ids = {
+                eid for day in chosen["days"] for eid in day["exercise_ids"]
+            }
+            source["quotes"] = [
+                p
+                for p in parts
+                if any(
+                    catalog[eid]["name"] in p
+                    for eid in selected_ids
+                    if catalog[eid]["doc_id"] == did
+                )
+            ]
+            if not source["quotes"]:
+                source["quotes"] = parts[:3]
+            if did == rule_doc:
+                source["quotes"] = [
+                    p
+                    for p in parts
+                    if any(
+                        term in p
+                        for term in (
+                            "рабочих подхода",
+                            "повторений",
+                            "Отдых между",
+                            "облегчённый день",
+                        )
+                    )
+                ]
+            if did == schedule_doc:
+                source["quotes"] = [
+                    p
+                    for p in parts
+                    if f"Для {params['days']} занятий" in p
+                    or any(
+                        term in p
+                        for term in (
+                            "Новичку",
+                            "промежутки",
+                            "облегчённая",
+                            "Тренировка всего тела включает",
+                            "Верх тела включает",
+                            "Низ тела включает",
+                        )
+                    )
+                ]
             used[did] = source
         return list(used).index(did) + 1
 

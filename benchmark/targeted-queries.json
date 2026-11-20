@@ -1,0 +1,242 @@
+[
+  {
+    "id": "development_guide_periodization",
+    "split": "development",
+    "topic": "training",
+    "query": "Как периодизация влияет на силу и рост мышц?",
+    "expected": "answer",
+    "relevant": [
+      "guide_periodization"
+    ]
+  },
+  {
+    "id": "check_guide_periodization",
+    "split": "check",
+    "topic": "training",
+    "query": "Даст ли чередование нагрузок больше прироста силы, чем неизменная программа?",
+    "expected": "answer",
+    "relevant": [
+      "guide_periodization"
+    ]
+  },
+  {
+    "id": "development_guide_supersets",
+    "split": "development",
+    "topic": "training",
+    "query": "Что такое суперсеты и помогают ли они экономить время?",
+    "expected": "answer",
+    "relevant": [
+      "guide_supersets"
+    ]
+  },
+  {
+    "id": "check_guide_supersets",
+    "split": "check",
+    "topic": "training",
+    "query": "Можно ли делать парные подходы на противоположные мышцы и меньше отдыхать?",
+    "expected": "answer",
+    "relevant": [
+      "guide_supersets"
+    ]
+  },
+  {
+    "id": "development_guide_progression",
+    "split": "development",
+    "topic": "training",
+    "query": "Когда увеличивать рабочий вес?",
+    "expected": "answer",
+    "relevant": [
+      "guide_progression"
+    ]
+  },
+  {
+    "id": "check_guide_progression",
+    "split": "check",
+    "topic": "training",
+    "query": "Как понять, что пора повышать нагрузку в упражнениях?",
+    "expected": "answer",
+    "relevant": [
+      "guide_progression"
+    ]
+  },
+  {
+    "id": "development_guide_energy_balance",
+    "split": "development",
+    "topic": "nutrition",
+    "query": "Для похудения важнее убрать жиры или углеводы?",
+    "expected": "answer",
+    "relevant": [
+      "guide_energy_balance"
+    ]
+  },
+  {
+    "id": "check_guide_energy_balance",
+    "split": "check",
+    "topic": "nutrition",
+    "query": "Обязательно ли исключать углеводы, если хочу уменьшить жировую массу?",
+    "expected": "answer",
+    "relevant": [
+      "guide_energy_balance"
+    ]
+  },
+  {
+    "id": "development_guide_protein_distribution",
+    "split": "development",
+    "topic": "nutrition",
+    "query": "Как распределить белок по приёмам пищи?",
+    "expected": "answer",
+    "relevant": [
+      "guide_protein_distribution"
+    ]
+  },
+  {
+    "id": "check_guide_protein_distribution",
+    "split": "check",
+    "topic": "nutrition",
+    "query": "Нужно ли съедать весь суточный белок сразу после тренировки?",
+    "expected": "answer",
+    "relevant": [
+      "guide_protein_distribution"
+    ]
+  },
+  {
+    "id": "development_guide_carbohydrates",
+    "split": "development",
+    "topic": "nutrition",
+    "query": "Нужно ли добавлять углеводы перед силовой тренировкой?",
+    "expected": "answer",
+    "relevant": [
+      "guide_carbohydrates"
+    ]
+  },
+  {
+    "id": "check_guide_carbohydrates",
+    "split": "check",
+    "topic": "nutrition",
+    "query": "Всегда ли больше углеводов помогает выполнить больше подходов в зале?",
+    "expected": "answer",
+    "relevant": [
+      "guide_carbohydrates"
+    ]
+  },
+  {
+    "id": "development_guide_creatine_use",
+    "split": "development",
+    "topic": "supplements",
+    "query": "Как пить креатин?",
+    "expected": "answer",
+    "relevant": [
+      "guide_creatine_use"
+    ]
+  },
+  {
+    "id": "check_guide_creatine_use",
+    "split": "check",
+    "topic": "supplements",
+    "query": "Можно ли принимать креатин без загрузки и в дни без тренировки?",
+    "expected": "answer",
+    "relevant": [
+      "guide_creatine_use"
+    ]
+  },
+  {
+    "id": "development_guide_protein_powder",
+    "split": "development",
+    "topic": "supplements",
+    "query": "Нужен ли протеин, если я нормально ем?",
+    "expected": "answer",
+    "relevant": [
+      "guide_protein_powder"
+    ]
+  },
+  {
+    "id": "check_guide_protein_powder",
+    "split": "check",
+    "topic": "supplements",
+    "query": "Обязательно ли покупать протеин в порошке для роста мышц?",
+    "expected": "answer",
+    "relevant": [
+      "guide_protein_powder"
+    ]
+  },
+  {
+    "id": "development_guide_caffeine",
+    "split": "development",
+    "topic": "supplements",
+    "query": "Нужен ли кофеин перед тренировкой?",
+    "expected": "answer",
+    "relevant": [
+      "guide_caffeine"
+    ]
+  },
+  {
+    "id": "check_guide_caffeine",
+    "split": "check",
+    "topic": "supplements",
+    "query": "Есть ли минусы у предтреника, если из-за него трудно уснуть?",
+    "expected": "answer",
+    "relevant": [
+      "guide_caffeine"
+    ]
+  },
+  {
+    "id": "development_guide_massage",
+    "split": "development",
+    "topic": "recovery",
+    "query": "Помогает ли массаж восстановиться после тренировки?",
+    "expected": "answer",
+    "relevant": [
+      "guide_massage"
+    ]
+  },
+  {
+    "id": "check_guide_massage",
+    "split": "check",
+    "topic": "recovery",
+    "query": "Вернётся ли сила быстрее, если сделать массаж после зала?",
+    "expected": "answer",
+    "relevant": [
+      "guide_massage"
+    ]
+  },
+  {
+    "id": "development_guide_cooldown",
+    "split": "development",
+    "topic": "recovery",
+    "query": "Нужно ли делать заминку после тренировки?",
+    "expected": "answer",
+    "relevant": [
+      "guide_cooldown"
+    ]
+  },
+  {
+    "id": "check_guide_cooldown",
+    "split": "check",
+    "topic": "recovery",
+    "query": "Поможет ли лёгкая ходьба вывести лактат и восстановить мышцы к завтрашнему дню?",
+    "expected": "answer",
+    "relevant": [
+      "guide_cooldown"
+    ]
+  },
+  {
+    "id": "development_guide_sleep_routine",
+    "split": "development",
+    "topic": "recovery",
+    "query": "Как недосып влияет на организацию восстановления?",
+    "expected": "answer",
+    "relevant": [
+      "guide_sleep_routine"
+    ]
+  },
+  {
+    "id": "check_guide_sleep_routine",
+    "split": "check",
+    "topic": "recovery",
+    "query": "Можно ли компенсировать недосып стимуляторами перед залом?",
+    "expected": "answer",
+    "relevant": [
+      "guide_sleep_routine"
+    ]
+  }
+]

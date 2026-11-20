@@ -1,9 +1,0 @@
-{
-  "status": "passed",
-  "byte_identical": true,
-  "sha256": {
-    "data/corpus/documents.json": "b970b7b90566da8c944eaef606303d00324dbe7ca40f93d8f895e8570222a275",
-    "data/corpus/manifest.json": "e3566ea9ee9e12d41b8ea4ddccccf095ee654b19e404dc4523cfacf02998863a"
-  },
-  "translation_models_called": false
-}

@@ -2845,7 +2845,16 @@
     "sections_en": [
       "Introduction"
     ],
-    "units": [
+    "word_count": 351,
+    "whitespace_word_count": 354,
+    "text_sha256": "bb99e8663a8c8ba482f323c2169cb7add6e60a70635e5879d9188201c960cc68",
+    "original_sha256": "efdbd18b7fc5bf716d80ef48a832d84b7fb3e158fa6911debbfdc922752ca2e2",
+    "flags": [],
+    "status": "targeted_semantic_revision",
+    "full_semantic_review": false,
+    "translation": "Argos Translate English–Russian 1.9",
+    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811",
+    "parent_units": [
       {
         "paragraph_id": "TR-024:p0002",
         "text_sha256": "1ee96ca4972640c2cf5aba21fa025598cf4d9d29e127c951009a32bbc313ecff"
@@ -2907,15 +2916,27 @@
         "text_sha256": "2da8a4048b5fe70fd88fe01b3195f5848e6a08e5fe516a331d51c5472d80788d"
       }
     ],
-    "word_count": 346,
-    "whitespace_word_count": 348,
-    "text_sha256": "213a54dbca26b6c2324026573bb7186373d09c9704d870c783fdfcb531b34f21",
-    "original_sha256": "efdbd18b7fc5bf716d80ef48a832d84b7fb3e158fa6911debbfdc922752ca2e2",
-    "flags": [],
-    "status": "targeted_checks_passed",
-    "full_semantic_review": false,
-    "translation": "Argos Translate English–Russian 1.9",
-    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811"
+    "revision": {
+      "version": 3,
+      "parent_text_sha256": "213a54dbca26b6c2324026573bb7186373d09c9704d870c783fdfcb531b34f21",
+      "text_sha256": "bb99e8663a8c8ba482f323c2169cb7add6e60a70635e5879d9188201c960cc68",
+      "reason": "Смысловое прояснение periodization/performance.; Интенсивность/объём меняет программа, не сама аббревиатура; частота сохранена.; Исправлена конструкция volume-equated.; Strength and conditioning coaches.; Health purposes — укрепление здоровья, а не лечение.",
+      "provenance": {
+        "source_id": "TR-024",
+        "english_file": "data/processed/en/TR-024.json",
+        "english_file_sha256": "7996cb76c0df42d2c1588f514cddee333c15ad6c1601b460f83d6ec0852d31a3",
+        "paragraph_ids": [
+          "TR-024:p0002",
+          "TR-024:p0003",
+          "TR-024:p0004",
+          "TR-024:p0005"
+        ]
+      },
+      "review_scope": "targeted_translation_and_terminology_review",
+      "word_count": 351
+    },
+    "parent_status": "targeted_checks_passed",
+    "parent_full_semantic_review": false
   },
   {
     "doc_id": "doc_tr_024_002",
@@ -2935,7 +2956,16 @@
     "sections_en": [
       "Results"
     ],
-    "units": [
+    "word_count": 521,
+    "whitespace_word_count": 493,
+    "text_sha256": "f93c78959c59faa1e7e4a6a6b2d176848e43b45b875ab261b4cee69fa51d9762",
+    "original_sha256": "b4b1fa1845d017979c6ce4bf8bcae6ced063902c2ce757c27ffec1b8d7273c8f",
+    "flags": [],
+    "status": "targeted_semantic_revision",
+    "full_semantic_review": false,
+    "translation": "Argos Translate English–Russian 1.9",
+    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811",
+    "parent_units": [
       {
         "paragraph_id": "TR-024:p0013",
         "text_sha256": "285e3e7a54999845b8d93aa255f9f1bea862ac8343555deba70e4ccc0cb92019"
@@ -3033,15 +3063,29 @@
         "text_sha256": "6478ecf680502173aacddb995d0ee9e10d25a0c0d4f81d5aed1c8cb11522d5cc"
       }
     ],
-    "word_count": 522,
-    "whitespace_word_count": 495,
-    "text_sha256": "f789e94eb178871fdf8be4f1becfdcdb9542f7c43f8cccc1479cb89c44b7a6cc",
-    "original_sha256": "b4b1fa1845d017979c6ce4bf8bcae6ced063902c2ce757c27ffec1b8d7273c8f",
-    "flags": [],
-    "status": "targeted_checks_passed",
-    "full_semantic_review": false,
-    "translation": "Argos Translate English–Russian 1.9",
-    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811"
+    "revision": {
+      "version": 3,
+      "parent_text_sha256": "f789e94eb178871fdf8be4f1becfdcdb9542f7c43f8cccc1479cb89c44b7a6cc",
+      "text_sha256": "f93c78959c59faa1e7e4a6a6b2d176848e43b45b875ab261b4cee69fa51d9762",
+      "reason": "Read in full означает проверку полного текста.; Institutional Review Board.; Pre/post intervention — программа, не одно занятие.; Исправлена связь программы и модели.; Восстановлена закрывающая скобка; числовая ошибка исходной публикации не менялась.; Удалён пустой остаток библиографической ссылки.; Нормализованы пробелы после удаления библиографического шума.",
+      "provenance": {
+        "source_id": "TR-024",
+        "english_file": "data/processed/en/TR-024.json",
+        "english_file_sha256": "7996cb76c0df42d2c1588f514cddee333c15ad6c1601b460f83d6ec0852d31a3",
+        "paragraph_ids": [
+          "TR-024:p0013",
+          "TR-024:p0014",
+          "TR-024:p0025",
+          "TR-024:p0026",
+          "TR-024:p0028",
+          "TR-024:p0031"
+        ]
+      },
+      "review_scope": "targeted_translation_and_terminology_review",
+      "word_count": 521
+    },
+    "parent_status": "targeted_checks_passed",
+    "parent_full_semantic_review": false
   },
   {
     "doc_id": "doc_tr_024_003",
@@ -3058,7 +3102,16 @@
     "sections_en": [
       "Discussion"
     ],
-    "units": [
+    "word_count": 406,
+    "whitespace_word_count": 402,
+    "text_sha256": "06b78abdfa798dbd1d1ad3de065ecf3d107a704b331ec433d6b6b6251258e8ff",
+    "original_sha256": "8187441a4f9a0d8ce6455225a208ae103d20b14aab4d6b2be52d92f2720bde9a",
+    "flags": [],
+    "status": "targeted_semantic_revision",
+    "full_semantic_review": false,
+    "translation": "Argos Translate English–Russian 1.9",
+    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811",
+    "parent_units": [
       {
         "paragraph_id": "TR-024:p0032",
         "text_sha256": "01565705c99f1a0ecb5c9ce3a9edee83d50325fcc8ce3e5593f3b867120e591f"
@@ -3140,15 +3193,26 @@
         "text_sha256": "10f4a06ddbe949591425be732a72cddecf538e9d136c6b9f010bb7c46caf6a3a"
       }
     ],
-    "word_count": 404,
-    "whitespace_word_count": 400,
-    "text_sha256": "d59e8acc7a5dd6e6d19953c635545cfc5c36f367aa951071cf6a0926ef4c95ab",
-    "original_sha256": "8187441a4f9a0d8ce6455225a208ae103d20b14aab4d6b2be52d92f2720bde9a",
-    "flags": [],
-    "status": "targeted_checks_passed",
-    "full_semantic_review": false,
-    "translation": "Argos Translate English–Russian 1.9",
-    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811"
+    "revision": {
+      "version": 3,
+      "parent_text_sha256": "d59e8acc7a5dd6e6d19953c635545cfc5c36f367aa951071cf6a0926ef4c95ab",
+      "text_sha256": "06b78abdfa798dbd1d1ad3de065ecf3d107a704b331ec433d6b6b6251258e8ff",
+      "reason": "Gains — тренировочный прирост, не прибыль.; Training volume load.; Раскрыта аббревиатура и исправлена формулировка.; Lean body mass включает не только мышцы; число и направление результата сохранены.; Модели периодизации, а не модели самой гипертрофии.; Lean body mass не тождественна мышечной массе; сохранены0,8/0,2кг.; General lack of evidence не полное отсутствие исследований.",
+      "provenance": {
+        "source_id": "TR-024",
+        "english_file": "data/processed/en/TR-024.json",
+        "english_file_sha256": "7996cb76c0df42d2c1588f514cddee333c15ad6c1601b460f83d6ec0852d31a3",
+        "paragraph_ids": [
+          "TR-024:p0032",
+          "TR-024:p0033",
+          "TR-024:p0034"
+        ]
+      },
+      "review_scope": "targeted_translation_and_terminology_review",
+      "word_count": 406
+    },
+    "parent_status": "targeted_checks_passed",
+    "parent_full_semantic_review": false
   },
   {
     "doc_id": "doc_tr_024_004",
@@ -3166,7 +3230,16 @@
     "sections_en": [
       "Discussion"
     ],
-    "units": [
+    "word_count": 392,
+    "whitespace_word_count": 392,
+    "text_sha256": "5f5a53890a3a3d97aef3ed0b0f35a6fc1ec5ecec80157279952bb41b3cb38507",
+    "original_sha256": "729704d3a0f8b4c7f3d8775de102029d7830c76db6899a9cd514b41cdbbbdeeb",
+    "flags": [],
+    "status": "targeted_semantic_revision",
+    "full_semantic_review": false,
+    "translation": "Argos Translate English–Russian 1.9",
+    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811",
+    "parent_units": [
       {
         "paragraph_id": "TR-024:p0034",
         "text_sha256": "4f36d7cb4d0dafcc87b8bc2e8efe204dd7dc516036bc9f0d96bef9ecc6502134"
@@ -3256,15 +3329,27 @@
         "text_sha256": "5fdb22ca1b8ab0248e4c5db80ad93a83d14313d84e38ab89e5f1d6b56064dabc"
       }
     ],
-    "word_count": 390,
-    "whitespace_word_count": 390,
-    "text_sha256": "bb9117ec67b6d18d5447a4f7efcbb1dfc4e5cc7d25727981b0d74c98bb2a8b38",
-    "original_sha256": "729704d3a0f8b4c7f3d8775de102029d7830c76db6899a9cd514b41cdbbbdeeb",
-    "flags": [],
-    "status": "targeted_checks_passed",
-    "full_semantic_review": false,
-    "translation": "Argos Translate English–Russian 1.9",
-    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811"
+    "revision": {
+      "version": 3,
+      "parent_text_sha256": "bb9117ec67b6d18d5447a4f7efcbb1dfc4e5cc7d25727981b0d74c98bb2a8b38",
+      "text_sha256": "5f5a53890a3a3d97aef3ed0b0f35a6fc1ec5ecec80157279952bb41b3cb38507",
+      "reason": "Восстановлено сказуемое из original compared.; Skinfold thickness — кожные складки, не толщина кожи.; Reverse LP не обратное упражнение.; Training to volitional fatigue.; Lean body mass включает не только мышцы; число и направление результата сохранены.; Lean body mass у пожилых женщин.; Reviewed study не обзорная статья.; Удалён пустой остаток библиографической ссылки.",
+      "provenance": {
+        "source_id": "TR-024",
+        "english_file": "data/processed/en/TR-024.json",
+        "english_file_sha256": "7996cb76c0df42d2c1588f514cddee333c15ad6c1601b460f83d6ec0852d31a3",
+        "paragraph_ids": [
+          "TR-024:p0034",
+          "TR-024:p0035",
+          "TR-024:p0036",
+          "TR-024:p0037"
+        ]
+      },
+      "review_scope": "targeted_translation_and_terminology_review",
+      "word_count": 392
+    },
+    "parent_status": "targeted_checks_passed",
+    "parent_full_semantic_review": false
   },
   {
     "doc_id": "doc_tr_024_005",
@@ -3286,7 +3371,16 @@
       "Discussion",
       "Conclusions"
     ],
-    "units": [
+    "word_count": 384,
+    "whitespace_word_count": 383,
+    "text_sha256": "3ccf545f58b5f3ca0b21e6d767b0227105f247629e4b3fc22bb700da40364658",
+    "original_sha256": "ff47d777e43df9c1f64e4be036b219e387db0330210ba54bfe29fada4704aa4e",
+    "flags": [],
+    "status": "targeted_semantic_revision",
+    "full_semantic_review": false,
+    "translation": "Argos Translate English–Russian 1.9",
+    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811",
+    "parent_units": [
       {
         "paragraph_id": "TR-024:p0037",
         "text_sha256": "31d30b001bea306d9b1a8c577211f43f5c0816f4ab679a772cdb62fd5ad3c8da"
@@ -3368,15 +3462,30 @@
         "text_sha256": "d7f2e6886d454f0551710da6ea7ba70c9e8da0f9ca9147860c71a583953aa337"
       }
     ],
-    "word_count": 384,
-    "whitespace_word_count": 383,
-    "text_sha256": "bb582ea721ce1aacc6858a3e7d508cc0f2ade34baeb1c9ef095cee15dc17f727",
-    "original_sha256": "ff47d777e43df9c1f64e4be036b219e387db0330210ba54bfe29fada4704aa4e",
-    "flags": [],
-    "status": "targeted_checks_passed",
-    "full_semantic_review": false,
-    "translation": "Argos Translate English–Russian 1.9",
-    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811"
+    "revision": {
+      "version": 3,
+      "parent_text_sha256": "bb582ea721ce1aacc6858a3e7d508cc0f2ade34baeb1c9ef095cee15dc17f727",
+      "text_sha256": "3ccf545f58b5f3ca0b21e6d767b0227105f247629e4b3fc22bb700da40364658",
+      "reason": "Exercise interventions означает исследовательскую программу.",
+      "provenance": {
+        "source_id": "TR-024",
+        "english_file": "data/processed/en/TR-024.json",
+        "english_file_sha256": "7996cb76c0df42d2c1588f514cddee333c15ad6c1601b460f83d6ec0852d31a3",
+        "paragraph_ids": [
+          "TR-024:p0037",
+          "TR-024:p0038",
+          "TR-024:p0039",
+          "TR-024:p0040",
+          "TR-024:p0041",
+          "TR-024:p0042",
+          "TR-024:p0043"
+        ]
+      },
+      "review_scope": "targeted_translation_and_terminology_review",
+      "word_count": 384
+    },
+    "parent_status": "targeted_checks_passed",
+    "parent_full_semantic_review": false
   },
   {
     "doc_id": "doc_tr_026_001",
@@ -4247,7 +4356,16 @@
     "sections_en": [
       "Advanced Time-Saving Training Methods / Superset Training"
     ],
-    "units": [
+    "word_count": 350,
+    "whitespace_word_count": 341,
+    "text_sha256": "9363d8ef514228567880d85ff08df4878240fe6162ad01d6c490119cbdf84747",
+    "original_sha256": "fed48d2cdca05676489a1ae8b6b9233382f27a754ae2d9943ef5a5ea476304b7",
+    "flags": [],
+    "status": "targeted_semantic_revision",
+    "full_semantic_review": false,
+    "translation": "Argos Translate English–Russian 1.9",
+    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811",
+    "parent_units": [
       {
         "paragraph_id": "TR-026:p0025",
         "text_sha256": "ad02276fefa68ab2e24f732a41eb48bc0694913775862c25fac235987e87a775"
@@ -4309,15 +4427,26 @@
         "text_sha256": "7070cb116e8b2e30700ff1e801212a71826feeb509b0192cf941ae27ade294ef"
       }
     ],
-    "word_count": 400,
-    "whitespace_word_count": 389,
-    "text_sha256": "d2a9b10138fad87b19e5dc5460aef4ba57dfb6f1083c1a40177f911aca1e6184",
-    "original_sha256": "fed48d2cdca05676489a1ae8b6b9233382f27a754ae2d9943ef5a5ea476304b7",
-    "flags": [],
-    "status": "targeted_checks_passed",
-    "full_semantic_review": false,
-    "translation": "Argos Translate English–Russian 1.9",
-    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811"
+    "revision": {
+      "version": 3,
+      "parent_text_sha256": "d2a9b10138fad87b19e5dc5460aef4ba57dfb6f1083c1a40177f911aca1e6184",
+      "text_sha256": "9363d8ef514228567880d85ff08df4878240fe6162ad01d6c490119cbdf84747",
+      "reason": "Исправлены названия упражнений, paired/compound sets, acute strength; сохранены данные, ограничения и граница чанка.",
+      "provenance": {
+        "source_id": "TR-026",
+        "english_file": "data/processed/en/TR-026.json",
+        "english_file_sha256": "358c16470f28f7911b1d5248f24d1823d29673e27e1b3b06f4067fccfa84d036",
+        "paragraph_ids": [
+          "TR-026:p0025",
+          "TR-026:p0027",
+          "TR-026:p0028"
+        ]
+      },
+      "review_scope": "full_chunk_translation_against_original",
+      "word_count": 350
+    },
+    "parent_status": "targeted_checks_passed",
+    "parent_full_semantic_review": false
   },
   {
     "doc_id": "doc_tr_026_011",
@@ -4335,7 +4464,16 @@
       "Advanced Time-Saving Training Methods / Superset Training",
       "Advanced Time-Saving Training Methods / Drop Set Training"
     ],
-    "units": [
+    "word_count": 352,
+    "whitespace_word_count": 354,
+    "text_sha256": "806d8572212edb22445dd43561a594a13a997b7d221c8bd2e2563b54b4a6dfc8",
+    "original_sha256": "815f942f09115ab6840ae719b8ea4faa92aeba3c1a9ad430580d307f35160621",
+    "flags": [],
+    "status": "targeted_semantic_revision",
+    "full_semantic_review": false,
+    "translation": "Argos Translate English–Russian 1.9",
+    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811",
+    "parent_units": [
       {
         "paragraph_id": "TR-026:p0028",
         "text_sha256": "cbd89463604ff865d7510557ee82887e31d8d864409408e2f6a9448b321c1555"
@@ -4401,15 +4539,26 @@
         "text_sha256": "06f57eaa21ad9c909d566efaa91953d029807807d61b71e88d3763dff6b12cb2"
       }
     ],
-    "word_count": 415,
-    "whitespace_word_count": 419,
-    "text_sha256": "5fcb98324134560d922dbdc0a2fa70fbe4c2f74cb8123a69473e077f62e972e1",
-    "original_sha256": "815f942f09115ab6840ae719b8ea4faa92aeba3c1a9ad430580d307f35160621",
-    "flags": [],
-    "status": "targeted_checks_passed",
-    "full_semantic_review": false,
-    "translation": "Argos Translate English–Russian 1.9",
-    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811"
+    "revision": {
+      "version": 3,
+      "parent_text_sha256": "5fcb98324134560d922dbdc0a2fa70fbe4c2f74cb8123a69473e077f62e972e1",
+      "text_sha256": "806d8572212edb22445dd43561a594a13a997b7d221c8bd2e2563b54b4a6dfc8",
+      "reason": "Исправлены drops/дрессировка/капли, названия упражнений, type II error; продолжение исследования из следующего чанка не добавлялось.",
+      "provenance": {
+        "source_id": "TR-026",
+        "english_file": "data/processed/en/TR-026.json",
+        "english_file_sha256": "358c16470f28f7911b1d5248f24d1823d29673e27e1b3b06f4067fccfa84d036",
+        "paragraph_ids": [
+          "TR-026:p0028",
+          "TR-026:p0029",
+          "TR-026:p0030"
+        ]
+      },
+      "review_scope": "full_chunk_translation_against_original",
+      "word_count": 352
+    },
+    "parent_status": "targeted_checks_passed",
+    "parent_full_semantic_review": false
   },
   {
     "doc_id": "doc_tr_026_012",
@@ -48960,7 +49109,16 @@
     "sections_en": [
       "Discussion"
     ],
-    "units": [
+    "word_count": 468,
+    "whitespace_word_count": 468,
+    "text_sha256": "bbd1ba7003441ed03920770eba1aba62a1b141b5b32a4f5da493d8a5f279f495",
+    "original_sha256": "3e03dcce9b29a404197e576c79a19932e17c0d4fc91415ac77d056dbdecdd9c3",
+    "flags": [],
+    "status": "targeted_semantic_revision",
+    "full_semantic_review": false,
+    "translation": "Argos Translate English–Russian 1.9",
+    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811",
+    "parent_units": [
       {
         "paragraph_id": "RE-006:p0195",
         "text_sha256": "e8acccfdd3696ef09461f882600c13d4efc8855e304c9ebf2042fdf071004bf2"
@@ -49058,15 +49216,26 @@
         "text_sha256": "630fa2f41e3111ac40b2f4ff3faf705bb0799621bcc5043b754e24777bc92d24"
       }
     ],
-    "word_count": 460,
-    "whitespace_word_count": 459,
-    "text_sha256": "42f6e4b741b0427f80704cd1ea1a5cafb920c94f23c708c44682fe3d85bf1410",
-    "original_sha256": "3e03dcce9b29a404197e576c79a19932e17c0d4fc91415ac77d056dbdecdd9c3",
-    "flags": [],
-    "status": "targeted_checks_passed",
-    "full_semantic_review": false,
-    "translation": "Argos Translate English–Russian 1.9",
-    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811"
+    "revision": {
+      "version": 3,
+      "parent_text_sha256": "42f6e4b741b0427f80704cd1ea1a5cafb920c94f23c708c44682fe3d85bf1410",
+      "text_sha256": "bbd1ba7003441ed03920770eba1aba62a1b141b5b32a4f5da493d8a5f279f495",
+      "reason": "Уточнено nap versus night-time sleep; power не strength.; Reported needing — самооценка потребности, не объективная универсальная норма.",
+      "provenance": {
+        "source_id": "RE-006",
+        "english_file": "data/processed/en/RE-006.json",
+        "english_file_sha256": "40c33c70e8c7e11bc578b20fc0776c90f764c3e5bbbe7a9e265dc2108a6dbfb7",
+        "paragraph_ids": [
+          "RE-006:p0195",
+          "RE-006:p0196",
+          "RE-006:p0197"
+        ]
+      },
+      "review_scope": "targeted_translation_and_terminology_review",
+      "word_count": 468
+    },
+    "parent_status": "targeted_checks_passed",
+    "parent_full_semantic_review": false
   },
   {
     "doc_id": "doc_re_006_006",
@@ -49294,7 +49463,16 @@
     "sections_en": [
       "Discussion"
     ],
-    "units": [
+    "word_count": 463,
+    "whitespace_word_count": 464,
+    "text_sha256": "fcb2483cfcf37de981a1e4c51171c32e0cf72596fd21f8bdaae4c20865989998",
+    "original_sha256": "a1f6bfa09776640626e8523740ebffefc5a28452575f6002dd36fa854fe036fb",
+    "flags": [],
+    "status": "targeted_semantic_revision",
+    "full_semantic_review": false,
+    "translation": "Argos Translate English–Russian 1.9",
+    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811",
+    "parent_units": [
       {
         "paragraph_id": "RE-006:p0203",
         "text_sha256": "8138e3b313fc449d053dccc2d12cd57c2303cabe567a1a2a24dfa90b5ae9ca41"
@@ -49384,15 +49562,26 @@
         "text_sha256": "76b0990ec7b4c970f09d55c1a5b0e830756c3f5f05f69ec11ca0a16052d59008"
       }
     ],
-    "word_count": 459,
-    "whitespace_word_count": 460,
-    "text_sha256": "eb256f9e2176fa3c90f7050c72bce507f582516f759c519788a147a68c802b33",
-    "original_sha256": "a1f6bfa09776640626e8523740ebffefc5a28452575f6002dd36fa854fe036fb",
-    "flags": [],
-    "status": "targeted_checks_passed",
-    "full_semantic_review": false,
-    "translation": "Argos Translate English–Russian 1.9",
-    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811"
+    "revision": {
+      "version": 3,
+      "parent_text_sha256": "eb256f9e2176fa3c90f7050c72bce507f582516f759c519788a147a68c802b33",
+      "text_sha256": "fcb2483cfcf37de981a1e4c51171c32e0cf72596fd21f8bdaae4c20865989998",
+      "reason": "Napping явно означает дневной сон, а не сон вообще.; Sleep education — просвещение, не обучение засыпанию.; Единый перевод mindfulness в пределах проверяемых фрагментов.",
+      "provenance": {
+        "source_id": "RE-006",
+        "english_file": "data/processed/en/RE-006.json",
+        "english_file_sha256": "40c33c70e8c7e11bc578b20fc0776c90f764c3e5bbbe7a9e265dc2108a6dbfb7",
+        "paragraph_ids": [
+          "RE-006:p0203",
+          "RE-006:p0204",
+          "RE-006:p0206"
+        ]
+      },
+      "review_scope": "targeted_translation_and_terminology_review",
+      "word_count": 463
+    },
+    "parent_status": "targeted_checks_passed",
+    "parent_full_semantic_review": false
   },
   {
     "doc_id": "doc_re_006_009",
@@ -49413,7 +49602,16 @@
       "Discussion / Limitations",
       "Conclusion"
     ],
-    "units": [
+    "word_count": 445,
+    "whitespace_word_count": 441,
+    "text_sha256": "2e4876bbd249dbc4e7602fc7b507c96bb0fe16ecee2bf9664fa1565bde23792e",
+    "original_sha256": "325cc45b28f6c2be164e4dce3f896ab467d5812db9965513ff36d69818e0b2da",
+    "flags": [],
+    "status": "targeted_semantic_revision",
+    "full_semantic_review": false,
+    "translation": "Argos Translate English–Russian 1.9",
+    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811",
+    "parent_units": [
       {
         "paragraph_id": "RE-006:p0206",
         "text_sha256": "15a2f3f4a25209de7cc5ad93a882d8db583bb9cc840e57c1b5029be4ecc8e3d2"
@@ -49507,15 +49705,28 @@
         "text_sha256": "970bc12deb7264302f1ea8866d7b87b14c425e276a6801275a8dd09143867700"
       }
     ],
-    "word_count": 450,
-    "whitespace_word_count": 445,
-    "text_sha256": "a36799e3b9c3ad5d6a1448ccd8f77909f085ff5a0ad3475ac7b2b95b33a08b0f",
-    "original_sha256": "325cc45b28f6c2be164e4dce3f896ab467d5812db9965513ff36d69818e0b2da",
-    "flags": [],
-    "status": "targeted_checks_passed",
-    "full_semantic_review": false,
-    "translation": "Argos Translate English–Russian 1.9",
-    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811"
+    "revision": {
+      "version": 3,
+      "parent_text_sha256": "a36799e3b9c3ad5d6a1448ccd8f77909f085ff5a0ad3475ac7b2b95b33a08b0f",
+      "text_sha256": "2e4876bbd249dbc4e7602fc7b507c96bb0fe16ecee2bf9664fa1565bde23792e",
+      "reason": "Napping versus night-time sleep.; Нужно учитывать возможное последствие удлинения времени в постели, а не советовать бодрствовать.; Learned означает освоить практику, не научно исследовать её.; Единый перевод mindfulness в пределах проверяемых фрагментов.",
+      "provenance": {
+        "source_id": "RE-006",
+        "english_file": "data/processed/en/RE-006.json",
+        "english_file_sha256": "40c33c70e8c7e11bc578b20fc0776c90f764c3e5bbbe7a9e265dc2108a6dbfb7",
+        "paragraph_ids": [
+          "RE-006:p0206",
+          "RE-006:p0207",
+          "RE-006:p0208",
+          "RE-006:p0209",
+          "RE-006:p0210"
+        ]
+      },
+      "review_scope": "targeted_translation_and_terminology_review",
+      "word_count": 445
+    },
+    "parent_status": "targeted_checks_passed",
+    "parent_full_semantic_review": false
   },
   {
     "doc_id": "doc_re_007_001",
@@ -55318,7 +55529,16 @@
       "Effects on Sports Performance",
       "Effects on Sports Performance / Same-Day Performance"
     ],
-    "units": [
+    "word_count": 436,
+    "whitespace_word_count": 434,
+    "text_sha256": "611bfd2a58c8d9c9e71ec3c2e58c16e165c51cc1a5778d54c96daf621b99f525",
+    "original_sha256": "c2e88f9b8792ffe2a6a4fbf0f9ce5e823501ff5863fa4bb5d953928c76148f47",
+    "flags": [],
+    "status": "targeted_semantic_revision",
+    "full_semantic_review": false,
+    "translation": "Argos Translate English–Russian 1.9",
+    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811",
+    "parent_units": [
       {
         "paragraph_id": "RE-018:p0002",
         "text_sha256": "0a2ce84c4446674fe5df2126135c29188a0373f449845099ea12661c391767e7"
@@ -55392,15 +55612,28 @@
         "text_sha256": "0e903d57d5ebe765a7b47d3470cd41e7335197290406e8c7f2eb46fa5fc64675"
       }
     ],
-    "word_count": 440,
-    "whitespace_word_count": 438,
-    "text_sha256": "0da7aafee1d1277ee142883fecccb791120b1d41c745c3b56e6f5945af51018d",
-    "original_sha256": "c2e88f9b8792ffe2a6a4fbf0f9ce5e823501ff5863fa4bb5d953928c76148f47",
-    "flags": [],
-    "status": "targeted_checks_passed",
-    "full_semantic_review": false,
-    "translation": "Argos Translate English–Russian 1.9",
-    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811"
+    "revision": {
+      "version": 3,
+      "parent_text_sha256": "0da7aafee1d1277ee142883fecccb791120b1d41c745c3b56e6f5945af51018d",
+      "text_sha256": "611bfd2a58c8d9c9e71ec3c2e58c16e165c51cc1a5778d54c96daf621b99f525",
+      "reason": "Cool-down — заминка после нагрузки; passive cool-down — отсутствие активной заминки/пассивный отдых, не охлаждение водой.; Post-exercise не послеоперационный; warming down не разминка.; Грамматическая и контекстная правка после восстановления термина cool-down.",
+      "provenance": {
+        "source_id": "RE-018",
+        "english_file": "data/processed/en/RE-018.json",
+        "english_file_sha256": "95248745740c25c76941b03348a992cfbeb14f27f46b30ba8c6095abbe041405",
+        "paragraph_ids": [
+          "RE-018:p0002",
+          "RE-018:p0004",
+          "RE-018:p0009",
+          "RE-018:p0010",
+          "RE-018:p0011"
+        ]
+      },
+      "review_scope": "targeted_translation_and_terminology_review",
+      "word_count": 436
+    },
+    "parent_status": "targeted_checks_passed",
+    "parent_full_semantic_review": false
   },
   {
     "doc_id": "doc_re_018_002",
@@ -55417,7 +55650,16 @@
       "Effects on Sports Performance / Same-Day Performance",
       "Effects on Sports Performance / Next-Day(s) Performance"
     ],
-    "units": [
+    "word_count": 454,
+    "whitespace_word_count": 454,
+    "text_sha256": "5634108766877e9c5243d39eeac458151389f65be22e4b9c2de11ec3bd4798a1",
+    "original_sha256": "d37987c75d11a8a5fe4764dd694be8df28268008d905a34389c7bea4121896c3",
+    "flags": [],
+    "status": "targeted_semantic_revision",
+    "full_semantic_review": false,
+    "translation": "Argos Translate English–Russian 1.9",
+    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811",
+    "parent_units": [
       {
         "paragraph_id": "RE-018:p0011",
         "text_sha256": "1a18205d112d6a26793e7e22a086533a8fad4400045ca74742718436df97cd47"
@@ -55475,15 +55717,25 @@
         "text_sha256": "52462398a5947ed300efdc0f9451bf344d5f1bd37032a6410bb7f1f9a3a60b5e"
       }
     ],
-    "word_count": 455,
-    "whitespace_word_count": 455,
-    "text_sha256": "f46d813dcf003cac471afdd72a188b294bf8d801eca69035842d1198d5bd760e",
-    "original_sha256": "d37987c75d11a8a5fe4764dd694be8df28268008d905a34389c7bea4121896c3",
-    "flags": [],
-    "status": "targeted_checks_passed",
-    "full_semantic_review": false,
-    "translation": "Argos Translate English–Russian 1.9",
-    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811"
+    "revision": {
+      "version": 3,
+      "parent_text_sha256": "f46d813dcf003cac471afdd72a188b294bf8d801eca69035842d1198d5bd760e",
+      "text_sha256": "5634108766877e9c5243d39eeac458151389f65be22e4b9c2de11ec3bd4798a1",
+      "reason": "Cool-down — заминка после нагрузки; passive cool-down — отсутствие активной заминки/пассивный отдых, не охлаждение водой.; Грамматическая и контекстная правка после восстановления термина cool-down.",
+      "provenance": {
+        "source_id": "RE-018",
+        "english_file": "data/processed/en/RE-018.json",
+        "english_file_sha256": "95248745740c25c76941b03348a992cfbeb14f27f46b30ba8c6095abbe041405",
+        "paragraph_ids": [
+          "RE-018:p0011",
+          "RE-018:p0017"
+        ]
+      },
+      "review_scope": "targeted_translation_and_terminology_review",
+      "word_count": 454
+    },
+    "parent_status": "targeted_checks_passed",
+    "parent_full_semantic_review": false
   },
   {
     "doc_id": "doc_re_018_003",
@@ -55502,7 +55754,16 @@
       "Physiological Effects of an Active Cool-Down",
       "Physiological Effects of an Active Cool-Down / Removal of Metabolic By-Products"
     ],
-    "units": [
+    "word_count": 471,
+    "whitespace_word_count": 471,
+    "text_sha256": "3a0ce0467111ddb0031732387d47c7861e2133f975ca55021bb451fdd1b0a431",
+    "original_sha256": "17dc077d3dca0c6115994444be8b1724ff4b77ff60c9e5f6a823783a16feaef7",
+    "flags": [],
+    "status": "targeted_semantic_revision",
+    "full_semantic_review": false,
+    "translation": "Argos Translate English–Russian 1.9",
+    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811",
+    "parent_units": [
       {
         "paragraph_id": "RE-018:p0018",
         "text_sha256": "1469dda793c7a39f546e09b1d3ef5c4ad9b3fefe631ea86b4a1311ca9036492f"
@@ -55592,15 +55853,27 @@
         "text_sha256": "67d2dc1e6b6fa427c08eba341fbab43b6023c6845571b3a8cdc6dced1c9fdbba"
       }
     ],
-    "word_count": 471,
-    "whitespace_word_count": 471,
-    "text_sha256": "c17e0a1cf4cfe82e290b1e7782a033cd846518f546c488c5f7d6ce8c841d580e",
-    "original_sha256": "17dc077d3dca0c6115994444be8b1724ff4b77ff60c9e5f6a823783a16feaef7",
-    "flags": [],
-    "status": "targeted_checks_passed",
-    "full_semantic_review": false,
-    "translation": "Argos Translate English–Russian 1.9",
-    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811"
+    "revision": {
+      "version": 3,
+      "parent_text_sha256": "c17e0a1cf4cfe82e290b1e7782a033cd846518f546c488c5f7d6ce8c841d580e",
+      "text_sha256": "3a0ce0467111ddb0031732387d47c7861e2133f975ca55021bb451fdd1b0a431",
+      "reason": "Cool-down — заминка после нагрузки; passive cool-down — отсутствие активной заминки/пассивный отдых, не охлаждение водой.; Грамматическая и контекстная правка после восстановления термина cool-down.",
+      "provenance": {
+        "source_id": "RE-018",
+        "english_file": "data/processed/en/RE-018.json",
+        "english_file_sha256": "95248745740c25c76941b03348a992cfbeb14f27f46b30ba8c6095abbe041405",
+        "paragraph_ids": [
+          "RE-018:p0018",
+          "RE-018:p0019",
+          "RE-018:p0020",
+          "RE-018:p0021"
+        ]
+      },
+      "review_scope": "targeted_translation_and_terminology_review",
+      "word_count": 471
+    },
+    "parent_status": "targeted_checks_passed",
+    "parent_full_semantic_review": false
   },
   {
     "doc_id": "doc_re_018_004",
@@ -55619,7 +55892,16 @@
       "Physiological Effects of an Active Cool-Down / Removal of Metabolic By-Products",
       "Physiological Effects of an Active Cool-Down / Delayed-Onset Muscle Soreness"
     ],
-    "units": [
+    "word_count": 470,
+    "whitespace_word_count": 467,
+    "text_sha256": "61c52fb5eabba9670c32ed3ae03c6f56716beaf39bf477f2b7eebc3e2dcc6a6d",
+    "original_sha256": "57b8e1817dda32c28f41dbdeb9653dfb058993059df516e2a016ff02b86af407",
+    "flags": [],
+    "status": "targeted_semantic_revision",
+    "full_semantic_review": false,
+    "translation": "Argos Translate English–Russian 1.9",
+    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811",
+    "parent_units": [
       {
         "paragraph_id": "RE-018:p0021",
         "text_sha256": "d2ddf975e73d5ad4d12e899aeac62bd3e15aa394247e3ef9b53a9dd785509823"
@@ -55697,15 +55979,27 @@
         "text_sha256": "6ad42e072930d03c42690c6dc72b22e2cf83790a358898f26b241e3053a3036c"
       }
     ],
-    "word_count": 468,
-    "whitespace_word_count": 465,
-    "text_sha256": "f7e23da6e75a7d6d9240b2aa5959e59474a02764bc159da14cf7acd0c806bc57",
-    "original_sha256": "57b8e1817dda32c28f41dbdeb9653dfb058993059df516e2a016ff02b86af407",
-    "flags": [],
-    "status": "targeted_checks_passed",
-    "full_semantic_review": false,
-    "translation": "Argos Translate English–Russian 1.9",
-    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811"
+    "revision": {
+      "version": 3,
+      "parent_text_sha256": "f7e23da6e75a7d6d9240b2aa5959e59474a02764bc159da14cf7acd0c806bc57",
+      "text_sha256": "61c52fb5eabba9670c32ed3ae03c6f56716beaf39bf477f2b7eebc3e2dcc6a6d",
+      "reason": "Cool-down — заминка после нагрузки; passive cool-down — отсутствие активной заминки/пассивный отдых, не охлаждение водой.; Грамматическая и контекстная правка после восстановления термина cool-down.",
+      "provenance": {
+        "source_id": "RE-018",
+        "english_file": "data/processed/en/RE-018.json",
+        "english_file_sha256": "95248745740c25c76941b03348a992cfbeb14f27f46b30ba8c6095abbe041405",
+        "paragraph_ids": [
+          "RE-018:p0021",
+          "RE-018:p0022",
+          "RE-018:p0023",
+          "RE-018:p0024"
+        ]
+      },
+      "review_scope": "targeted_translation_and_terminology_review",
+      "word_count": 470
+    },
+    "parent_status": "targeted_checks_passed",
+    "parent_full_semantic_review": false
   },
   {
     "doc_id": "doc_re_018_005",
@@ -55727,7 +56021,16 @@
       "Physiological Effects of an Active Cool-Down / Indirect Markers of Muscle Damage",
       "Physiological Effects of an Active Cool-Down / Neuromuscular Function and Contractile Properties"
     ],
-    "units": [
+    "word_count": 473,
+    "whitespace_word_count": 473,
+    "text_sha256": "6b7356190e85689de3fc0078340537d6ed33d0fc6af088c5f6d6c866a854805b",
+    "original_sha256": "954df18e8e8975a5ac150e383cc835ef6fdb4634e5fd7ef7300b4554a65002f5",
+    "flags": [],
+    "status": "targeted_semantic_revision",
+    "full_semantic_review": false,
+    "translation": "Argos Translate English–Russian 1.9",
+    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811",
+    "parent_units": [
       {
         "paragraph_id": "RE-018:p0024",
         "text_sha256": "cc4a8f7625cf020294bfac08f16c2c810fe9ad094880db0ea655013b035bed0e"
@@ -55809,15 +56112,29 @@
         "text_sha256": "06291527d8aa84d41fdcece566413ed69564da0c0317b9efe685c58cc4da6d08"
       }
     ],
-    "word_count": 475,
-    "whitespace_word_count": 475,
-    "text_sha256": "7ca01cc16916ed2e0296cfd8fcab6649e128d0ea47a3fbc61f499ab3e538a2cf",
-    "original_sha256": "954df18e8e8975a5ac150e383cc835ef6fdb4634e5fd7ef7300b4554a65002f5",
-    "flags": [],
-    "status": "targeted_checks_passed",
-    "full_semantic_review": false,
-    "translation": "Argos Translate English–Russian 1.9",
-    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811"
+    "revision": {
+      "version": 3,
+      "parent_text_sha256": "7ca01cc16916ed2e0296cfd8fcab6649e128d0ea47a3fbc61f499ab3e538a2cf",
+      "text_sha256": "6b7356190e85689de3fc0078340537d6ed33d0fc6af088c5f6d6c866a854805b",
+      "reason": "Cool-down — заминка после нагрузки; passive cool-down — отсутствие активной заминки/пассивный отдых, не охлаждение водой.; Грамматическая и контекстная правка после восстановления термина cool-down.",
+      "provenance": {
+        "source_id": "RE-018",
+        "english_file": "data/processed/en/RE-018.json",
+        "english_file_sha256": "95248745740c25c76941b03348a992cfbeb14f27f46b30ba8c6095abbe041405",
+        "paragraph_ids": [
+          "RE-018:p0024",
+          "RE-018:p0025",
+          "RE-018:p0026",
+          "RE-018:p0027",
+          "RE-018:p0028",
+          "RE-018:p0029"
+        ]
+      },
+      "review_scope": "targeted_translation_and_terminology_review",
+      "word_count": 473
+    },
+    "parent_status": "targeted_checks_passed",
+    "parent_full_semantic_review": false
   },
   {
     "doc_id": "doc_re_018_006",
@@ -55839,7 +56156,16 @@
       "Physiological Effects of an Active Cool-Down / Stiffness and Range of Motion",
       "Physiological Effects of an Active Cool-Down / Muscle Glycogen Resynthesis"
     ],
-    "units": [
+    "word_count": 457,
+    "whitespace_word_count": 456,
+    "text_sha256": "d1a492bb5d73faaadabab05c5b8ba349135cde61649de5c175f24c3629a01f3a",
+    "original_sha256": "49a382a0bf7188fdd410e327e386cd67142b13f9a273475d58399b6a200b3acf",
+    "flags": [],
+    "status": "targeted_semantic_revision",
+    "full_semantic_review": false,
+    "translation": "Argos Translate English–Russian 1.9",
+    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811",
+    "parent_units": [
       {
         "paragraph_id": "RE-018:p0029",
         "text_sha256": "424e42621ff7e476af4c633cc81c0572d0fa5c312704999a3bfb5f095c31922b"
@@ -55913,15 +56239,29 @@
         "text_sha256": "adfed6db9954557ac5a24baea3a3d686c72daf9687dbde7130aece60633d3832"
       }
     ],
-    "word_count": 459,
-    "whitespace_word_count": 458,
-    "text_sha256": "d6b52a67c070caf901db7b7f79f1894d01a25426ad2a863b47dde143430525b2",
-    "original_sha256": "49a382a0bf7188fdd410e327e386cd67142b13f9a273475d58399b6a200b3acf",
-    "flags": [],
-    "status": "targeted_checks_passed",
-    "full_semantic_review": false,
-    "translation": "Argos Translate English–Russian 1.9",
-    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811"
+    "revision": {
+      "version": 3,
+      "parent_text_sha256": "d6b52a67c070caf901db7b7f79f1894d01a25426ad2a863b47dde143430525b2",
+      "text_sha256": "d1a492bb5d73faaadabab05c5b8ba349135cde61649de5c175f24c3629a01f3a",
+      "reason": "Cool-down — заминка после нагрузки; passive cool-down — отсутствие активной заминки/пассивный отдых, не охлаждение водой.; Грамматическая и контекстная правка после восстановления термина cool-down.",
+      "provenance": {
+        "source_id": "RE-018",
+        "english_file": "data/processed/en/RE-018.json",
+        "english_file_sha256": "95248745740c25c76941b03348a992cfbeb14f27f46b30ba8c6095abbe041405",
+        "paragraph_ids": [
+          "RE-018:p0029",
+          "RE-018:p0030",
+          "RE-018:p0031",
+          "RE-018:p0032",
+          "RE-018:p0033",
+          "RE-018:p0034"
+        ]
+      },
+      "review_scope": "targeted_translation_and_terminology_review",
+      "word_count": 457
+    },
+    "parent_status": "targeted_checks_passed",
+    "parent_full_semantic_review": false
   },
   {
     "doc_id": "doc_re_018_007",
@@ -55942,7 +56282,16 @@
       "Physiological Effects of an Active Cool-Down / Recovery of the Immune System",
       "Physiological Effects of an Active Cool-Down / Cardiovascular and Respiratory Variables"
     ],
-    "units": [
+    "word_count": 474,
+    "whitespace_word_count": 473,
+    "text_sha256": "06ea55dc0d7d466d8d8c819e4bb42be139871ad3df15d23341d07e6a7790f040",
+    "original_sha256": "8e9ddf088a391e876b572599863fa4f7d365797884c1ad964de69fc0ec57a948",
+    "flags": [],
+    "status": "targeted_semantic_revision",
+    "full_semantic_review": false,
+    "translation": "Argos Translate English–Russian 1.9",
+    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811",
+    "parent_units": [
       {
         "paragraph_id": "RE-018:p0034",
         "text_sha256": "8b0bd565cb7d194bd4f4f6a165d774b5e8878f5eeb862855fc17672171c0ccf0"
@@ -56024,15 +56373,28 @@
         "text_sha256": "c5cfa7093495b7117d74d8cdb9f9daa898f3e9452f5e9a940803cf0605766aec"
       }
     ],
-    "word_count": 474,
-    "whitespace_word_count": 473,
-    "text_sha256": "3031c33798f433fbaecef03d565415d4c4b738e761ae3232d5446803f7cdc797",
-    "original_sha256": "8e9ddf088a391e876b572599863fa4f7d365797884c1ad964de69fc0ec57a948",
-    "flags": [],
-    "status": "targeted_checks_passed",
-    "full_semantic_review": false,
-    "translation": "Argos Translate English–Russian 1.9",
-    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811"
+    "revision": {
+      "version": 3,
+      "parent_text_sha256": "3031c33798f433fbaecef03d565415d4c4b738e761ae3232d5446803f7cdc797",
+      "text_sha256": "06ea55dc0d7d466d8d8c819e4bb42be139871ad3df15d23341d07e6a7790f040",
+      "reason": "Cool-down — заминка после нагрузки; passive cool-down — отсутствие активной заминки/пассивный отдых, не охлаждение водой.; Грамматическая и контекстная правка после восстановления термина cool-down.",
+      "provenance": {
+        "source_id": "RE-018",
+        "english_file": "data/processed/en/RE-018.json",
+        "english_file_sha256": "95248745740c25c76941b03348a992cfbeb14f27f46b30ba8c6095abbe041405",
+        "paragraph_ids": [
+          "RE-018:p0034",
+          "RE-018:p0035",
+          "RE-018:p0036",
+          "RE-018:p0037",
+          "RE-018:p0038"
+        ]
+      },
+      "review_scope": "targeted_translation_and_terminology_review",
+      "word_count": 474
+    },
+    "parent_status": "targeted_checks_passed",
+    "parent_full_semantic_review": false
   },
   {
     "doc_id": "doc_re_018_008",
@@ -56052,7 +56414,16 @@
       "Physiological Effects of an Active Cool-Down / Cardiovascular and Respiratory Variables",
       "Physiological Effects of an Active Cool-Down / Sweat Rate and Thermoregulation"
     ],
-    "units": [
+    "word_count": 466,
+    "whitespace_word_count": 466,
+    "text_sha256": "9af8f17203e503124ec9f4cdf8506dd6e7ecff388f9ca3eb84f5196060e50fd4",
+    "original_sha256": "fa1273ac1b513f6745a767ab56ed1e0b52065be4b9894cfd209ba07e8f3538a7",
+    "flags": [],
+    "status": "targeted_semantic_revision",
+    "full_semantic_review": false,
+    "translation": "Argos Translate English–Russian 1.9",
+    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811",
+    "parent_units": [
       {
         "paragraph_id": "RE-018:p0039",
         "text_sha256": "9a2fbe859d1ca916383f6a167419a7f4c8e0a4536e02434231593410b3655e29"
@@ -56126,15 +56497,28 @@
         "text_sha256": "158639e5b97ddcd66b03df3ec2bc13c1484e475e1c03da2c0b41febdd3757b1f"
       }
     ],
-    "word_count": 467,
-    "whitespace_word_count": 467,
-    "text_sha256": "0d6fa7bcab3f8ca0cb6f92548832739b0ca59447cafddd70c335669d020893c3",
-    "original_sha256": "fa1273ac1b513f6745a767ab56ed1e0b52065be4b9894cfd209ba07e8f3538a7",
-    "flags": [],
-    "status": "targeted_checks_passed",
-    "full_semantic_review": false,
-    "translation": "Argos Translate English–Russian 1.9",
-    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811"
+    "revision": {
+      "version": 3,
+      "parent_text_sha256": "0d6fa7bcab3f8ca0cb6f92548832739b0ca59447cafddd70c335669d020893c3",
+      "text_sha256": "9af8f17203e503124ec9f4cdf8506dd6e7ecff388f9ca3eb84f5196060e50fd4",
+      "reason": "Cool-down — заминка после нагрузки; passive cool-down — отсутствие активной заминки/пассивный отдых, не охлаждение водой.; Грамматическая и контекстная правка после восстановления термина cool-down.",
+      "provenance": {
+        "source_id": "RE-018",
+        "english_file": "data/processed/en/RE-018.json",
+        "english_file_sha256": "95248745740c25c76941b03348a992cfbeb14f27f46b30ba8c6095abbe041405",
+        "paragraph_ids": [
+          "RE-018:p0039",
+          "RE-018:p0040",
+          "RE-018:p0041",
+          "RE-018:p0042",
+          "RE-018:p0043"
+        ]
+      },
+      "review_scope": "targeted_translation_and_terminology_review",
+      "word_count": 466
+    },
+    "parent_status": "targeted_checks_passed",
+    "parent_full_semantic_review": false
   },
   {
     "doc_id": "doc_re_018_009",
@@ -56153,7 +56537,16 @@
       "Physiological Effects of an Active Cool-Down / Hormone Concentrations",
       "Physiological Effects of an Active Cool-Down / Mood State, Self-Perception, and Sleep"
     ],
-    "units": [
+    "word_count": 479,
+    "whitespace_word_count": 480,
+    "text_sha256": "a42fe2859be2d06aafa6ff67e36d18c2271376e3e713422e975901ecb5fc8255",
+    "original_sha256": "83d9c48d18e0ad099abf1bcaa4d5e463956b2fcff5de4902e30682b6ffcace04",
+    "flags": [],
+    "status": "targeted_semantic_revision",
+    "full_semantic_review": false,
+    "translation": "Argos Translate English–Russian 1.9",
+    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811",
+    "parent_units": [
       {
         "paragraph_id": "RE-018:p0044",
         "text_sha256": "e41b0897a955b864e692d1f35dbf6e6994e47bba2f570176a7893ed6f4ec8158"
@@ -56231,15 +56624,27 @@
         "text_sha256": "87a2bdbc7690a61b14a26ee85a083b58dd74c49269e446bb24ab6fa4a196d51c"
       }
     ],
-    "word_count": 478,
-    "whitespace_word_count": 479,
-    "text_sha256": "9948480011e9849523f85452f74c0a6fd4e19a9ad00225313cc92f90de5db63f",
-    "original_sha256": "83d9c48d18e0ad099abf1bcaa4d5e463956b2fcff5de4902e30682b6ffcace04",
-    "flags": [],
-    "status": "targeted_checks_passed",
-    "full_semantic_review": false,
-    "translation": "Argos Translate English–Russian 1.9",
-    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811"
+    "revision": {
+      "version": 3,
+      "parent_text_sha256": "9948480011e9849523f85452f74c0a6fd4e19a9ad00225313cc92f90de5db63f",
+      "text_sha256": "a42fe2859be2d06aafa6ff67e36d18c2271376e3e713422e975901ecb5fc8255",
+      "reason": "Cool-down — заминка после нагрузки; passive cool-down — отсутствие активной заминки/пассивный отдых, не охлаждение водой.; Грамматическая и контекстная правка после восстановления термина cool-down.",
+      "provenance": {
+        "source_id": "RE-018",
+        "english_file": "data/processed/en/RE-018.json",
+        "english_file_sha256": "95248745740c25c76941b03348a992cfbeb14f27f46b30ba8c6095abbe041405",
+        "paragraph_ids": [
+          "RE-018:p0044",
+          "RE-018:p0045",
+          "RE-018:p0046",
+          "RE-018:p0047"
+        ]
+      },
+      "review_scope": "targeted_translation_and_terminology_review",
+      "word_count": 479
+    },
+    "parent_status": "targeted_checks_passed",
+    "parent_full_semantic_review": false
   },
   {
     "doc_id": "doc_re_018_010",
@@ -56259,7 +56664,16 @@
       "Physiological Effects of an Active Cool-Down / Long-Term Effects of an Active Cool-Down",
       "Physiological Effects of an Active Cool-Down / Injury Prevention"
     ],
-    "units": [
+    "word_count": 478,
+    "whitespace_word_count": 478,
+    "text_sha256": "461d17b9bd6fcaf29f0b0bb965f0f21b588df4c94cf67a933092da9c6e50715a",
+    "original_sha256": "eefea926780dc035e9cbf4138614aa33a1313bcfe27d4a35e1e6913c848c1f5d",
+    "flags": [],
+    "status": "targeted_semantic_revision",
+    "full_semantic_review": false,
+    "translation": "Argos Translate English–Russian 1.9",
+    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811",
+    "parent_units": [
       {
         "paragraph_id": "RE-018:p0047",
         "text_sha256": "251b2bd81a8ff0b69aa90ede6c17cf4b7ef7038307340b69756bd36a732a6793"
@@ -56341,15 +56755,27 @@
         "text_sha256": "97da300e8777666587b2fa8365e5f5184660bd7bbd0b3568faedd05d46f2135a"
       }
     ],
-    "word_count": 479,
-    "whitespace_word_count": 479,
-    "text_sha256": "91b88d8207fec21869d4ff0bb8134ada68742707409324064c7b5b8eecea7301",
-    "original_sha256": "eefea926780dc035e9cbf4138614aa33a1313bcfe27d4a35e1e6913c848c1f5d",
-    "flags": [],
-    "status": "targeted_checks_passed",
-    "full_semantic_review": false,
-    "translation": "Argos Translate English–Russian 1.9",
-    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811"
+    "revision": {
+      "version": 3,
+      "parent_text_sha256": "91b88d8207fec21869d4ff0bb8134ada68742707409324064c7b5b8eecea7301",
+      "text_sha256": "461d17b9bd6fcaf29f0b0bb965f0f21b588df4c94cf67a933092da9c6e50715a",
+      "reason": "Cool-down — заминка после нагрузки; passive cool-down — отсутствие активной заминки/пассивный отдых, не охлаждение водой.; Грамматическая и контекстная правка после восстановления термина cool-down.",
+      "provenance": {
+        "source_id": "RE-018",
+        "english_file": "data/processed/en/RE-018.json",
+        "english_file_sha256": "95248745740c25c76941b03348a992cfbeb14f27f46b30ba8c6095abbe041405",
+        "paragraph_ids": [
+          "RE-018:p0047",
+          "RE-018:p0048",
+          "RE-018:p0049",
+          "RE-018:p0050"
+        ]
+      },
+      "review_scope": "targeted_translation_and_terminology_review",
+      "word_count": 478
+    },
+    "parent_status": "targeted_checks_passed",
+    "parent_full_semantic_review": false
   },
   {
     "doc_id": "doc_re_018_011",
@@ -56370,7 +56796,16 @@
       "Combination with Other Recovery Interventions",
       "Combination with Other Recovery Interventions / Static Stretching"
     ],
-    "units": [
+    "word_count": 477,
+    "whitespace_word_count": 477,
+    "text_sha256": "ae022696a8b29464811a845ca68bd01534449282a860bad4d2ce0bbc83685251",
+    "original_sha256": "0f6114b4313be4b72a14a347fbd21ebece37e855056e1ff94b4bc4796faa5cc2",
+    "flags": [],
+    "status": "targeted_semantic_revision",
+    "full_semantic_review": false,
+    "translation": "Argos Translate English–Russian 1.9",
+    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811",
+    "parent_units": [
       {
         "paragraph_id": "RE-018:p0050",
         "text_sha256": "55e41e09fa98033b3cf4647de30dbe571acb108a1b2f1d55156a09b0eee0e4f0"
@@ -56456,15 +56891,27 @@
         "text_sha256": "b3722309b35b81616e364d06acd72515b0bc5ab59a045357dd7ef650455d0bd0"
       }
     ],
-    "word_count": 470,
-    "whitespace_word_count": 470,
-    "text_sha256": "0065df13c97580e8fbfc30287c5729a42775d8fa799d8cbd1e1ccc481217f221",
-    "original_sha256": "0f6114b4313be4b72a14a347fbd21ebece37e855056e1ff94b4bc4796faa5cc2",
-    "flags": [],
-    "status": "targeted_checks_passed",
-    "full_semantic_review": false,
-    "translation": "Argos Translate English–Russian 1.9",
-    "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811"
+    "revision": {
+      "version": 3,
+      "parent_text_sha256": "0065df13c97580e8fbfc30287c5729a42775d8fa799d8cbd1e1ccc481217f221",
+      "text_sha256": "ae022696a8b29464811a845ca68bd01534449282a860bad4d2ce0bbc83685251",
+      "reason": "Cool-down — заминка после нагрузки; passive cool-down — отсутствие активной заминки/пассивный отдых, не охлаждение водой.; Cool-down не холодная вода.; Cool-down duration.; Сохранён вывод с ограничениями.; Reduced gains не снижение уже имеющейся силы; ключевая смысловая ошибка.; Jogging; согласование рода.; Passive cool-down не охлаждение водой.; Attenuating effects относится к адаптации, не смягчению боли.; Грамматическая и контекстная правка после восстановления термина cool-down.; Восстановлено ограничение популяции well-trained intermittent sport athletes после независимой проверки.",
+      "provenance": {
+        "source_id": "RE-018",
+        "english_file": "data/processed/en/RE-018.json",
+        "english_file_sha256": "95248745740c25c76941b03348a992cfbeb14f27f46b30ba8c6095abbe041405",
+        "paragraph_ids": [
+          "RE-018:p0050",
+          "RE-018:p0051",
+          "RE-018:p0052",
+          "RE-018:p0054"
+        ]
+      },
+      "review_scope": "targeted_translation_and_terminology_review",
+      "word_count": 477
+    },
+    "parent_status": "targeted_checks_passed",
+    "parent_full_semantic_review": false
   },
   {
     "doc_id": "doc_re_018_012",
@@ -62333,5 +62780,758 @@
     "full_semantic_review": false,
     "translation": "Argos Translate English–Russian 1.9",
     "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811"
+  },
+  {
+    "doc_id": "guide_db_lower",
+    "source_id": "guide_db_lower",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://www.acefitness.org/resources/everyone/exercise-library/"
+    ],
+    "answer_patterns": [],
+    "program": {
+      "exercises": [
+        {
+          "id": "db_squat",
+          "name": "Приседание с гантелью у груди",
+          "pattern": "knee",
+          "equipment": [
+            "gym",
+            "dumbbells"
+          ]
+        },
+        {
+          "id": "db_rdl",
+          "name": "Румынская тяга с гантелями",
+          "pattern": "posterior",
+          "equipment": [
+            "gym",
+            "dumbbells"
+          ]
+        },
+        {
+          "id": "db_lunge",
+          "name": "Выпад назад с гантелями",
+          "pattern": "knee",
+          "equipment": [
+            "gym",
+            "dumbbells"
+          ]
+        },
+        {
+          "id": "db_calf",
+          "name": "Подъём на носки с гантелями",
+          "pattern": "calf",
+          "equipment": [
+            "gym",
+            "dumbbells"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "guide_db_upper",
+    "source_id": "guide_db_upper",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://www.acefitness.org/resources/everyone/exercise-library/"
+    ],
+    "answer_patterns": [],
+    "program": {
+      "exercises": [
+        {
+          "id": "db_floor",
+          "name": "Жим гантелей лёжа на полу",
+          "pattern": "push",
+          "equipment": [
+            "gym",
+            "dumbbells"
+          ]
+        },
+        {
+          "id": "db_row",
+          "name": "Тяга гантелей в наклоне",
+          "pattern": "pull",
+          "equipment": [
+            "gym",
+            "dumbbells"
+          ]
+        },
+        {
+          "id": "db_press",
+          "name": "Жим гантелей стоя",
+          "pattern": "shoulders",
+          "equipment": [
+            "gym",
+            "dumbbells"
+          ]
+        },
+        {
+          "id": "db_curl",
+          "name": "Сгибание рук с гантелями",
+          "pattern": "arms",
+          "equipment": [
+            "gym",
+            "dumbbells"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "guide_gym_lower",
+    "source_id": "guide_gym_lower",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://www.acefitness.org/resources/everyone/exercise-library/"
+    ],
+    "answer_patterns": [],
+    "program": {
+      "exercises": [
+        {
+          "id": "gym_legpress",
+          "name": "Жим ногами в тренажёре",
+          "pattern": "knee",
+          "equipment": [
+            "gym"
+          ]
+        },
+        {
+          "id": "gym_legcurl",
+          "name": "Сгибание ног в тренажёре",
+          "pattern": "posterior",
+          "equipment": [
+            "gym"
+          ]
+        },
+        {
+          "id": "gym_bridge",
+          "name": "Ягодичный мост с отягощением",
+          "pattern": "posterior",
+          "equipment": [
+            "gym"
+          ]
+        },
+        {
+          "id": "gym_calf",
+          "name": "Подъём на носки в тренажёре",
+          "pattern": "calf",
+          "equipment": [
+            "gym"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "guide_gym_upper",
+    "source_id": "guide_gym_upper",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://www.acefitness.org/resources/everyone/exercise-library/"
+    ],
+    "answer_patterns": [],
+    "program": {
+      "exercises": [
+        {
+          "id": "gym_chest",
+          "name": "Жим от груди в тренажёре",
+          "pattern": "push",
+          "equipment": [
+            "gym"
+          ]
+        },
+        {
+          "id": "gym_row",
+          "name": "Горизонтальная тяга блока",
+          "pattern": "pull",
+          "equipment": [
+            "gym"
+          ]
+        },
+        {
+          "id": "gym_lat",
+          "name": "Тяга верхнего блока к груди",
+          "pattern": "pull",
+          "equipment": [
+            "gym"
+          ]
+        },
+        {
+          "id": "gym_shoulder",
+          "name": "Жим плечами в тренажёре",
+          "pattern": "shoulders",
+          "equipment": [
+            "gym"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "guide_core",
+    "source_id": "guide_core",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://www.acefitness.org/resources/everyone/exercise-library/"
+    ],
+    "answer_patterns": [],
+    "program": {
+      "exercises": [
+        {
+          "id": "deadbug",
+          "name": "Попеременное опускание руки и ноги лёжа",
+          "pattern": "core",
+          "equipment": [
+            "gym",
+            "dumbbells"
+          ]
+        },
+        {
+          "id": "birddog",
+          "name": "Разгибание противоположных руки и ноги на четвереньках",
+          "pattern": "core",
+          "equipment": [
+            "gym",
+            "dumbbells"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "doc_id": "guide_beginner_strength",
+    "source_id": "guide_beginner_strength",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://www.betterhealth.vic.gov.au/health/healthyliving/resistance-training-health-benefits",
+      "https://pubmed.ncbi.nlm.nih.gov/19204579/"
+    ],
+    "answer_patterns": [],
+    "program": {
+      "prescription": {
+        "level": "beginner",
+        "goal": "strength",
+        "sets": 2,
+        "reps": "8–12",
+        "rest": "2–3 минуты"
+      }
+    }
+  },
+  {
+    "doc_id": "guide_beginner_muscle",
+    "source_id": "guide_beginner_muscle",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://www.betterhealth.vic.gov.au/health/healthyliving/resistance-training-health-benefits",
+      "https://pubmed.ncbi.nlm.nih.gov/19204579/"
+    ],
+    "answer_patterns": [],
+    "program": {
+      "prescription": {
+        "level": "beginner",
+        "goal": "muscle",
+        "sets": 2,
+        "reps": "8–12",
+        "rest": "1–2 минуты"
+      }
+    }
+  },
+  {
+    "doc_id": "guide_beginner_endurance",
+    "source_id": "guide_beginner_endurance",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://www.betterhealth.vic.gov.au/health/healthyliving/resistance-training-health-benefits",
+      "https://pubmed.ncbi.nlm.nih.gov/19204579/"
+    ],
+    "answer_patterns": [],
+    "program": {
+      "prescription": {
+        "level": "beginner",
+        "goal": "endurance",
+        "sets": 2,
+        "reps": "12–15",
+        "rest": "60–90 секунд"
+      }
+    }
+  },
+  {
+    "doc_id": "guide_intermediate_strength",
+    "source_id": "guide_intermediate_strength",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://www.betterhealth.vic.gov.au/health/healthyliving/resistance-training-health-benefits",
+      "https://pubmed.ncbi.nlm.nih.gov/19204579/"
+    ],
+    "answer_patterns": [],
+    "program": {
+      "prescription": {
+        "level": "intermediate",
+        "goal": "strength",
+        "sets": 3,
+        "reps": "6–8",
+        "rest": "2–3 минуты"
+      }
+    }
+  },
+  {
+    "doc_id": "guide_intermediate_muscle",
+    "source_id": "guide_intermediate_muscle",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://www.betterhealth.vic.gov.au/health/healthyliving/resistance-training-health-benefits",
+      "https://pubmed.ncbi.nlm.nih.gov/19204579/"
+    ],
+    "answer_patterns": [],
+    "program": {
+      "prescription": {
+        "level": "intermediate",
+        "goal": "muscle",
+        "sets": 3,
+        "reps": "8–12",
+        "rest": "1–2 минуты"
+      }
+    }
+  },
+  {
+    "doc_id": "guide_intermediate_endurance",
+    "source_id": "guide_intermediate_endurance",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://www.betterhealth.vic.gov.au/health/healthyliving/resistance-training-health-benefits",
+      "https://pubmed.ncbi.nlm.nih.gov/19204579/"
+    ],
+    "answer_patterns": [],
+    "program": {
+      "prescription": {
+        "level": "intermediate",
+        "goal": "endurance",
+        "sets": 3,
+        "reps": "15–20",
+        "rest": "60–90 секунд"
+      }
+    }
+  },
+  {
+    "doc_id": "guide_schedule",
+    "source_id": "guide_schedule",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://www.betterhealth.vic.gov.au/health/healthyliving/resistance-training-health-benefits"
+    ],
+    "answer_patterns": [],
+    "program": {
+      "schedule": true
+    }
+  },
+  {
+    "doc_id": "guide_training_basics",
+    "source_id": "guide_training_basics",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://www.betterhealth.vic.gov.au/health/healthyliving/resistance-training-health-benefits"
+    ],
+    "answer_patterns": [
+      "(отдых|отдыха).{0,30}между подход",
+      "как.{0,15}размин"
+    ],
+    "program": {}
+  },
+  {
+    "doc_id": "guide_protein",
+    "source_id": "guide_protein",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5477153/"
+    ],
+    "answer_patterns": [
+      "сколько.{0,15}белк",
+      "потреблен.{0,10}белк.{0,25}(рост|мышц)",
+      "белк.{0,15}(в день|в сутки)"
+    ],
+    "program": {}
+  },
+  {
+    "doc_id": "guide_meals",
+    "source_id": "guide_meals",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5477153/",
+      "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/"
+    ],
+    "answer_patterns": [],
+    "program": {}
+  },
+  {
+    "doc_id": "guide_water",
+    "source_id": "guide_water",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/"
+    ],
+    "answer_patterns": [],
+    "program": {}
+  },
+  {
+    "doc_id": "guide_creatine",
+    "source_id": "guide_creatine",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/"
+    ],
+    "answer_patterns": [
+      "(нужен|нужн|стоит|обязател).{0,25}креатин",
+      "креатин.{0,25}(нужен|нужн|обязател)"
+    ],
+    "program": {}
+  },
+  {
+    "doc_id": "guide_supplements",
+    "source_id": "guide_supplements",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-Consumer/",
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5477153/"
+    ],
+    "answer_patterns": [
+      "нуж.{0,20}(протеин|bcaa|бцаа)"
+    ],
+    "program": {}
+  },
+  {
+    "doc_id": "guide_sleep",
+    "source_id": "guide_sleep",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://aasm.org/resources/pdf/adultsleepdurationconsensus.pdf"
+    ],
+    "answer_patterns": [
+      "сколько.{0,20}(спать|сна|сон)"
+    ],
+    "program": {}
+  },
+  {
+    "doc_id": "guide_recovery",
+    "source_id": "guide_recovery",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://www.betterhealth.vic.gov.au/health/healthyliving/resistance-training-health-benefits"
+    ],
+    "answer_patterns": [],
+    "program": {}
+  },
+  {
+    "doc_id": "guide_program_use",
+    "source_id": "guide_program_use",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://www.betterhealth.vic.gov.au/health/healthyliving/resistance-training-health-benefits",
+      "https://www.acefitness.org/resources/everyone/exercise-library/"
+    ],
+    "answer_patterns": [],
+    "program": {}
+  },
+  {
+    "doc_id": "guide_periodization",
+    "source_id": "guide_periodization",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://pubmed.ncbi.nlm.nih.gov/35044672/"
+    ],
+    "support_doc_ids": [],
+    "answer_patterns": [
+      "периодизац",
+      "чередова\\w*.{0,35}(нагруз|объем|интенсивн)"
+    ],
+    "answer_exclude_patterns": [],
+    "general_dose_passages": []
+  },
+  {
+    "doc_id": "guide_supersets",
+    "source_id": "guide_supersets",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://pubmed.ncbi.nlm.nih.gov/34125411/"
+    ],
+    "support_doc_ids": [
+      "doc_tr_026_010",
+      "doc_tr_026_011"
+    ],
+    "answer_patterns": [
+      "суперсет",
+      "упражнен\\w*.{0,55}в пары",
+      "парн\\w* подход"
+    ],
+    "answer_exclude_patterns": [],
+    "general_dose_passages": []
+  },
+  {
+    "doc_id": "guide_progression",
+    "source_id": "guide_progression",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://www.betterhealth.vic.gov.au/health/healthyliving/resistance-training-health-benefits"
+    ],
+    "support_doc_ids": [],
+    "answer_patterns": [
+      "(увелич|повыш|добав).{0,30}(рабоч\\w* вес|вес|нагруз)",
+      "прогресси\\w* нагруз"
+    ],
+    "answer_exclude_patterns": [],
+    "general_dose_passages": []
+  },
+  {
+    "doc_id": "guide_energy_balance",
+    "source_id": "guide_energy_balance",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://link.springer.com/article/10.1186/s12970-017-0174-y"
+    ],
+    "support_doc_ids": [],
+    "answer_patterns": [
+      "(жир|углевод).{0,65}(огранич|снижен|убира|убрать|дефицит|калорий)",
+      "дефицит калори",
+      "(убрат|убир|огранич|снижен).{0,40}(жир|углевод)"
+    ],
+    "answer_exclude_patterns": [],
+    "general_dose_passages": []
+  },
+  {
+    "doc_id": "guide_protein_distribution",
+    "source_id": "guide_protein_distribution",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5477153/"
+    ],
+    "support_doc_ids": [
+      "guide_protein",
+      "guide_meals"
+    ],
+    "answer_patterns": [
+      "(бел(?:о)?к|протеин).{0,55}(распредел|прием|окно)",
+      "(распредел|прием|окно).{0,45}(бел(?:о)?к|протеин)"
+    ],
+    "answer_exclude_patterns": [],
+    "general_dose_passages": []
+  },
+  {
+    "doc_id": "guide_carbohydrates",
+    "source_id": "guide_carbohydrates",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://pubmed.ncbi.nlm.nih.gov/35215506/",
+      "https://pubmed.ncbi.nlm.nih.gov/30068354/"
+    ],
+    "support_doc_ids": [
+      "doc_nu_014_010",
+      "doc_nu_003_010"
+    ],
+    "answer_patterns": [
+      "углевод\\w*.{0,45}(силов|трениров|подход)",
+      "(силов|трениров).{0,45}углевод"
+    ],
+    "answer_exclude_patterns": [],
+    "general_dose_passages": []
+  },
+  {
+    "doc_id": "guide_creatine_use",
+    "source_id": "guide_creatine_use",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://link.springer.com/article/10.1186/s12970-017-0173-z"
+    ],
+    "support_doc_ids": [],
+    "answer_patterns": [
+      "креатин.*(пить|приним|доз|грамм|загруз|ежеднев|кажд|выходн|отдых)",
+      "(пить|приним|доз|грамм|загруз).{0,45}креатин"
+    ],
+    "answer_exclude_patterns": [],
+    "general_dose_passages": [
+      "В позиции ISSN для здоровых взрослых описан постепенный вариант без загрузки: 3–5 г моногидрата креатина в день в течение 3–4 недель для повышения мышечных запасов.",
+      "Для поддержания насыщенных запасов в позиции ISSN указан приём 3–5 г в день."
+    ]
+  },
+  {
+    "doc_id": "guide_protein_powder",
+    "source_id": "guide_protein_powder",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC5477153/"
+    ],
+    "support_doc_ids": [
+      "guide_protein",
+      "guide_supplements"
+    ],
+    "answer_patterns": [
+      "протеин.{0,45}(порош|обязател|нужен|нужно|нужн|замен)",
+      "(нужен|нужно|обязател|покуп).{0,30}протеин"
+    ],
+    "answer_exclude_patterns": [],
+    "general_dose_passages": []
+  },
+  {
+    "doc_id": "guide_caffeine",
+    "source_id": "guide_caffeine",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/"
+    ],
+    "support_doc_ids": [],
+    "answer_patterns": [
+      "кофеин|кофе\\b|предтрен|энергетик"
+    ],
+    "answer_exclude_patterns": [
+      "привык|привыч|перестан|толерант|отказыв|отмен"
+    ],
+    "general_dose_passages": []
+  },
+  {
+    "doc_id": "guide_massage",
+    "source_id": "guide_massage",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://pubmed.ncbi.nlm.nih.gov/32426160/"
+    ],
+    "support_doc_ids": [
+      "doc_re_011_007"
+    ],
+    "answer_patterns": [
+      "массаж"
+    ],
+    "answer_exclude_patterns": [],
+    "general_dose_passages": []
+  },
+  {
+    "doc_id": "guide_cooldown",
+    "source_id": "guide_cooldown",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://pubmed.ncbi.nlm.nih.gov/29663142/"
+    ],
+    "support_doc_ids": [
+      "doc_re_018_001"
+    ],
+    "answer_patterns": [
+      "заминк",
+      "(лактат|молочн\\w* кислот).{0,45}(вывест|восстанов|после)",
+      "(ходьб|велосипед).{0,50}(конце|после занят)"
+    ],
+    "answer_exclude_patterns": [],
+    "general_dose_passages": []
+  },
+  {
+    "doc_id": "guide_sleep_routine",
+    "source_id": "guide_sleep_routine",
+    "source_url": "",
+    "kind": "project_guide",
+    "created_with_ai": true,
+    "review": "editorial_check_not_external_expert_review",
+    "references": [
+      "https://aasm.org/wp-content/uploads/2017/10/adult-sleep-duration-health-advisory.pdf"
+    ],
+    "support_doc_ids": [],
+    "answer_patterns": [
+      "недосып|режим сна|сон.{0,40}восстанов|высып"
+    ],
+    "answer_exclude_patterns": [],
+    "general_dose_passages": []
   }
 ]

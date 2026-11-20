@@ -309,6 +309,7 @@ class BM25Test(unittest.TestCase):
                 sys.executable,
                 "-m",
                 "app.rag.build_index",
+                "--plain-bm25",
                 "--corpus",
                 str(corpus),
                 "--output",

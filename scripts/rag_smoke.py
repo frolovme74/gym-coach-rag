@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from app.llm import GigaChatClient  # noqa: E402
-from app.rag.pipeline import RAGPipeline  # noqa: E402
+from app.rag.pipeline import RAGPipeline, PROFILE  # noqa: E402
 from app.server import create_server  # noqa: E402
 
 CASES = [
@@ -85,7 +85,7 @@ def main():
     parser.add_argument("--live", action="store_true", required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument(
-        "--suite", choices=("core", "basic", "refusals"), default="core"
+        "--suite", choices=("core", "basic", "refusals", "current"), default="core"
     )
     args = parser.parse_args()
     if args.output.exists():
@@ -98,13 +98,11 @@ def main():
     report = {
         "run_at": datetime.now(timezone.utc).isoformat(),
         "kind": "live_http_gigachat_smoke_not_quality_benchmark",
-        "profile": "v4",
+        "profile": PROFILE,
         "suite": args.suite,
         "threshold": pipeline.threshold,
         "corpus_sha256": pipeline.index.corpus_sha256,
-        "manifest_sha256": json.loads(
-            (ROOT / "data/corpus-v4/profile.json").read_text()
-        )["manifest_sha256"],
+        "manifest_sha256": json.loads((ROOT / PROFILE).read_text())["manifest_sha256"],
         "code_sha256": {
             p: hashlib.sha256((ROOT / p).read_bytes()).hexdigest()
             for p in (
@@ -145,7 +143,28 @@ def main():
             cases = [
                 (q["id"], "/api/ask", {"question": q["query"]})
                 for q in json.loads(
-                    (ROOT / "benchmark/practical-v4/queries.json").read_text()
+                    (ROOT / "benchmark/queries.json").read_text()
+                )
+                if q["expected"] == "refuse"
+            ]
+        if args.suite == "current":
+            fixed = json.loads(
+                (ROOT / "benchmark/targeted-queries.json").read_text()
+            )
+            cases = [
+                (q["id"], "/api/ask", {"question": q["query"]})
+                for q in fixed
+                if q["split"] == "check"
+            ]
+            cases += [
+                ("creatine_user", "/api/ask", {"question": "как пить креатин?"}),
+                CASES[4],
+                CASES[5],
+            ]
+            cases += [
+                (q["id"], "/api/ask", {"question": q["query"]})
+                for q in json.loads(
+                    (ROOT / "benchmark/queries.json").read_text()
                 )
                 if q["expected"] == "refuse"
             ]
