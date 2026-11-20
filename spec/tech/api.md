@@ -48,10 +48,10 @@
 
 | Поле | Значения |
 |---|---|
-| `goal` | `strength`, `muscle`, `endurance` |
-| `level` | `beginner`, `intermediate` |
+| `goal` | `strength` (сила), `muscle` (мышечная масса), `endurance` (выносливость), `fitness` (общая физподготовка), `body_composition` (снижение жировой массы) |
+| `level` | `beginner` (новичок), `intermediate` (средний), `advanced` (продвинутый) |
 | `days` | целое от 2 до 5 |
-| `equipment` | `gym`, `dumbbells` |
+| `equipment` | `gym` (зал), `dumbbells` (гантели), `bodyweight` (без оборудования), `bands` (длинные резиновые петли), `kettlebell` (одна гиря) |
 
 Пример структуры успешного ответа 200 (массив `days` сокращён):
 

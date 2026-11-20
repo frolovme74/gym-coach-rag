@@ -22,12 +22,21 @@ GOALS = {
     "strength": "сила",
     "muscle": "мышечная масса гипертрофия",
     "endurance": "мышечная выносливость",
+    "fitness": "общая физподготовка",
+    "body_composition": "снижение жировой массы",
 }
 LEVELS = {
     "beginner": "новичок начинающий",
     "intermediate": "средний уровень тренированности",
+    "advanced": "продвинутый уровень",
 }
-EQUIPMENT = {"gym": "тренажерный зал штанга", "dumbbells": "только гантели"}
+EQUIPMENT = {
+    "gym": "тренажерный зал штанга",
+    "dumbbells": "только гантели",
+    "bodyweight": "без оборудования",
+    "bands": "длинные резиновые петли",
+    "kettlebell": "одна гиря",
+}
 FORBIDDEN = re.compile(
     r"\b(?:стероид\w*|анаболик\w*|тестостерон\w*|гормон\w*|допинг\w*|"
     r"рецептурн\w*|тренболон\w*|станозолол\w*|инсулин\w*|"
@@ -186,9 +195,12 @@ class Evidence:
 
 
 class RAGPipeline:
-    def __init__(self, documents, index, manifest, threshold, client=None):
+    def __init__(
+        self, documents, index, manifest, threshold, client=None, *, program_cards=()
+    ):
         self.documents = {d["doc_id"]: d for d in documents}
         self.manifest = {d["doc_id"]: d for d in manifest}
+        self.program_cards = {card["doc_id"]: card for card in program_cards}
         self.index, self.threshold, self._client = index, threshold, client
         self._client_lock = threading.Lock()
 
@@ -196,9 +208,9 @@ class RAGPipeline:
     def from_project(cls, root=ROOT, client=None, profile_path=PROFILE):
         root = Path(root)
         try:
-            profile = json.loads((root / profile_path).read_text())
-            raw = (root / profile["corpus"]).read_bytes()
-            documents = json.loads(raw)
+            profile = json.loads((root / profile_path).read_text(encoding="utf-8"))
+            corpus_path = root / profile["corpus"]
+            documents = json.loads(corpus_path.read_bytes())
             if _fingerprint(documents) != profile["corpus_sha256"]:
                 raise ValueError("Корпус отличается от профиля")
             if _digest(RULESET) != profile["rules_sha256"]:
@@ -221,19 +233,34 @@ class RAGPipeline:
             ):
                 raise ValueError("Неверный порог")
             manifest = json.loads(
-                (root / profile["corpus"]).with_name("manifest.json").read_text()
+                corpus_path.with_name("manifest.json").read_text(encoding="utf-8")
             )
             if _digest(manifest) != profile["manifest_sha256"]:
                 raise ValueError("Манифест отличается от профиля")
-            if {d["doc_id"] for d in documents} != {d["doc_id"] for d in manifest}:
+            document_ids = {d["doc_id"] for d in documents}
+            if document_ids != {d["doc_id"] for d in manifest}:
                 raise ValueError("Manifest не соответствует корпусу")
+            cards_path = corpus_path.with_name("program-options.json")
+            program_cards = (
+                json.loads(cards_path.read_bytes()) if cards_path.exists() else []
+            )
+            if not isinstance(program_cards, list):
+                raise ValueError("Карточки программ должны быть списком")
+            card_ids = {card["doc_id"] for card in program_cards}
+            if len(card_ids) != len(program_cards) or document_ids & card_ids:
+                raise ValueError("Идентификаторы карточек программ должны быть уникальны")
         except (OSError, ValueError, KeyError, TypeError) as exc:
             raise LLMError(
                 "config",
                 "Не удалось загрузить согласованный корпус и индекс. Проверьте файлы проекта.",
             ) from exc
         return cls(
-            documents, RuntimeRetrieval(index, manifest), manifest, threshold, client
+            documents,
+            RuntimeRetrieval(index, manifest),
+            manifest,
+            threshold,
+            client,
+            program_cards=program_cards,
         )
 
     def retrieve(self, query):
@@ -248,29 +275,29 @@ class RAGPipeline:
         return [self.source(hit.doc_id, hit.score) for hit in hits]
 
     def source(self, doc_id, score):
-        d = self.documents[doc_id]
-        url = self.manifest[doc_id].get("source_url", "")
+        card = self.program_cards.get(doc_id) if score is None else None
+        document = card if card is not None else self.documents[doc_id]
+        metadata = card if card is not None else self.manifest[doc_id]
+        url = metadata.get("source_url", "")
         parsed = urlsplit(url)
         if parsed.scheme not in ("https", "http") or not parsed.netloc:
             url = ""
         return dict(
             doc_id=doc_id,
-            topic=d["topic"],
-            title=d["source"],
-            section=d["section"],
-            fragment=d["text"],
+            topic=document["topic"],
+            title=document["source"],
+            section=document["section"],
+            fragment=document["text"],
             score=score,
             selection="parameters" if score is None else "bm25",
             references=[
                 u
-                for u in self.manifest[doc_id].get("references", [])
+                for u in metadata.get("references", [])
                 if isinstance(u, str)
                 and urlsplit(u).scheme in ("http", "https")
                 and urlsplit(u).netloc
             ],
-            _general_dose_passages=self.manifest[doc_id].get(
-                "general_dose_passages", []
-            ),
+            _general_dose_passages=metadata.get("general_dose_passages", []),
             url=url,
         )
 

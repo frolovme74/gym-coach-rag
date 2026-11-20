@@ -1,6 +1,9 @@
-"""Составление программ из карточек той же базы, что используется для вопросов."""
+"""Составление программ из карточек корпуса и каталога конструктора."""
+
+from itertools import chain
 
 from app.llm import LLMError
+from app.rag.prompts import passages
 
 SCHEDULES = {
     2: [("Понедельник", "full"), ("Четверг", "full")],
@@ -35,7 +38,8 @@ LABELS = {
 
 def prepare(pipeline, params):
     catalog, prescription, rule_doc, schedule_doc = {}, None, None, None
-    for did, metadata in pipeline.manifest.items():
+    entries = chain(pipeline.manifest.items(), pipeline.program_cards.items())
+    for did, metadata in entries:
         program = metadata.get("program", {})
         for ex in program.get("exercises", []):
             if params["equipment"] in ex["equipment"]:
@@ -154,8 +158,6 @@ def build_program(pipeline, params):
                 for k, v in pipeline.source(did, None).items()
                 if not k.startswith("_")
             }
-            from app.rag.prompts import passages
-
             parts = passages(source["fragment"])
             selected_ids = {
                 eid for day in chosen["days"] for eid in day["exercise_ids"]
@@ -175,7 +177,7 @@ def build_program(pipeline, params):
                 source["quotes"] = [
                     p
                     for p in parts
-                    if any(
+                    if p == rule.get("guidance") or any(
                         term in p
                         for term in (
                             "рабочих подхода",
@@ -225,6 +227,8 @@ def build_program(pipeline, params):
         f"Начинайте с нагрузки, при которой сохраняется контроль движений; разминочные подходы не включены в таблицу. [{rule_ref}] "
         f"Сохраняйте промежутки между тренировками одной группы мышц. [{schedule_ref}]"
     )
+    if guidance := rule.get("guidance"):
+        note += f" {guidance} [{rule_ref}]"
     if params["days"] >= 4 and params["level"] == "beginner":
         note += f" Новичку обычно проще начать с 2–3 дней; дополнительные посещения не должны увеличивать нагрузку через усталость. [{schedule_ref}]"
     if params["days"] == 5:

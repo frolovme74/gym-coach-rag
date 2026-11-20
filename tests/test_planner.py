@@ -6,7 +6,7 @@ import unittest
 from unittest.mock import Mock
 
 from app.llm import LLMError, LLMResponse
-from app.rag.pipeline import RAGPipeline
+from app.rag.pipeline import EQUIPMENT, GOALS, LEVELS, RAGPipeline
 from app.rag.planner import prepare, valid_days
 
 
@@ -20,19 +20,20 @@ class PlannerTest(unittest.TestCase):
         self.client.reset_mock(side_effect=True)
         self.client.generate.return_value = LLMResponse('{"found":false}', "test", {})
 
-    def test_all_48_combinations_are_complete_and_grounded(self):
+    def test_all_300_combinations_are_complete_and_grounded(self):
         for goal, level, days, equipment in itertools.product(
-            ["strength", "muscle", "endurance"],
-            ["beginner", "intermediate"],
-            range(2, 6),
-            ["gym", "dumbbells"],
+            GOALS, LEVELS, range(2, 6), EQUIPMENT
         ):
             params = dict(goal=goal, level=level, days=days, equipment=equipment)
             with self.subTest(**params):
                 result = self.pipeline.program(params)
                 self.assertTrue(result["found"])
                 self.assertEqual(days, len(result["days"]))
-                catalog, rule, _, _, _, _ = prepare(self.pipeline, params)
+                catalog, rule, rule_doc, _, draft, _ = prepare(self.pipeline, params)
+                self.assertTrue(valid_days({"days": draft}, catalog, params))
+                self.assertTrue(
+                    all(equipment in e["equipment"] for e in catalog.values())
+                )
                 allowed_names = {e["name"] for e in catalog.values()}
                 for i, day in enumerate(result["days"]):
                     names = [e["name"] for e in day["exercises"]]
@@ -49,10 +50,36 @@ class PlannerTest(unittest.TestCase):
                             for n in ex["citations"]
                         )
                         self.assertIn(ex["name"], evidence)
-                for s in result["sources"]:
-                    self.assertEqual(
-                        s["fragment"], self.pipeline.documents[s["doc_id"]]["text"]
+                for source in result["sources"]:
+                    doc_id = source["doc_id"]
+                    card = self.pipeline.program_cards.get(doc_id)
+                    if card is None:
+                        card = self.pipeline.documents[doc_id]
+                    self.assertEqual(source["fragment"], card["text"])
+                    self.assertTrue(source["quotes"])
+                    self.assertTrue(
+                        all(q in source["fragment"] for q in source["quotes"])
                     )
+                    if doc_id == rule_doc and "guidance" in rule:
+                        self.assertIn(rule["guidance"], source["quotes"])
+                        self.assertIn(rule["guidance"], result["note"])
+
+    def test_load_changes_with_goal_and_level(self):
+        for goal in GOALS:
+            with self.subTest(goal=goal):
+                profiles = []
+                for level in LEVELS:
+                    params = dict(goal=goal, level=level, days=3, equipment="gym")
+                    _, rule, _, _, _, _ = prepare(self.pipeline, params)
+                    profiles.append((rule["sets"], rule["reps"], rule["rest"]))
+                self.assertEqual(3, len(set(profiles)))
+
+    def test_program_extension_does_not_enter_question_index(self):
+        self.assertTrue(self.pipeline.program_cards)
+        self.assertEqual(len(self.pipeline.documents), self.pipeline.index.n)
+        self.assertFalse(
+            self.pipeline.documents.keys() & self.pipeline.program_cards.keys()
+        )
 
     def test_model_can_select_valid_alternative(self):
         params = dict(goal="muscle", level="beginner", days=2, equipment="gym")
