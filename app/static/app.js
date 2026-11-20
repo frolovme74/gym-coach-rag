@@ -298,7 +298,7 @@ function renderAnswer(data, scroll) {
   showResult("Ответ", data, [answer], scroll);
 }
 
-function renderProgram(data, scroll) {
+function renderProgram(data, scroll, caption) {
   if (typeof data.title !== "string" || typeof data.note !== "string") {
     throw new Error(INVALID_RESPONSE);
   }
@@ -322,8 +322,126 @@ function renderProgram(data, scroll) {
   }
   const note = el("p", "answer note");
   appendWithCitations(note, data.note, data.sources.length);
-  showResult(data.title, data, [note, days], scroll);
+  const body = [note, days];
+  if (data.found === true) body.splice(1, 0, programSaveActions(data, caption));
+  showResult(data.title, data, body, scroll);
 }
+
+const SAVED_PROGRAM_KEY = "gym-coach.program.v1.";
+
+function readSavedPrograms() {
+  const programs = [];
+  try {
+    for (const key of Object.keys(localStorage)) {
+      if (!key.startsWith(SAVED_PROGRAM_KEY)) continue;
+      try {
+        const entry = JSON.parse(localStorage.getItem(key));
+        const { data, caption, savedAt } = entry;
+        if (
+          typeof caption === "string" && Number.isFinite(savedAt) &&
+          data?.found === true && typeof data.title === "string" &&
+          typeof data.note === "string" && Array.isArray(data.days) &&
+          Array.isArray(data.sources)
+        ) programs.push({ data, caption, savedAt, key });
+      } catch {
+        // A damaged record does not prevent opening the others.
+      }
+    }
+  } catch {
+    // The browser can disable local storage.
+  }
+  return programs.sort((first, second) => second.savedAt - first.savedAt);
+}
+
+function renderSavedPrograms() {
+  const list = $("saved-program-list");
+  const saved = readSavedPrograms();
+  list.replaceChildren();
+  $("saved-programs").hidden = saved.length === 0;
+  for (const [index, { data, caption, key }] of saved.entries()) {
+    const item = el("li");
+    const open = el("button", "saved-program");
+    open.type = "button";
+    open.append(el("strong", "", data.title), el("span", "", caption));
+    open.addEventListener("click", () => {
+      results.program = {
+        data,
+        savedKey: key,
+        render: (program, scroll) => renderProgram(program, scroll, caption),
+      };
+      showActiveResult(true);
+    });
+    const remove = el("button", "remove-program", "Удалить");
+    remove.type = "button";
+    remove.setAttribute("aria-label", "Удалить сохранённую программу " + data.title + ". " + caption);
+    remove.addEventListener("click", () => deleteSavedProgram(key, data, index));
+    item.append(open, remove);
+    list.append(item);
+  }
+}
+
+function deleteSavedProgram(key, data, index) {
+  const status = $("saved-program-status");
+  try {
+    localStorage.removeItem(key);
+  } catch {
+    status.classList.add("hint");
+    status.textContent = "Не удалось удалить программу.";
+    return;
+  }
+  status.classList.remove("hint");
+  status.textContent = "Программа удалена.";
+  renderSavedPrograms();
+
+  if (results.program?.savedKey === key) {
+    delete results.program;
+    $("result").hidden = true;
+  } else if (JSON.stringify(results.program?.data) === JSON.stringify(data)) {
+    showActiveResult();
+  }
+  const remaining = $("saved-program-list").querySelectorAll(".saved-program");
+  const next = remaining[Math.min(index, remaining.length - 1)];
+  (next ?? $("program-form").querySelector("button[type=submit]")).focus({ preventScroll: true });
+}
+
+function programSaveActions(data, caption) {
+  const actions = el("div", "save-actions");
+  const button = el("button", "save-program", "Сохранить программу");
+  const status = el("span", "save-status");
+  button.type = "button";
+  status.setAttribute("role", "status");
+  actions.append(button, status);
+
+  const snapshot = JSON.stringify(data);
+  const isSaved = () => readSavedPrograms().some((entry) => JSON.stringify(entry.data) === snapshot);
+  const markSaved = () => {
+    button.disabled = true;
+    status.classList.remove("hint");
+    status.textContent = "Сохранено в этом браузере.";
+  };
+
+  if (isSaved()) markSaved();
+  button.addEventListener("click", () => {
+    try {
+      if (!isSaved()) {
+        const id = crypto.getRandomValues(new Uint32Array(4)).join("-");
+        localStorage.setItem(SAVED_PROGRAM_KEY + id, JSON.stringify({
+          data, caption, savedAt: Date.now(),
+        }));
+      }
+    } catch {
+      status.classList.add("hint");
+      status.textContent = "Не удалось сохранить программу в браузере.";
+      return;
+    }
+    markSaved();
+    $("saved-program-status").textContent = "";
+    renderSavedPrograms();
+  });
+  return actions;
+}
+
+renderSavedPrograms();
 
 // Формы
 
@@ -353,12 +471,17 @@ $("examples").addEventListener("click", (event) => {
 
 $("program-form").addEventListener("submit", (event) => {
   event.preventDefault();
-  const form = new FormData(event.currentTarget);
+  const formElement = event.currentTarget;
+  const form = new FormData(formElement);
   const payload = {
     goal: form.get("goal"),
     level: form.get("level"),
     days: Number(form.get("days")),
     equipment: form.get("equipment"),
+    format: form.get("format"),
   };
-  submit("program", event.currentTarget, payload, renderProgram);
+  const caption = ["format", "goal", "level", "equipment"].map(
+    (name) => formElement.querySelector("[name=" + name + "]:checked + span").textContent,
+  ).join(" · ");
+  submit("program", formElement, payload, (data, scroll) => renderProgram(data, scroll, caption));
 });

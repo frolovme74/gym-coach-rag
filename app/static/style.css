@@ -234,6 +234,13 @@ h1 span { color: var(--accent); }
   background: var(--surface);
 }
 
+.schedule-options {
+  display: grid;
+  align-content: start;
+  gap: 18px;
+  min-width: 0;
+}
+
 fieldset {
   display: flex;
   flex-wrap: wrap;
@@ -292,6 +299,82 @@ fieldset input:focus-visible + span {
   gap: 16px;
   margin-top: 16px;
 }
+
+.saved-programs {
+  margin-top: 24px;
+}
+
+.saved-program-list {
+  display: grid;
+  gap: 8px;
+  max-height: 248px;
+  overflow-y: auto;
+  margin: 10px 0 0;
+  padding: 3px;
+  list-style: none;
+}
+
+.saved-program-list li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px;
+}
+
+.saved-program, .save-program, .remove-program {
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+  text-align: left;
+}
+
+.saved-program {
+  display: grid;
+  gap: 4px;
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 12px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.saved-program span, .save-status, .saved-program-status {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.saved-program:enabled:hover, .save-program:enabled:hover { border-color: var(--accent); }
+.saved-program:disabled, .remove-program:disabled { opacity: 0.65; cursor: progress; }
+
+.remove-program {
+  padding: 6px 10px;
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.remove-program:enabled:hover { color: var(--error); border-color: var(--error); }
+.saved-program-status { margin: 0; }
+.saved-program-status:not(:empty) { margin-top: 8px; }
+.saved-program-status.hint { color: var(--error); }
+
+.save-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  margin-bottom: 18px;
+}
+
+.save-program {
+  padding: 8px 14px;
+  border-radius: 999px;
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.save-program:disabled { color: var(--muted); cursor: default; }
+.save-status.hint { color: var(--error); }
 
 /* Ответ и источники */
 

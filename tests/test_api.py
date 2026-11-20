@@ -124,8 +124,8 @@ class ApiTest(unittest.TestCase):
     def test_program_returns_requested_days_with_real_catalog(self):
         options = [
             dict(goal="muscle", level="beginner", days=2, equipment="gym"),
-            dict(goal="fitness", level="intermediate", days=3, equipment="bodyweight"),
-            dict(goal="body_composition", level="advanced", days=4, equipment="bands"),
+            dict(goal="fitness", level="intermediate", days=3, equipment="bodyweight", format="split"),
+            dict(goal="body_composition", level="advanced", days=4, equipment="bands", format="full_body"),
             dict(goal="strength", level="advanced", days=5, equipment="kettlebell"),
         ]
         for params in options:
@@ -161,6 +161,8 @@ class ApiTest(unittest.TestCase):
             ("days", 7),
             ("days", "3"),
             ("equipment", "none"),
+            ("format", "hybrid"),
+            ("format", None),
         ):
             with self.subTest(field=field, value=value):
                 status, data = self.json("/api/program", {**valid, field: value})

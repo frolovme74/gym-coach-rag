@@ -7,7 +7,7 @@ from unittest.mock import Mock
 
 from app.llm import LLMError, LLMResponse
 from app.rag.pipeline import EQUIPMENT, GOALS, LEVELS, RAGPipeline
-from app.rag.planner import prepare, valid_days
+from app.rag.planner import ACCESSORY_PATTERNS, FORMATS, prepare, schedule_for, valid_days
 
 
 class PlannerTest(unittest.TestCase):
@@ -20,34 +20,45 @@ class PlannerTest(unittest.TestCase):
         self.client.reset_mock(side_effect=True)
         self.client.generate.return_value = LLMResponse('{"found":false}', "test", {})
 
-    def test_all_300_combinations_are_complete_and_grounded(self):
-        for goal, level, days, equipment in itertools.product(
-            GOALS, LEVELS, range(2, 6), EQUIPMENT
+    def test_all_600_combinations_are_distinct_complete_and_grounded(self):
+        signatures = {}
+        for goal, level, days, equipment, format_name in itertools.product(
+            GOALS, LEVELS, range(2, 6), EQUIPMENT, FORMATS
         ):
-            params = dict(goal=goal, level=level, days=days, equipment=equipment)
+            params = dict(goal=goal, level=level, days=days, equipment=equipment,
+                          format=format_name)
             with self.subTest(**params):
                 result = self.pipeline.program(params)
                 self.assertTrue(result["found"])
                 self.assertEqual(days, len(result["days"]))
+                signature = tuple(
+                    tuple(sorted((ex["name"], ex["sets"], ex["reps"])
+                                 for ex in day["exercises"]))
+                    for day in result["days"]
+                )
+                self.assertNotIn(signature, signatures, signatures.get(signature))
+                signatures[signature] = params
                 catalog, rule, rule_doc, _, draft, _ = prepare(self.pipeline, params)
                 self.assertTrue(result["note"].startswith(LEVELS[level]))
                 self.assertIn(f"{rule['sets']} × {rule['reps']}", result["note"])
-                self.assertIn(rule["rest"], result["note"])
+                self.assertIn("2–3 минуты", result["note"])
+                self.assertIn("3–5 минут", result["note"])
+                self.assertNotIn("1–2 минуты", result["note"])
+                self.assertIn(FORMATS[format_name], result["note"])
                 self.assertTrue(valid_days({"days": draft}, catalog, params))
                 self.assertTrue(
                     all(equipment in e["equipment"] for e in catalog.values())
                 )
-                allowed_names = {e["name"] for e in catalog.values()}
-                for i, day in enumerate(result["days"]):
+                patterns = {e["name"]: e["pattern"] for e in catalog.values()}
+                for day, (_, kind, light) in zip(result["days"], schedule_for(params)):
                     names = [e["name"] for e in day["exercises"]]
                     self.assertEqual(len(names), len(set(names)))
-                    self.assertGreaterEqual(len(names), 4)
-                    self.assertTrue(set(names) <= allowed_names)
+                    self.assertGreaterEqual(len(names), 3 if kind in {"push", "pull"} else 4)
+                    self.assertTrue(set(names) <= patterns.keys())
                     for ex in day["exercises"]:
-                        self.assertEqual(
-                            1 if days == 5 and i == 4 else rule["sets"], ex["sets"]
-                        )
-                        self.assertEqual(rule["reps"], ex["reps"])
+                        self.assertEqual(1 if light else rule["sets"], ex["sets"])
+                        accessory = patterns[ex["name"]] in ACCESSORY_PATTERNS
+                        self.assertEqual(rule["accessory_reps" if accessory else "reps"], ex["reps"])
                         evidence = " ".join(
                             result["sources"][n - 1]["fragment"]
                             for n in ex["citations"]
@@ -59,6 +70,8 @@ class PlannerTest(unittest.TestCase):
                     if card is None:
                         card = self.pipeline.documents[doc_id]
                     self.assertEqual(source["fragment"], card["text"])
+                    self.assertNotIn("1–2 минуты", source["fragment"])
+                    self.assertNotIn("60–90 секунд", source["fragment"])
                     self.assertTrue(source["quotes"])
                     self.assertTrue(
                         all(q in source["fragment"] for q in source["quotes"])
@@ -66,6 +79,25 @@ class PlannerTest(unittest.TestCase):
                     if doc_id == rule_doc and "guidance" in rule:
                         self.assertIn(rule["guidance"], source["quotes"])
                         self.assertIn(rule["guidance"], result["note"])
+                    if doc_id == rule["rest_doc"]:
+                        self.assertTrue(any("3–5 минут" in q for q in source["quotes"]))
+                self.assertIn(rule["rest_doc"], {source["doc_id"] for source in result["sources"]})
+        self.assertEqual(600, len(signatures))
+
+    def test_legacy_schedule_remains_available_without_format(self):
+        params = dict(goal="muscle", level="beginner", days=5, equipment="gym")
+        result = self.pipeline.program(params)
+        self.assertTrue(result["found"])
+        self.assertIn("верх тела", result["days"][0]["name"])
+        self.assertIn("всё тело", result["days"][-1]["name"])
+        self.assertTrue(all(ex["sets"] == 1 for ex in result["days"][-1]["exercises"]))
+
+    def test_split_rejects_movement_from_another_day(self):
+        params = dict(goal="muscle", level="advanced", days=3, equipment="gym", format="split")
+        catalog, _, _, _, draft, _ = prepare(self.pipeline, params)
+        self.assertTrue(valid_days({"days": draft}, catalog, params))
+        draft[0]["exercise_ids"].append("db_split_pause")
+        self.assertFalse(valid_days({"days": draft}, catalog, params))
 
     def test_load_changes_with_goal_and_level(self):
         for goal in GOALS:
@@ -74,7 +106,7 @@ class PlannerTest(unittest.TestCase):
                 for level in LEVELS:
                     params = dict(goal=goal, level=level, days=3, equipment="gym")
                     _, rule, _, _, _, _ = prepare(self.pipeline, params)
-                    profiles.append((rule["sets"], rule["reps"], rule["rest"]))
+                    profiles.append((rule["sets"], rule["reps"]))
                 self.assertEqual(3, len(set(profiles)))
 
     def test_program_extension_does_not_enter_question_index(self):

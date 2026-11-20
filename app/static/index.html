@@ -60,13 +60,20 @@
               <label><input type="radio" name="level" value="intermediate"><span>Средний</span></label>
               <label><input type="radio" name="level" value="advanced"><span>Продвинутый</span></label>
             </fieldset>
-            <fieldset>
-              <legend>Дней в неделю</legend>
-              <label><input type="radio" name="days" value="2"><span>2</span></label>
-              <label><input type="radio" name="days" value="3" checked><span>3</span></label>
-              <label><input type="radio" name="days" value="4"><span>4</span></label>
-              <label><input type="radio" name="days" value="5"><span>5</span></label>
-            </fieldset>
+            <div class="schedule-options">
+              <fieldset>
+                <legend>Дней в неделю</legend>
+                <label><input type="radio" name="days" value="2"><span>2</span></label>
+                <label><input type="radio" name="days" value="3" checked><span>3</span></label>
+                <label><input type="radio" name="days" value="4"><span>4</span></label>
+                <label><input type="radio" name="days" value="5"><span>5</span></label>
+              </fieldset>
+              <fieldset>
+                <legend>Формат</legend>
+                <label><input type="radio" name="format" value="full_body" checked><span>Фуллбади</span></label>
+                <label><input type="radio" name="format" value="split"><span>Сплит</span></label>
+              </fieldset>
+            </div>
             <fieldset>
               <legend>Оборудование</legend>
               <label><input type="radio" name="equipment" value="gym" checked><span>Тренажёрный зал</span></label>
@@ -83,6 +90,11 @@
               <p class="hint" id="program-hint" role="alert"></p>
             </div>
           </div>
+          <section id="saved-programs" class="saved-programs" aria-labelledby="saved-programs-title" hidden>
+            <h2 id="saved-programs-title">Сохранённые программы</h2>
+            <ul id="saved-program-list" class="saved-program-list"></ul>
+          </section>
+          <p id="saved-program-status" class="saved-program-status" role="status"></p>
         </form>
       </div>
     </section>

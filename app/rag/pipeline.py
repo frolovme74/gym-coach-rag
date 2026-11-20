@@ -9,7 +9,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 from app.llm import GigaChatClient, LLMError
-from app.rag.planner import LEVELS, build_program
+from app.rag.planner import EQUIPMENT, FORMATS, GOALS, LEVELS, build_program
 from app.rag.prompts import messages, passages
 from app.rag.runtime_retrieval import RuntimeRetrieval
 from app.rag.retrieval import RULESET, ConceptBM25, _digest, _fingerprint
@@ -19,20 +19,6 @@ PROFILE = "data/corpus/profile.json"
 NO_ANSWER = "В найденных материалах недостаточно сведений для обоснованного ответа. Попробуйте уточнить вопрос."
 NO_PROGRAM = "В найденных материалах недостаточно сведений для полной программы с указанными параметрами. Попробуйте другие параметры."
 OUT_OF_SCOPE = "Я отвечаю на общие вопросы о тренировках, питании, спортивных добавках и восстановлении. Лечение, запрещённые средства и экстремальные диеты не входят в задачи ассистента."
-GOALS = {
-    "strength": "сила",
-    "muscle": "мышечная масса гипертрофия",
-    "endurance": "мышечная выносливость",
-    "fitness": "общая физподготовка",
-    "body_composition": "снижение жировой массы",
-}
-EQUIPMENT = {
-    "gym": "тренажерный зал штанга",
-    "dumbbells": "только гантели",
-    "bodyweight": "без оборудования",
-    "bands": "длинные резиновые петли",
-    "kettlebell": "одна гиря",
-}
 FORBIDDEN = re.compile(
     r"\b(?:стероид\w*|анаболик\w*|тестостерон\w*|гормон\w*|допинг\w*|"
     r"рецептурн\w*|тренболон\w*|станозолол\w*|инсулин\w*|"
@@ -436,4 +422,9 @@ class RAGPipeline:
         if type(payload.get("days")) is not int or not 2 <= payload["days"] <= 5:
             raise ValueError("Число дней должно быть целым от 2 до 5")
         parameters = {k: payload[k] for k in ("goal", "level", "days", "equipment")}
+        if "format" in payload:
+            value = payload["format"]
+            if not isinstance(value, str) or value not in FORMATS:
+                raise ValueError("Некорректное поле format")
+            parameters["format"] = value
         return build_program(self, parameters)
