@@ -28,7 +28,11 @@
         <form id="ask-form" novalidate>
           <div class="ask-box">
             <textarea id="question" rows="2" maxlength="500" aria-label="Ваш вопрос" placeholder="Сколько отдыхать между подходами?"></textarea>
-            <button type="submit" class="primary" data-busy="Ищу…">Спросить</button>
+            <button type="submit" class="primary">Спросить</button>
+          </div>
+          <div class="form-feedback">
+            <p class="request-status" id="ask-status" role="status" data-loading="Ищу источники и готовлю ответ…"></p>
+            <p class="hint" id="ask-hint" role="alert"></p>
           </div>
           <div class="examples" id="examples" aria-label="Примеры вопросов">
             <button type="button" class="chip">Как периодизация силовых тренировок влияет на рост силы?</button>
@@ -36,7 +40,6 @@
             <button type="button" class="chip">Помогает ли креатин моногидрат увеличить силу и мышечную массу?</button>
             <button type="button" class="chip">Помогают ли ледяные ванны восстановлению после силовых тренировок?</button>
           </div>
-          <p class="hint" id="ask-hint" role="alert"></p>
         </form>
       </div>
 
@@ -68,8 +71,11 @@
             </fieldset>
           </div>
           <div class="program-actions">
-            <button type="submit" class="primary" data-busy="Составляю…">Составить программу</button>
-            <p class="hint" id="program-hint" role="alert"></p>
+            <button type="submit" class="primary">Составить программу</button>
+            <div class="form-feedback">
+              <p class="request-status" id="program-status" role="status" data-loading="Составляю программу…"></p>
+              <p class="hint" id="program-hint" role="alert"></p>
+            </div>
           </div>
         </form>
       </div>

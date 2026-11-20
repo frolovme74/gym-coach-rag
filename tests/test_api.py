@@ -74,6 +74,7 @@ class ApiTest(unittest.TestCase):
     def test_ask_returns_answer_with_sources(self):
         status, data = self.json("/api/ask", {"question": QUESTIONS["training"]})
         self.assertEqual(200, status)
+        self.assertEqual("rag", data["mode"])
         self.assertTrue(data["found"])
         self.assertIn("[1]", data["answer"])
         self.assert_sources(data["sources"])
@@ -94,6 +95,7 @@ class ApiTest(unittest.TestCase):
     def test_ask_outside_corpus_has_no_sources(self):
         status, data = self.json("/api/ask", {"question": "Какая завтра погода?"})
         self.assertEqual(200, status)
+        self.assertEqual("rag", data["mode"])
         self.assertFalse(data["found"])
         self.assertEqual([], data["sources"])
         self.assertTrue(data["answer"])
@@ -130,6 +132,7 @@ class ApiTest(unittest.TestCase):
                     },
                 )
                 self.assertEqual(200, status)
+                self.assertEqual("rag", data["mode"])
                 self.assertTrue(data["found"])
                 self.assertEqual(days, len(data["days"]))
                 self.assert_sources(data["sources"])
