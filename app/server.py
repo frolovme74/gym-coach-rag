@@ -4,7 +4,8 @@ import json
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
-from . import stub
+from .llm import LLMError
+from .rag.pipeline import RAGPipeline
 
 STATIC_DIR = (Path(__file__).parent / "static").resolve()
 CONTENT_TYPES = {
@@ -14,10 +15,9 @@ CONTENT_TYPES = {
 }
 MAX_BODY_BYTES = 16 * 1024
 
-# На контрольной точке 2 заглушка заменяется пайплайном RAG с тем же контрактом.
 POST_ROUTES = {
-    "/api/ask": stub.ask,
-    "/api/program": stub.program,
+    "/api/ask": "ask",
+    "/api/program": "program",
 }
 
 
@@ -25,7 +25,7 @@ class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
         path = self.path.split("?", 1)[0]
         if path == "/api/health":
-            self._send_json(200, {"status": "ok", "mode": stub.MODE})
+            self._send_json(200, {"status": "ok", "mode": "rag"})
         elif path.startswith("/api/"):
             self._send_json(404, {"error": "Не найдено"})
         else:
@@ -38,7 +38,19 @@ class Handler(BaseHTTPRequestHandler):
             return
         try:
             payload = self._read_json()
-            result = handler(payload)
+            result = getattr(self.server.pipeline, handler)(payload)
+        except LLMError as error:
+            status = (
+                504
+                if error.code == "timeout"
+                else (
+                    502
+                    if error.code in {"grounding", "response", "truncated", "blocked"}
+                    else 503
+                )
+            )
+            self._send_json(status, {"error": str(error), "code": error.code})
+            return
         except ValueError as error:
             self._send_json(400, {"error": str(error)})
             return
@@ -49,7 +61,7 @@ class Handler(BaseHTTPRequestHandler):
             length = int(self.headers.get("Content-Length", 0))
         except ValueError:
             raise ValueError("Некорректный заголовок Content-Length")
-        if length > MAX_BODY_BYTES:
+        if length < 0 or length > MAX_BODY_BYTES:
             raise ValueError("Слишком большой запрос")
         try:
             payload = json.loads(self.rfile.read(length).decode("utf-8"))
@@ -82,5 +94,8 @@ class Handler(BaseHTTPRequestHandler):
         pass
 
 
-def create_server(host="127.0.0.1", port=8000):
-    return ThreadingHTTPServer((host, port), Handler)
+def create_server(host="127.0.0.1", port=8000, *, pipeline=None):
+    pipeline = pipeline if pipeline is not None else RAGPipeline.from_project()
+    server = ThreadingHTTPServer((host, port), Handler)
+    server.pipeline = pipeline
+    return server

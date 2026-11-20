@@ -1,0 +1,6 @@
+{
+  "status": "superseded",
+  "current_report": "data/review/corpus_validation.json",
+  "previous_report": "data/review/validation_report.initial.json",
+  "reason": "Первоначальный отчёт относился к машинному черновику до целевой редактуры."
+}

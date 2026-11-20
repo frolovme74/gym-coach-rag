@@ -1,0 +1,10 @@
+{
+  "paragraphs": 2227,
+  "fully_reviewed_paragraphs": 192,
+  "manual_segment_decisions": 352,
+  "excluded_paragraphs": 237,
+  "flagged_paragraphs": 0,
+  "remaining_flags": {},
+  "semantic_review_of_entire_corpus": false,
+  "translation_models_called": false
+}

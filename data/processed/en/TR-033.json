@@ -1,0 +1,148 @@
+{
+  "source_id": "TR-033",
+  "paragraphs": [
+    {
+      "paragraph_id": "TR-033:p0003",
+      "section_en": "Introduction",
+      "text_en": "To address this issue, we recently conducted an updated systematic review and meta-analysis examining the effects of concurrent aerobic and strength training on gains in muscle mass, maximal strength, and explosive strength. The results showed that although the increase in explosive strength may be attenuated by concurrent aerobic and strength training, whole-muscle hypertrophy, muscle mass, and maximal strength development do not seem to be compromised. However, a thorough examination of the individual studies we reviewed for our meta-analysis revealed that there are great inconsistencies in the literature regarding the effects of concurrent training on muscle hypertrophy. More specifically, none of the individual studies that reported an interference effect on muscle hypertrophy used the most reliable techniques to assess muscle size (i.e., magnetic resonance imaging [MRI] or computed tomography [CT]). Instead, all except one study used fiber size as the outcome measure for muscle hypertrophy. This raises the question of whether fiber hypertrophy might be affected differently compared to changes in whole muscle size following concurrent training. In support, de Souza et al. reported that increases in fiber size were attenuated with concurrent training, whereas measurements at the whole muscle level showed no interference effect."
+    },
+    {
+      "paragraph_id": "TR-033:p0004",
+      "section_en": "Introduction",
+      "text_en": "There are several possible reasons for these contradictory findings. At the muscle fiber level, it is generally agreed that strength training, but not aerobic training, augments myofibrillar protein accretion. Thus, long-term resistance training increases muscle fiber size, whereas long-term aerobic training induces morphological and metabolic changes in skeletal muscle that result in improved endurance and fatigue resistance, but have comparatively little effect on fiber size. Acute studies attempting to find mechanistic explanations for an interference effect on muscle hypertrophy have shown conflicting results. Although Babcock et al. reported that concurrent aerobic and strength exercise attenuated the satellite cell response compared with strength exercise alone, subsequent studies failed to demonstrate that the anabolic effect induced by aerobic-type exercise was antagonistic to the molecular response induced by strength exercise. Considering that assessment of myofibrillar protein content and the measurement of fiber size are associated with large inter-biopsy variations, and that the concurrent training studies reporting them generally suffer from small sample sizes, it is possible that some of these contradictory results may be explained by methodological shortcomings."
+    },
+    {
+      "paragraph_id": "TR-033:p0005",
+      "section_en": "Introduction",
+      "text_en": "Aside from the notion that fiber hypertrophy after concurrent training may be affected differently than changes in whole muscle size, previous studies suggest that the effect of concurrent training may also be modulated by training design variables such as training modality, volume/frequency, and training status. Therefore, it is reasonable to also examine the effects of plausible moderators of fiber type-specific hypertrophy during concurrent training. To overcome the above limitations and knowledge gaps, the current study aimed to systematically examine the extent to which concurrent aerobic and strength training, compared with strength training alone, influences type I and type II muscle fiber size adaptations. We also conducted subgroup analyses to examine the effects of the type of aerobic training, training modality, exercise order, training frequency, age, and training status."
+    },
+    {
+      "paragraph_id": "TR-033:p0006",
+      "section_en": "Methods / Systematic Literature Search",
+      "text_en": "This study reports a subgroup analysis of a previously registered systematic review and meta-analysis (PROSPERO: CRD42020203777). For the purposes of this study, the registered protocol was modified to include only muscle fiber hypertrophy as an outcome. Therefore, some of the methods presented here have been described previously."
+    },
+    {
+      "paragraph_id": "TR-033:p0007",
+      "section_en": "Methods / Systematic Literature Search",
+      "text_en": "A systematic literature search was conducted according to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA). The PubMed/MEDLINE, ISI Web of Science, Embase, CINAHL, SPORTDiscus, and Scopus databases were systematically searched using a search string specifically adapted to the search requirements for each database (Table S1 of the Electronic Supplementary Material [ESM])."
+    },
+    {
+      "paragraph_id": "TR-033:p0008",
+      "section_en": "Methods / Systematic Literature Search",
+      "text_en": "The search was conducted on 12 August, 2020, and updated on 15 March, 2021. The literature search was performed independently by two researchers and included saving the online search, removing duplicates, and screening titles, abstracts, and full texts. Potential conflicts were resolved by consulting with a third author. In addition, a gray literature search was performed by screening Google Scholar and the reference lists of previously identified eligible full texts. A flowchart of the search process and study selection is shown in Fig. 1."
+    },
+    {
+      "paragraph_id": "TR-033:p0012",
+      "section_en": "Methods / Data Synthesis and Analyses",
+      "text_en": "Standardized mean differences (SMD) for each group were calculated using the mean difference divided by the pre-test standard deviation for each group separately, whereby the difference between these effects is considered the SMD. An inverse variance-weighted random-effects model was fitted to the effect sizes and 95% confidence intervals (CIs) were calculated around the mean. This model was selected because variance was expected owing to the heterogeneity in study designs. Additionally, log variability ratios were calculated. Meta-analyses were performed using R (3.6.2), RStudio (1.2.5033), and the metafor package (version 2.4.0). Effect sizes were calculated for pre-test post-test control group designs using raw score standardization as previously recommended and the exact sampling variance of effect sizes was calculated as recommended."
+    },
+    {
+      "paragraph_id": "TR-033:p0013",
+      "section_en": "Methods / Data Synthesis and Analyses",
+      "text_en": "Heterogeneity (i.e., τ2), was estimated using the restricted maximum-likelihood estimator. To complete the heterogeneity analyses, the Q test for heterogeneity and the I2 statistic were also calculated, with values of 20%, 50%, and 75% indicating low, moderate, and high heterogeneity, respectively. Studentized residuals and Cook’s distances were examined to assess whether studies might be outliers and/or overly influential. A trim-and-fill funnel plot was created to estimate the number of studies that might be missing from the meta-analysis (Fig. S1 of the ESM). The rank correlation test and regression test using the standard error of the observed outcomes as the predictor were used to examine the SMDs for funnel plot asymmetry."
+    },
+    {
+      "paragraph_id": "TR-033:p0014",
+      "section_en": "Methods / Data Synthesis and Analyses",
+      "text_en": "Effect sizes from studies with more than two intervention or control groups were combined in accordance with the recommendations of the Cochrane Handbook by recalculating the mean and pooling the standard deviation of each intervention group, except for a subgroup analysis where different interventions from individual studies were included in separate subgroups. Similarly, pre-data and post-data from studies that assessed variances of type II fibers (e.g., type IIa and IIb/IIx fibers) were combined for an interindividual comparison."
+    },
+    {
+      "paragraph_id": "TR-033:p0015",
+      "section_en": "Methods / Data Synthesis and Analyses",
+      "text_en": "Subgroup analyses were conducted for aerobic training type (i.e., cycling vs running), concurrent training frequency (i.e., low frequency of 4.5 ± 0.8 vs high frequency of 6.3 ± 0.8 weekly sessions, equating to 2.2 ± 0.3 vs 3.2 ± 0.4 weekly sessions in the strength training-only group), training status (i.e. untrained vs active), and training modality (i.e. concurrent training on different days vs concurrent training on the same day vs concurrent training in the same session). The thresholds for training frequency were determined with the aim of comparing two balanced groups. Because of inconsistent reporting in the original articles, no further distinctions in terms of training status were made. For studies comparing concurrent training in the same session, we also compared the training order (i.e., aerobic training before strength training vs strength training before aerobic training) if a sufficient number of studies was available. Studies were placed into subgroups based on the description provided in the manuscript. This was particularly true for training status: studies were classified as “untrained” if participants were clearly described as “sedentary,” “previously untrained,” or “inactive”. Conversely, all other studies were classified as “active” (i.e., “recreationally active,” “trained,” and “well-trained”)."
+    },
+    {
+      "paragraph_id": "TR-033:p0016",
+      "section_en": "Methods / Assessment of Methodological Quality",
+      "text_en": "Risk of bias for the included studies was assessed using the Physiotherapy Evidence Database (PEDro) scale independently by two authors. The PEDro scale has previously been assessed as a valid measure of the methodological quality of randomized trials. Studies with scores > 6 were considered to be of “high quality,” studies with scores of 4–5 were considered to be of “medium quality,” and studies with scores < 4 were considered to be of “low quality”. The following sources of bias were considered: selection (sequence generation and allocation concealment), performance (blinding of participants/personnel), detection (blinding outcome assessors), attrition (incomplete outcome data), reporting (selective reporting), and other potential bias (e.g., recall bias). The risk of bias scores for the included studies are shown in Table S2 of the ESM. The mean score for criteria 2–11 of the PEDro-scale was 4.3 ± 0.8, indicating a medium quality."
+    },
+    {
+      "paragraph_id": "TR-033:p0017",
+      "section_en": "Results / Study Characteristics",
+      "text_en": "The final analysis included 15 studies that examined both type I and II fiber hypertrophy. A total of 300 participants were included, of which 153 participants performed supervised combined aerobic and strength training and 147 participants performed strength training alone. Among the included studies, cycling was the most common type of aerobic training (12 studies), followed by running (three studies)."
+    },
+    {
+      "paragraph_id": "TR-033:p0018",
+      "section_en": "Results / Overall Muscle Fiber Hypertrophy",
+      "text_en": "A total of 15 studies were included in the quantitative analysis. The SMDs ranged from − 1.71 to 1.13, and the estimated SMD based on the random-effects model was − 0.23 (95% CI − 0.46 to − 0.00, p = 0.050). The forest plot showing the observed outcomes and the estimate based on the random-effects model is shown in Fig. 2. The Q test revealed that the true outcomes appear to be heterogeneous (Q(29) = 68.42, p < 0.001, τ2 = 0.24, I2 = 58.6%). The estimated average log variability ratio based on the random-effects model was − 0.12 (95% CI − 0.26 to 0.02, p = 0.097)."
+    },
+    {
+      "paragraph_id": "TR-033:p0020",
+      "section_en": "Results / Type I Muscle Fiber Hypertrophy",
+      "text_en": "The SMD for type I fiber hypertrophy ranged from − 1.71 to 1.03. The estimated SMD for the random-effects model was − 0.34 (95% CI − 0.72 to 0.04, p = 0.078). The Q test revealed that the true outcomes appear to be heterogeneous (Q(14) = 44.96, p < 0.001, τ2 = 0.40, I2 = 70.4%). Of all selected predictors, the number of concurrent training sessions accounted for 34.6% of the observed heterogeneity, while the type of aerobic training (i.e., cycling, running) accounted for 7.3% of the heterogeneity. Subgroup analyses revealed no statistically significant differences between groups (Figs. 3, 4, 5, 6, 7; Figs. S2–S6 of the ESM)."
+    },
+    {
+      "paragraph_id": "TR-033:p0026",
+      "section_en": "Results / Type II Muscle Fiber Hypertrophy",
+      "text_en": "The SMD for type II fiber hypertrophy ranged from − 1.49 to 1.13. The estimated SMD based on the random-effects model was − 0.13 (95% CI − 0.39 to 0.12, p = 0.315). The Q test for heterogeneity was not significant (Q(14) = 22.04, p = 0.078, τ2 = 0.08, I2 = 29.7%). Subgroup analyses revealed no statistically significant differences between groups (Figs. 3, 4, 5, 6, 7; Figs. S7–S11 of the ESM). Furthermore, between-group analyses comparing type I and II fiber hypertrophy within each subgroup revealed no statistically significant differences (p ≥ 0.05)."
+    },
+    {
+      "paragraph_id": "TR-033:p0027",
+      "section_en": "Discussion",
+      "text_en": "The aim of this study was to evaluate the compatibility of concurrent aerobic and strength training in relation to muscle fiber hypertrophy adaptations. Concurrent training resulted in a small (SMD − 0.2, p = 0.05) attenuation of muscle fiber hypertrophy when both type I and type II fibers were combined. The observed heterogeneity was significant only for type I fibers and this was partially explained by the overall training frequency and the type of aerobic training. Indeed, a significant interference effect was observed for type I fibers when aerobic training was performed by running but not cycling. None of the other subgroup analyses (i.e., based on concurrent training frequency, training status, training modality, and training order of same-session training) revealed a statistically significant interference effect for fiber hypertrophy."
+    },
+    {
+      "paragraph_id": "TR-033:p0028",
+      "section_en": "Discussion",
+      "text_en": "Considering that our previous analysis showed no interference effect on whole muscle hypertrophy, our finding of interference in muscle fiber size adaptation is intriguing. Because the gold standard measures of muscle size, i.e., MRI and CT, measure the anatomical cross-sectional area of the whole muscle, it is possible that early changes in fiber size are associated with changes in muscle architecture, such as increased pennation angle, mask early hypertrophic effects that are not detected on MRI or CT. Although both aerobic and strength training affect pennation angle, few studies have examined the effects of concurrent training on muscle architecture. While Shamim et al. found no differences in the change in pennation angle with concurrent training compared to strength training alone, others found a significant increase after concurrent, but not sole, strength training. Thus, while it is still unclear whether architectural changes actually contribute to explaining the discrepancy between fiber and whole muscle hypertrophy, a preferential increase in pennation angle with concurrent training could result in an increased physiological cross-sectional area that is not detected when an anatomical cross-sectional area is assessed on MRI or CT."
+    },
+    {
+      "paragraph_id": "TR-033:p0029",
+      "section_en": "Discussion",
+      "text_en": "Another possibility could relate to the recruitment pattern of each fiber type. This is partly supported by the results of the current study, as the interference effect seems to be mainly owing to the less significant adaptations in type I fibers compared with type II fibers (SMD − 0.3 vs − 0.1), as was also shown by a larger heterogeneity in type I fibers. On the basis of the size principle of motor unit recruitment, endurance training at low-to-moderate intensity recruits mainly type I fibers, whereas at greater intensity (or higher effort level) the recruitment of type II fibers may successively increase. Thus, it is possible that interference induced by aerobic training mainly affects type I fibers, at least during short-term training periods. This could also explain why the observed heterogeneity was lower in type II fibers compared with type I fibers. Considering that type I fibers typically account for a relatively smaller total area of muscle compared with type II fibers in the thigh, this supports the idea that it may take longer to detect interference effects at the whole muscle level compared with the fiber level. In this regard, it should be noted that in the study by de Souza et al. that examined both fiber size and whole muscle adaptations, interference in muscle fiber hypertrophy was not confirmed at the whole muscle level."
+    },
+    {
+      "paragraph_id": "TR-033:p0030",
+      "section_en": "Discussion",
+      "text_en": "Another interesting finding was that running seemed to exacerbate the interference effect in type I fibers compared with cycling. This could be attributed to the different nature of running compared to cycling, as running is associated with repetitive eccentric loading and stretch–shortening activities, whereas cycling provokes a higher emphasis on concentric work and a longer time under tension. This may, in turn, be associated with greater inflammatory stress induced by running as compared with cycling, possibly increasing redox and metabolic stress that may blunt the responsiveness to strength exercise. A direct comparison of muscle hypertrophy induced by aerobic training confirms that cycling can indeed elicit increased muscle size, whereas the effect of running is negligible. However, in the present meta-analysis, the effects of running were based on only three studies. Although caution should be exercised when interpreting these findings, it can be recommended that athletes and fitness enthusiasts seeking to increase muscle mass should consider cycling rather than running as an aerobic training modality."
+    },
+    {
+      "paragraph_id": "TR-033:p0031",
+      "section_en": "Discussion",
+      "text_en": "We also note that many of the studies included in this analysis were small and that the reliability of muscle fiber size measurements is rather low. A recent study examined the variability of histochemical measurements of muscle fiber within subjects and found a coefficient of variation of 13% for fiber area measurements. The authors concluded that if fiber hypertrophy is of particular interest, it is preferable to analyze and average two or more biopsies from different sites to obtain more reliable results. Overall, this demonstrates that caution should be exercised when interpreting muscle fiber size data from single biopsies. It should also be noted that the majority of included studies were of only moderate quality, while two studies were of poor quality and only one was of good quality. Thus, future studies with adequate power, including both whole muscle and fiber measurements from two biopsy sites, may shed further light on the potential difference in the time course of hypertrophic effects of concurrent training and sole strength training."
+    },
+    {
+      "paragraph_id": "TR-033:p0032",
+      "section_en": "Conclusions",
+      "text_en": "Our results suggest that concurrent aerobic and strength training may induce attenuated muscle fiber hypertrophy compared with strength training alone, but this does not necessarily translate into differences in whole muscle hypertrophy. Furthermore, we provide preliminary evidence that this interference effect may be more pronounced when aerobic training is performed by running compared with cycling, at least in type I fibers. Future studies are needed to elucidate possible differences in the time course of the hypertrophic effect at the whole muscle and fiber levels, and to clarify whether there are fiber type-specific effects of concurrent training."
+    }
+  ],
+  "excluded": [
+    {
+      "paragraph_id": "TR-033:p0001",
+      "section_en": "Key Points",
+      "text_en": "",
+      "reason": "короткая служебная строка"
+    },
+    {
+      "paragraph_id": "TR-033:p0002",
+      "section_en": "Introduction",
+      "text_en": "Concurrent training refers to the combination of aerobic and strength training to simultaneously develop aerobic capacity and muscle strength and/or hypertrophy. Current physical activity guidelines recommend that all children, adolescents, and adults engage in concurrent training to promote significant health benefits. Concurrent training is also typically recommended for individuals who need effective countermeasures against physical deconditioning, e.g., because of aging, disease, or injury. Apart from the health perspective, many sports require athletes to simultaneously incorporate divergent training modalities into their training regimen. Because the typical adaptations to aerobic and strength training alone represent opposite ends of the adaptation continuum, the question has been raised as to whether skeletal muscle can comply with concurrent aerobic and strength training stimuli, without compromising the desired adaptations.",
+      "reason": "требует проверки тематических границ"
+    },
+    {
+      "paragraph_id": "TR-033:p0010",
+      "section_en": "Methods / Eligibility Criteria",
+      "text_en": "Inclusion criteria were defined based on the Population, Intervention, Control and Outcomes (PICO) criteria. The population included healthy adults with no sex or age restrictions. The intervention had to consist of supervised combined aerobic and strength training of at least 4 weeks. For a comparison, eligible studies had to include a group performing strength training alone with an identical strength training prescription. Outcomes of interest were defined as hypertrophy of type I and type II fibers. Exclusion criteria included languages other than English and German, abstracts and dissertations, cross-sectional studies assessing only acute exercise responses, and observational studies.",
+      "reason": "требует проверки тематических границ"
+    },
+    {
+      "paragraph_id": "TR-033:p0011",
+      "section_en": "Methods / Data Extraction",
+      "text_en": "Data extraction was performed independently by two authors. The following data were extracted from each included study: (1) the general characteristics (e.g., author(s), year of publication, and aim of the study); (2) participant information (e.g., sample size, training status, and age); (3) intervention data for all groups (e.g., intervention duration, type of interventions); and (4) specific outcomes (changes in both type I and II muscle fiber hypertrophy). If the mean and standard deviation of each group were not provided, authors of the primary studies were contacted to request the data at baseline and post-intervention. If data were presented in a graph and no additional data were provided upon request, mean and standard deviation were extracted using WebPlotDigitizer version 4.4 (Pacifica, CA, USA).",
+      "reason": "процедура поиска и статистической обработки обзора; не практическое содержание"
+    },
+    {
+      "paragraph_id": "TR-033:p0033",
+      "section_en": "Supplementary Information",
+      "text_en": "Below is the link to the electronic supplementary material.",
+      "reason": "служебный раздел"
+    }
+  ],
+  "copyright_notice": "© The Author(s) 2022https://creativecommons.org/licenses/by/4.0/Open AccessThis article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visithttp://creativecommons.org/licenses/by/4.0/.",
+  "license_links": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "http://creativecommons.org/licenses/by/4.0/."
+  ],
+  "word_count_en": 2705
+}

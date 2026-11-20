@@ -1,0 +1,411 @@
+{
+  "source_id": "RE-011",
+  "paragraphs": [
+    {
+      "paragraph_id": "RE-011:p0001",
+      "section_en": "What is already known",
+      "text_en": "A previous smaller meta-analysis found that massage gave small and inconsistent improvements in performance recovery."
+    },
+    {
+      "paragraph_id": "RE-011:p0002",
+      "section_en": "What is already known",
+      "text_en": "A previous smaller meta-analysis found that massage gave no significant improvement in pain or delayed onset muscle soreness (DOMS)."
+    },
+    {
+      "paragraph_id": "RE-011:p0003",
+      "section_en": "What is already known",
+      "text_en": "Previous studies have shown inconsistent effects of massage on flexibility."
+    },
+    {
+      "paragraph_id": "RE-011:p0004",
+      "section_en": "What are the new findings",
+      "text_en": "Our larger meta-analysis finds that massage induces no significant improvement in measures of performance (sprint, jump, strength, endurance or flexibility, or in fatigue)"
+    },
+    {
+      "paragraph_id": "RE-011:p0005",
+      "section_en": "What are the new findings",
+      "text_en": "Our larger meta-analysis finds that massage provides a small benefit in reducing or preventing DOMS."
+    },
+    {
+      "paragraph_id": "RE-011:p0006",
+      "section_en": "What are the new findings",
+      "text_en": "Our meta-analysis shows massage induces a small but significant improvement in flexibility compared with no intervention."
+    },
+    {
+      "paragraph_id": "RE-011:p0007",
+      "section_en": "Introduction",
+      "text_en": "Sports massage is ubiquitous in elite sport and increasingly common at age-group and amateur level, generating a multi-million pound industry of professional therapists and massage devices. The proposed benefits of sports massage include improved recovery, performance and injury prevention but massage is both expensive and time-consuming. Therefore, there is an important need to delineate the evidence base supporting such an intervention."
+    },
+    {
+      "paragraph_id": "RE-011:p0008",
+      "section_en": "Introduction",
+      "text_en": "A previous meta-analysis of 22 randomised studies found a small and inconsistent benefit of massage on performance recovery after exercise. This included studies using non-manual techniques such as vibration or water-jet massage that are not commonly available, and outcomes such as flexibility or delayed onset muscle soreness (DOMS) were not examined. Another meta-analysis examined the effect of several interventions including massage on DOMS but included only four studies of the effect of massage at various time points, finding no significant improvement of DOMS by massage. We therefore performed a comprehensive systematic review and meta-analysis aiming to examine the benefits of manual sports massage on a range of outcomes including performance, strength or recovery to better inform the athlete and coach about whether massage justifies inclusion in training or competition."
+    },
+    {
+      "paragraph_id": "RE-011:p0009",
+      "section_en": "Methods",
+      "text_en": "No universally accepted definition of sports massage exists. For the purpose of this meta-analysis we defined sports massage as manual manipulation of muscles and soft tissue by a qualified professional, with the purpose of improving performance in or recovery from sport."
+    },
+    {
+      "paragraph_id": "RE-011:p0010",
+      "section_en": "Methods",
+      "text_en": "The Preferred Reporting Items for Systematic Reviews and Meta-Analysis guidelines were followed in preparing, conducting and reporting this systematic review."
+    },
+    {
+      "paragraph_id": "RE-011:p0011",
+      "section_en": "Methods / Eligibility criteria",
+      "text_en": "We searched PubMed and Cochrane for publications retrieved by searching in any field for: ‘sports massage’ (OR) ‘sports therapy’ (AND) ‘athlete’. We then refined these to those including any of the following terms: ‘strength’, ‘sprint’, ‘flexibility’, ‘jump’, ‘endurance’, ‘range of motion’, ‘DOMS’, ‘delayed onset muscle soreness’, ‘perceived recovery’, ‘psychological’, ‘fatigue’, ‘performance’, ‘recovery’. To be eligible, studies must have evaluated the effect of manual massage on human participants in a randomised study and include assessment of sporting performance or recovery. Non-randomised studies, or those using non-manual massage (eg, waterjet, foam rollers, automated massage) were excluded."
+    },
+    {
+      "paragraph_id": "RE-011:p0012",
+      "section_en": "Methods / Outcomes",
+      "text_en": "We performed separate meta-analyses examining the effect of massage on measures of sporting performance (strength, jump, sprint, endurance and flexibility) and recovery (fatigue and DOMS). Where studies analysed the effect of massage at more than one time point, we analysed the time point soonest after massage. This was to avoid bias by including the same participants multiple times in the same category (pseudoreplication) which was a potential limitation of the previous largest meta-analysis. Where studies included more than two groups (for example comparing massage, control and a different type of intervention) we analysed only the data for massage and control groups."
+    },
+    {
+      "paragraph_id": "RE-011:p0015",
+      "section_en": "Methods / Description of included massage techniques",
+      "text_en": "A range of massage techniques were applied in the identified studies. Where available we indicate which techniques were used in the study descriptions. ‘Effleurage’ consists of strokes delivered with the palm in the direction of lymphatic drainage and venous flow. ‘Petrissage’ involves lifting tissue away from underlying structures, intending to improve circulation, loosen adhesions between tissues and improve drainage of lymphatics. In ‘pincement’ the palms are placed vertically above the part to be massaged, lightly picking up the tissue with thumb and fingers. In ‘wringing' superficial tissues are grasped in both hands and twisted in opposite directions. ‘Tapotement’ involves repeated light strikes to the muscle. ‘Vibrations’ and ‘shaking’ are delivered by trembling both hands in contact with the skin. ‘Friction massage’ is a brisk, deep stroke transversely or parallel to fibre direction. ‘Compressions’ have the same intent, but use the palm to press down on the muscle."
+    },
+    {
+      "paragraph_id": "RE-011:p0016",
+      "section_en": "Results",
+      "text_en": "We identified 29 studies meeting our eligibility criteria; 12 randomised controlled trials (RCTs) and 17 randomised crossover studies (figure 1). A total of 1012 participants were included, substantially exceeding the 270 participants in the largest previous meta-analysis. Many studies assessed multiple outcomes. We analysed these in separate meta-analysis of; strength, jump, sprint, endurance, fatigue, flexibility and DOMS. Due to the variability in study design and massage interventions, we briefly describe each study to allow assessment of the potential explanations for the effects observed. Studies are described in order of negative to positive effects on outcomes."
+    },
+    {
+      "paragraph_id": "RE-011:p0018",
+      "section_en": "Results / The effect of sports massage on strength performance",
+      "text_en": "Twelve studies examined whether sports massage influences recovery of strength after exercise."
+    },
+    {
+      "paragraph_id": "RE-011:p0019",
+      "section_en": "Results / The effect of sports massage on strength performance",
+      "text_en": "Arroyo-Morales et al randomised 60 participants to 20 min pre-event massage, consisting of effleurage, petrissage and tapotement, or placebo (detuned ultrasound). This found a significant decrease in peak isokinetic torque of the quadriceps after massage but not placebo, suggesting massage could negatively affect strength."
+    },
+    {
+      "paragraph_id": "RE-011:p0020",
+      "section_en": "Results / The effect of sports massage on strength performance",
+      "text_en": "The same group conducted a further study evaluating the effect of 40 min massage on strength after high intensity exercise in 62 students. A placebo (sham ultrasound) was used and participants fatigued by 3×30 s Wingate tests. This study found massage reduced electromyography (EMG) amplitude and vigour (EMG amplitude was used as an indicator of muscle force) compared with passive recovery after the Wingate tests."
+    },
+    {
+      "paragraph_id": "RE-011:p0021",
+      "section_en": "Results / The effect of sports massage on strength performance",
+      "text_en": "Jönhagen et al examined the effect of massage on recovery of quadriceps strength and function after 300 maximal strength contractions in 16 participants. Twelve min of massage, including effleurage and petrissage, was administered immediately after exercise, then daily for 3 days to one leg with the other used as control. Massage had no significant effect on subsequent maximal strength."
+    },
+    {
+      "paragraph_id": "RE-011:p0022",
+      "section_en": "Results / The effect of sports massage on strength performance",
+      "text_en": "Hemmings et al tested the effect of massage on boxing strength in eight amateur boxers using a counter-balanced design with participants undergoing passive rest or 20 min, including effleurage and petrissage between repeated performances. This found no difference in strength between groups."
+    },
+    {
+      "paragraph_id": "RE-011:p0023",
+      "section_en": "Results / The effect of sports massage on strength performance",
+      "text_en": "Dawson et al examined the effect of repeated massage on strength recovery after a half marathon in 10 recreational runners. They received 30 min massage including effleurage, petrissage and passive stretching, 1, 4, 8 and 11 days post-race on a single leg with the other leg used as a control. Massage had no effect on rate of return to baseline strength."
+    },
+    {
+      "paragraph_id": "RE-011:p0024",
+      "section_en": "Results / The effect of sports massage on strength performance",
+      "text_en": "Hunter et al examined the effect of massage including effleurage and petrissage on maximal voluntary contractions using electromyography in a crossover study with 10 participants. Massage induced no significant difference in maximal voluntary contractions compared with passive rest."
+    },
+    {
+      "paragraph_id": "RE-011:p0025",
+      "section_en": "Results / The effect of sports massage on strength performance",
+      "text_en": "Dawson et al also examined the effect of regular massage over a longer period on novice recreational runners. Participants took part in a 10-week running preparation clinic and received massage (‘individualised to each participant’) or no massage for 30 min weekly for 10 weeks. There were no significant differences between groups in indices of strength."
+    },
+    {
+      "paragraph_id": "RE-011:p0026",
+      "section_en": "Results / The effect of sports massage on strength performance",
+      "text_en": "Zainuddin et al examined the effects of 10 min massage including effleurage, petrissage and friction after eccentric elbow flexor exercise in a crossover study using 10 participants and found no significant improvement in muscle strength after massage."
+    },
+    {
+      "paragraph_id": "RE-011:p0027",
+      "section_en": "Results / The effect of sports massage on strength performance",
+      "text_en": "Hilbert et al investigated the effects of 20 min of massage (including effleurage, petrissage and tapotement) on muscle strength of 18 participants in a crossover trial where the control condition was sham massage. Hamstring peak torque, muscle soreness and range of motion (ROM) were measured after eccentric muscle contractions. This study found no improvement in muscle strength with massage."
+    },
+    {
+      "paragraph_id": "RE-011:p0028",
+      "section_en": "Results / The effect of sports massage on strength performance",
+      "text_en": "In contrast to the above studies reporting negative or neutral effects of massage on strength, others have found massage may improve strength recovery. Sykaras et al examined the effect of brief (2 min) massage (effleurage, petrissage, friction, tapotement, pincement and wringing) on 12 female Tae Kwon Do athletes’ knee extensor peak torque after concentric/eccentric contractions. One leg was massaged, and the non-massaged leg used as control. Massaged limbs performed significantly better after exhaustive exercise."
+    },
+    {
+      "paragraph_id": "RE-011:p0029",
+      "section_en": "Results / The effect of sports massage on strength performance",
+      "text_en": "Brooks et al studied the immediate effects of 5 min manual forearm massage on power grip performance after 3 min of maximal exercise. Fifty-two participants were randomised to 5 min massage (including effleurage and friction massage), passive rest or passive shoulder movement. Massage was associated with a significantly greater strength recovery."
+    },
+    {
+      "paragraph_id": "RE-011:p0030",
+      "section_en": "Results / The effect of sports massage on strength performance",
+      "text_en": "Farr et al investigated the effects of massage including effleurage and petrissage on muscle strength after 40 min of downhill walking on a treadmill in eight male participants. Isometric and isokinetic strength and single leg vertical jump were measured. This study found that 30 min of massage after 40 min downhill walking was associated with a significant benefit in strength recovery."
+    },
+    {
+      "paragraph_id": "RE-011:p0031",
+      "section_en": "Results / The effect of sports massage on strength performance",
+      "text_en": "Meta-analysis of these studies found that massage had no overall effect on strength with low study heterogeneity (SMD 0.17, 95% CI −0.08 to 0.42; participants=346; studies=12, I2=23% (figure 2A)."
+    },
+    {
+      "paragraph_id": "RE-011:p0033",
+      "section_en": "Results / The effect of sports massage on jump performance",
+      "text_en": "Five studies examined whether sports massage affects jump performance. Jönhagen et al examined the effect of massage on recovery of jumping performance after 300 maximal strength contractions in 16 participants. Twelve min massage was administered immediately after exercise then daily for 3 days to a single leg with the other used as control. Massage had no significant effect on one-legged jump performance."
+    },
+    {
+      "paragraph_id": "RE-011:p0034",
+      "section_en": "Results / The effect of sports massage on jump performance",
+      "text_en": "Delextrat et al recruited eight male and eight female basketball players to a crossover trial testing the effect of 30 min of massage including effleurage and petrissage, water immersion or passive rest on outcomes including jump performance after a match. This found post-match massage had no effect."
+    },
+    {
+      "paragraph_id": "RE-011:p0035",
+      "section_en": "Results / The effect of sports massage on jump performance",
+      "text_en": "Mancinelli et al recruited 22 female volleyball and basketball players. After baseline measurements of vertical jump height, timed shuttle run, quadriceps femoris length and pressure pain threshold were obtained, participants were fatigued by pre-season training for 2 days before being given 17 min effleurage, petrissage and vibration on each quadriceps, or passive rest, and repeating the tests. Massage did not significantly affect vertical jump height."
+    },
+    {
+      "paragraph_id": "RE-011:p0036",
+      "section_en": "Results / The effect of sports massage on jump performance",
+      "text_en": "Farr et al found no significant difference in standing vertical jump performance after massage compared with passive rest in the study described above."
+    },
+    {
+      "paragraph_id": "RE-011:p0037",
+      "section_en": "Results / The effect of sports massage on jump performance",
+      "text_en": "One study did find favourable effects of massage on jump performance. Kargarfard et al randomised 30 male body builders to 30 min massage (including effleurage, petrissage and vibration) of the exercised muscle group or passive rest after a fatigue-inducing protocol and then assessed vertical jump performance of 30 male body builders. The control group showed worsening vertical jump performance at 48 and 72 hours, whereas the massage group performance returned to baseline by 48 hours."
+    },
+    {
+      "paragraph_id": "RE-011:p0038",
+      "section_en": "Results / The effect of sports massage on jump performance",
+      "text_en": "Meta-analysis of these studies found that massage had no overall effect on jump performance with very low heterogeneity (SMD 0.16, 95% CI −0.20 to 0.51; participants=132; studies=5; I2=5%) (figure 2B)."
+    },
+    {
+      "paragraph_id": "RE-011:p0039",
+      "section_en": "Results / The effect of sports massage on sprint performance",
+      "text_en": "Seven studies examined the effect of sports massage on sprinting. Fletcher et al examined the effect of effleurage and petrissage as ‘warm up’ before a 20 m sprint test. This found 9 min massage alone was associated with the slowest sprint times, and there was no significant difference compared with control when massage was combined with a ‘traditional warm up’ (4×30 s laps of a sports hall plus 1×10 s passive stretching)."
+    },
+    {
+      "paragraph_id": "RE-011:p0040",
+      "section_en": "Results / The effect of sports massage on sprint performance",
+      "text_en": "Goodwin et al studied the effect of massage on 30 m sprint performance in a counterbalanced crossover design. The conditions included 15 min of lower limb massage including effleurage, petrissage and tapotement, 15 min of placebo ultrasound and passive rest. There were no significant differences between any groups on any measure of sprinting."
+    },
+    {
+      "paragraph_id": "RE-011:p0041",
+      "section_en": "Results / The effect of sports massage on sprint performance",
+      "text_en": "Delextrat et al also found no difference between passive rest and massage in sprint times after competitive basketball."
+    },
+    {
+      "paragraph_id": "RE-011:p0042",
+      "section_en": "Results / The effect of sports massage on sprint performance",
+      "text_en": "Mancinelli et al found no significant difference on post intervention sprint times after massage in basketball and volleyball players."
+    },
+    {
+      "paragraph_id": "RE-011:p0043",
+      "section_en": "Results / The effect of sports massage on sprint performance",
+      "text_en": "Robertson et al also investigated the effects of massage or passive rest on cycling sprint performance recovery. Nine males were fatigued by 6×30 s high intensity efforts with 30 s active recovery. Subjects received either 20 min massage (including effleurage, petrissage, wringing, picking up) or supine passive rest before a 30 s Wingate test. Massage had no effect on maximum or mean power in this test."
+    },
+    {
+      "paragraph_id": "RE-011:p0044",
+      "section_en": "Results / The effect of sports massage on sprint performance",
+      "text_en": "Ogai et al performed a crossover study of 11 females who performed high intensity cycle sprints (5 s repeated eight times with recovery intervals of 20 s). This was repeated after 35 min of either passive rest or 10 min massage (petrissage and compressions). In this study sprint performance recovered significantly better in the massage group."
+    },
+    {
+      "paragraph_id": "RE-011:p0045",
+      "section_en": "Results / The effect of sports massage on sprint performance",
+      "text_en": "Meta-analysis found that massage had no overall effect on sprint performance, with high study heterogeneity (SMD −0.35, 95% CI −0.98 to 0.28; participants=257; studies=7; I2=82%) (figure 3A)."
+    },
+    {
+      "paragraph_id": "RE-011:p0047",
+      "section_en": "Results / The effect of sports massage on endurance performance",
+      "text_en": "We identified three studies examining the effects of massage on endurance."
+    },
+    {
+      "paragraph_id": "RE-011:p0048",
+      "section_en": "Results / The effect of sports massage on endurance performance",
+      "text_en": "Lane and Wenger examined the effects of active recovery, massage, cold water immersion or passive rest on repeated cycling performance 24 hours apart. The cycling test lasted 18 min with high intensity intervals, thus using both anaerobic and aerobic systems. Massage included effleurage, petrissage and tapotement. Only the passive rest group showed a significant decline in the second performance, but there was no significant difference between groups."
+    },
+    {
+      "paragraph_id": "RE-011:p0049",
+      "section_en": "Results / The effect of sports massage on endurance performance",
+      "text_en": "Monedero and Donne studied the effect of massage on endurance performance with pre-intervention and post-intervention 5 km bike trials. Eighteen male cyclists were randomised to either active recovery (gentle cycling), massage (effleurage and tapotement), passive recovery (lying down) or a combination of active recovery and massage in a crossover study. Active recovery improved post-intervention time trial times more than massage or passive recovery."
+    },
+    {
+      "paragraph_id": "RE-011:p0050",
+      "section_en": "Results / The effect of sports massage on endurance performance",
+      "text_en": "Rinder and Sutherland recruited 13 males and 7 females in a randomised crossover study who were fatigued using an ergometer, ski squats and leg extensions followed by 6 min effleurage and petrissage or passive rest. Participants then performed their maximum number of leg extensions against half maximum load. The massage group performed significantly more leg extensions post intervention compared with the control group."
+    },
+    {
+      "paragraph_id": "RE-011:p0051",
+      "section_en": "Results / The effect of sports massage on endurance performance",
+      "text_en": "Meta-analysis of these studies found that massage had no overall effect on endurance with very high study heterogeneity (SMD 0.21, 95% CI −3.45 to 3.87; participants=96; studies=3; I2=97%) (figure 3B)"
+    },
+    {
+      "paragraph_id": "RE-011:p0052",
+      "section_en": "Results / The effect of sports massage on muscle fatigue",
+      "text_en": "Muscle fatigue is defined as loss of muscle power due to a decline in force and velocity which is both measurable and reversible by rest, which distinguishes muscle fatigue from muscle weakness or damage. Perceived muscle fatigue is a subjective assessment."
+    },
+    {
+      "paragraph_id": "RE-011:p0053",
+      "section_en": "Results / The effect of sports massage on muscle fatigue",
+      "text_en": "Hemmings et al (discussed above) examined the effect of massage on performance on amateur boxers and found that this significantly increased perceived fatigue compared with control."
+    },
+    {
+      "paragraph_id": "RE-011:p0054",
+      "section_en": "Results / The effect of sports massage on muscle fatigue",
+      "text_en": "Nunes et al conducted a double-blind RCT testing whether massage reduces pain and perceived fatigue in the quadriceps of 74 athletes after an Ironman Triathlon. Massage techniques used were effleurage, petrissage and tapotement. The massage group had significantly lower subjective pain and fatigue ratings, but there was no difference between the groups for pressure pain threshold."
+    },
+    {
+      "paragraph_id": "RE-011:p0055",
+      "section_en": "Results / The effect of sports massage on muscle fatigue",
+      "text_en": "Conversely, Mancinelli et al found that although massage had no effect on performance (described above) it reduced perceived muscle fatigue as did Ogai et al."
+    },
+    {
+      "paragraph_id": "RE-011:p0056",
+      "section_en": "Results / The effect of sports massage on muscle fatigue",
+      "text_en": "Hoffman et al examined the effect of massage and pneumatic compression for perceived fatigue and pain after an ultramarathon. Seventy-two finishers of the 161 km Western States Endurance Run were randomised into three groups: control, massage (effleurage, compressions and tapotement) and pneumatic compression. Those receiving massage had significantly reduced perceived fatigue ratings compared with control."
+    },
+    {
+      "paragraph_id": "RE-011:p0057",
+      "section_en": "Results / The effect of sports massage on muscle fatigue",
+      "text_en": "Meta-analysis found no significant effect of massage on fatigue with high study heterogeneity (SMD 0.47, 95% CI −0.28 to 1.22; participants=171; studies=5; I2=86%) (figure 3C)."
+    },
+    {
+      "paragraph_id": "RE-011:p0058",
+      "section_en": "Results / The effect of sports massage on flexibility",
+      "text_en": "Flexibility is defined as the range of motion available to a joint or joint series. Some sports benefit from extreme ROM, such as ballet and gymnastics, while it is suggested that for sports such as running, too much flexibility can be detrimental and increase injury risk. Seven studies examined the effect of massage on flexibility."
+    },
+    {
+      "paragraph_id": "RE-011:p0059",
+      "section_en": "Results / The effect of sports massage on flexibility",
+      "text_en": "Barlow et al investigated the effect of a single hamstring massage on a ‘sit and reach’ test. In a crossover design, 11 males received 15 min effleurage and petrissage or control (supine rest) with a pre-intervention and post-intervention sit and reach test. There was no significant difference between the massage and control groups. Similarly, Zainuddin et al (discussed above) found no significant effect of massage on range of motion of the elbow joint."
+    },
+    {
+      "paragraph_id": "RE-011:p0060",
+      "section_en": "Results / The effect of sports massage on flexibility",
+      "text_en": "Huang et al studied the effect of massage on ROM of the hamstring musculotendinous junction. Ten active females were randomised to 30 s massage, 10 s friction massage or passive rest. There were significant increases in hip flexion ROM with 30 s of massage at the musculotendinous junction of the distal portion of the hamstrings, but no difference in passive leg tension or EMG findings."
+    },
+    {
+      "paragraph_id": "RE-011:p0061",
+      "section_en": "Results / The effect of sports massage on flexibility",
+      "text_en": "Hopper et al evaluate the effects of two different massage techniques on hamstring length in 39 female hockey players. These were classic massage (effleurage, petrissage, shaking and picking up) and dynamic soft tissue mobilisation (DSTM) (dynamic movement contraction of target muscles with focussed deep strokes on areas of tension). There were significant increases in hamstring length in both massage groups compared with passive rest, but no differences between the different massage types. In a further study, Hopper et al also evaluated the effect of DSTM and classic massage on 45 male hockey players. Hamstring length was significantly greater after DSTM compared with classic massage (including effleurage, petrissage, shaking and picking up), and hamstring lengths after either massage type were greater than after passive rest. It is noteworthy that DSTM differs from classic massage as it involves mobilisation of the joints and is therefore also a form of flexibility intervention."
+    },
+    {
+      "paragraph_id": "RE-011:p0062",
+      "section_en": "Results / The effect of sports massage on flexibility",
+      "text_en": "McKechnie et al examined whether 3 min of petrissage and tapotement would influence plantar flexor flexibility and power of the lower leg in 19 participants. Ankle joint flexibility was significantly increased with both massage techniques, but there was no difference between the two techniques."
+    },
+    {
+      "paragraph_id": "RE-011:p0063",
+      "section_en": "Results / The effect of sports massage on flexibility",
+      "text_en": "Crosman et al studied the effects of hamstring massage or passive rest on ROM in 34 females. Massage (including effleurage, petrissage and friction massage) significantly increased all ROM tests immediately after massage, but this was not maintained, suggesting an immediate but not long-term effect of massage on flexibility."
+    },
+    {
+      "paragraph_id": "RE-011:p0064",
+      "section_en": "Results / The effect of sports massage on flexibility",
+      "text_en": "Meta-analysis of these studies found that massage significantly increased flexibility scores by 7%, with very high heterogeneity (p=0.01, SMD 1.07, 95% CI 0.21 to 1.93; participants=246; studies=7; I2=90%) (figure 4A)."
+    },
+    {
+      "paragraph_id": "RE-011:p0066",
+      "section_en": "Results / The effect of sports massage on delayed onset muscle soreness",
+      "text_en": "DOMS is separate from though often co-exists with perceived muscle fatigue. DOMS is muscular discomfort following exercise experienced by athletes of all levels. The intensity of discomfort increases within 24 to 72 hours post exercise, subsiding after 5 to 7 days. A hypothesised benefit of sports massage is that it helps recovery from both fatigue and DOMS. Ernst conducted a systematic review looking at the effect of post-exercise massage treatment on the effect of DOMS. They included seven studies and concluded that most of these were burdened with methodological flaws, and results were inconsistent. However, most suggested that post-exercise massage may help alleviate DOMS symptoms. In our review, we included 10 studies examining the effect of massage on DOMS. All studies relied on subjective rating scales to assess DOMS."
+    },
+    {
+      "paragraph_id": "RE-011:p0067",
+      "section_en": "Results / The effect of sports massage on delayed onset muscle soreness",
+      "text_en": "Dawson et al studied the potential for repeated massage to influence muscle recovery following an endurance race in a field setting. Ten recreational runners who completed a half marathon received 30 min massage days 1, 4, 8 and 11 post-race on one leg, while the other was used as control. Muscle strength, pain and leg swelling were assessed after each massage. Massage had no effect on rate of return to baseline levels of DOMS and swelling. Another study by the same group also found no difference in DOMS between runners who received regular massage compared to those that did not. Zainuddin et al similarly found massage did not alleviate DOMS or muscle swelling."
+    },
+    {
+      "paragraph_id": "RE-011:p0068",
+      "section_en": "Results / The effect of sports massage on delayed onset muscle soreness",
+      "text_en": "Hilbert et al investigated the physiological and psychological effects of 20 min of massage on DOMS after eccentric contractions of the hamstring compared with a sham massage. They found that massage did not decrease DOMS compared with placebo."
+    },
+    {
+      "paragraph_id": "RE-011:p0069",
+      "section_en": "Results / The effect of sports massage on delayed onset muscle soreness",
+      "text_en": "Conversely, other studies have suggested that massage may reduce DOMS. Kargarfard et al found massage had no effect on performance (described in previous section), but did significantly decrease perceived muscle soreness 24, 48 and 72 hours post exercise."
+    },
+    {
+      "paragraph_id": "RE-011:p0070",
+      "section_en": "Results / The effect of sports massage on delayed onset muscle soreness",
+      "text_en": "Hoffman et al (discussed above) examined the effect of massage and pneumatic compression for DOMS after an ultramarathon. They found that both massage and pneumatic compression provided immediate pain relief compared with control."
+    },
+    {
+      "paragraph_id": "RE-011:p0071",
+      "section_en": "Results / The effect of sports massage on delayed onset muscle soreness",
+      "text_en": "Similarly, Delextrat et al investigated the effect of 30 min of massage, water immersion and passive rest on DOMS after a competitive basketball match. Both massage and cold-water immersion improved perception of recovery and reduced DOMS, especially in females. Mancinelli et al also found massage induced significant reduction of muscle soreness in female collegiate basketball and volleyball players, with 80% of those receiving massage reporting decreased soreness."
+    },
+    {
+      "paragraph_id": "RE-011:p0072",
+      "section_en": "Results / The effect of sports massage on delayed onset muscle soreness",
+      "text_en": "Farr et al (discussed above) found that massage significantly aided alleviation of DOMS significantly. Nunes et al (discussed above) also found that athletes who received massage after the Ironman Triathlon experienced significantly lower DOMS compared with control."
+    },
+    {
+      "paragraph_id": "RE-011:p0073",
+      "section_en": "Results / The effect of sports massage on delayed onset muscle soreness",
+      "text_en": "Meta-analysis of these studies found massage was associated with a statistically significant 13% improvement in measures of DOMS after exercise, with high study heterogeneity (SMD 1.13, 95% CI 0.44 to 1.82; participants=311; studies=10; I2=86%) (figure 4B)."
+    },
+    {
+      "paragraph_id": "RE-011:p0074",
+      "section_en": "Discussion",
+      "text_en": "Athletes and coaches often believe sports massage improves performance. However, our meta-analysis find no conclusive empirical evidence for benefits on the outcomes of performance examined. Our meta-analysis highlights the difficulty of defining such benefits; most studies recruited small numbers of participants and the effect size of massage (if such exists) may be too small to be easily detected with low numbers, particularly if there is variability in results. The array of different massage protocols we describe makes defining optimum treatment protocols highly complex. We found no evidence of improvement in performance measures (strength, jump, sprint or endurance), even though some studies might have been expected to be affected by placebo effects. There were also two studies that suggested massage may have a detrimental effect on performance. Our review therefore finds no evidence to justify inclusion of massage with the expectation of direct improvement of performance in strength, sprint or endurance."
+    },
+    {
+      "paragraph_id": "RE-011:p0075",
+      "section_en": "Discussion",
+      "text_en": "We did find that massage induced a small but statistically significant improvement in flexibility, although the large heterogeneity of these studies findings (I2=90%) reflects the fact that this was influenced by a single outlier study, with others showing a consistently smaller benefit. Athletes that require flexibility may therefore benefit from massage based on these findings, although further research into specific sports is required to confirm this. It is worth noting that the studies included compared massage to no intervention, rather than other interventions such as passive stretching, which also have the potential to improve flexibility."
+    },
+    {
+      "paragraph_id": "RE-011:p0076",
+      "section_en": "Discussion",
+      "text_en": "We found that massage statistically significantly reduced pain/DOMS by 13%, although again these studies were highly heterogeneous (I2=86%) driven by a single outlier so the true magnitude of any benefit remains uncertain. These findings would imply that sports more likely to induce DOMS have more to gain from inclusion of massage, especially when repeated performance before DOMS has recovered is required, such as multi-day events. This benefit may be more important in sports where analgesic use is restricted. However, given the cost and time implications of massage, head-to-head randomised control comparisons with other preventative and analgesic strategies such as ice baths or compression would be required to understand the magnitude of the benefit over other approaches. It is important to recognise that studies on DOMS use subjective rating assessments that are susceptible to placebo effects."
+    },
+    {
+      "paragraph_id": "RE-011:p0077",
+      "section_en": "Discussion",
+      "text_en": "As well as direct effects on performance and recovery, massage has been suggested to induce physiological effects. Cambron et al studied the effect of different forms of massage on blood pressure in non-athletes. Effleurage and petrissage were associated with no significant change in blood pressure, while potentially painful massage techniques, such as trigger-point therapy, were associated with a significant rise in either diastolic or systolic blood pressure. The applicability of these findings to sports performance and recovery is unclear."
+    },
+    {
+      "paragraph_id": "RE-011:p0078",
+      "section_en": "Discussion",
+      "text_en": "Zebrowska et al investigated the effectiveness of different lymphatic drainage methods on the forearms of mixed martial arts athletes after fatiguing exercise. Drainage techniques included manual lymphatic drainage (MLD), electro stimulation and deep oscillation (DO), with a control group being exposed to non-therapeutic light. This found a significant increase in blood velocity associated with both MLD and DO although the effect on performance and recovery was not examined."
+    },
+    {
+      "paragraph_id": "RE-011:p0079",
+      "section_en": "Discussion",
+      "text_en": "Some studies have examined the effect of massage on the autonomic nervous system, though none in a sporting context. Fazeli et al, Guan et al and Lee et al have all suggested that massage may reduce heart rate variability and reduce cortisol levels, potentially demonstrating the wider effects of massage."
+    },
+    {
+      "paragraph_id": "RE-011:p0080",
+      "section_en": "Discussion",
+      "text_en": "The lactic acid theory suggests that lactic acid produced during exercise contributes to pain, although this is disputed, Zebrowska et al found that massage was associated with a significant decrease in blood lactate with MLD. Lactic acid decreased to baseline after 20 min of MLD, whereas it remained elevated in the control group. Further research is required to examine the clinical significance of this effect."
+    },
+    {
+      "paragraph_id": "RE-011:p0081",
+      "section_en": "Discussion",
+      "text_en": "Hemmings et al also measured the effects of massage on blood lactate. As discussed above, massage was associated with better perceived recovery compared with control. However, the massage group had significantly higher blood lactate levels at the time of the second exercise. The authors suggested that increased perceived recovery may have led to a greater effort and thus increased blood lactate. Conversely, Robertson et al found no difference in blood lactate between massage and passive rest interventions. Massage did not alter blood lactate levels in Monedero and Donne, Hart et al or Dolgener and Morien. In all these studies, active recovery was superior to massage in decreasing blood lactate levels."
+    },
+    {
+      "paragraph_id": "RE-011:p0082",
+      "section_en": "Discussion",
+      "text_en": "Our study has several limitations, particularly the wide range of different study designs and protocols, and the lack of statistical power for the metrics examined due to the small size of the studies examined. However, our work does represent the largest review of sports massage so far conducted."
+    },
+    {
+      "paragraph_id": "RE-011:p0083",
+      "section_en": "Discussion",
+      "text_en": "Our meta-analysis leaves many unanswered questions. These include uncertainty over the optimum duration of massage and the lack of studies testing the effect of regular repeated massage, which might have more benefit. Given the huge number of potential massage regimens and timing, it is impossible to conclude that massage cannot improve performance if the correct timing and indication could be defined. However, our findings should make athletes and coaches cautious about claims that massage will provide benefits for which there is little or no evidence."
+    }
+  ],
+  "excluded": [
+    {
+      "paragraph_id": "RE-011:p0013",
+      "section_en": "Methods / Data collection and analysis",
+      "text_en": "Data was collected and analysed by HD, SA and TC using RevMan 5.3 software. Standardised mean difference (SMD) was calculated using RevMan 5.3 software and used in the meta-analysis. Standardised mean difference (difference in mean outcome between groups/SD of outcome) is a summary statistic to assess the same outcome that has been measured in a variety of ways. This allows expression of the size of the intervention effect per study relative to the variability observed in that study, and thus allows comparison of effect sizes between studies using different outcome measures. Study heterogeneity was assessed by calculating the I2 value. I2 values of 25%, 50% and 75% can be considered to reflect small, moderate and large degrees of heterogeneity. A p value <0.05 was considered statistically significant.",
+      "reason": "процедура поиска и статистической обработки обзора; не практическое содержание"
+    },
+    {
+      "paragraph_id": "RE-011:p0014",
+      "section_en": "Methods / Data collection and analysis",
+      "text_en": "Patients and public were not involved in the design or conduct of this study.",
+      "reason": "процедура поиска и статистической обработки обзора; не практическое содержание"
+    }
+  ],
+  "copyright_notice": "© Author(s) (or their employer(s)) 2020. Re-use permitted under CC BY-NC. No commercial re-use. See rights and permissions. Published by BMJ.2020https://creativecommons.org/licenses/by-nc/4.0/This is an open access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-NC 4.0) license, which permits others to distribute, remix, adapt, build upon this work non-commercially, and license their derivative works on different terms, provided the original work is properly cited, appropriate credit is given, any changes made indicated, and the use is non-commercial. See: http://creativecommons.org/licenses/by-nc/4.0/.",
+  "license_links": [
+    "http://creativecommons.org/licenses/by-nc/4.0/",
+    "https://creativecommons.org/licenses/by-nc/4.0/",
+    "http://creativecommons.org/licenses/by-nc/4.0/."
+  ],
+  "word_count_en": 4440
+}

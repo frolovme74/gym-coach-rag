@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-20",
+  "branch": "2-rag-benchmark-Murad",
+  "current_stage": "complete_draft_translation",
+  "editorial_review_deferred_by_user": true,
+  "sources": 56,
+  "paragraphs": 2227,
+  "translation_segments": 12188,
+  "words_en": 320660,
+  "words_ru_machine": 292293,
+  "words_ru_current": 291897,
+  "draft_chunks": 628,
+  "reviewed_sample_chunks": 8,
+  "by_topic": {
+    "training": {
+      "paragraphs": 418,
+      "words_en": 55281,
+      "words_ru": 50868,
+      "draft_chunks": 110,
+      "reviewed_chunks": 2
+    },
+    "nutrition": {
+      "paragraphs": 662,
+      "words_en": 110866,
+      "words_ru": 101345,
+      "draft_chunks": 219,
+      "reviewed_chunks": 2
+    },
+    "supplements": {
+      "paragraphs": 558,
+      "words_en": 84975,
+      "words_ru": 76854,
+      "draft_chunks": 165,
+      "reviewed_chunks": 2
+    },
+    "recovery": {
+      "paragraphs": 589,
+      "words_en": 69538,
+      "words_ru": 62830,
+      "draft_chunks": 134,
+      "reviewed_chunks": 2
+    }
+  },
+  "schema_fields": [
+    "doc_id",
+    "topic",
+    "source",
+    "section",
+    "text"
+  ],
+  "all_chunks_300_to_600_words": true,
+  "original_paragraph_alignment_complete": true,
+  "raw_files_verified": true,
+  "tests": {
+    "command": "python3 -m unittest discover -s tests -v",
+    "passed": 29
+  },
+  "benchmark": {
+    "status": "not_run",
+    "reason": "BM25, benchmark/queries.json и скрипт метрик ещё не реализованы; этот этап — подготовка корпуса."
+  },
+  "whole_corpus_ready_for_publication": false,
+  "flagged_paragraphs": 1088,
+  "review_queue": {
+    "high": 387,
+    "medium": 701,
+    "routine": 1109
+  },
+  "unchunked_sections": 91,
+  "unchunked_words": 16240
+}

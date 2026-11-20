@@ -1,0 +1,338 @@
+{
+  "source_id": "SU-027",
+  "paragraphs": [
+    {
+      "paragraph_id": "SU-027:p0001",
+      "section_en": "1. Introduction",
+      "text_en": "Oxidative stress is defined as a disturbance in the balance between free radicals and antioxidants in biological systems, in favor of the first. Therefore, oxidative stress is characterized by an increase in free radicals and pro-oxidant compounds, along with a decrease in antioxidants, leading to oxidative damage to cellular components such as lipids, proteins, and deoxyribonucleic acid (DNA). Additionally, there is a link between oxidative stress, inflammation, and muscle damage, because the former processes can trigger the latter. In this line, inflammatory cells can promote oxidative stress by releasing enzymes (neutral proteases, elastase, collagenase, acid hydrolases), reactive species (superoxide, hydrogen peroxide, hydroxyl radical, hypochlorous acid, nitric oxide), and extracellular messengers (cytokines and interleukins). Altogether, these compounds can exacerbate inflammation and muscle damage. In this context, it is important to note that during physical activity, muscles produce free radicals. The production of Reactive Oxygen Species (ROS) during muscle contraction occurs through various mechanisms, including the activation of endothelial xanthine oxidase, increased release and autooxidation of catecholamines, electron leakage in the mitochondrial electron transport chain, and the previously mentioned inflammatory response. During exercise and particularly in demanding routines, the production of ROS often surpasses muscle antioxidant capacity. If this imbalance persists, it can reduce force production, contributing to the onset of acute fatigue, decreased sports performance, increased muscle damage, and even health problems."
+    },
+    {
+      "paragraph_id": "SU-027:p0002",
+      "section_en": "1. Introduction",
+      "text_en": "To combat this unbalance, sports nutrition must be used to cover the greater energy and nutrient requirements that demanding physical activity entails to improve health, sports performance, and recovery. Research on sports supplements has focused on those that play a beneficial role in recovery and reduce the risk of injury or illness. Omega-3 polyunsaturated fatty acids (n-3 PUFA), part of the polyunsaturated fatty acid family, are among these supplements. In addition, omega-3 fatty acids, particularly EPA and DHA, play a crucial role in human physiology by contributing to cell membrane fluidity, reducing inflammation, and supporting cardiovascular health. They are essential for brain function and development, and their anti-inflammatory properties can help manage chronic diseases and improve overall health. Since n-3 PUFA cannot be produced by the human body, it is crucial to obtain them through diet or supplementation. There are three primary omega-3 fatty acids: alpha-linolenic acid (ALA, 18:3 n-3), eicosapentaenoic acid (EPA, 20:5 n-3), and docosahexaenoic acid (DHA, 22:6 n-3). ALA is found in plant-based sources such as flaxseed, chia seeds, and walnuts, while EPA and DHA are primarily found in seafood and fatty fish like salmon, tuna, and mackerel. Although ALA can be converted into EPA and DHA in the organism, this conversion process is limited and suboptimal, making it preferable to consume EPA and DHA directly from foods or supplements. Nevertheless, ALA is the only essential omega-3 fatty acid due to the body’s inability to synthesize it; however, the low conversion efficiency suggests that direct intake of EPA and DHA might be necessary to meet physiological needs, especially for individuals with specific health conditions or dietary restrictions. Direct dietary sources (like oily fish) or supplements (the present review) may be needed to ensure adequate levels, supporting overall health and addressing specific needs like cardiovascular health, cognitive function, and inflammation. Therefore, it is important to highlight the potential gap in omega-3 intake when relying solely on ALA. Therefore, the role of EPA and DHA in maintaining optimal health might be considered. In this context, the amount of oily fish required to achieve typical supplement doses of 18–3.5 g of n-3 PUFA (EPA and DHA combined) depends on the type of fish, being for some common oily fish of 1.5–2.5 g (salmon), 1.5–2 g (herring), 1–1.5 g (mackerel, sardines) and 0.5–1.6 g (tuna) of omega-3 content per 100 g. Therefore, supplementation (the topic of the present review) allows athletes to ensure specific amounts of these fatty acids in a more convenient manner."
+    },
+    {
+      "paragraph_id": "SU-027:p0003",
+      "section_en": "1. Introduction",
+      "text_en": "Several studies have demonstrated the benefits of n-3 PUFA consumption for athletes. These benefits include reduced fatigue, decreased proinflammatory cytokine production, particularly documented in athletes with asthma, reduced production of eicosanoids, increased muscle mass and strength, positive impact on recovery processes, and improved adaptation to training. Additionally, n-3 PUFAs can reduce the activation of the NF-κB pathway by preventing degradation and translocation of this transcription factor to the nucleus. This leads to lower circulating concentrations of tumor necrosis factor-α (TNF-α), which acts as a negative feedback mechanism on NF-κB activation."
+    },
+    {
+      "paragraph_id": "SU-027:p0004",
+      "section_en": "1. Introduction",
+      "text_en": "In addition, the benefits of n-3 PUFA on neural function and exercise adaptations can be attributed to several mechanisms, including improved nerve conduction, increased sensitivity to acetylcholine, enhanced membrane fluidity, and reduced post-exercise inflammation. Furthermore, the positive effect of this supplement on muscle protein synthesis is linked to the fact that n-3 PUFAs sensitize skeletal muscle to anabolic stimuli, through resistance exercises accompanied or not with protein intake. Furthermore, n-3 PUFA consumption enhances the activation of the rapamycin complex pathway (mTORC), a key player in muscle protein synthesis. Finally, n-3 PUFA supplementation has shown benefits when combined with specific physical tests. For example, a study involving omega-3 supplementation and the Wingate test together with a 250 kJ time trial, followed by measurements of maximal voluntary isometric contraction, resulted in an increase in quadriceps peak force, improved muscle activation, and reduced lag time between muscle electrical activity and the onset of contraction."
+    },
+    {
+      "paragraph_id": "SU-027:p0005",
+      "section_en": "1. Introduction",
+      "text_en": "Therefore, we aimed to systematically review the current evidence on the effects of omega-3 on health and sports biomarkers and determine whether the supplementation of omega-3 (EPA/DHA) improves inflammation markers, muscle damage, oxidant response, and sports performance in physically healthy adults."
+    },
+    {
+      "paragraph_id": "SU-027:p0007",
+      "section_en": "2. Materials and Methods / 2.1. Search Strategy",
+      "text_en": "A structured search was conducted in Medline (Pubmed), Scopus, and Web of Science (WOS) for articles published in the last 10 years until 5 May 2024, restricted to English language articles, and based on PERSiST guidelines. The search strategy included terms related to omega-3 and the outcomes as well as a combination of them with Medical Subject Headings (MeSH) index and Boolean operators: (“omega-3” OR “omega-3 supplementation” OR “Polyunsaturated fatty acids”) AND (“muscle recovery”), AND (“athletic performance” OR “improved athletic performance”) AND (“exercise-induced muscle damage” OR “muscle soreness” OR “muscle damage”) AND (“eccentric exercise”) AND (“inflammation” OR “oxidative stress”) AND (“benefits”) (Appendix A)."
+    },
+    {
+      "paragraph_id": "SU-027:p0008",
+      "section_en": "2. Materials and Methods / 2.1. Search Strategy",
+      "text_en": "Relevant articles were also obtained using this equation by applying the snowball strategy. This approach allows all titles and abstracts from the search to be cross-referenced to identify duplicates and any potentially missing studies. Titles and abstracts were selected for further review of the full text. The search for published studies was independently performed by 2 authors (D.F.-L. and S.A.) and disagreements about records were resolved by a third reviewer (E.R.)."
+    },
+    {
+      "paragraph_id": "SU-027:p0009",
+      "section_en": "2. Materials and Methods / 2.2. Selection Criteria",
+      "text_en": "The following selection criteria were applied in choosing studies for the articles obtained from the search according to the above mentioned inclusion criteria (Section 2.1): (i) physically healthy adults ≥ 18 age, without chronic conditions; (ii) studies that evaluated the effects of omega-3 supplementation alone, excluding drugs formulas and any combination with other supplements (mono-supplementation); (iii) randomized controlled trials (excluding editorials, reviews, notes, and any others from non-original studies); (iv) studies that evaluated as outcomes (primary, secondary, or safety) any of the inflammation markers, muscle damage, oxidant response, and sports performance; (v) studies with clear information on dosage and duration of omega-3 supplementation; (vi) studies with a methodological quality score ≥ 10 according to the McMaster University Occupational Therapy Evidence-Based; (vii) clinical trials or randomized clinical trials with a score ≥ 8 on the Physiotherapy Evidence Database (PEDro) scale; and (viii) studies published in English. We excluded all records that did not meet these criteria."
+    },
+    {
+      "paragraph_id": "SU-027:p0010",
+      "section_en": "2. Materials and Methods / 2.3. Study Selection",
+      "text_en": "Once the inclusion/exclusion and selection criteria (Section 2.1 and Section 2.2) have been applied to each study, data on study source including authors and year of publication, study design, supplement administration (dose and schedule), sample size, participant characteristics (age, height, weight, fat percentage, body mass index, and sex), and outcomes of the interventions were mined independently by two authors (D.F.-L. and S.A.) using a spreadsheet 4.1.2 (Microsoft Inc, Seattle, WA, USA). Subsequently, disagreements were resolved through discussion until a consensus was reached or by a third reviewer (E.R.) when a consensus was not reached."
+    },
+    {
+      "paragraph_id": "SU-027:p0011",
+      "section_en": "2. Materials and Methods / 2.4. Quality Assessment",
+      "text_en": "We used the modified critical review form for quantitative studies developed by McMaster University Occupational Therapy Evidence-Based Practice Research Group (McMaster) as a critical appraisal tool. Additionally, the Physiotherapy Evidence Database (PEDro) scale was used to assess the methodological quality of quantitative evidence. Two authors independently evaluated the methodological quality (D.F.-L. and J.M.-A.), resolving disagreements through third-party evaluation (E.G.-A)."
+    },
+    {
+      "paragraph_id": "SU-027:p0012",
+      "section_en": "2. Materials and Methods / 2.5. Risk-of-Bias Assessment",
+      "text_en": "Furthermore, the included studies were assessed using the Cochrane risk of bias (RoB). The risk of bias was evaluated by two authors independently (D.F.-L. and S.A.), resolving disagreements through third-party evaluation (E.G.-A.)."
+    },
+    {
+      "paragraph_id": "SU-027:p0013",
+      "section_en": "2. Materials and Methods / 2.6. Data Extraction",
+      "text_en": "Once the inclusion and exclusion criteria were applied, relevant information was gathered from the chosen studies. Two reviewers (D.F.-L. and E.R.) examined and synthesized data from all selected studies into a comprehensive table using a standardized data extraction. A third reviewer (S.A.) resolved all inter-reviewer disagreements. The extracted data included the name of the primary author, publication year, country of origin, study design, sample size, participant characteristics (such as sex, age, level of physical activity, and health status), details of the intervention (including the daily dosage of omega-3 supplementation and the periods in which the supplementation was taken), variables analyzed, and the corresponding results."
+    },
+    {
+      "paragraph_id": "SU-027:p0014",
+      "section_en": "3. Results / 3.1. Study Selection",
+      "text_en": "A total of 1497 studies were identified from WOS (n = 768), SCOPUS (n = 51), and Medline (n = 678). After the exclusion of 60 duplicates, a total of 1437 articles identified in databases were examined. After evaluation of the title and abstract, 1422 articles were considered as potential documents. After a review of the full text and evaluation of potential records from databases as well as other sources, 13 studies were included in the systematic review (Figure 1)."
+    },
+    {
+      "paragraph_id": "SU-027:p0015",
+      "section_en": "3. Results / 3.2. Quality Assessment",
+      "text_en": "Five studies were considered “excellent quality” and 8 as “very good quality” according to McMaster (Table 1). Also, according to the PEDro scale, 10 studies had a rating of “excellent quality” and 3 studies of “good quality” (Table 2)."
+    },
+    {
+      "paragraph_id": "SU-027:p0016",
+      "section_en": "3. Results / 3.3. Risk-of-Bias Assessment",
+      "text_en": "Table 3 shows the results of the RoB assessment tool applied to the studies in this review. Figure 2 presents a summary of the author’s judgments on each RoB item for each included study. Regarding selection bias, 12 studies reported an adequate method to generate the randomization sequence of the participants and were judged as low RoB. Additionally, 9 studies detailed the allocation concealment process and were also considered with low RoB. Blinding of participants was judged as a medium RoB in for blinding personnel, a medium RoB in and high RoB in. Regarding the blinding of outcome assessors’ item, one study had a low RoB and all the other studies were classified as high RoB. For the final three items (attrition bias, reporting bias, and other bias) all studies were evaluated as having low RoB."
+    },
+    {
+      "paragraph_id": "SU-027:p0017",
+      "section_en": "3. Results / 3.4. Outcome Evaluation",
+      "text_en": "The sample and supplementation characteristics are in Table 4. Table 5 shows the records included in the systematic review of the effect of omega-3 supplementation on post-exercise inflammation markers, muscle damage, oxidative response, and sports performance in physically healthy adults."
+    },
+    {
+      "paragraph_id": "SU-027:p0018",
+      "section_en": "3. Results / 3.4. Outcome Evaluation / 3.4.1. Characteristics of the Sample",
+      "text_en": "Thirteen registries were analyzed, with a study population that varied between 18 and 69 participants: 5 of them were performed with men and women, 1 study exclusively in women, and 7 studies exclusively in men, with a total of 420 participants (57 withdrawals; 74 women and 404 men). One of the inclusion criteria of the studies is that they had to perform the intervention in physically healthy adults, including competitive amateur or trained college students. Considering the type of exercise performed during the intervention, selected articles can be classified into three groups. In the first group, participants performed endurance exercises, strength exercises in the second group, and a combination of both in the third group. The endurance intervention was performed by running or cycling to exhaustion or structured endurance training (31 km per week) and no details of the exercises. The strength exercises were performed in the upper body, lower body, specifically through vertical jumps, or no details of exercises were provided."
+    },
+    {
+      "paragraph_id": "SU-027:p0019",
+      "section_en": "3. Results / 3.4. Outcome Evaluation / 3.4.2. Omega-3 Supplementation",
+      "text_en": "The total supplementation dose was recorded in the group that ingested the lowest dose of 250 mg/day (150 mg EPA + 100 mg DHA) in one of the experimental groups with a maximum of 31 g/day ALA (0.43 g ALA kg/body mass (BM) for the average ). The remaining doses ranged from 1.386 g to 3.6 g/day. Considering the duration of the intervention, the shortest was one day and a maximum of 26 weeks. Regarding the mode of administration of the supplements, some studies used capsules, gels, flavored water with seed, or it was not specified. In two studies, the intake was performed in relation to exercise—before or after —or after meals. Ten studies did not provide information regarding schedules. No other harmful symptoms or adverse effects were reported by omega-3 supplementation."
+    },
+    {
+      "paragraph_id": "SU-027:p0020",
+      "section_en": "3. Results / 3.4. Outcome Evaluation / 3.4.3. Inflammatory Markers",
+      "text_en": "IL-6 was analyzed in seven records where five of them showed no significant changes (p > 0.05) and in two IL-6 decreased significantly (p < 0.05) when comparing pre-and post-intervention in the supplemented group. No significant (p > 0.05) changes were observed in IL-6 when the supplemented group was compared with the control group (CG) in five studies. In two studies, IL-6 was significantly higher (p < 0.05) in CG. Interleukin-1β (IL-1β) was analyzed in one study, with no significant changes between pre- and post-exercise values as well as comparing CG with the supplemented group (p < 0.05). Interleukin-2 (IL-2), interleukin-8 (IL-8), and interleukin-10 (IL-10) were also evaluated and no significant differences between groups were found."
+    },
+    {
+      "paragraph_id": "SU-027:p0021",
+      "section_en": "3. Results / 3.4. Outcome Evaluation / 3.4.3. Inflammatory Markers",
+      "text_en": "TNF-α was analyzed in four investigations, in none of them the group supplemented with n-3 PUFA presented significant changes (p > 0.05) comparing pre- and post-exercise. In the same reports, differences between supplemented and CG were not significant (p > 0.05) in two studies. In the study by Lee et al., the CG presented higher levels of TNF-α."
+    },
+    {
+      "paragraph_id": "SU-027:p0022",
+      "section_en": "3. Results / 3.4. Outcome Evaluation / 3.4.3. Inflammatory Markers",
+      "text_en": "C-reactive protein (CRP) was evaluated in two articles and significant differences (p > 0.05) between groups were found. In both the study by Lee et al. and Barquilha et al. the groups were compared, resulting in significantly higher levels (p < 0.05) of CRP in the CG."
+    },
+    {
+      "paragraph_id": "SU-027:p0023",
+      "section_en": "3. Results / 3.4. Outcome Evaluation / 3.4.4. Muscle Damage",
+      "text_en": "Muscle damage was assessed with different variables, including creatine kinase (CK) and lactate dehydrogenase (LDH) presence in serum. These biomarkers were analyzed in six studies. One study showed a significant increase (p < 0.05) in the first 24 h in both groups compared to the initial value. On the contrary, one study presented significantly (p < 0.05) lower values after supplementation with DHA + EPA. On the other hand, the studies by Tsuchiya et al. and Lembke et al. presented no significant (p > 0.05) changes in serum CK levels after exercise compared to previous values in any of the groups and in any of the measurements over time. Similar results were presented in the other study by Tsuchiya et al. where no significant differences were observed after exercise compared to pre-exercise values in the EPA and DHA group. Serum CK levels were significantly higher in the CG than in the EPA and DHA group 3 days after exercise. One study analyzed different amounts of omega-3 and in comparison with CG, CK tended (p = 0.055) to be lower at 72 h for the group that consumed the highest dose (6 g) of supplement. This study seems to correlate a greater amount of supplement with a lower value for CK. This was confirmed through determinations of CK over intervention time; meanwhile, CK increased in CG. When comparing the supplemented group with the CG, three studies evidenced that the values of circulating CK were significantly higher (p < 0.05) in the CG. This was observed in VanDusseldorp et al. after 72 h."
+    },
+    {
+      "paragraph_id": "SU-027:p0024",
+      "section_en": "3. Results / 3.4. Outcome Evaluation / 3.4.4. Muscle Damage",
+      "text_en": "LDH values were analyzed in two studies. In Barquilha et al., the CG and the omega-3-consuming group reported an increase in pre-exercise activity, but in the post-exercise period, these values were attenuated in the CG and reduced in the supplementation group. The study by VanDusseldorp et al. used three different doses of omega-3. When the lower dose (2 g) was provided, the circulating levels of LDH were higher compared to the higher supplementation dose (6 g) at 4, 24, 46, and 72 h post-exercise. In two studies, the LDH values in CG were significantly (p < 0.05) higher than in the supplemented group. In the case of VanDusseldorp et al. the difference was significant (p > 0.05) after 72 h in CG."
+    },
+    {
+      "paragraph_id": "SU-027:p0025",
+      "section_en": "3. Results / 3.4. Outcome Evaluation / 3.4.4. Muscle Damage",
+      "text_en": "Only one study analyzed myoglobin circulating levels. Serum levels increased in the CG, meanwhile no significant changes in myoglobin levels were observed in the omega-3 group. Another indicator of damage is cortisol, being measured in one study. Although cortisol circulating values were elevated after exercise, no differences between groups were reported."
+    },
+    {
+      "paragraph_id": "SU-027:p0026",
+      "section_en": "3. Results / 3.4. Outcome Evaluation / 3.4.4. Muscle Damage",
+      "text_en": "Delayed Onset Muscle Soreness (DOMS) was analyzed in five studies. Jakeman et al. showed significant increases (p < 0.05) in the omega-3 group immediately at the end of exercise, decreasing subsequently. On the contrary, in one study, participants displayed a significant increase (p < 0.05) of DOMS in the first 4 days. VanDusseldorp et al. made comparisons with different doses of the supplement. The effect of dosage on the interaction between treatment and time on perceived pain was studied. Pain tended to be elevated for the CG and the lower dose (2 g) in the supplemented group. In addition, the pain scores of the lower dose groups did not increase significantly until 24 h, remaining elevated at 28 h. Conversely, the higher dose group (6 g) reported lower pain scores compared to the 2- and 4-g groups. Two studies showed no significant difference (p > 0.05) between supplemented compared to CG."
+    },
+    {
+      "paragraph_id": "SU-027:p0027",
+      "section_en": "3. Results / 3.4. Outcome Evaluation / 3.4.5. Oxidant Response",
+      "text_en": "Oxidative stress was evaluated in one study. Barquilha et al. analyzed the Trolox equivalent antioxidant capacity (TEAC), reduced (GSH), and oxidized (GSSG) glutathione. It was found that supplementation did not change TEAC values 24 h after strength exercise compared to CG. The values for GSH increased and those for GSSG decreased. Consequently, the GSH/GSSH ratio increased with omega-3 supplementation."
+    },
+    {
+      "paragraph_id": "SU-027:p0028",
+      "section_en": "3. Results / 3.4. Outcome Evaluation / 3.4.6. Sports Performance",
+      "text_en": "Three studies evaluated the maximal voluntary isometric contractions (MVIC), presenting a significant decrease (p < 0.05) at the end. No significant changes (p > 0.05) were observed when compared to CG in."
+    },
+    {
+      "paragraph_id": "SU-027:p0029",
+      "section_en": "3. Results / 3.4. Outcome Evaluation / 3.4.6. Sports Performance",
+      "text_en": "In performance, the squat with a jump and jump with countermovement presented a significant effect, which decreased significantly (p < 0.05) at one hour and was maintained until 96 h. The performance of the squat with the jump was significantly better when the amount of supplementation increased. In the case of vertical jump performance, this recovered pre-exercise values within 1 h for the group supplemented with the highest dose (6 g) while it remained low for the rest of the groups until 48 h (CG, 2 g, and 4 g of supplement)."
+    },
+    {
+      "paragraph_id": "SU-027:p0030",
+      "section_en": "3. Results / 3.4. Outcome Evaluation / 3.4.6. Sports Performance",
+      "text_en": "In one study, the isokinetic strength evaluated did not show differences concerning the CG (p > 0.05) and decreased as time passed. Muscle strength determined through one repetition maximum (1RM) was analyzed in different exercises, in which a significant increase (p < 0.05) was observed in the supplemented group compared to the CG. In this line, Heileson et al. evaluated 1RM in squat and bench. The supplemented group increased absolute 1RM-Bench and tended to increase in absolute 1RM-Squat, compared to CG. The study analyzed 1RM and maximum voluntary contraction (MVC) in a trained leg. The results showed a progressive increase in 1RM in the trained leg for the experimental and CGs but no increases in the MVC of the trained leg between groups or throughout the protocol. Regarding the eccentric speed analyzed in one study, a significant increase (p < 0.05) was observed at the end of the exercise in the supplemented group."
+    },
+    {
+      "paragraph_id": "SU-027:p0031",
+      "section_en": "3. Results / 3.4. Outcome Evaluation / 3.4.6. Sports Performance",
+      "text_en": "Range of motion (ROM) was evaluated in two studies. In one of them, there was no significant decrease in elbow ROM to pre-exercise values in the omega-3 group, but a significant decrease was observed in CG immediately after exercise lasting below initial levels for 1–3 days. In the study by the same author but 5 years later, a similar pattern was observed in the CG, and the omega-3 group decreased immediately after exercise, lasting below initial levels only for 1 day. However, the supplemented group returned to pre-exercise values on day 2 after exercise. In both studies, the elbow ROM in the omega-3 group was significantly higher than in the CG immediately after exercise and 3 days later."
+    },
+    {
+      "paragraph_id": "SU-027:p0032",
+      "section_en": "3. Results / 3.4. Outcome Evaluation / 3.4.6. Sports Performance",
+      "text_en": "Regarding muscle echo intensity through ultrasound pictures, in the study of Tsuchiya et al. no significant increase (p > 0.05) was observed comparing both groups (supplemented vs. CG). Nevertheless, the M-wave latency investigated was significantly higher (p < 0.05) in the supplemented group."
+    },
+    {
+      "paragraph_id": "SU-027:p0033",
+      "section_en": "4. Discussion",
+      "text_en": "The purpose of this systematic review was to critically evaluate the effects of omega-3 supplementation on post-exercise inflammatory biomarkers, oxidative response, muscle damage, and sports performance in physically active healthy adults. A total of 13 studies met the inclusion criteria. Participants supplemented with omega-3 presented improvements in attenuating biomarkers of muscle damage, such as CK and LDH. Inflammatory biomarkers showed positive effects on eccentric exercise protocols by decreasing concentrations of IL-6 and TNF-α. However, there was no clear evidence of the beneficial effects of omega-3 supplementation on muscle function and performance. Also, supplementation of 2400 mg/day of omega-3 fatty acids (EPA/DHA) for 4.5 weeks appears to be an effective dose."
+    },
+    {
+      "paragraph_id": "SU-027:p0034",
+      "section_en": "4. Discussion / 4.1. Omega-3 Supplementation",
+      "text_en": "All studies were conducted in physically healthy adults. The amounts used in the selected studies ranged from 250 mg to 6 g per day for EPA/DHA. Only one study used ALA with a dose of 0.43 g/kg body mass. The duration of supplementation ranged from acute to 26 weeks. The consumption of 2400 mg/day of omega-3 fatty acids for 4.5 weeks was effective when compared to other studies included in this systematic review using lower doses or higher doses and/or shorter or larger time periods. Particularly, the study conducted by Tinsley et al. administered high doses (3.6 g of EPA/DHA) in short supplementation periods, such as 2 weeks."
+    },
+    {
+      "paragraph_id": "SU-027:p0035",
+      "section_en": "4. Discussion / 4.1. Omega-3 Supplementation",
+      "text_en": "A single study examined the impact of three different doses: 2, 4, and 6 g/day with the same EPA/DHA ratio. The higher intake is more effective in delaying perceived muscle soreness at the end of the knee extensor strength series and on vertical jump performance."
+    },
+    {
+      "paragraph_id": "SU-027:p0036",
+      "section_en": "4. Discussion / 4.1. Omega-3 Supplementation",
+      "text_en": "In the study conducted by Kyriakidou et al., 30 male athletes found that seven weeks of supplementation with 3 g per day reduced muscle soreness after eccentric exercise, without an effect on muscle function and post-exercise recovery at the end of exercise. Similar results were found in another study that used the same daily amount but with a duration of 4 weeks."
+    },
+    {
+      "paragraph_id": "SU-027:p0037",
+      "section_en": "4. Discussion / 4.1. Omega-3 Supplementation",
+      "text_en": "On the other hand, one study showed no clear results on the benefits of omega-3 fatty acids, particularly ALA, in physically active people during two intakes separated by two weeks. However, the studies that carried out interventions with different durations from one day to 26 weeks reported changes when EPA/DHA were supplemented. Some of them informed that EPA/DHA consumption attenuated some of the markers of muscle damage and certain aspects of muscle soreness. Positive effects were documented as well in studies where the protocol involved eccentric forearm extensions, elbow flexors, or leg exercises with supplementation periods ranging from one day to 12 weeks, and with varying doses from 1 g per 10 kg of body weight to 2.1 g/d EPA + 0.78 g/d DHA."
+    },
+    {
+      "paragraph_id": "SU-027:p0038",
+      "section_en": "4. Discussion / 4.1. Omega-3 Supplementation",
+      "text_en": "Some of the side effects derived from omega-3 supplementation are belching, heartburn or stomach pain, vomiting, constipation, diarrhea, nausea, and changes in the sense of taste. However, three studies reported that omega-3 supplementation did not cause any harm or side effects. However, no blood or tissue measurements were obtained from any of the studies reported, so the ability to confirm the change in omega-3 status is not possible in the current manuscript."
+    },
+    {
+      "paragraph_id": "SU-027:p0039",
+      "section_en": "4. Discussion / 4.2. Inflammatory Markers",
+      "text_en": "As mentioned before, the anti-inflammatory effect of EPA/DHA is due to the alteration of the inflammatory response through the production of specific lipid messengers. The inflammatory process is characterized by the increase of prostaglandins, cytokines such as IL-6, IL-2, and TNF-α, CRP, and ROS. In addition, ROS produces peroxidation of phospholipid membranes, and damages in DNA and intracellular proteins."
+    },
+    {
+      "paragraph_id": "SU-027:p0040",
+      "section_en": "4. Discussion / 4.2. Inflammatory Markers",
+      "text_en": "EPA and DHA function as inhibitors of the endogenous synthesis of proinflammatory arachidonic acid, competing as substrates for enzymes during eicosanoid production. Eicosanoids include prostaglandins, leukotrienes, and thromboxanes, key lipidic messengers in the inflammatory response. Nevertheless, this response depends on the type, intensity, and duration of exercise, as well as the training level of the subject. EPA/DHA alters the fatty acid composition of the phospholipid cell membrane, disrupting specialized regions with high concentrations of lipids such as cholesterol (lipid rafts), and inhibiting NF-κβ. These modifications favor decreased inflammatory gene expression and anti-inflammatory factor activation."
+    },
+    {
+      "paragraph_id": "SU-027:p0041",
+      "section_en": "4. Discussion / 4.2. Inflammatory Markers",
+      "text_en": "TNF-α is a cytokine that acts in the acute phase of inflammation. Main functions include increased synthesis of acute phase proteins produced in the liver such as CRP, as well as activation of monocytes and macrophages. Therefore, TNF-α promotes the inflammatory response. This is achieved by stimulating the expression of adhesion molecules on vascular endothelial cells, allowing the migration of inflammatory cells such as neutrophils and monocytes. In this review, changes in TNF-α were not significant between groups, so the benefits of omega-3 supplements in this regard cannot be concluded. As an exception, Bloomer et al. supplemented 14 men for 6 weeks with 2224 mg EPA and 2208 mg DHA, observing decreased levels of CRP and TNF-α compared to CG. However, no differences in oxidative stress markers were observed."
+    },
+    {
+      "paragraph_id": "SU-027:p0042",
+      "section_en": "4. Discussion / 4.2. Inflammatory Markers",
+      "text_en": "IL-6 is the main interleukin related to exercise, increasing after physical activity execution. Omega-3 supplements can inhibit the activation of the NF-κβ pathway, which is responsible for activating inflammatory interleukins. Thus, when NF-κβ is inhibited, the production of cytokines such as IL-6, IL-2, and IL-8 is reduced. Aside from the inflammatory role, TNF-α and IL-6 participate in post-damage muscle regeneration by enhancing myoblast proliferation and inhibiting differentiation. This is achieved by decreasing the expression of the transcriptional regulatory factors myod and mygenin (regulators of myogenesis), allowing tissue repair. Regarding omega-3 supplementation, the effects varied depending on the study. In the research conducted by Yang et al., the authors observed an increase in TNF-α and IL-6. However, this study had a duration of 7 days. However, a significant decrease was documented in other studies, where the supplement was consumed for longer periods of time. However, there are other studies selected in this review according to inclusion criteria documenting a reduction in TNF-α and IL-6 values."
+    },
+    {
+      "paragraph_id": "SU-027:p0043",
+      "section_en": "4. Discussion / 4.2. Inflammatory Markers",
+      "text_en": "CRP production is stimulated by IL-6, IL-2, and TNF-α, thus being considered an indicator of acute systemic inflammation. CRP values increase in response to training. The inflammatory response favors subsequent muscle repair and regeneration. In this context, two studies indicated a significant decrease in CRP, and one did not present significant variations, compared to the CG. In this line, in these two studies, the CG displayed higher values of CRP; meanwhile, in the study by Ramos-Campo et al., no significant changes were noticed. Therefore, more evidence is needed to establish a clear relationship between the effect of omega-3 supplementation and CRP circulating levels."
+    },
+    {
+      "paragraph_id": "SU-027:p0044",
+      "section_en": "4. Discussion / 4.2. Inflammatory Markers",
+      "text_en": "Di Lorenzo et al., in a 28-day intervention with 2 g/d of omega-3, recorded a decrease in CK and IL-6 values, with no effect on DOMS. However, in the study by Gray et al., no effect on IL-6 was observed. IL-2, an interleukin that is also elevated in inflammatory response, in the research of Yang et al. presented a significant decrease after 6 h. Boit et al., in their research with 37 young athletes, found that krill oil supplementation, at a dose of 2 g/d for 6 weeks, reduced plasma IL-2, following strenuous exercise. IL-1β studied by Ramos-Campo et al., significantly decreased at 24 h, which could be associated with a decrease in inflammation favoring recovery. Despite this, in Barquilha et al., there were no significant changes. Altogether, these results indicate that more scientific research is needed to assess the role of omega-3 supplementation in the modulation of inflammation messengers."
+    },
+    {
+      "paragraph_id": "SU-027:p0045",
+      "section_en": "4. Discussion / 4.3. Muscle Damage",
+      "text_en": "In the recovery process, an acute period is distinguished, which is established in the first 96 h post-exercise. In EIMD situations, omega-3 can integrate into the cell membrane and perform a protective effect by decreasing muscle soreness. Omega-3 improves the integrity of the muscle membrane, preventing the leakage of intramyocellular proteins such as CK."
+    },
+    {
+      "paragraph_id": "SU-027:p0046",
+      "section_en": "4. Discussion / 4.3. Muscle Damage",
+      "text_en": "On the other hand, it should be considered that eccentric exercise leads to an increase in blood concentrations of CK, LDH, and myoglobin, reaching a maximum level at 1–2 days after exercise. This increase is due to lipid peroxidation, which causes an increase in membrane permeability, which favors leakage to the plasma of these proteins at the end of exercise, observed at 24, 48, and 72 h."
+    },
+    {
+      "paragraph_id": "SU-027:p0047",
+      "section_en": "4. Discussion / 4.3. Muscle Damage",
+      "text_en": "Regarding CK, published data are inconsistent. One study indicated increases in circulating CK values in both groups (supplemented and CG). Nevertheless, others showed a significant decrease in CK levels from the start of the exercise in the supplemented group compared to CG; meanwhile, no differences were documented in other studies. Therefore, only three studies showed that the CG had significantly higher values of CK, which could be associated with greater inflammation and EIMD. The disparity in values can be explained by the type of intervention performed. Studies with high values and no significant differences with CG performed physical exercises that involve the legs and a duration of one day. The variability in the results makes it difficult to establish an accurate recommendation regarding the dose and duration of supplementation."
+    },
+    {
+      "paragraph_id": "SU-027:p0048",
+      "section_en": "4. Discussion / 4.3. Muscle Damage",
+      "text_en": "LDH was analyzed by two studies, showing that the CG presented significantly higher values of circulating LDH than the supplemented group. Another investigation showed no changes in LDH circulating levels. However, in the same publication, CK values decreased in the supplemented group. These discrepancies in both muscle markers (LDH and CK) could be explained by the different half-lives that these proteins display in circulation, being shorter for CK (12h) than for LDH (5–6 days)."
+    },
+    {
+      "paragraph_id": "SU-027:p0049",
+      "section_en": "4. Discussion / 4.3. Muscle Damage",
+      "text_en": "DOMS analysis presented different results. This could be due in part to the body segments analyzed. Some studies analyzed pain in the upper part of the body or involved the whole body with a preponderance of the legs. Nevertheless, the CG presented higher values with respect to the supplemented group in all studies with the exception of one study. Differences were also present throughout the measurements. Decreases in DOMS values were recorded in the supplemented group in the first 24 h and 48 h after the exercise actions. However, in the study by Tsuchiya et al., DOMS values remained significantly elevated during the first four days in the supplemented group. Low DOMS values could be related to better performance suggesting that a supplemental intake of omega-3 could be beneficial. In this line, the study by Lembke et al. supplemented 65 men and women for one week with 2.7 g/d for 30 days, observing a decrease in DOMS."
+    },
+    {
+      "paragraph_id": "SU-027:p0050",
+      "section_en": "4. Discussion / 4.3. Muscle Damage",
+      "text_en": "Similarly, in the study by Tartibian et al., supplementation with a dose of 1.8 g/d of omega-3 for 30 days decreased soreness. In the same line, Black et al. supplemented for 5 weeks 20 rugby players with 1102 mg EPA and 1102 mg DHA per day, also reporting positive results on decreased muscle soreness. However, the study by Gray et al. indicated no changes. The systematic review conducted by Chalchat et al. analyzed the relationship between DOMS and MVC. This report established that the DOMS peak could occur late. However, discrepancies in the results are related to the fact that DOMS could depend on the level of inflammation, which may vary according to the level of loss of MVC. Therefore, the time for pain appearance will vary. In another systematic review, a decrease in DOMS with omega-3 supplementation was reported, but with a smaller effect size, and therefore it was not considered clinically relevant."
+    },
+    {
+      "paragraph_id": "SU-027:p0051",
+      "section_en": "4. Discussion / 4.3. Muscle Damage",
+      "text_en": "As myoglobin did not show differences between groups or over time, it could not be associated with the potential benefits of omega-3 consumption. However, myoglobin displays shorter half-lives in circulation (2–3 h)."
+    },
+    {
+      "paragraph_id": "SU-027:p0052",
+      "section_en": "4. Discussion / 4.4. Oxidant Response",
+      "text_en": "Post-exercise condition displays an increased production of ROS, indicating that the antioxidant capacity influences the recovery process. However, ROS production depends on duration and intensity, with greater oxidative stress in longer and high-intensity exercises. Antioxidant supplements are necessary when the endogenous antioxidant capacity is overwhelmed by excessive production of free radicals. In this context, omega-3 supplements decrease circulating oxidative stress markers, improving mitochondrial function (free radical source) and reducing inflammation by stimulating pro-inflammatory cytokine production. Altogether, this results in less muscle damage. EPA and DHA can alter lipid membranes, produce disruption of lipid rafts, and inhibit NF-κβ activity, reducing the expression of pro-inflammatory genes. Therefore, EPA and DHA act as antioxidants due to their influence on neutrophils, macrophages, and mediators of acute inflammation, such as resolvins and protectins. EPA and DHA also inhibit the cyclooxygenase and lipoxygenase pathways from arachidonic acid (omega-6) metabolism, which is related to the inflammatory process."
+    },
+    {
+      "paragraph_id": "SU-027:p0053",
+      "section_en": "4. Discussion / 4.4. Oxidant Response",
+      "text_en": "EPA and DHA are associated with low inflammation and muscle damage markers, decreasing muscle soreness. Some indicators used include TAC (total antioxidant capacity), MDA (malonyl dialdehyde) as a marker of lipid peroxidation, and oxidation markers in other macromolecules, such as proteins and DNA. In this line, MDA correlates with ROS-mediated membrane oxidation and TAC is the antioxidant capacity of the system, which results from the activation of antioxidant enzymes, such as superoxide dismutase (SOD). All these parameters are paramount in the EIMD recovery process. The increase in MDA indicates the action of free radicals in lipid peroxidation. MDA levels decrease with omega-3 supplementation, suggesting the antioxidant capacity of the supplement, verified by increased SOD activity and TAC values. In the same line, the study by Berge et al. found that krill oil supplementation in 17 young athletes for 28 days significantly improved plasma antioxidant capacity, inflammation, and circulating lipid profile. In addition, Marques et al. observed that 30-day supplementation with omega-3 in wheelchair athletes decreased circulating LDH and IL-6 levels, and prevented the loss of membrane integrity and mitochondrial membrane potential in neutrophils. Furthermore, Atashak et al. reported a significant decrease in CK and CRP after one week of supplementation. The CG in this study displayed increased levels of MDA, that remained elevated 24 h after. Altogether, these studies indicate the antioxidant potential of omega-3 supplements, primarily acting in lipid environments, which helps maintain the integrity of cell membranes."
+    },
+    {
+      "paragraph_id": "SU-027:p0054",
+      "section_en": "4. Discussion / 4.4. Oxidant Response",
+      "text_en": "In this line, DHA accumulates in the phospholipid membrane and in mitochondrial cardiolipin, a membrane-bound lipid involved in the regulation of apoptosis and protection of mitochondria against oxidative stress. Thus, DHA can stimulate endogenous antioxidant systems by activating signaling pathways that prevent DNA damage, as indicated by decreased levels of 8-hydroxy-2′-deoxyguanosine. SOD is an antioxidant enzyme, located in the cytosol and mitochondria, which acts as the first line of defense against oxidative stress induced by exercise. Yang et al. showed high SOD levels after EIMD. However, SOD levels can be conditioned by physiological situations, such as the menstrual phase in active women. In this line, the study by McKinley et al. did not observe differences in SOD concentration during the recovery period of women during the mid-luteal phase and found higher SOD concentrations in the mid-follicular phase. Luostarinen et al. and Fisher et al. showed that the decrease in superoxide production does not involve the cyclooxygenase pathway, suggesting a role for SOD. On the other hand, Gray et al. analyzed the effect of supplementation for 6 weeks on 20 men, showing an improvement in oxidative stress indicators, although they reported no difference in DOMS and circulating CK levels. Similarly, the study by Lenn et al. did not show changes in oxidative markers or CK, IL-6, or TNF-α after fish oil supplementation. This suggests that, in addition to SOD, other intracellular antioxidants are modulated by omega-3 supplements."
+    },
+    {
+      "paragraph_id": "SU-027:p0055",
+      "section_en": "4. Discussion / 4.4. Oxidant Response",
+      "text_en": "GSH, like SOD, is a key antioxidant that reduces oxidative stress produced by exercise. Intracellular concentration of GSH is an indicator of redox status. In this context, the ratio between the reduced and the oxidized form (GSH/GSSG) is a very useful indicator of intracellular redox potential. In this context and according to Barquilha et al., GSH and GSH/GSSG ratios were higher in the omega-3-supplemented group."
+    },
+    {
+      "paragraph_id": "SU-027:p0056",
+      "section_en": "4. Discussion / 4.5. Sports Performance",
+      "text_en": "Physical exercise involves the breakdown of muscle myofibrils, which cause DOMS, inflammation, and muscle swelling. This process results in a limited range of motion and decreased muscle strength. In one study, there was an increase in elbow range of motion (ROM) that persisted up to 3 days after the execution of an eccentric exercise, in the omega-3 supplemented group. Similarly, another study showed a significant increase in elbow ROM up to 5 days after eccentric exercise. In this study, supplementation with 600 mg/day of EPA and 260 mg/day of DHA was conducted for 8 weeks. Nevertheless, less time (4 weeks) seems to be enough to reach a similar goal. Altogether, EPA and DHA supplementation benefits joint flexibility, protecting against eccentric exercises."
+    },
+    {
+      "paragraph_id": "SU-027:p0057",
+      "section_en": "4. Discussion / 4.5. Sports Performance",
+      "text_en": "Regarding other biomechanics abilities related to performance, volunteers supplemented with omega-3 were allowed to recover baseline vertical jump performance after 24 h compared to the not-supplemented group. Otherwise, higher supplementation doses had a positive impact on vertical jump recovery, an assessment of muscle power, 24 h post-exercise and longer."
+    },
+    {
+      "paragraph_id": "SU-027:p0058",
+      "section_en": "4. Discussion / 4.5. Sports Performance",
+      "text_en": "In the same line, positive effects were also observed in the study by Tsuchiya et al.. This study verified that omega-3 supplementation had a positive effect on maximal voluntary isometric contraction torque after eccentric exercise. However, the effects of supplementation are controversial. In some studies, no effect of omega-3 supplementation was observed on DOMS reduction, with 2 g/day of DHA for 28 days or with 1.8 g/day of omega-3 for 30 days. These observations suggest that longer treatments seem to be more effective in delaying DOMS. In this context, DOMS, as well as inflammation, can have a negative effect on athletes in the following days post-exercise, particularly if it is necessary to execute intense activity in a short period of time. Altogether, these studies indicate that omega-3 supplementation can prevent and alleviate muscle damage after eccentric exercise."
+    },
+    {
+      "paragraph_id": "SU-027:p0059",
+      "section_en": "5. Limitations and Strengths",
+      "text_en": "While some studies were found, many of them did not comply with the inclusion criteria, and therefore, had to be excluded from the systematic review. Additionally, it is important to acknowledge that the studies included in the analysis had relatively small sample sizes. Consequently, it is necessary to consider the variations in participant populations, including their different levels of training and the utilization of diverse research protocols. These factors contribute to increased heterogeneity among studies, emphasizing the need for caution when interpreting the findings. The studies included in the systematic review utilized varying doses and durations of omega-3 supplementation. This variability among studies makes it difficult to reach clear conclusions."
+    },
+    {
+      "paragraph_id": "SU-027:p0060",
+      "section_en": "5. Limitations and Strengths",
+      "text_en": "Nevertheless, to ensure a rigorous approach, the systematic review adhered to the PERSiST rules, the PICOS model, and conducted a comprehensive search across three databases, Medline, Scopus, and WOS, to encompass a wide range of relevant literature. Furthermore, the methodological quality of the selected studies was assessed using the McMaster assessment tool and PEDro, together with Cochrane’s risk of bias assessment tool to ensure that all selected records met minimum quality."
+    },
+    {
+      "paragraph_id": "SU-027:p0061",
+      "section_en": "5. Limitations and Strengths",
+      "text_en": "Studies in this systematic review did not exclusively focus on elite athletes. Instead, they encompassed both athletes and normal healthy individuals, providing sufficient evidence to support their hypothesis. The main findings suggest that omega-3 fatty acids could potentially be accepted as a beneficial supplementation for elite athletes on the topic of muscle recovery. Nevertheless, more research could be done on omega-3 supplementation and improvement of athletic performance."
+    },
+    {
+      "paragraph_id": "SU-027:p0062",
+      "section_en": "6. Practical Applications",
+      "text_en": "Interest in finding nutrients and supplements that can enhance athletic performance and aid in recovery has witnessed significant growth in recent years. Athletes frequently employ various supplements to potentially augment their metabolic capacity, delay the onset of fatigue, promote muscle hypertrophy, and expedite recovery. Ergogenic aids have emerged as potential facilitators of these desired outcomes and omega-3, with its notable properties, has recently gained recognition as an ergogenic supplement that may contribute to some of these processes. The use of nutritional aids that allow athletes to improve their health and increase their sports performance must be consistent with the principles of rational nutrition and, when necessary, do not cover nutritional requirements with diet alone."
+    },
+    {
+      "paragraph_id": "SU-027:p0063",
+      "section_en": "6. Practical Applications",
+      "text_en": "Supplementation with omega-3 fatty acids has undergone extensive research, although most of the studies included a small sample size. However, all the studies analyzed in this systematic review consistently indicate that omega-3 supplementation, attributed to its anti-inflammatory properties, confers benefits in terms of muscle recovery following EIMD, as evidenced by decreased inflammatory markers, preventing oxidation of muscle satellite cells and muscle damage. While these findings demonstrate promise for omega-3 supplementation and muscle recovery, the outlook for its impact on improving athletic performance is less encouraging. Limited studies were available, and the consensus among them suggests little to no evidence supporting the notion that omega-3 supplementation provides any discernible benefits in enhancing athletic performance."
+    },
+    {
+      "paragraph_id": "SU-027:p0064",
+      "section_en": "6. Practical Applications",
+      "text_en": "Further investigation is necessary to establish a conclusive understanding of the connection between omega-3 fatty acids supplementation and muscle recovery, especially between omega-3 and athletic performance. It would be valuable to conduct multiple studies incorporating different dosages of omega-3 to different groups, participants with a similar age range, and similar exercise levels. These studies should also examine key parameters to enhance the administration methods of omega-3 based on factors such as age, gender, level of physical activity, and heart health. By doing so, an optimal and more precise range of omega-3 consumption can be determined to derive its benefits."
+    },
+    {
+      "paragraph_id": "SU-027:p0065",
+      "section_en": "7. Conclusions",
+      "text_en": "Based on the results, this systematic review showed that overall, more evidence is needed to give clear recommendations on the dose and duration of omega-3 treatment. Consumption of (at least) 2400 mg/day of omega-3 fatty acids (EPA/DHA) for (at least) 4.5 weeks appears to be effective. However, future studies have to indicate certain aspects to increase the reliability of the research, such as baseline omega-3 status matching between control and intervention groups, reporting of habitual dietary intake of omega-3 food sources, and inclusion of at least one outcome measure that validates omega-3 status change in response to supplementation. Omega-3 supplementation could benefit by reducing the inflammatory response after exercise, evidenced by IL-6 decrease. In addition, the effect that omega-3 has on EIMD is evidenced by the reduction of circulating muscle biomarkers, such as CK and LDH. Omega-3 may help decrease oxidative stress caused by exercise. Overall, the evidence shows that EPA/DHA have the potential to decrease the production of inflammatory cytokines and markers of muscle damage. However, the only study that employed ALA reported no benefit for healthy physically active subjects."
+    }
+  ],
+  "excluded": [
+    {
+      "paragraph_id": "SU-027:p0006",
+      "section_en": "2. Materials and Methods / 2.1. Search Strategy",
+      "text_en": "This systematic review was carried out following the guidelines of the Preferred Reporting Items for Systematic Review and Meta-Analyses (PRISMA®) in Exercise, Rehabilitation, Sports Medicine and Sports Science (PERSiST) and the PICOS model to define inclusion criteria: P (population): “physically healthy adults”, I (Intervention): “Omega-3 supplementation”, C (Comparison): “same conditions with placebo, sham treatment or control group”, O (Outcomes): “inflammation markers, muscle damage, oxidant response, and sports performance”, S (study): “randomized controlled trials”.",
+      "reason": "требует проверки тематических границ"
+    }
+  ],
+  "copyright_notice": "© 2024 by the authors.2024https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).",
+  "license_links": [
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "word_count_en": 7152
+}

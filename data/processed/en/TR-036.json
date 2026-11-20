@@ -1,0 +1,260 @@
+{
+  "source_id": "TR-036",
+  "paragraphs": [
+    {
+      "paragraph_id": "TR-036:p0003",
+      "section_en": "1. Introduction",
+      "text_en": "Nevertheless, studies comparing the effects of ST and stretching in ROM have presented conflicting evidence, and many have small sample sizes. Developing a systematic review and meta-analysis may help summarize this conflicting evidence and increase statistical power, thus, providing clearer guidance for interventions. Therefore, the aim of this systematic review and meta-analysis was to compare the effects of supervised and randomized ST versus stretching protocols on ROM in participants of any health and training status."
+    },
+    {
+      "paragraph_id": "TR-036:p0004",
+      "section_en": "2. Materials and Methods / 2.1. Protocol and Registration",
+      "text_en": "The methods and protocol registration were preregistered prior to conducting the review: INPLASY, no.202090098, DOI:10.37766/inplasy2020.9.0098."
+    },
+    {
+      "paragraph_id": "TR-036:p0005",
+      "section_en": "2. Materials and Methods / 2.2. Eligibility Criteria",
+      "text_en": "Articles were eligible for inclusion if published in peer-reviewed journals, with no restrictions in language or publication date. The Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines were adopted. Participants, interventions, comparators, outcomes, and study design (P.I.C.O.S.) were established as follows: (i) Participants with no restriction regarding health, sex, age, or training status; (ii) ST interventions supervised by a certified professional. ST was defined as any method focused on developing strength, ranging from resistance training to plyometrics; no limitations were placed with regard to intensity, volume, type of contractions and frequency, as it could excessively narrow the searches; (iii) comparators were supervised groups performing any form of stretching, including static stretching, passive stretching, dynamic stretching, and PNF, regardless of their intensity, duration or additional features; (iv) outcomes were ROM assessed in any joint, preferably through goniometry, but standardized tests such as the sit-and-reach were also acceptable; (v) randomized controlled trials (RCTs). RCTs reduce bias and better balance participant features between the groups, and are important for the advancement of sports science. There were no limitations regarding intervention length."
+    },
+    {
+      "paragraph_id": "TR-036:p0006",
+      "section_en": "2. Materials and Methods / 2.2. Eligibility Criteria",
+      "text_en": "The study excluded reviews, letters to editors, trial registrations, proposals for protocols, editorials, book chapters, and conference abstracts. Exclusion criteria, based on P.I.C.O.S., included: (i) Research with non-human animals; (ii) non-ST protocols or ST interventions combined with other methods (e.g., endurance); unsupervised interventions; (iii) stretching or ST + stretching interventions combined with other training methods (e.g., endurance); protocols without stretching; unsupervised interventions; (iv) studies not reporting ROM; (v) non-randomized interventions."
+    },
+    {
+      "paragraph_id": "TR-036:p0007",
+      "section_en": "2. Materials and Methods / 2.3. Information Sources and Search",
+      "text_en": "Six databases were used to search and retrieve the articles in early October 2020: Cochrane Library, EBSCO, PubMed (including MEDLINE), Scielo, Scopus, and Web of Science (Core Collection). Boolean operators were applied to search the article title, abstract and/or keywords: (“strength training” OR “resistance training” OR “weight training” OR “plyometric*” OR “calisthenics”) AND (“flexibility” OR “stretching”) AND “range of motion” AND “random*”. The specificities of each search engine included: (i) Cochrane Library, items were limited to trials, including articles but excluding protocols, reviews, editorials and similar publications; (ii) EBSCO, the search was limited to articles in scientific, peer-reviewed journals (iii) PubMed, the search was limited to title or abstract; publications were limited to RCTs and clinical trials, excluding books and documents, meta-analyses, reviews and systematic reviews; (iv) in Scielo, Scopus and Web of Science, the publication type was limited to article; and (v) Web of Science, “topic” is the term used to refer to title, abstract and keywords."
+    },
+    {
+      "paragraph_id": "TR-036:p0008",
+      "section_en": "2. Materials and Methods / 2.3. Information Sources and Search",
+      "text_en": "An additional search was conducted within the reference lists of the included records. The list of articles and inclusion criteria were then sent to four experts to suggest additional references. The search strategy and consulted databases were not provided in this process to avoid biasing the experts’ searches. More detailed information is available as supplementary material."
+    },
+    {
+      "paragraph_id": "TR-036:p0009",
+      "section_en": "2. Materials and Methods / 2.3. Information Sources and Search",
+      "text_en": "Updated searches: on 8 March 2021, we conducted new searches in the databases. However, each database has specific approaches to filtering the searches by date. In Cochrane, we searched for articles entering the database in the previous 6 months. In EBSCO, we searched for all fields starting from October 2020 onwards. In PubMed, the entry date was set to 1 October 2020, onwards. In Scielo, Scopus and Web of Science, publication date was limited to 2020 and 2021."
+    },
+    {
+      "paragraph_id": "TR-036:p0010",
+      "section_en": "2. Materials and Methods / 2.4. Search Strategy",
+      "text_en": "Here, we provide the specific example of search conducted in PubMed:"
+    },
+    {
+      "paragraph_id": "TR-036:p0011",
+      "section_en": "2. Materials and Methods / 2.4. Search Strategy",
+      "text_en": "(((“strength training” [Title/Abstract] OR “resistance training” [Title/Abstract] OR “weight training” [Title/Abstract] OR “plyometric*” [Title/Abstract] OR “calisthenics” [Title/Abstract]) AND (“flexibility” [Title/Abstract] OR “stretching” [Title/Abstract])) AND (“range of motion” [Title/Abstract])) AND (“random*” [Title/Abstract])."
+    },
+    {
+      "paragraph_id": "TR-036:p0012",
+      "section_en": "2. Materials and Methods / 2.4. Search Strategy",
+      "text_en": "After this search, the filters RCT and Clinical Trial were applied."
+    },
+    {
+      "paragraph_id": "TR-036:p0013",
+      "section_en": "2. Materials and Methods / 2.5. Study Selection",
+      "text_en": "J.A. and F.M.C. each conducted the initial search and selection stages independently, and then compared result to ensure accuracy. J.F. and T.R. independently reviewed the process to detect potential errors. When necessary, re-analysis was conducted until a consensus was achieved."
+    },
+    {
+      "paragraph_id": "TR-036:p0014",
+      "section_en": "2. Materials and Methods / 2.6. Data Collection Process",
+      "text_en": "J.A., F.M.C., A.A.M. and J.F. extracted the data, while J.M., T.R., R.Z. and A.M. independently revised the process. Data for the meta-analysis were extracted by JA and independently verified by A.A.M. and R.R.C. Data were available for sharing."
+    },
+    {
+      "paragraph_id": "TR-036:p0015",
+      "section_en": "2. Materials and Methods / 2.7. Data Items",
+      "text_en": "Data items: (i) Population: subjects, health status, sex/gender, age, training status, selection of subjects; (ii) intervention and comparators: Study length in weeks, weekly frequency of the sessions, weekly training volume in minutes, session duration in minutes, number of exercises per session, number of sets and repetitions per exercise, load (e.g., % 1 Repetition Maximum), full versus partial ROM, supervision ratio; in the comparators, modality of stretching applied was also considered; adherence rates were considered a posteriori; (iii) ROM testing: joints and actions, body positions (e.g., standing, supine), mode of testing (i.e., active, passive, both), pre-testing warm-up, timing (e.g., pre- and post-intervention, intermediate assessments), results considered for a given test (e.g., average of three measures), data reliability, number of testers and instructions provided during testing; (iv) Outcomes: changes in ROM for intervention and comparator groups; (vi) funding and conflicts of interest."
+    },
+    {
+      "paragraph_id": "TR-036:p0016",
+      "section_en": "2. Materials and Methods / 2.8. Risk of Bias in Individual Studies",
+      "text_en": "The risk of bias (RoB) in individual studies was assessed using the Cochrane risk-of-bias tool for randomized trials (RoB 2). J.A. and A.M. independently completed RoB analysis, which was reviewed by F.M.C. Where inconsistencies emerged, the original articles were re-analyzed until a consensus was achieved."
+    },
+    {
+      "paragraph_id": "TR-036:p0017",
+      "section_en": "2. Materials and Methods / 2.9. Summary Measures",
+      "text_en": "Meta-analysis was conducted when ≥3 studies were available. Pre- and post-intervention means and standard deviations (SDs) for dependent variables were used after being converted to Hedges’s g effect size (ES). When means and SDs were not available, they were calculated from 95% confidence intervals (CIs) or standard error of mean (SEM), using Cochrane’s RevMan Calculator for Microsoft Excel. When ROM data from different groups (e.g., men and women) or different joints (e.g., knee and ankle) was pooled, weighted formulas were applied."
+    },
+    {
+      "paragraph_id": "TR-036:p0018",
+      "section_en": "2. Materials and Methods / 2.10. Synthesis of Results",
+      "text_en": "The inverse variance random-effects model for meta-analyses was used to allocate a proportionate weight to trials based on the size of their individual standard errors, and accounting for heterogeneity across studies. The ESs were presented alongside 95% CIs and interpreted using the following thresholds: <0.2, trivial; 0.2–0.6, small; >0.6–1.2, moderate; >1.2–2.0, large; >2.0–4.0, very large; >4.0, extremely large. Heterogeneity was assessed using the I2 statistic, with values of <25%, 25–75%, and >75% considered to represent low, moderate, and high levels of heterogeneity, respectively. Data used for meta-analysis is available in a supplementary Excel file."
+    },
+    {
+      "paragraph_id": "TR-036:p0019",
+      "section_en": "2. Materials and Methods / 2.11. Risk of Bias Across Studies",
+      "text_en": "Publication bias was explored using the extended Egger’s test, with p < 0.05 implying bias. To adjust for publication bias, a sensitivity analysis was conducted using the trim and fill method, with L0 as the default estimator for the number of missing studies."
+    },
+    {
+      "paragraph_id": "TR-036:p0020",
+      "section_en": "2. Materials and Methods / 2.12. Moderator Analyses",
+      "text_en": "Using a random-effects model and independent computed single factor analysis, potential sources of heterogeneity likely to influence the effects of training interventions were selected, including (i) ROM type (i.e., passive versus active), (ii) studies RoB in randomization, and (iii) studies RoB in measurement of the outcome. These analyses were decided post-protocol registration."
+    },
+    {
+      "paragraph_id": "TR-036:p0021",
+      "section_en": "2. Materials and Methods / 2.12. Moderator Analyses",
+      "text_en": "All analyses were carried out using the Comprehensive Meta-Analysis program (version 2; Biostat, Englewood, NJ, USA). Statistical significance was set at p ≤ 0.05. Data for the meta-analysis were extracted by JA and independently verified by A.A.M. and R.R.C."
+    },
+    {
+      "paragraph_id": "TR-036:p0022",
+      "section_en": "2. Materials and Methods / 2.13. Quality and Confidence in Findings",
+      "text_en": "Although not planned in the registered protocol, we decided to abide by the Grading of Recommendations Assessment, Development, and Evaluation (GRADE), which addresses five dimensions that can downgrade studies when assessing the quality of evidence in RCTs. RoB, inconsistency (through heterogeneity measures), and publication bias were addressed above and were considered a priori. Directness was guaranteed by design, as no surrogates were used for any of the pre-defined P.I.C.O. dimensions. Imprecision was assessed on the basis of 95% CIs."
+    },
+    {
+      "paragraph_id": "TR-036:p0023",
+      "section_en": "3. Results / 3.1. Study Selection",
+      "text_en": "An initial search returned 194 results (52 in Cochrane Library, 11 in EBSCO, 11 in PubMed, 9 in Scielo, 88 in Scopus, and 23 in Web of Science). After removal of duplicates, 121 records remained. Screening the titles and abstracts for eligibility criteria resulted in the exclusion of 106 articles: 26 were not original research articles (e.g., trial registrations, reviews), 24 were out of scope, 48 did not have the required intervention or comparators, five did not assess ROM, two were non-randomized and one was unsupervised. Fifteen articles were eligible for full-text analysis. One article did not have the required intervention, and two did not have the needed comparators. In one article, the ST and stretching groups performed a 20–30 min warm-up following an unspecified protocol. In another, the intervention and comparator were unsupervised, and in one the stretching group was unsupervised. Finally, in one article, 75% of the training sessions were unsupervised. Therefore, eight articles were included at this stage."
+    },
+    {
+      "paragraph_id": "TR-036:p0024",
+      "section_en": "3. Results / 3.1. Study Selection",
+      "text_en": "A manual search within the reference lists of the included articles revealed five additional potentially fitting articles. Two lacked the intervention group required, and two were non-randomized. One article met the inclusion criteria. Four experts revised the inclusion criteria and the list of articles and suggested eight articles based on their titles and abstracts. Six were excluded: interventions were multicomponent; comparators performed no exercise; out of scope; and unsupervised stretching group. Two articles were included, increasing the list to eleven articles, with 452 participants eligible for meta-analysis (Figure 1). Updated searches: in the renewed searches, 28 records emerged, of which two passed the screening. However, these two records had already been included in our final sample. Therefore, no new article was included."
+    },
+    {
+      "paragraph_id": "TR-036:p0025",
+      "section_en": "3. Results / 3.2. Study Characteristics and Results",
+      "text_en": "The data items can be found in Table 1. The study of Wyon, Smith and Koutedakis required consultation of a previous paper to provide essential information. Samples ranged from 27 to 124 subjects, including: Trained participants, i.e., engaging in systematic exercise programs, healthy sedentary participants, sedentary and trained participants, workers with chronic neck pain, participants with fibromyalgia, and elderly participants with difficulties in at least one of four tasks: transferring, bathing, toileting, and walking. Seven articles included only women or predominantly women; three investigated only men or predominantly men; and one article had a balanced mixture of men and women."
+    },
+    {
+      "paragraph_id": "TR-036:p0026",
+      "section_en": "3. Results / 3.2. Study Characteristics and Results",
+      "text_en": "Interventions lasted between five and 16 weeks. Minimum weekly training frequency was two sessions and maximum was five. Six articles provided insufficient information concerning session duration. Ten articles vaguely defined training load for the ST and stretching groups, or for stretching groups. Six articles did not report on using partial or full ROM during ST exercises. Different stretching modalities were implemented: static active, dynamic, dynamic with a 10-s hold, static active in one group and static passive in another, and a combination of dynamic, static active, and PNF."
+    },
+    {
+      "paragraph_id": "TR-036:p0027",
+      "section_en": "3. Results / 3.2. Study Characteristics and Results",
+      "text_en": "Hip joint ROM was assessed in seven articles, knee ROM in five, shoulder ROM in four, elbow and trunk ROM in two, and cervical spine and the ankle joint ROM in one article. In one article, active ROM (AROM) was tested for the trunk, while passive ROM (PROM) was tested for the other joints. In one article, PROM was tested for goniometric assessments and AROM for hip flexion. In another, AROM was assessed for the shoulder and PROM for the hip and knee. Three articles only assessed PROM, and four AROM, while one assessed both for the same joint."
+    },
+    {
+      "paragraph_id": "TR-036:p0028",
+      "section_en": "3. Results / 3.2. Study Characteristics and Results",
+      "text_en": "In seven articles, ST and stretching groups significantly improved ROM, and the differences between the groups were non-significant. In one article, the ST group had significant improvements in 8 of 10 ROM measures, while dynamic stretching did not lead to improvement in any of the groups. In another article, the three groups significantly improved PROM, without between-group differences; the ST and the static active stretching groups also significantly improved AROM. In two articles, none of the groups improved ROM."
+    },
+    {
+      "paragraph_id": "TR-036:p0029",
+      "section_en": "3. Results / 3.3. Risk of Bias in Individual Studies",
+      "text_en": "Table 2 presents assessments of RoB. Bias arising from the randomization process was low in four articles, moderate in one and high in six. Bias due to deviations from intended interventions, missing outcome data, and selection of the reported results was low. Bias in measurement of the outcome was low in six articles, but high in five."
+    },
+    {
+      "paragraph_id": "TR-036:p0030",
+      "section_en": "3. Results / 3.4. Synthesis of Results",
+      "text_en": "Comparisons were performed between ST and stretching groups, involving eleven articles and 452 participants. Global effects on ROM were achieved pooling data from the different joints. One article did not have the data required, but the authors supplied it upon request. For another article, we also requested data relative to the goniometric evaluations, but obtained no response. Therefore, only data from the sit-and-reach test were used. For one article, means and SDs were obtained from 95% CIs, while in another, SDs were extracted from SEMs using Cochrane’s RevMan Calculator."
+    },
+    {
+      "paragraph_id": "TR-036:p0031",
+      "section_en": "3. Results / 3.4. Synthesis of Results",
+      "text_en": "From the five articles, including both genders, four provided pooled data, with no distinction between genders. One article presented data separated by gender, without significant differences between men and women in response to interventions. Weighted formulas were applied sequentially for combining means and SDs of groups within the same study. Two studies presented the results separated by left and right lower limbs, with both showing similar responses to the interventions; outcomes were combined using the same weighted formulas for the means and SDs. Five articles only presented one decimal place, and so all values were rounded for uniformity."
+    },
+    {
+      "paragraph_id": "TR-036:p0032",
+      "section_en": "3. Results / 3.4. Synthesis of Results",
+      "text_en": "Effects of ST versus stretching on ROM: no significant difference was noted between ST and stretching (ES = −0.22; 95% CI = −0.55 to 0.12; p = 0.206; I2 = 65.4%; Egger’s test p = 0.563; Figure 2). The relative weight of each study in the analysis ranged from 6.4% to 12.7% (the size of the plotted squares in Figure 2 reflects the statistical weight of each study)."
+    },
+    {
+      "paragraph_id": "TR-036:p0033",
+      "section_en": "3. Results / 3.5. Additional Analyses",
+      "text_en": "Effects of ST versus stretching on ROM, moderated by study RoB in randomization: No significant sub-group differences in ROM changes (p = 0.256) was found when programs with high RoB (6 studies; ES = −0.41; 95% CI = −1.02 to 0.20; within-group I2 = 77.5%) were compared to programs with low RoB (4 studies; ES = −0.03; 95% CI = −0.29 to 0.23; within-group I2 = 0.0%) (Figure 3)."
+    },
+    {
+      "paragraph_id": "TR-036:p0034",
+      "section_en": "3. Results / 3.5. Additional Analyses",
+      "text_en": "Effects of ST versus stretching on ROM, moderated by study RoB in measurement of the outcome: No significant sub-group difference in ROM changes (p = 0.320) was found when programs with high RoB (5 studies; ES = −0.04; 95% CI = −0.31 to 0.24; within-group I2 = 8.0%) were compared to programs with low RoB (6 studies; ES = −0.37; 95% CI = −0.95 to 0.22; within-group I2 = 77.3%) (Figure 4)."
+    },
+    {
+      "paragraph_id": "TR-036:p0035",
+      "section_en": "3. Results / 3.5. Additional Analyses",
+      "text_en": "Effects of ST versus stretching on ROM, moderated by ROM type (active vs. passive): No significant sub-group difference in ROM changes (p = 0.642) was found after training programs that assessed active (8 groups; ES = −0.15; 95% CI = −0.65 to 0.36; within-group I2 = 78.7%) compared to passive ROM (6 groups; ES = −0.01; 95% CI = −0.27 to 0.24; within-group I2 = 15.3%) (Figure 5)."
+    },
+    {
+      "paragraph_id": "TR-036:p0036",
+      "section_en": "3. Results / 3.5. Additional Analyses",
+      "text_en": "Effects of ST versus stretching on hip flexion ROM: Seven studies provided data for hip flexion ROM (pooled n = 294). There was no significant difference between ST and stretching interventions (ES = −0.24; 95% CI = −0.82 to 0.34; p = 0.414; I2 = 80.5%; Egger’s test p = 0.626; Figure 6). The relative weight of each study in the analysis ranged from 12.0% to 17.4% (the size of the plotted squares in Figure 6 reflects the statistical weight of each study)."
+    },
+    {
+      "paragraph_id": "TR-036:p0037",
+      "section_en": "3. Results / 3.5. Additional Analyses",
+      "text_en": "Effects of ST versus stretching on hip flexion ROM, moderated by study RoB in randomization: No significant sub-group difference in hip flexion ROM changes (p = 0.311) was found when programs with high RoB in randomization (4 studies; ES = −0.46; 95% CI = −1.51 to 0.58; within-group I2 = 86.9%) were compared to programs with low RoB in randomization (3 studies; ES = 0.10; 95% CI = −0.20 to 0.40; within-group I2 = 0.0%) (Figure 7)."
+    },
+    {
+      "paragraph_id": "TR-036:p0038",
+      "section_en": "3. Results / 3.5. Additional Analyses",
+      "text_en": "Effects of ST versus stretching on hip flexion ROM, moderated by ROM type (active vs. passive): No significant sub-group difference in hip flexion ROM changes (p = 0.466) was found after the programs assessed active (4 groups; ES = −0.38; 95% CI = −1.53 to 0.76; within-group I2 = 87.1%) compared to passive ROM (4 groups; ES = 0.08; 95% CI = −0.37 to 0.52; within-group I2 = 56.5%) (Figure 8)."
+    },
+    {
+      "paragraph_id": "TR-036:p0039",
+      "section_en": "3. Results / 3.5. Additional Analyses",
+      "text_en": "Effects of ST versus stretching on knee extension ROM: Four studies provided data for knee extension ROM (pooled n = 223). There was no significant difference between ST and stretching interventions (ES = 0.25; 95% CI = −0.02 to 0.51; p = 0.066; I2 = 0.0%; Egger’s test p = 0.021; Figure 9). After the application of the trim and fill method, the adjusted values changed to ES = 0.33 (95% CI = 0.10 to 0.57), favoring ST. The relative weight of each study in the analysis ranged from 11.3% to 54.2% (the size of the plotted squares in Figure 9 reflects the statistical weight of each study)."
+    },
+    {
+      "paragraph_id": "TR-036:p0040",
+      "section_en": "3. Results / 3.5. Additional Analyses",
+      "text_en": "One article behaved as an outlier in all comparisons, favoring stretching, but after sensitivity analysis the results remained unchanged (p > 0.05), with all ST versus stretching comparisons remaining non-significant."
+    },
+    {
+      "paragraph_id": "TR-036:p0041",
+      "section_en": "3. Results / 3.6. Confidence in Cumulative Evidence",
+      "text_en": "Table 3 presents GRADE assessments. ROM is a continuous variable, and so a high degree of heterogeneity was expected. Imprecision was moderate, likely reflecting the fact that ROM is a continuous variable. Overall, both ST and stretching consistently promoted ROM gains, but no recommendation could be made favoring one protocol."
+    },
+    {
+      "paragraph_id": "TR-036:p0042",
+      "section_en": "4. Discussion / 4.1. Summary of Evidence",
+      "text_en": "The aim of this systematic review and meta-analysis was to compare the effects of supervised and randomized ST compared to stretching protocols on ROM, in participants of any health and training status. Qualitative synthesis showed that ST and stretching interventions were not statistically different in improving ROM. However, the studies were highly heterogeneous with regard to the nature of the interventions and moderator variables, such as gender, health, or training status. This had been reported in the original manuscripts as well. A meta-analysis, including 11 articles and 452 participants, showed that ST and stretching interventions were not statistically different in active and passive ROM changes, regardless of RoB in the randomization process, or in measurement of the outcome. RoB was low for deviations from intended interventions, missing outcome data, and selection of the reported results. No publication bias was detected."
+    },
+    {
+      "paragraph_id": "TR-036:p0043",
+      "section_en": "4. Discussion / 4.1. Summary of Evidence",
+      "text_en": "High heterogeneity is expected in continuous variables, such as ROM. However, more research should be conducted to afford sub-group analysis according to characteristics of the analyzed population, as well as protocol features. For example, insufficient reporting of training volume and intensity meant it was impossible to establish effective dose-response relationships, although a minimum of five weeks of intervention, and two weekly sessions were sufficient to improve ROM. Studies were not always clear with regard to the intensity used in ST and stretching protocols. Assessment of stretching intensity is complex, but a practical solution may be to apply scales of perceived exertion, or the Stretching Intensity Scale. ST intensity may also moderate effects on ROM, and ST with full versus partial ROM may have distinct neuromuscular effects and changes in fascicle length. Again, the information was insufficient to discuss these factors, which could potentially explain part of the heterogeneity of results. This precludes advancing stronger conclusions and requires further research to be implemented."
+    },
+    {
+      "paragraph_id": "TR-036:p0044",
+      "section_en": "4. Discussion / 4.1. Summary of Evidence",
+      "text_en": "Most studies showed ROM gains in ST and stretching interventions, but in two studies, neither group showed improvements. Although adherence rates were unreported by Aquino, Fonseca, Goncalves, Silva, Ocarino and Mancini, they were above 91.7% in Leite, De Souza Teixeira, Saavedra, Leite, Rhea and Simão, thus providing an unlikely explanation for these results. In the study by Aquino, Fonseca, Goncalves, Silva, Ocarino and Mancini, the participants increased their stretch tolerance, and the ST group changed the peak torque angle, despite no ROM gains. The authors acknowledged that there was high variability in measurement conditions (e.g., room temperature), which could have interfered with calculations. Leite, De Souza Teixeira, Saavedra, Leite, Rhea and Simão suggested that the use of dynamic instead of static stretching could explain the lack of ROM gains in the stretching and stretching + ST groups. However, other studies using dynamic stretching have shown ROM gains. Furthermore, Leite, De Souza Teixeira, Saavedra, Leite, Rhea and Simão provided no interpretation for the lack of ROM gains in the ST group."
+    },
+    {
+      "paragraph_id": "TR-036:p0045",
+      "section_en": "4. Discussion / 4.1. Summary of Evidence",
+      "text_en": "Globally, however, both ST and stretching were effective in improving ROM. We asked what the reason for ST to improve ROM in a manner that is not statistically distinguishable from stretching? A first thought might be to speculate that perhaps the original studies used sub-threshold stretching intensities and/or durations. However, the hypothesis that ST has intrinsic merit for improving ROM should also be considered. ST with an eccentric focus demands the muscles to produce force on elongated positions, and a meta-analysis showed limited-to-moderate evidence that eccentric ST is associated with increases in fascicle length. Likewise, a recent study showed that 12 sessions of eccentric ST increased fascicle length of the biceps femoris long head. However, ST with an emphasis in concentric training has been shown to increase fascicle length when full ROM was required. In a study with nine older adults, ST increased fascicle length in both the eccentric and concentric groups, albeit more prominently in the former. Conversely, changes in pennation angle were superior in the concentric group (35% increase versus 5% increase). Plyometric training can also increase plantar flexor tendon extensibility."
+    },
+    {
+      "paragraph_id": "TR-036:p0046",
+      "section_en": "4. Discussion / 4.1. Summary of Evidence",
+      "text_en": "One article showed significant reductions in pain associated with increases in strength. Therefore, decreased pain sensitivity may be another mechanism by which ST promotes ROM gains. An improved agonist-antagonist coactivation is another possible mechanism promoting ROM gains, through better adjusted force ratios. Also, some articles included in the meta-analysis assessed other outcomes in addition to ROM, and these indicated that ST programs may have additional advantages when compared to stretching, such as greater improvements in neck flexors endurance, ten repetition maximum Bench Press and Leg Press, and countermovement jump and 60-m sprint with hurdles which may favor the choice of ST over stretching interventions."
+    },
+    {
+      "paragraph_id": "TR-036:p0047",
+      "section_en": "4. Discussion / 4.2. Limitations",
+      "text_en": "After protocol registration, we chose to improve upon the design, namely adding two dimensions (directness and imprecision) that would provide a complete GRADE assessment. Furthermore, subgroup analyses were not planned a priori. There is a risk of multiple subgroup analyses generating a false statistical difference, merely to the number of analyses conducted. However, all analyses showed an absence of significant differences and therefore provide a more complete understanding that the effects of ST or stretching on ROM are consistent across conditions. Looking backwards, perhaps removing the filters used in the initial searches could have provided a greater number of records. Notwithstanding, it would also likely provide a huge number of non-relevant records, including opinion papers and reviews. Moreover, consultation with four independent experts may hopefully have resolved this shortcoming."
+    },
+    {
+      "paragraph_id": "TR-036:p0048",
+      "section_en": "4. Discussion / 4.2. Limitations",
+      "text_en": "Due to the heterogeneity of populations analysed, sub-group analysis according to sex or age group were not possible, and so it would be important to explore if these features interact with the protocols in meaningful ways. Moreover, there was a predominance of studies with women, meaning more research with men is advised. There was also a predominance of assessments of hip joint ROM, followed by knee and shoulder, with the remaining joints receiving little to no attention. In addition, dose-response relationships could not be addressed, mainly due to poor reporting. However, the qualitative findings of all the studies were very homogeneous, with statistical significance tests failing to show differences between ST and stretching protocols."
+    }
+  ],
+  "excluded": [
+    {
+      "paragraph_id": "TR-036:p0001",
+      "section_en": "1. Introduction",
+      "text_en": "Joint range of motion (ROM) is the angle by which a joint moves from its resting position to the extremities of its motion in any given direction. Improving ROM is a core goal for the general population, as well as in clinical contexts, such as in treating acute respiratory failure, plexiform neurofibromas, recovering from breast cancer-related surgery, and total hip replacement. Several common clinical conditions negatively affect ROM, such as ankylosing spondylitis, cerebral palsy, Duchenne muscular dystrophy, osteoarthritis rheumatoid arthritis. Unsurprisingly, ROM gains are also relevant in different sports, such as basketball, baseball and rowing. ROM is improved through increased stretch tolerance, augmented fascicle length and changes in pennation angle, as well as reduced tonic reflex activity. Stretching is usually prescribed for increasing ROM in sports, clinical settings, such as chronic low back pain, rheumatoid arthritis, and exercise performance in general. Stretching techniques, include static (active or passive), dynamic, or proprioceptive neuromuscular facilitation (PNF), all of which can improve ROM.",
+      "reason": "требует проверки тематических границ"
+    },
+    {
+      "paragraph_id": "TR-036:p0002",
+      "section_en": "1. Introduction",
+      "text_en": "It should be noted that muscle weakness is associated with diminished ROM. Strength training (ST) can be achieved through a number of methods, as long as resistance is applied to promote strength gains, and includes methods as diverse as using free weights or plyometrics. Although ST primarily addresses muscle weakness, it has been shown to increase ROM. For example, hip flexion and extension ROM of adolescent male hurdles was improved using plyometrics, while judo fighters improved ROM (shoulder flexion, extension, abduction and adduction; trunk flexion and extension; and hip flexion and extension) through resistance training. The ROM gains, using resistance training, have also been described in relation to healthy elderly people for hip flexion and cervical extension, and isometric neck strength training, with an elastic band, in women with chronic nonspecific neck pain improved neck flexion, extension, rotation and lateral flexion. ST that is focused on concentric and eccentric contractions has been shown to increase fascicle length. Improvements in agonist-antagonist co-activation, reciprocal inhibition, and potentiated stretch-shortening cycles due to greater active muscle stiffness may also explain why ST is a suitable method for improving ROM.",
+      "reason": "требует проверки тематических границ"
+    },
+    {
+      "paragraph_id": "TR-036:p0049",
+      "section_en": "5. Conclusions",
+      "text_en": "Overall, ST and stretching were not statistically different in ROM improvements, both in short-term interventions, and in longer-term protocols, suggesting that a combination of neural and mechanical factors is at play. However, the heterogeneity of study designs and populations precludes any definite conclusions and invites researchers to delve deeper into this phenomenon. Notwithstanding this observation, the qualitative effects were quite similar across studies. Therefore, if ROM gains are a desirable outcome, both ST and stretching reveal promising effects, but future research should better explore this avenue. In addition, the studies included in this review showed that ST had a few advantages in relation to stretching, as was explored in the discussion. Furthermore, session duration may negatively impact adherence to an exercise program. If future research confirms that ST generates ROM gains similar to those obtained with stretching, clinicians may prescribe smaller, more time-effective programs when deemed convenient and appropriate, thus eventually increasing patient adherence rates. Alternatively, perhaps studies using stretching exercises should better assess their intensity and try to establish minimum thresholds for their efficacy in improving ROM.",
+      "reason": "требует проверки тематических границ"
+    }
+  ],
+  "copyright_notice": "© 2021 by the authors.2021https://creativecommons.org/licenses/by/4.0/Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).",
+  "license_links": [
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "word_count_en": 4028
+}

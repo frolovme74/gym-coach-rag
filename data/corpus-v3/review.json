@@ -1,0 +1,460 @@
+{
+  "status": "approved_targeted_revision",
+  "patch_count": 21,
+  "translation_agent": {
+    "status": "validated_pending_final_peer_confirmation",
+    "patch_count": 21,
+    "exact_old_text_and_sha_checked": true,
+    "all_new_texts_300_600_whitespace_words": true,
+    "source_files_sha256": [
+      {
+        "source_id": "TR-026",
+        "english_file": "data/processed/en/TR-026.json",
+        "english_file_sha256": "358c16470f28f7911b1d5248f24d1823d29673e27e1b3b06f4067fccfa84d036",
+        "paragraph_ids": [
+          "TR-026:p0025",
+          "TR-026:p0027",
+          "TR-026:p0028"
+        ]
+      },
+      {
+        "source_id": "TR-026",
+        "english_file": "data/processed/en/TR-026.json",
+        "english_file_sha256": "358c16470f28f7911b1d5248f24d1823d29673e27e1b3b06f4067fccfa84d036",
+        "paragraph_ids": [
+          "TR-026:p0028",
+          "TR-026:p0029",
+          "TR-026:p0030"
+        ]
+      },
+      {
+        "source_id": "TR-024",
+        "english_file": "data/processed/en/TR-024.json",
+        "english_file_sha256": "7996cb76c0df42d2c1588f514cddee333c15ad6c1601b460f83d6ec0852d31a3",
+        "paragraph_ids": [
+          "TR-024:p0002",
+          "TR-024:p0003",
+          "TR-024:p0004",
+          "TR-024:p0005"
+        ]
+      },
+      {
+        "source_id": "TR-024",
+        "english_file": "data/processed/en/TR-024.json",
+        "english_file_sha256": "7996cb76c0df42d2c1588f514cddee333c15ad6c1601b460f83d6ec0852d31a3",
+        "paragraph_ids": [
+          "TR-024:p0013",
+          "TR-024:p0014",
+          "TR-024:p0025",
+          "TR-024:p0026",
+          "TR-024:p0028",
+          "TR-024:p0031"
+        ]
+      },
+      {
+        "source_id": "TR-024",
+        "english_file": "data/processed/en/TR-024.json",
+        "english_file_sha256": "7996cb76c0df42d2c1588f514cddee333c15ad6c1601b460f83d6ec0852d31a3",
+        "paragraph_ids": [
+          "TR-024:p0032",
+          "TR-024:p0033",
+          "TR-024:p0034"
+        ]
+      },
+      {
+        "source_id": "TR-024",
+        "english_file": "data/processed/en/TR-024.json",
+        "english_file_sha256": "7996cb76c0df42d2c1588f514cddee333c15ad6c1601b460f83d6ec0852d31a3",
+        "paragraph_ids": [
+          "TR-024:p0034",
+          "TR-024:p0035",
+          "TR-024:p0036",
+          "TR-024:p0037"
+        ]
+      },
+      {
+        "source_id": "TR-024",
+        "english_file": "data/processed/en/TR-024.json",
+        "english_file_sha256": "7996cb76c0df42d2c1588f514cddee333c15ad6c1601b460f83d6ec0852d31a3",
+        "paragraph_ids": [
+          "TR-024:p0037",
+          "TR-024:p0038",
+          "TR-024:p0039",
+          "TR-024:p0040",
+          "TR-024:p0041",
+          "TR-024:p0042",
+          "TR-024:p0043"
+        ]
+      },
+      {
+        "source_id": "RE-006",
+        "english_file": "data/processed/en/RE-006.json",
+        "english_file_sha256": "40c33c70e8c7e11bc578b20fc0776c90f764c3e5bbbe7a9e265dc2108a6dbfb7",
+        "paragraph_ids": [
+          "RE-006:p0195",
+          "RE-006:p0196",
+          "RE-006:p0197"
+        ]
+      },
+      {
+        "source_id": "RE-006",
+        "english_file": "data/processed/en/RE-006.json",
+        "english_file_sha256": "40c33c70e8c7e11bc578b20fc0776c90f764c3e5bbbe7a9e265dc2108a6dbfb7",
+        "paragraph_ids": [
+          "RE-006:p0203",
+          "RE-006:p0204",
+          "RE-006:p0206"
+        ]
+      },
+      {
+        "source_id": "RE-006",
+        "english_file": "data/processed/en/RE-006.json",
+        "english_file_sha256": "40c33c70e8c7e11bc578b20fc0776c90f764c3e5bbbe7a9e265dc2108a6dbfb7",
+        "paragraph_ids": [
+          "RE-006:p0206",
+          "RE-006:p0207",
+          "RE-006:p0208",
+          "RE-006:p0209",
+          "RE-006:p0210"
+        ]
+      },
+      {
+        "source_id": "RE-018",
+        "english_file": "data/processed/en/RE-018.json",
+        "english_file_sha256": "95248745740c25c76941b03348a992cfbeb14f27f46b30ba8c6095abbe041405",
+        "paragraph_ids": [
+          "RE-018:p0002",
+          "RE-018:p0004",
+          "RE-018:p0009",
+          "RE-018:p0010",
+          "RE-018:p0011"
+        ]
+      },
+      {
+        "source_id": "RE-018",
+        "english_file": "data/processed/en/RE-018.json",
+        "english_file_sha256": "95248745740c25c76941b03348a992cfbeb14f27f46b30ba8c6095abbe041405",
+        "paragraph_ids": [
+          "RE-018:p0011",
+          "RE-018:p0017"
+        ]
+      },
+      {
+        "source_id": "RE-018",
+        "english_file": "data/processed/en/RE-018.json",
+        "english_file_sha256": "95248745740c25c76941b03348a992cfbeb14f27f46b30ba8c6095abbe041405",
+        "paragraph_ids": [
+          "RE-018:p0018",
+          "RE-018:p0019",
+          "RE-018:p0020",
+          "RE-018:p0021"
+        ]
+      },
+      {
+        "source_id": "RE-018",
+        "english_file": "data/processed/en/RE-018.json",
+        "english_file_sha256": "95248745740c25c76941b03348a992cfbeb14f27f46b30ba8c6095abbe041405",
+        "paragraph_ids": [
+          "RE-018:p0021",
+          "RE-018:p0022",
+          "RE-018:p0023",
+          "RE-018:p0024"
+        ]
+      },
+      {
+        "source_id": "RE-018",
+        "english_file": "data/processed/en/RE-018.json",
+        "english_file_sha256": "95248745740c25c76941b03348a992cfbeb14f27f46b30ba8c6095abbe041405",
+        "paragraph_ids": [
+          "RE-018:p0024",
+          "RE-018:p0025",
+          "RE-018:p0026",
+          "RE-018:p0027",
+          "RE-018:p0028",
+          "RE-018:p0029"
+        ]
+      },
+      {
+        "source_id": "RE-018",
+        "english_file": "data/processed/en/RE-018.json",
+        "english_file_sha256": "95248745740c25c76941b03348a992cfbeb14f27f46b30ba8c6095abbe041405",
+        "paragraph_ids": [
+          "RE-018:p0029",
+          "RE-018:p0030",
+          "RE-018:p0031",
+          "RE-018:p0032",
+          "RE-018:p0033",
+          "RE-018:p0034"
+        ]
+      },
+      {
+        "source_id": "RE-018",
+        "english_file": "data/processed/en/RE-018.json",
+        "english_file_sha256": "95248745740c25c76941b03348a992cfbeb14f27f46b30ba8c6095abbe041405",
+        "paragraph_ids": [
+          "RE-018:p0034",
+          "RE-018:p0035",
+          "RE-018:p0036",
+          "RE-018:p0037",
+          "RE-018:p0038"
+        ]
+      },
+      {
+        "source_id": "RE-018",
+        "english_file": "data/processed/en/RE-018.json",
+        "english_file_sha256": "95248745740c25c76941b03348a992cfbeb14f27f46b30ba8c6095abbe041405",
+        "paragraph_ids": [
+          "RE-018:p0039",
+          "RE-018:p0040",
+          "RE-018:p0041",
+          "RE-018:p0042",
+          "RE-018:p0043"
+        ]
+      },
+      {
+        "source_id": "RE-018",
+        "english_file": "data/processed/en/RE-018.json",
+        "english_file_sha256": "95248745740c25c76941b03348a992cfbeb14f27f46b30ba8c6095abbe041405",
+        "paragraph_ids": [
+          "RE-018:p0044",
+          "RE-018:p0045",
+          "RE-018:p0046",
+          "RE-018:p0047"
+        ]
+      },
+      {
+        "source_id": "RE-018",
+        "english_file": "data/processed/en/RE-018.json",
+        "english_file_sha256": "95248745740c25c76941b03348a992cfbeb14f27f46b30ba8c6095abbe041405",
+        "paragraph_ids": [
+          "RE-018:p0047",
+          "RE-018:p0048",
+          "RE-018:p0049",
+          "RE-018:p0050"
+        ]
+      },
+      {
+        "source_id": "RE-018",
+        "english_file": "data/processed/en/RE-018.json",
+        "english_file_sha256": "95248745740c25c76941b03348a992cfbeb14f27f46b30ba8c6095abbe041405",
+        "paragraph_ids": [
+          "RE-018:p0050",
+          "RE-018:p0051",
+          "RE-018:p0052",
+          "RE-018:p0054"
+        ]
+      }
+    ],
+    "evidence_migrations_count": 27,
+    "all_evidence_exact_substrings": true,
+    "needs_qrel_reassessment": [
+      [
+        "diagnostic",
+        "test_re02",
+        "doc_re_006_008"
+      ]
+    ],
+    "numeric_surface_differences": [
+      {
+        "doc_id": "doc_tr_026_010",
+        "removed": {
+          "1": 2
+        },
+        "added": {}
+      },
+      {
+        "doc_id": "doc_tr_026_011",
+        "removed": {
+          "1": 1,
+          "3": 1,
+          "6": 1,
+          "2": 1
+        },
+        "added": {}
+      }
+    ],
+    "numeric_review_note": "Поверхностные различия в двух полных переводах проверены вручную: удалены номер рисунка и номера1/2/3 пунктов перечисления; 1-RM раскрыт словами; 6 недель передано словом шесть. Все экспериментальные значения и направления сохранены. Остальные правки чисел не меняют.",
+    "upstream_update_guidance": "Оригинальные data/processed/ru/*.json не менять ради сохранения v1. Для новой версии применять тот же журнал edits к text_ru и при возможности segments[].text_ru_edited с повторной сборкой; полные tr026010/011 пересекают p0028/p0030, поэтому текст не заменять целиком в одном абзаце. Новый корпус собирать через patch с отдельным provenance.",
+    "word_counts": {
+      "doc_tr_026_010": 341,
+      "doc_tr_026_011": 354,
+      "doc_tr_024_001": 354,
+      "doc_tr_024_002": 493,
+      "doc_tr_024_003": 402,
+      "doc_tr_024_004": 392,
+      "doc_tr_024_005": 383,
+      "doc_re_006_005": 468,
+      "doc_re_006_008": 464,
+      "doc_re_006_009": 441,
+      "doc_re_018_001": 434,
+      "doc_re_018_002": 454,
+      "doc_re_018_003": 471,
+      "doc_re_018_004": 467,
+      "doc_re_018_005": 473,
+      "doc_re_018_006": 456,
+      "doc_re_018_007": 473,
+      "doc_re_018_008": 466,
+      "doc_re_018_009": 480,
+      "doc_re_018_010": 478,
+      "doc_re_018_011": 477
+    },
+    "source_provenance_verified": true,
+    "all_old_fields_exactly_match_frozen_corpus": true,
+    "scope_warning": "Точечная редактура21чанка, не полный литературный или научный аудит всех599. Для19чанков проверены исправляемые фрагменты/термины; полностью перепереведены2чанка суперсетов/дроп-сетов."
+  },
+  "primary_review": {
+    "reviewer": "primary_agent",
+    "scope": {
+      "full_new_text_and_english": [
+        "doc_tr_026_010",
+        "doc_tr_026_011",
+        "doc_re_018_011"
+      ],
+      "targeted_edits_and_english_context": [
+        "doc_re_018_001",
+        "doc_re_018_002",
+        "doc_re_018_003",
+        "doc_re_018_004",
+        "doc_re_018_005",
+        "doc_re_018_006",
+        "doc_re_018_007",
+        "doc_re_018_008",
+        "doc_re_018_009",
+        "doc_re_018_010",
+        "doc_re_018_011"
+      ]
+    },
+    "findings": [
+      "Подтверждены разница заминки и холодного погружения, сила/мощность, парные подходы, reduced gains.",
+      "Потребовано сохранить ограничение well-trained intermittent sport athletes в RE018011."
+    ],
+    "limitation": "Это взаимная проверка изменённых мест; полная вычитка всех599документов не заявляется."
+  },
+  "independent_semantic_review": {
+    "status": "approved_targeted_semantic_revision",
+    "reviewer": "retrieval_v3_agent",
+    "scope": "Прочитаны полные new_text и соответствующие source_evidence пяти TR-024 и трёх RE-006; исправления проверены относительно английских абзацев. Это целевая редактура и независимая проверка, не утверждение полной вычитки всего корпуса.",
+    "documents": [
+      {
+        "doc_id": "doc_tr_024_001",
+        "new_text_sha256": "bb99e8663a8c8ba482f323c2169cb7add6e60a70635e5879d9188201c960cc68",
+        "source_paragraph_ids": [
+          "TR-024:p0002",
+          "TR-024:p0003",
+          "TR-024:p0004",
+          "TR-024:p0005"
+        ],
+        "approved": true
+      },
+      {
+        "doc_id": "doc_tr_024_002",
+        "new_text_sha256": "f93c78959c59faa1e7e4a6a6b2d176848e43b45b875ab261b4cee69fa51d9762",
+        "source_paragraph_ids": [
+          "TR-024:p0013",
+          "TR-024:p0014",
+          "TR-024:p0025",
+          "TR-024:p0026",
+          "TR-024:p0028",
+          "TR-024:p0031"
+        ],
+        "approved": true
+      },
+      {
+        "doc_id": "doc_tr_024_003",
+        "new_text_sha256": "06b78abdfa798dbd1d1ad3de065ecf3d107a704b331ec433d6b6b6251258e8ff",
+        "source_paragraph_ids": [
+          "TR-024:p0032",
+          "TR-024:p0033",
+          "TR-024:p0034"
+        ],
+        "approved": true
+      },
+      {
+        "doc_id": "doc_tr_024_004",
+        "new_text_sha256": "5f5a53890a3a3d97aef3ed0b0f35a6fc1ec5ecec80157279952bb41b3cb38507",
+        "source_paragraph_ids": [
+          "TR-024:p0034",
+          "TR-024:p0035",
+          "TR-024:p0036",
+          "TR-024:p0037"
+        ],
+        "approved": true
+      },
+      {
+        "doc_id": "doc_tr_024_005",
+        "new_text_sha256": "3ccf545f58b5f3ca0b21e6d767b0227105f247629e4b3fc22bb700da40364658",
+        "source_paragraph_ids": [
+          "TR-024:p0037",
+          "TR-024:p0038",
+          "TR-024:p0039",
+          "TR-024:p0040",
+          "TR-024:p0041",
+          "TR-024:p0042",
+          "TR-024:p0043"
+        ],
+        "approved": true
+      },
+      {
+        "doc_id": "doc_re_006_005",
+        "new_text_sha256": "bbd1ba7003441ed03920770eba1aba62a1b141b5b32a4f5da493d8a5f279f495",
+        "source_paragraph_ids": [
+          "RE-006:p0195",
+          "RE-006:p0196",
+          "RE-006:p0197"
+        ],
+        "approved": true
+      },
+      {
+        "doc_id": "doc_re_006_008",
+        "new_text_sha256": "fcb2483cfcf37de981a1e4c51171c32e0cf72596fd21f8bdaae4c20865989998",
+        "source_paragraph_ids": [
+          "RE-006:p0203",
+          "RE-006:p0204",
+          "RE-006:p0206"
+        ],
+        "approved": true
+      },
+      {
+        "doc_id": "doc_re_006_009",
+        "new_text_sha256": "2e4876bbd249dbc4e7602fc7b507c96bb0fe16ecee2bf9664fa1565bde23792e",
+        "source_paragraph_ids": [
+          "RE-006:p0206",
+          "RE-006:p0207",
+          "RE-006:p0208",
+          "RE-006:p0209",
+          "RE-006:p0210"
+        ],
+        "approved": true
+      }
+    ],
+    "verified_corrections": [
+      "LP/DUP, уравнивание объёма, прогрессирующая нагрузка, lean body mass вместо мышечной массы.",
+      "Сохранены значения/направления эффектов, сроки, ограничения обобщения исследований.",
+      "Napping явно дневной сон, power — мощность; интервал после пробуждения сохранён.",
+      "8.3 часа обозначены как самооценка спортсменов; риск увеличения бодрствования в постели не преподнесён как рекомендация.",
+      "Mindfulness — практики осознанности; learned — освоить.",
+      "Удалены остатки ссылок; health purposes передано как укрепление здоровья."
+    ],
+    "limitations": [
+      "В TR-024:p0028 исходный SMD −0.41 не лежит в указанном CI [−0.29,0.21]; оригинальные числа сохранены, несогласованность отмечена отдельно.",
+      "Исправление RE006008 меняет основание старого отрицательного judgment test_re02; fixed-qrels сравнение должно явно считать его неизменным и сообщать ограничение."
+    ]
+  },
+  "affected_judgments": 27,
+  "evidence_changed": 17,
+  "semantic_caveats": [
+    {
+      "dataset": "diagnostic",
+      "query_id": "test_re02",
+      "doc_id": "doc_re_006_008",
+      "relevant": false,
+      "semantic_status": "needs_reassessment",
+      "evidence_changed": true,
+      "old_text_sha256": "eb256f9e2176fa3c90f7050c72bce507f582516f759c519788a147a68c802b33",
+      "new_text_sha256": "fcb2483cfcf37de981a1e4c51171c32e0cf72596fd21f8bdaae4c20865989998",
+      "reason": "После исправления nap в чанке явно назван дневной сон: исходная negative метка сохраняется лишь для парного сравнения на фиксированных qrels и требует отдельной переоценки."
+    }
+  ],
+  "publication_ready": false,
+  "note": "Целевая правка21чанка. Полная вычитка599чанков не утверждается; исходные ru-файлы неизменны, воспроизводимость через translation_patch поверх исходного корпуса."
+}

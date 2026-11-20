@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "status": "development_candidate_not_integrated",
+  "retrieval": {
+    "lemmatize": true,
+    "remove_stopwords": false,
+    "k1": 3.0,
+    "b": 0.0
+  },
+  "refusal_threshold": 13.909689866544728,
+  "refusal_rule": "empty ranking or max_score <= threshold",
+  "calibration_scope": "development_full_in_sample",
+  "max_false_refusal_rate_constraint": 0.1,
+  "reproducibility": {
+    "python": "3.12.14",
+    "dependencies": {
+      "pymorphy3": "2.0.6",
+      "pymorphy3-dicts-ru": "2.4.417150.4580142"
+    },
+    "corpus_sha256": "7b517f6ae4ce595ee58d910236c1d815533003f5052fd13607035c81c6e9ec6d",
+    "queries_sha256": "9336e35b62e4738e18c11196860b9479982dac052a9cf5f3ac8885474a5f6f5a",
+    "judgments_sha256": "49901073ad6a7feec95c5700b162e0fdc813b1ffdccc7c9758d5be5f566f847c",
+    "baseline_file_sha256": "c355e17b9514755d915ed9250b652842a3e1db91f894ce866d1bb20f7c733a71",
+    "code_sha256": {
+      "benchmark/tune.py": "0d08750e58f7eee659f255bb0356484845223f45752366c920c30a5b8a3354bf",
+      "benchmark/run.py": "ae86e2e1a85dce7fd9ee81bfb3293e3a94b8c6b11b07d3d23884319d034c33fc",
+      "app/rag/bm25.py": "4ebce87d20533aeef5e5ab615175520b1434c22200cdba003026f35ae97fcec5",
+      "app/rag/preprocess.py": "e5aec70e0c23b509feb244070088c8e549ad6408699797698ea3f94afb4c678e"
+    }
+  },
+  "index_path": "/Users/murad/projects/GymRAG/gym-coach-rag/data/index/bm25.tuned.json",
+  "report_path": "/Users/murad/projects/GymRAG/gym-coach-rag/benchmark/results/2026-11-20-tuning.json",
+  "not_a_safety_policy": true
+}

@@ -1,0 +1,44 @@
+{
+  "source_id": "NU-004",
+  "model": "Helsinki-NLP/opus-mt-en-ru",
+  "model_revision": "bb09c99d180016eac6819df3dae68edb1690fdee",
+  "engine": "CTranslate2 int8; beam_size=4",
+  "paragraphs": [
+    {
+      "paragraph_id": "NU-004:p0001",
+      "section_en": "Background",
+      "text_en": "In 2007, the International Society of Sports Nutrition (ISSN) published its first position stand devoted to the science and application of dietary protein intake. Subsequently, this paper has been accessed more than 200,000 times and continues to serve as a key reference on the topic. In the past ten years, there have been continued efforts to advance the science and application of dietary protein intake for the benefit of athletes and fitness-minded individuals. This updated position stand includes new information and addresses the most important dietary protein categories that affect physically active individuals across domains such as exercise performance, body composition, protein timing, recommended intakes, protein sources and quality, and the preparation methods of various proteins.",
+      "section_ru": "Справочная информация",
+      "text_ru_machine": "В 2007 году Международное общество спортивного питания (МОСН) опубликовало свою первую позицию, посвященную науке и применению белкового рациона питания, и впоследствии к этой работе было подключено более 200 000 раз, и она продолжает служить ключевым справочным материалом по этой теме. За последние десять лет были продолжены усилия по развитию науки и применению белкового рациона питания в интересах спортсменов и фитнессивных лиц. Эта обновленная позиционная стойка включает новую информацию и охватывает наиболее важные категории белков питания, которые затрагивают физически активных людей в таких областях, как физические упражнения, состав тела, время протеина, рекомендуемые приемы, источники белков и качество, а также методы подготовки различных белков.",
+      "text_ru": "В 2007 году Международное общество спортивного питания (МОСН) опубликовало свою первую позицию, посвященную науке и применению белкового рациона питания, и впоследствии к этой работе было подключено более 200 000 раз, и она продолжает служить ключевым справочным материалом по этой теме. За последние десять лет были продолжены усилия по развитию науки и применению белкового рациона питания в интересах спортсменов и фитнессивных лиц. Эта обновленная позиционная стойка включает новую информацию и охватывает наиболее важные категории белков питания, которые затрагивают физически активных людей в таких областях, как физические упражнения, состав тела, время протеина, рекомендуемые приемы, источники белков и качество, а также методы подготовки различных белков.",
+      "flags": [
+        "numbers_changed"
+      ],
+      "review_status": "pending",
+      "segments": [
+        {
+          "en": "In 2007, the International Society of Sports Nutrition (ISSN) published its first position stand devoted to the science and application of dietary protein intake. Subsequently, this paper has been accessed more than 200,000 times and continues to serve as a key reference on the topic. In the past ten years, there have been continued efforts to advance the science and application of dietary protein intake for the benefit of athletes and fitness-minded individuals. This updated position stand includes new information and addresses the most important dietary protein categories that affect physically active individuals across domains such as exercise performance, body composition, protein timing, recommended intakes, protein sources and quality, and the preparation methods of various proteins.",
+          "ru": "В 2007 году Международное общество спортивного питания (МОСН) опубликовало свою первую позицию, посвященную науке и применению белкового рациона питания, и впоследствии к этой работе было подключено более 200 000 раз, и она продолжает служить ключевым справочным материалом по этой теме. За последние десять лет были продолжены усилия по развитию науки и применению белкового рациона питания в интересах спортсменов и фитнессивных лиц. Эта обновленная позиционная стойка включает новую информацию и охватывает наиболее важные категории белков питания, которые затрагивают физически активных людей в таких областях, как физические упражнения, состав тела, время протеина, рекомендуемые приемы, источники белков и качество, а также методы подготовки различных белков."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "NU-004:p0109",
+      "section_en": "Protein safety / Key points",
+      "text_en": "Multiple review articles indicate that no controlled scientific evidence exists indicating that increased intakes of protein pose any health risks in healthy, exercising individuals. Statements by large regulatory bodies have also indicated that concerns about one’s health secondary to ingesting high amounts of protein are unfounded. A series of controlled investigations spanning up to one year in duration utilizing protein intakes of up to 2.5–3.3 g/kg/day in healthy resistance-trained individuals consistently indicate that increased intakes of protein exert no harmful effect on blood lipids or markers of kidney and liver function.",
+      "section_ru": "Безопасность протеинов/ключевые точки",
+      "text_ru_machine": "Многочисленные обзорные статьи указывают на отсутствие контролируемых научных данных, указывающих на то, что увеличение потребления белка создает какие-либо риски для здоровья людей, занимающихся физическими упражнениями. Показания крупных регулирующих органов также свидетельствуют о том, что обеспокоенность в связи с потреблением большого количества белка на уровне 1,81-е годы является необоснованной. Серия контролируемых исследований продолжительностью до одного года с использованием белковых приёмов до 2,5-3,3 г/кг в день для здоровых людей, обученных сопротивляемости, постоянно указывает на то, что увеличение потребления белка не оказывает вредного воздействия на липиды крови или маркеры функции почек и печени.",
+      "text_ru": "Многочисленные обзорные статьи указывают на отсутствие контролируемых научных данных, указывающих на то, что увеличение потребления белка создает какие-либо риски для здоровья людей, занимающихся физическими упражнениями. Показания крупных регулирующих органов также свидетельствуют о том, что обеспокоенность в связи с потреблением большого количества белка на уровне 1,81-е годы является необоснованной. Серия контролируемых исследований продолжительностью до одного года с использованием белковых приёмов до 2,5-3,3 г/кг в день для здоровых людей, обученных сопротивляемости, постоянно указывает на то, что увеличение потребления белка не оказывает вредного воздействия на липиды крови или маркеры функции почек и печени.",
+      "flags": [
+        "numbers_changed"
+      ],
+      "review_status": "pending",
+      "segments": [
+        {
+          "en": "Multiple review articles indicate that no controlled scientific evidence exists indicating that increased intakes of protein pose any health risks in healthy, exercising individuals. Statements by large regulatory bodies have also indicated that concerns about one’s health secondary to ingesting high amounts of protein are unfounded. A series of controlled investigations spanning up to one year in duration utilizing protein intakes of up to 2.5–3.3 g/kg/day in healthy resistance-trained individuals consistently indicate that increased intakes of protein exert no harmful effect on blood lipids or markers of kidney and liver function.",
+          "ru": "Многочисленные обзорные статьи указывают на отсутствие контролируемых научных данных, указывающих на то, что увеличение потребления белка создает какие-либо риски для здоровья людей, занимающихся физическими упражнениями. Показания крупных регулирующих органов также свидетельствуют о том, что обеспокоенность в связи с потреблением большого количества белка на уровне 1,81-е годы является необоснованной. Серия контролируемых исследований продолжительностью до одного года с использованием белковых приёмов до 2,5-3,3 г/кг в день для здоровых людей, обученных сопротивляемости, постоянно указывает на то, что увеличение потребления белка не оказывает вредного воздействия на липиды крови или маркеры функции почек и печени."
+        }
+      ]
+    }
+  ]
+}

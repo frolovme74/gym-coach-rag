@@ -1,0 +1,112 @@
+{
+  "doc_tr_026_001": {
+    "status": "approved",
+    "source_id": "TR-026",
+    "text_sha256": "fb3b26979a6f67241e290e85eb128d234cbbe6908540e3ad76fed43d7581bbbd",
+    "original_sha256": "b0242a486d2c1cc4468a6e36f7c07568bf06202c5d841a14117a988d74e11b5d",
+    "reviewer": "Codex: редактура и сопоставление всех составляющих абзацев с оригиналом",
+    "evidence": "data/review/editorial_edits.json",
+    "paragraph_ids": [
+      "TR-026:p0002",
+      "TR-026:p0003"
+    ],
+    "review_date": "2026-11-20"
+  },
+  "doc_tr_026_014": {
+    "status": "approved",
+    "source_id": "TR-026",
+    "text_sha256": "4dbb14b23fc2d47699300a4051579aff3b6466a5d4226f8eb6600c0703512044",
+    "original_sha256": "2d9a4a2d8968a4ed16171081a001e36d0fdbdc625840f560d2afa1373e79bedb",
+    "reviewer": "Codex: редактура и сопоставление всех составляющих абзацев с оригиналом",
+    "evidence": "data/review/editorial_edits.json",
+    "paragraph_ids": [
+      "TR-026:p0036"
+    ],
+    "review_date": "2026-11-20"
+  },
+  "doc_nu_004_030": {
+    "status": "approved",
+    "source_id": "NU-004",
+    "text_sha256": "58e23938f0f7de880c9e6593704d97c219ca0631f366054c15269157f26e2892",
+    "original_sha256": "5de0a32d7a938ccb400f9735d372899e925cdd6cbcddb65f3dd7b0d9f1621c14",
+    "reviewer": "Codex: редактура и сопоставление всех составляющих абзацев с оригиналом",
+    "evidence": "data/review/editorial_edits.json",
+    "paragraph_ids": [
+      "NU-004:p0108",
+      "NU-004:p0109"
+    ],
+    "review_date": "2026-11-20"
+  },
+  "doc_nu_011_004": {
+    "status": "approved",
+    "source_id": "NU-011",
+    "text_sha256": "c9d763e03fdd64ea64818928d3f05ad05bd63836defb243a60e06ca98b18f651",
+    "original_sha256": "abf97e10001d2e80e8b01f451a73ce773c96008e4c76e0d9e85119d6ae0450ca",
+    "reviewer": "Codex: редактура и сопоставление всех составляющих абзацев с оригиналом",
+    "evidence": "data/review/editorial_edits.json",
+    "paragraph_ids": [
+      "NU-011:p0016",
+      "NU-011:p0017"
+    ],
+    "review_date": "2026-11-20"
+  },
+  "doc_su_001_002": {
+    "status": "approved",
+    "source_id": "SU-001",
+    "text_sha256": "64d3cb12410ab6420ce49ee695802fef4b62785221eea65cb966f5572294498c",
+    "original_sha256": "c25947e97db4641d921d738266d44cd664533cc01c4cab7b6e37f798084f5184",
+    "reviewer": "Codex: редактура и сопоставление всех составляющих абзацев с оригиналом",
+    "evidence": "data/review/editorial_edits.json",
+    "paragraph_ids": [
+      "SU-001:p0010",
+      "SU-001:p0011",
+      "SU-001:p0012"
+    ],
+    "review_date": "2026-11-20"
+  },
+  "doc_su_006_004": {
+    "status": "approved",
+    "source_id": "SU-006",
+    "text_sha256": "9b909e810f1ff16ac11a4f508149a0bce010bb9ad8c8909bb7458b6f09f0161d",
+    "original_sha256": "310466e889fd689af3631f04c4587b74f1e0483b3a060b9ea14746f014cac507",
+    "reviewer": "Codex: редактура и сопоставление всех составляющих абзацев с оригиналом",
+    "evidence": "data/review/editorial_edits.json",
+    "paragraph_ids": [
+      "SU-006:p0022",
+      "SU-006:p0023",
+      "SU-006:p0025",
+      "SU-006:p0026",
+      "SU-006:p0027"
+    ],
+    "review_date": "2026-11-20"
+  },
+  "doc_re_006_001": {
+    "status": "approved",
+    "source_id": "RE-006",
+    "text_sha256": "556da1e6188d347c230c2e4dd3c67b11012408f73c1bcc08d4271a0224f78a18",
+    "original_sha256": "c2e226c74b4b5a6d1d525c4bd3df81eca079e2145d19b7bb7a12c0500acd0362",
+    "reviewer": "Codex: редактура и сопоставление всех составляющих абзацев с оригиналом",
+    "evidence": "data/review/editorial_edits.json",
+    "paragraph_ids": [
+      "RE-006:p0005",
+      "RE-006:p0006",
+      "RE-006:p0007"
+    ],
+    "review_date": "2026-11-20"
+  },
+  "doc_re_018_013": {
+    "status": "approved",
+    "source_id": "RE-018",
+    "text_sha256": "3df73234aa5be5b99d6fd4c9e720251afa0bbb23e8dbf6425a8b58ce5796a0a9",
+    "original_sha256": "36d698b216ba88131f7f2c193be5ff14f1d223e9770ff35ff91d325298291e54",
+    "reviewer": "Codex: редактура и сопоставление всех составляющих абзацев с оригиналом",
+    "evidence": "data/review/editorial_edits.json",
+    "paragraph_ids": [
+      "RE-018:p0056",
+      "RE-018:p0058",
+      "RE-018:p0059",
+      "RE-018:p0060"
+    ],
+    "review_date": "2026-11-20"
+  }
+}

@@ -1,0 +1,1567 @@
+{
+  "source_id": "SU-022",
+  "model": "Argos Translate English–Russian 1.9",
+  "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811",
+  "engine": "CTranslate2 int8; beam_size=4; length_penalty=0.2; sentence-level",
+  "paragraphs": [
+    {
+      "paragraph_id": "SU-022:p0001",
+      "section_en": "1. Introduction",
+      "text_en": "Leucine, isoleucine and valine are three essential branched-chain amino acids (BCAAs) not produced by the body and, thus, should be exogenously consumed. Notably, BCAAs bypass metabolism in the liver and are oxidized in skeletal muscle. Leucine, in particular, activates the mammalian target of rapamciyn-1 (mTOR), an anabolic signal that mediates muscle protein synthesis, which in turn is related to adaptations in strength and hypertrophy. To this end, it is hypothesized that BCAAs are beneficial for performance, recovery and body composition.",
+      "section_ru": "Введение",
+      "text_ru_machine": "Лейцин, изолейцин и валин являются тремя незаменимыми аминокислотами с разветвленной цепью (BCAA), не вырабатываемыми организмом, и, таким образом, должны потребляться экзогенно. Примечательно, что BCAA обходят метаболизм в печени и окисляются в скелетных мышцах. Лейцин, в частности, активирует у млекопитающих мишень рапамицин-1 (mTOR), анаболический сигнал, опосредующий синтез мышечного белка, который, в свою очередь, связан с адаптациями силы и гипертрофией. С этой целью предполагается, что BCAA полезны для производительности, восстановления и состава тела.",
+      "text_ru": "Лейцин, изолейцин и валин — три незаменимые аминокислоты с разветвлённой цепью (BCAA). Организм не синтезирует их, поэтому они должны поступать извне. В отличие от многих других аминокислот, значительная часть их обмена происходит в скелетных мышцах, минуя начальный метаболизм в печени. Лейцин активирует сигнальный путь mTORC1, связанный с синтезом мышечного белка и адаптацией силы и размера мышц. Поэтому предполагается возможная польза BCAA для результатов, восстановления и состава тела.",
+      "flags": [],
+      "review_status": "reviewed",
+      "segments": [
+        {
+          "en": "Leucine, isoleucine and valine are three essential branched-chain amino acids (BCAAs) not produced by the body and, thus, should be exogenously consumed.",
+          "ru": "Лейцин, изолейцин и валин являются тремя незаменимыми аминокислотами с разветвленной цепью (BCAA), не вырабатываемыми организмом, и, таким образом, должны потребляться экзогенно.",
+          "output_tokens": 51,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Лейцин, изолейцин и валин являются тремя незаменимыми аминокислотами с разветвленной цепью (BCAA), не вырабатываемыми организмом, и, таким образом, должны потребляться экзогенно.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Notably, BCAAs bypass metabolism in the liver and are oxidized in skeletal muscle.",
+          "ru": "Примечательно, что BCAA обходят метаболизм в печени и окисляются в скелетных мышцах.",
+          "output_tokens": 19,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Примечательно, что BCAA обходят метаболизм в печени и окисляются в скелетных мышцах.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Leucine, in particular, activates the mammalian target of rapamciyn-1 (mTOR), an anabolic signal that mediates muscle protein synthesis, which in turn is related to adaptations in strength and hypertrophy.",
+          "ru": "Лейцин, в частности, активирует у млекопитающих мишень рапамицин-1 (mTOR), анаболический сигнал, опосредующий синтез мышечного белка, который, в свою очередь, связан с адаптациями силы и гипертрофией.",
+          "output_tokens": 58,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Лейцин, в частности, активирует у млекопитающих мишень рапамицин-1 (mTOR), анаболический сигнал, опосредующий синтез мышечного белка, который, в свою очередь, связан с адаптациями силы и гипертрофией.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "To this end, it is hypothesized that BCAAs are beneficial for performance, recovery and body composition.",
+          "ru": "С этой целью предполагается, что BCAA полезны для производительности, восстановления и состава тела.",
+          "output_tokens": 18,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "С этой целью предполагается, что BCAA полезны для работоспособности, восстановления и состава тела.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_performance_wording"
+      ],
+      "section_ru_machine": "1.Введение",
+      "editorial_review": {
+        "reviewer": "Codex: перевод и сопоставление с оригиналом без сторонних моделей",
+        "reason": "Самостоятельный редакторский перевод ранее не вошедшего в чанки раздела; смысл, ограничения и числа сопоставлены с английским оригиналом.",
+        "original_sha256": "2376374fa6fe28acd0009893ee1c31b7ede034226ac43f55502a186413a59bc3",
+        "review_date": "2026-11-20",
+        "text_sha256": "5eef74075327e082d1ba6bb707dc68fecd4a5b3f4be311d4eaafc10474bea336"
+      },
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": true,
+        "manually_edited_segments": 0,
+        "rule_applications": 1
+      }
+    },
+    {
+      "paragraph_id": "SU-022:p0002",
+      "section_en": "1. Introduction",
+      "text_en": "A recent statement claims that acceptable levels of BCAA intake should be prioritized with exercise participation. However, oral ingestion of BCAAs is highly questionable with reference to optimizing performance and protein synthesis. Recent systematic reviews show that BCAA supplementation tended to attenuate muscle soreness and is an indicator of muscle damage. The ergogenic effects of BCAAs have mainly been examined in adults and few studies included trained participants, which may differ substantially in performance, muscle damage and body composition. Additionally, the Australian Institute of Sport classified BCAAs in group C, which include supplements without scientific support among athletes or inconclusive studies. However, BCAAs are not recommended within supplementation programs. The overview of the International Olympic Committee did not mention BCAAs in the different topics discussed—namely, supplements used to prevent or treat nutrient deficiencies, supplements used for energy provision, and supplements that improve sports performance. Concerning the three BCAAs, only the effects of leucine in protein turnover were described, although the studies mentioned did not include trained participants.",
+      "section_ru": "Введение",
+      "text_ru_machine": "В недавнем заявлении утверждается, что приемлемые уровни потребления BCAA должны быть приоритетными при участии в физических упражнениях. Тем не менее, пероральный прием BCAA очень сомнительный в отношении оптимизации производительности и синтеза белка. Недавние систематические обзоры показывают, что добавка BCAA имеет тенденцию ослаблять мышечную болезненность и является показателем повреждения мышц. Эргогенные эффекты BCAA в основном изучались у взрослых, и в нескольких исследованиях участвовали обученные участники, которые могут существенно отличаться по производительности, повреждению мышц и составу тела. Кроме того, Австралийский институт спорта классифицировал BCAA в группе C, которые включают добавки без научной поддержки среди спортсменов или неубедительных исследований. Однако BCAA не рекомендуются в рамках дополнительных программ. В обзоре Международного олимпийского комитета не упоминались BCAA в различных обсуждаемых темах, а именно добавки, используемые для предотвращения или лечения дефицита питательных веществ, добавки, используемые для обеспечения энергией, и добавки, которые улучшают спортивные результаты. Что касается трех BCAA, были описаны только эффекты лейцина в обороте белка, хотя упомянутые исследования не включали обученных участников.",
+      "text_ru": "В одной из позиций подчёркивается достаточное поступление BCAA при физической активности, однако польза отдельных добавок для улучшения результатов и синтеза белка остаётся спорной. Некоторые систематические обзоры отмечают тенденцию к уменьшению болезненности мышц и показателей их повреждения. Работы в основном включали взрослых, но немногие — тренированных участников, чьи реакции могут отличаться. Австралийский институт спорта относил BCAA к группе C: доказательств пользы у спортсменов недостаточно или они неубедительны; такие добавки не рекомендуются в программах добавочного питания. В рассмотренном обзоре Международного олимпийского комитета BCAA отдельно не перечислялись среди средств коррекции дефицитов, обеспечения энергией или улучшения результатов. Из трёх аминокислот обсуждался только лейцин в связи с обменом белка, причём приведённые исследования не включали тренированных людей.",
+      "flags": [],
+      "review_status": "reviewed",
+      "segments": [
+        {
+          "en": "A recent statement claims that acceptable levels of BCAA intake should be prioritized with exercise participation.",
+          "ru": "В недавнем заявлении утверждается, что приемлемые уровни потребления BCAA должны быть приоритетными при участии в физических упражнениях.",
+          "output_tokens": 25,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В недавнем заявлении утверждается, что приемлемые уровни потребления BCAA должны быть приоритетными при участии в физических упражнениях.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "However, oral ingestion of BCAAs is highly questionable with reference to optimizing performance and protein synthesis.",
+          "ru": "Тем не менее, пероральный прием BCAA очень сомнительный в отношении оптимизации производительности и синтеза белка.",
+          "output_tokens": 23,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Тем не менее, пероральный прием BCAA очень сомнительный в отношении оптимизации работоспособности и синтеза белка.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Recent systematic reviews show that BCAA supplementation tended to attenuate muscle soreness and is an indicator of muscle damage.",
+          "ru": "Недавние систематические обзоры показывают, что добавка BCAA имеет тенденцию ослаблять мышечную болезненность и является показателем повреждения мышц.",
+          "output_tokens": 26,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Недавние систематические обзоры показывают, что добавка BCAA имеет тенденцию ослаблять мышечную болезненность и является показателем повреждения мышц.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The ergogenic effects of BCAAs have mainly been examined in adults and few studies included trained participants, which may differ substantially in performance, muscle damage and body composition.",
+          "ru": "Эргогенные эффекты BCAA в основном изучались у взрослых, и в нескольких исследованиях участвовали обученные участники, которые могут существенно отличаться по производительности, повреждению мышц и составу тела.",
+          "output_tokens": 40,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Эргогенные эффекты BCAA в основном изучались у взрослых, и в нескольких исследованиях участвовали тренированные участники, которые могут существенно отличаться по работоспособности, повреждению мышц и составу тела.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Additionally, the Australian Institute of Sport classified BCAAs in group C, which include supplements without scientific support among athletes or inconclusive studies.",
+          "ru": "Кроме того, Австралийский институт спорта классифицировал BCAA в группе C, которые включают добавки без научной поддержки среди спортсменов или неубедительных исследований.",
+          "output_tokens": 32,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Кроме того, Австралийский институт спорта классифицировал BCAA в группе C, которые включают добавки без научной поддержки среди спортсменов или неубедительных исследований.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "However, BCAAs are not recommended within supplementation programs.",
+          "ru": "Однако BCAA не рекомендуются в рамках дополнительных программ.",
+          "output_tokens": 11,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Однако BCAA не рекомендуются в рамках дополнительных программ.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The overview of the International Olympic Committee did not mention BCAAs in the different topics discussed—namely, supplements used to prevent or treat nutrient deficiencies, supplements used for energy provision, and supplements that improve sports performance.",
+          "ru": "В обзоре Международного олимпийского комитета не упоминались BCAA в различных обсуждаемых темах, а именно добавки, используемые для предотвращения или лечения дефицита питательных веществ, добавки, используемые для обеспечения энергией, и добавки, которые улучшают спортивные результаты.",
+          "output_tokens": 52,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В обзоре Международного олимпийского комитета не упоминались BCAA в различных обсуждаемых темах, а именно добавки, используемые для предотвращения или лечения дефицита питательных веществ, добавки, используемые для обеспечения энергией, и добавки, которые улучшают спортивные результаты.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Concerning the three BCAAs, only the effects of leucine in protein turnover were described, although the studies mentioned did not include trained participants.",
+          "ru": "Что касается трех BCAA, были описаны только эффекты лейцина в обороте белка, хотя упомянутые исследования не включали обученных участников.",
+          "output_tokens": 31,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Что касается трех BCAA, были описаны только эффекты лейцина в обороте белка, хотя упомянутые исследования не включали тренированных участников.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_performance_wording",
+        "check_training_term"
+      ],
+      "section_ru_machine": "1.Введение",
+      "editorial_review": {
+        "reviewer": "Codex: перевод и сопоставление с оригиналом без сторонних моделей",
+        "reason": "Самостоятельный редакторский перевод ранее не вошедшего в чанки раздела; смысл, ограничения и числа сопоставлены с английским оригиналом.",
+        "original_sha256": "34a3013ed6b3976490385782304f435394e88531bdfffde73163cdd31e32b9fb",
+        "review_date": "2026-11-20",
+        "text_sha256": "5ed814236e56a353879d1b23661494dcb4575e7e88f0ebbf8df852d44e1314c7"
+      },
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": true,
+        "manually_edited_segments": 0,
+        "rule_applications": 4
+      }
+    },
+    {
+      "paragraph_id": "SU-022:p0003",
+      "section_en": "1. Introduction",
+      "text_en": "Systematic reviews are needed to establish decisions about the general application of sport supplements. The effects of BCAA supplementation were previously examined in non-sport participants or combining samples of athletes and active participants. Therefore, a systematic review about the impact of BCAAs among athletes is needed. Given the potential anabolic impact of BCAA supplementation, the aim of this study was to review the effects on performance, body composition, recovery, biochemical, hormonal response and/or molecular signaling in athletes.",
+      "section_ru": "Введение",
+      "text_ru_machine": "Для принятия решений об общем применении спортивных добавок необходимы систематические обзоры. Эффекты добавок BCAA были ранее изучены у участников, не занимающихся спортом, или в комбинации образцов спортсменов и активных участников. Поэтому необходим систематический обзор влияния BCAA среди спортсменов. Учитывая потенциальное анаболическое воздействие добавок BCAA, целью этого исследования было изучить влияние на производительность, состав тела, восстановление, биохимический, гормональный ответ и / или молекулярную сигнализацию у спортсменов.",
+      "text_ru": "Для решений о спортивных добавках нужны систематические обзоры. Ранее влияние BCAA изучали у неспортсменов либо в смешанных выборках спортсменов и активных людей. Поэтому авторы поставили цель отдельно обобщить данные у спортсменов: влияние BCAA на результаты, состав тела, восстановление, биохимические показатели, гормональные реакции и молекулярные сигнальные пути.",
+      "flags": [],
+      "review_status": "reviewed",
+      "segments": [
+        {
+          "en": "Systematic reviews are needed to establish decisions about the general application of sport supplements.",
+          "ru": "Для принятия решений об общем применении спортивных добавок необходимы систематические обзоры.",
+          "output_tokens": 15,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Для принятия решений об общем применении спортивных добавок необходимы систематические обзоры.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The effects of BCAA supplementation were previously examined in non-sport participants or combining samples of athletes and active participants.",
+          "ru": "Эффекты добавок BCAA были ранее изучены у участников, не занимающихся спортом, или в комбинации образцов спортсменов и активных участников.",
+          "output_tokens": 27,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Эффекты добавок BCAA были ранее изучены у участников, не занимающихся спортом, или в комбинации образцов спортсменов и активных участников.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Therefore, a systematic review about the impact of BCAAs among athletes is needed.",
+          "ru": "Поэтому необходим систематический обзор влияния BCAA среди спортсменов.",
+          "output_tokens": 11,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Поэтому необходим систематический обзор влияния BCAA среди спортсменов.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Given the potential anabolic impact of BCAA supplementation, the aim of this study was to review the effects on performance, body composition, recovery, biochemical, hormonal response and/or molecular signaling in athletes.",
+          "ru": "Учитывая потенциальное анаболическое воздействие добавок BCAA, целью этого исследования было изучить влияние на производительность, состав тела, восстановление, биохимический, гормональный ответ и / или молекулярную сигнализацию у спортсменов.",
+          "output_tokens": 44,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Учитывая потенциальное анаболическое воздействие добавок BCAA, целью этого исследования было изучить влияние на работоспособность, состав тела, восстановление, биохимический, гормональный ответ и / или молекулярную сигнализацию у спортсменов.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_performance_wording"
+      ],
+      "section_ru_machine": "1.Введение",
+      "editorial_review": {
+        "reviewer": "Codex: перевод и сопоставление с оригиналом без сторонних моделей",
+        "reason": "Самостоятельный редакторский перевод ранее не вошедшего в чанки раздела; смысл, ограничения и числа сопоставлены с английским оригиналом.",
+        "original_sha256": "ee108fd888d4d9c17f16034d95000bb90814dd04141fffae5c89f5294c11c00e",
+        "review_date": "2026-11-20",
+        "text_sha256": "64eb9008f4e2490acae9c72499724c1656bf148aba2bae47b01481e9f2f02fb2"
+      },
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": true,
+        "manually_edited_segments": 0,
+        "rule_applications": 1
+      }
+    },
+    {
+      "paragraph_id": "SU-022:p0004",
+      "section_en": "2. Materials and Methods",
+      "text_en": "The current review was conducted according to PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-analyses) guidelines and Cochrane instructions.",
+      "section_ru": "2. Материалы и методы",
+      "text_ru_machine": "Текущий обзор был проведен в соответствии с руководящими принципами PRISMA (Предпочтительные пункты отчетности для систематических обзоров и мета-анализов) и инструкциями Кокрейна.",
+      "text_ru": "Текущий обзор был проведен в соответствии с руководящими принципами PRISMA (Предпочтительные пункты отчетности для систематических обзоров и мета-анализов) и инструкциями Кокрейна.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "The current review was conducted according to PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-analyses) guidelines and Cochrane instructions.",
+          "ru": "Текущий обзор был проведен в соответствии с руководящими принципами PRISMA (Предпочтительные пункты отчетности для систематических обзоров и мета-анализов) и инструкциями Кокрейна.",
+          "output_tokens": 40,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Текущий обзор был проведен в соответствии с руководящими принципами PRISMA (Предпочтительные пункты отчетности для систематических обзоров и мета-анализов) и инструкциями Кокрейна.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "2. Материалы и методы",
+      "excluded_from_corpus": true,
+      "scope_exclusion_reason": "Методика поиска/статистического анализа обзора: не содержит тренировочного протокола или ответа предметной области. Перевод сохранён отдельно.",
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-022:p0005",
+      "section_en": "2. Materials and Methods / 2.1. Eligibility Criteria",
+      "text_en": "The manuscripts included in the present review met the following criteria: (1) Population—athletes; (2) Intervention—oral ingestion of BCAAs; (3) Outcomes—indicators of performance, body composition, recovery, biochemical, hormonal response or molecular signalling; (4) Comparator—control group or placebo, and; (5) Output—pre- and post-test changes. The exclusion criteria were: (1) Studies including participants without relevant training experience; (2) Articles classified as a letter to the editor or review, and; (3) BCAA supplementation by infusion or combined with other substances.",
+      "section_ru": "2. Материалы и методы 2.1. Критерии приемлемости",
+      "text_ru_machine": "Рукописи, включенные в настоящий обзор, отвечали следующим критериям: (1) Популяция — спортсмены; (2) Вмешательство — пероральный прием BCAA; (3) Результаты — показатели производительности, состава тела, восстановления, биохимического, гормонального ответа или молекулярной сигнализации; (4) Сравнитель — контрольная группа или плацебо и (5) Выход — до и после тестирования изменений. Критериями исключения были: (1) исследования, включающие участников без соответствующего опыта обучения; (2) статьи, классифицированные как письмо редактору или обзор; и (3) добавление BCAA путем инфузии или в сочетании с другими веществами.",
+      "text_ru": "Рукописи, включенные в настоящий обзор, отвечали следующим критериям: (1) Популяция — спортсмены; (2) Вмешательство — пероральный прием BCAA; (3) Результаты — показатели работоспособности, состава тела, восстановления, биохимического, гормонального ответа или молекулярной сигнализации; (4) Сравнитель — контрольная группа или плацебо и (5) Выход — до и после тестирования изменений. Критериями исключения были: (1) исследования, включающие участников без соответствующего опыта тренировки; (2) статьи, классифицированные как письмо редактору или обзор; и (3) добавление BCAA путем инфузии или в сочетании с другими веществами.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "The manuscripts included in the present review met the following criteria: (1) Population—athletes; (2) Intervention—oral ingestion of BCAAs; (3) Outcomes—indicators of performance, body composition, recovery, biochemical, hormonal response or molecular signalling; (4) Comparator—control group or placebo, and; (5) Output—pre- and post-test changes.",
+          "ru": "Рукописи, включенные в настоящий обзор, отвечали следующим критериям: (1) Популяция — спортсмены; (2) Вмешательство — пероральный прием BCAA; (3) Результаты — показатели производительности, состава тела, восстановления, биохимического, гормонального ответа или молекулярной сигнализации; (4) Сравнитель — контрольная группа или плацебо и (5) Выход — до и после тестирования изменений.",
+          "output_tokens": 85,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Рукописи, включенные в настоящий обзор, отвечали следующим критериям: (1) Популяция — спортсмены; (2) Вмешательство — пероральный прием BCAA; (3) Результаты — показатели работоспособности, состава тела, восстановления, биохимического, гормонального ответа или молекулярной сигнализации; (4) Сравнитель — контрольная группа или плацебо и (5) Выход — до и после тестирования изменений.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The exclusion criteria were: (1) Studies including participants without relevant training experience; (2) Articles classified as a letter to the editor or review, and; (3) BCAA supplementation by infusion or combined with other substances.",
+          "ru": "Критериями исключения были: (1) исследования, включающие участников без соответствующего опыта обучения; (2) статьи, классифицированные как письмо редактору или обзор; и (3) добавление BCAA путем инфузии или в сочетании с другими веществами.",
+          "output_tokens": 49,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Критериями исключения были: (1) исследования, включающие участников без соответствующего опыта тренировки; (2) статьи, классифицированные как письмо редактору или обзор; и (3) добавление BCAA путем инфузии или в сочетании с другими веществами.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_performance_wording",
+        "check_training_term"
+      ],
+      "section_ru_machine": "2. Материалы и методы 2.1. Критерии приемлемости",
+      "excluded_from_corpus": true,
+      "scope_exclusion_reason": "Методика поиска/статистического анализа обзора: не содержит тренировочного протокола или ответа предметной области. Перевод сохранён отдельно.",
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 2
+      }
+    },
+    {
+      "paragraph_id": "SU-022:p0006",
+      "section_en": "2. Materials and Methods / 2.2. Information Source and Search Strategy",
+      "text_en": "Electronic databases (Web of Science (all databases), PubMed and Scopus) were searched on 11 February 2022. The search terms were adapted from previous systematic reviews about BCAA supplementation and exercise. A recent narrative review about BCAAs strength and hypotrophy was also considered to define the search terms (6). The following search strategy was used: (“branched-chain amino acid*” OR “BCAA*” OR “branched-chain amino acid* supplementation” OR “BCAA* supplementation” OR valine OR isoleucine OR leucine) AND (strength* OR “resistance training” OR endurance* OR aerobic “intermittent sport” OR high-intensity OR “muscle soreness” OR “delayed onset muscle soreness” OR DOMS OR anabolic OR “protein synthesis” OR jump OR run OR sprint) AND (athlete* OR sport* OR train*). No restrictions were applied to the year of publication and only papers written in English were consulted.",
+      "section_ru": "2. Материалы и методы / 2.2. Информационный источник и поисковая стратегия",
+      "text_ru_machine": "11 февраля 2022 года были проведены поиски электронных баз данных (Web of Science (все базы данных), PubMed и Scopus). Термины поиска были адаптированы из предыдущих систематических обзоров о добавках и физических упражнениях BCAA. Недавнее повествовательное обозрение о силе и гипотрофии BCAA также было рассмотрено для определения поисковых терминов (6). Была использована следующая стратегия поиска: («аминокислота с разветвленной цепью*» ИЛИ «добавка с разветвленной цепью*» ИЛИ «добавка с разветвленной цепью*» ИЛИ «валин ИЛИ изолейцин ИЛИ лейцин») И (сила* ИЛИ «тренировка сопротивления» ИЛИ выносливость* ИЛИ аэробный «прерывистый спорт» ИЛИ высокоинтенсивная «мышечная болезненность» ИЛИ «задержка начала мышечной боли» ИЛИ ДОМС ИЛИ «анаболический синтез белка» ИЛИ «прыжок ИЛИ бег ИЛИ спринт») И (спортсмен* ИЛИ спорт* ИЛИ поезд*). К году публикации никаких ограничений не применялось, консультировались только с работами, написанными на английском языке.",
+      "text_ru": "11 февраля 2022 года были проведены поиски электронных баз данных (Web of Science (все базы данных), PubMed и Scopus). Термины поиска были адаптированы из предыдущих систематических обзоров о добавках и физических упражнениях BCAA. Недавнее повествовательное обозрение о силе и гипотрофии BCAA также было рассмотрено для определения поисковых терминов (6). Была использована следующая стратегия поиска: («аминокислота с разветвленной цепью*» ИЛИ «добавка с разветвленной цепью*» ИЛИ «добавка с разветвленной цепью*» ИЛИ «валин ИЛИ изолейцин ИЛИ лейцин») И (сила* ИЛИ «тренировка с отягощениями» ИЛИ выносливость* ИЛИ аэробный «прерывистый спорт» ИЛИ высокоинтенсивная «мышечная болезненность» ИЛИ «задержка начала мышечной боли» ИЛИ ДОМС ИЛИ «анаболический синтез белка» ИЛИ «прыжок ИЛИ бег ИЛИ спринт») И (спортсмен* ИЛИ спорт* ИЛИ поезд*). К году публикации никаких ограничений не применялось, консультировались только с работами, написанными на английском языке.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "Electronic databases (Web of Science (all databases), PubMed and Scopus) were searched on 11 February 2022.",
+          "ru": "11 февраля 2022 года были проведены поиски электронных баз данных (Web of Science (все базы данных), PubMed и Scopus).",
+          "output_tokens": 31,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "11 февраля 2022 года были проведены поиски электронных баз данных (Web of Science (все базы данных), PubMed и Scopus).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The search terms were adapted from previous systematic reviews about BCAA supplementation and exercise.",
+          "ru": "Термины поиска были адаптированы из предыдущих систематических обзоров о добавках и физических упражнениях BCAA.",
+          "output_tokens": 22,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Термины поиска были адаптированы из предыдущих систематических обзоров о добавках и физических упражнениях BCAA.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "A recent narrative review about BCAAs strength and hypotrophy was also considered to define the search terms (6).",
+          "ru": "Недавнее повествовательное обозрение о силе и гипотрофии BCAA также было рассмотрено для определения поисковых терминов (6).",
+          "output_tokens": 31,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Недавнее повествовательное обозрение о силе и гипотрофии BCAA также было рассмотрено для определения поисковых терминов (6).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The following search strategy was used: (“branched-chain amino acid*” OR “BCAA*” OR “branched-chain amino acid* supplementation” OR “BCAA* supplementation” OR valine OR isoleucine OR leucine) AND (strength* OR “resistance training” OR endurance* OR aerobic “intermittent sport” OR high-intensity OR “muscle soreness” OR “delayed onset muscle soreness” OR DOMS OR anabolic OR “protein synthesis” OR jump OR run OR sprint) AND (athlete* OR sport* OR train*).",
+          "ru": "Была использована следующая стратегия поиска: («аминокислота с разветвленной цепью*» ИЛИ «добавка с разветвленной цепью*» ИЛИ «добавка с разветвленной цепью*» ИЛИ «валин ИЛИ изолейцин ИЛИ лейцин») И (сила* ИЛИ «тренировка сопротивления» ИЛИ выносливость* ИЛИ аэробный «прерывистый спорт» ИЛИ высокоинтенсивная «мышечная болезненность» ИЛИ «задержка начала мышечной боли» ИЛИ ДОМС ИЛИ «анаболический синтез белка» ИЛИ «прыжок ИЛИ бег ИЛИ спринт») И (спортсмен* ИЛИ спорт* ИЛИ поезд*).",
+          "output_tokens": 180,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Была использована следующая стратегия поиска: («аминокислота с разветвленной цепью*» ИЛИ «добавка с разветвленной цепью*» ИЛИ «добавка с разветвленной цепью*» ИЛИ «валин ИЛИ изолейцин ИЛИ лейцин») И (сила* ИЛИ «тренировка с отягощениями» ИЛИ выносливость* ИЛИ аэробный «прерывистый спорт» ИЛИ высокоинтенсивная «мышечная болезненность» ИЛИ «задержка начала мышечной боли» ИЛИ ДОМС ИЛИ «анаболический синтез белка» ИЛИ «прыжок ИЛИ бег ИЛИ спринт») И (спортсмен* ИЛИ спорт* ИЛИ поезд*).",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        },
+        {
+          "en": "No restrictions were applied to the year of publication and only papers written in English were consulted.",
+          "ru": "К году публикации никаких ограничений не применялось, консультировались только с работами, написанными на английском языке.",
+          "output_tokens": 23,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "К году публикации никаких ограничений не применялось, консультировались только с работами, написанными на английском языке.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "2. Материалы и методы / 2.2. Информационный источник и поисковая стратегия",
+      "excluded_from_corpus": true,
+      "scope_exclusion_reason": "Методика поиска/статистического анализа обзора: не содержит тренировочного протокола или ответа предметной области. Перевод сохранён отдельно.",
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 1
+      }
+    },
+    {
+      "paragraph_id": "SU-022:p0007",
+      "section_en": "2. Materials and Methods / 2.3. Selection Process",
+      "text_en": "Reference managing software (EndNoteTMX9, Clarivate Analytics, Philadelphia, PA, USA) was used to export the manuscripts. After the initial screening, duplicates were automatically removed and manually checked. Two independent authors (DVM/HS) screened the title and abstracts. The remaining manuscripts were assessed to check whether the eligibility criteria were met. Where disagreements occurred, a third author (AF) was consulted and debate ensued until a consensus was achieved.",
+      "section_ru": "2. Материалы и методы / 2.3. Процесс отбора",
+      "text_ru_machine": "Для экспорта рукописей использовалось программное обеспечение для управления ссылками (EndNoteTMX9, Clarivate Analytics, Philadelphia, PA, USA). После первоначального скрининга дубликаты автоматически удалялись и проверялись вручную. Два независимых автора (DVM/HS) просмотрели заголовок и рефераты. Остальные рукописи были оценены для проверки соответствия критериям приемлемости. В тех случаях, когда возникали разногласия, проводились консультации с третьим автором (АФ) и прения до достижения консенсуса.",
+      "text_ru": "Для экспорта рукописей использовалось программное обеспечение для управления ссылками (EndNoteTMX9, Clarivate Analytics, Philadelphia, PA, USA). После первоначального скрининга дубликаты автоматически удалялись и проверялись вручную. Два независимых автора (DVM/HS) просмотрели заголовок и рефераты. Остальные рукописи были оценены для проверки соответствия критериям приемлемости. В тех случаях, когда возникали разногласия, проводились консультации с третьим автором (АФ) и прения до достижения консенсуса.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "Reference managing software (EndNoteTMX9, Clarivate Analytics, Philadelphia, PA, USA) was used to export the manuscripts.",
+          "ru": "Для экспорта рукописей использовалось программное обеспечение для управления ссылками (EndNoteTMX9, Clarivate Analytics, Philadelphia, PA, USA).",
+          "output_tokens": 36,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Для экспорта рукописей использовалось программное обеспечение для управления ссылками (EndNoteTMX9, Clarivate Analytics, Philadelphia, PA, USA).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "After the initial screening, duplicates were automatically removed and manually checked.",
+          "ru": "После первоначального скрининга дубликаты автоматически удалялись и проверялись вручную.",
+          "output_tokens": 18,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "После первоначального скрининга дубликаты автоматически удалялись и проверялись вручную.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Two independent authors (DVM/HS) screened the title and abstracts.",
+          "ru": "Два независимых автора (DVM/HS) просмотрели заголовок и рефераты.",
+          "output_tokens": 21,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Два независимых автора (DVM/HS) просмотрели заголовок и рефераты.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The remaining manuscripts were assessed to check whether the eligibility criteria were met.",
+          "ru": "Остальные рукописи были оценены для проверки соответствия критериям приемлемости.",
+          "output_tokens": 15,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Остальные рукописи были оценены для проверки соответствия критериям приемлемости.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Where disagreements occurred, a third author (AF) was consulted and debate ensued until a consensus was achieved.",
+          "ru": "В тех случаях, когда возникали разногласия, проводились консультации с третьим автором (АФ) и прения до достижения консенсуса.",
+          "output_tokens": 27,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В тех случаях, когда возникали разногласия, проводились консультации с третьим автором (АФ) и прения до достижения консенсуса.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "2. Материалы и методы / 2.3. Процесс отбора",
+      "excluded_from_corpus": true,
+      "scope_exclusion_reason": "Методика поиска/статистического анализа обзора: не содержит тренировочного протокола или ответа предметной области. Перевод сохранён отдельно.",
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-022:p0008",
+      "section_en": "2. Materials and Methods / 2.4. Data Collection Process and Data Items",
+      "text_en": "Two authors (DVM/HS) carefully examined the eligible papers and extracted the relevant information from each study. Thereafter, the sample population, BCAA supplementation (frequency and quantity), exercise protocol, outcomes of interest, aims and main results were summarized on a template adapted from Cochrane Consumers and Communication Review Group. The outcomes were categorized as follows: performance, body composition, muscle soreness, recovery and biochemical, hormonal or molecular indicators. Two studies used a similar sample to examine the effects of BCAA supplementation after an intense exercise protocol on different outcomes. The mentioned papers tested different hypotheses and, consequently, were included in the review.",
+      "section_ru": "2. Материалы и методы / 2.4. Процесс сбора данных и элементы данных",
+      "text_ru_machine": "Два автора (DVM/HS) тщательно изучили соответствующие документы и извлекли соответствующую информацию из каждого исследования. Затем выборка населения, BCAA (частота и количество), протокол упражнений, результаты интереса, цели и основные результаты были обобщены по шаблону, адаптированному от Cochrane Consumers and Communication Review Group. Результаты были классифицированы следующим образом: производительность, состав тела, болезненность мышц, восстановление и биохимические, гормональные или молекулярные показатели. В двух исследованиях использовался аналогичный образец для изучения влияния добавок BCAA после протокола интенсивных упражнений на различные результаты. Упомянутые документы проверяли различные гипотезы и, следовательно, были включены в обзор.",
+      "text_ru": "Два автора (DVM/HS) тщательно изучили соответствующие документы и извлекли соответствующую информацию из каждого исследования. Затем выборка населения, BCAA (частота и количество), протокол упражнений, результаты интереса, цели и основные результаты были обобщены по шаблону, адаптированному от Cochrane Consumers and Communication Review Group. Результаты были классифицированы следующим образом: работоспособность, состав тела, болезненность мышц, восстановление и биохимические, гормональные или молекулярные показатели. В двух исследованиях использовался аналогичный образец для изучения влияния добавок BCAA после протокола интенсивных упражнений на различные результаты. Упомянутые документы проверяли различные гипотезы и, следовательно, были включены в обзор.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "Two authors (DVM/HS) carefully examined the eligible papers and extracted the relevant information from each study.",
+          "ru": "Два автора (DVM/HS) тщательно изучили соответствующие документы и извлекли соответствующую информацию из каждого исследования.",
+          "output_tokens": 23,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Два автора (DVM/HS) тщательно изучили соответствующие документы и извлекли соответствующую информацию из каждого исследования.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Thereafter, the sample population, BCAA supplementation (frequency and quantity), exercise protocol, outcomes of interest, aims and main results were summarized on a template adapted from Cochrane Consumers and Communication Review Group.",
+          "ru": "Затем выборка населения, BCAA (частота и количество), протокол упражнений, результаты интереса, цели и основные результаты были обобщены по шаблону, адаптированному от Cochrane Consumers and Communication Review Group.",
+          "output_tokens": 46,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Затем выборка населения, BCAA (частота и количество), протокол упражнений, результаты интереса, цели и основные результаты были обобщены по шаблону, адаптированному от Cochrane Consumers and Communication Review Group.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The outcomes were categorized as follows: performance, body composition, muscle soreness, recovery and biochemical, hormonal or molecular indicators.",
+          "ru": "Результаты были классифицированы следующим образом: производительность, состав тела, болезненность мышц, восстановление и биохимические, гормональные или молекулярные показатели.",
+          "output_tokens": 30,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Результаты были классифицированы следующим образом: работоспособность, состав тела, болезненность мышц, восстановление и биохимические, гормональные или молекулярные показатели.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Two studies used a similar sample to examine the effects of BCAA supplementation after an intense exercise protocol on different outcomes.",
+          "ru": "В двух исследованиях использовался аналогичный образец для изучения влияния добавок BCAA после протокола интенсивных упражнений на различные результаты.",
+          "output_tokens": 24,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В двух исследованиях использовался аналогичный образец для изучения влияния добавок BCAA после протокола интенсивных упражнений на различные результаты.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The mentioned papers tested different hypotheses and, consequently, were included in the review.",
+          "ru": "Упомянутые документы проверяли различные гипотезы и, следовательно, были включены в обзор.",
+          "output_tokens": 20,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Упомянутые документы проверяли различные гипотезы и, следовательно, были включены в обзор.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_performance_wording"
+      ],
+      "section_ru_machine": "2. Материалы и методы / 2.4. Процесс сбора данных и элементы данных",
+      "excluded_from_corpus": true,
+      "scope_exclusion_reason": "Методика поиска/статистического анализа обзора: не содержит тренировочного протокола или ответа предметной области. Перевод сохранён отдельно.",
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 1
+      }
+    },
+    {
+      "paragraph_id": "SU-022:p0009",
+      "section_en": "2. Materials and Methods / 2.5. Study Risk of Bias",
+      "text_en": "The revised Cochrane risk of bias tool for randomized trials (RoB 2.0) was used to analyse the risk of bias of randomized studies included in the present review, as suggested elsewhere. The tool is formed by five domains with different questions: (1) Bias arising from the randomization process; (2) Bias due to deviations from intended interventions; (3) Bias due to missing outcome data; (4) Bias in measurement of the outcome; (5) Bias in selection of the reported result. In the present review, the effect of starting and adhering to the interventions as specified in the trial protocol option was selected in the tool since the present study examined pre- and post-test results of specific outcomes, considering BCAA supplementation and exercise intervention. The questions were signalled as: yes, probably yes, probably no, no and no information. Additionally, domains were individually signed as: low risk of bias, some concerns, and high risk of bias. Text boxes associated with each domain were completed when possible. Two independent observers completed the revised Cochrane risk of bias tool for randomized trials (DVM/HS) and possible disagreements were solved by a third reviewer (AF).",
+      "section_ru": "2. Материалы и методы / 2.5. Исследование риска предвзятости",
+      "text_ru_machine": "Пересмотренный инструмент Кокрейновского риска предвзятости для рандомизированных исследований (RoB 2.0) был использован для анализа риска предвзятости рандомизированных исследований, включенных в настоящий обзор. Инструмент формируется пятью областями с различными вопросами: (1) Предубеждения, возникающие из процесса рандомизации; (2) Предубеждения из-за отклонений от предполагаемых вмешательств; (3) Предубеждения из-за отсутствующих данных о результатах; (4) Предубеждения в измерении результата; (5) Предубеждения в выборе сообщенного результата. В настоящем обзоре эффект от начала и соблюдения вмешательств, как указано в варианте протокола испытания, был выбран в инструменте, поскольку в настоящем исследовании изучались результаты до и после тестирования конкретных результатов с учетом добавок BCAA и вмешательства в упражнения. Вопросы звучали так: да, вероятно, да, вероятно, нет, нет и никакой информации. Кроме того, домены были индивидуально подписаны как: низкий риск смещения, некоторые проблемы и высокий риск смещения. Текстовые поля, связанные с каждым доменом, были заполнены, когда это было возможно. Два независимых наблюдателя завершили пересмотренный инструмент Кокрейновского риска предвзятости для рандомизированных испытаний (DVM/HS), и возможные разногласия были решены третьим рецензентом (AF).",
+      "text_ru": "Пересмотренный инструмент Кокрейновского риска предвзятости для рандомизированных исследований (RoB 2.0) был использован для анализа риска предвзятости рандомизированных исследований, включенных в настоящий обзор. Инструмент формируется пятью областями с различными вопросами: (1) Предубеждения, возникающие из процесса рандомизации; (2) Предубеждения из-за отклонений от предполагаемых вмешательств; (3) Предубеждения из-за отсутствующих данных о результатах; (4) Предубеждения в измерении результата; (5) Предубеждения в выборе сообщенного результата. В настоящем обзоре эффект от начала и соблюдения вмешательств, как указано в варианте протокола испытания, был выбран в инструменте, поскольку в настоящем исследовании изучались результаты до и после тестирования конкретных результатов с учетом добавок BCAA и вмешательства в упражнения. Вопросы звучали так: да, вероятно, да, вероятно, нет, нет и никакой информации. Кроме того, домены были индивидуально подписаны как: низкий риск смещения, некоторые проблемы и высокий риск смещения. Текстовые поля, связанные с каждым доменом, были заполнены, когда это было возможно. Два независимых наблюдателя завершили пересмотренный инструмент Кокрейновского риска предвзятости для рандомизированных испытаний (DVM/HS), и возможные разногласия были решены третьим рецензентом (AF).",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "The revised Cochrane risk of bias tool for randomized trials (RoB 2.0) was used to analyse the risk of bias of randomized studies included in the present review, as suggested elsewhere.",
+          "ru": "Пересмотренный инструмент Кокрейновского риска предвзятости для рандомизированных исследований (RoB 2.0) был использован для анализа риска предвзятости рандомизированных исследований, включенных в настоящий обзор.",
+          "output_tokens": 47,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Пересмотренный инструмент Кокрейновского риска предвзятости для рандомизированных исследований (RoB 2.0) был использован для анализа риска предвзятости рандомизированных исследований, включенных в настоящий обзор.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The tool is formed by five domains with different questions: (1) Bias arising from the randomization process; (2) Bias due to deviations from intended interventions; (3) Bias due to missing outcome data; (4) Bias in measurement of the outcome; (5) Bias in selection of the reported result.",
+          "ru": "Инструмент формируется пятью областями с различными вопросами: (1) Предубеждения, возникающие из процесса рандомизации; (2) Предубеждения из-за отклонений от предполагаемых вмешательств; (3) Предубеждения из-за отсутствующих данных о результатах; (4) Предубеждения в измерении результата; (5) Предубеждения в выборе сообщенного результата.",
+          "output_tokens": 75,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Инструмент формируется пятью областями с различными вопросами: (1) Предубеждения, возникающие из процесса рандомизации; (2) Предубеждения из-за отклонений от предполагаемых вмешательств; (3) Предубеждения из-за отсутствующих данных о результатах; (4) Предубеждения в измерении результата; (5) Предубеждения в выборе сообщенного результата.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "In the present review, the effect of starting and adhering to the interventions as specified in the trial protocol option was selected in the tool since the present study examined pre- and post-test results of specific outcomes, considering BCAA supplementation and exercise intervention.",
+          "ru": "В настоящем обзоре эффект от начала и соблюдения вмешательств, как указано в варианте протокола испытания, был выбран в инструменте, поскольку в настоящем исследовании изучались результаты до и после тестирования конкретных результатов с учетом добавок BCAA и вмешательства в упражнения.",
+          "output_tokens": 50,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В настоящем обзоре эффект от начала и соблюдения вмешательств, как указано в варианте протокола испытания, был выбран в инструменте, поскольку в настоящем исследовании изучались результаты до и после тестирования конкретных результатов с учетом добавок BCAA и вмешательства в упражнения.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The questions were signalled as: yes, probably yes, probably no, no and no information.",
+          "ru": "Вопросы звучали так: да, вероятно, да, вероятно, нет, нет и никакой информации.",
+          "output_tokens": 21,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Вопросы звучали так: да, вероятно, да, вероятно, нет, нет и никакой информации.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Additionally, domains were individually signed as: low risk of bias, some concerns, and high risk of bias.",
+          "ru": "Кроме того, домены были индивидуально подписаны как: низкий риск смещения, некоторые проблемы и высокий риск смещения.",
+          "output_tokens": 24,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Кроме того, домены были индивидуально подписаны как: низкий риск смещения, некоторые проблемы и высокий риск смещения.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Text boxes associated with each domain were completed when possible.",
+          "ru": "Текстовые поля, связанные с каждым доменом, были заполнены, когда это было возможно.",
+          "output_tokens": 19,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Текстовые поля, связанные с каждым доменом, были заполнены, когда это было возможно.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Two independent observers completed the revised Cochrane risk of bias tool for randomized trials (DVM/HS) and possible disagreements were solved by a third reviewer (AF).",
+          "ru": "Два независимых наблюдателя завершили пересмотренный инструмент Кокрейновского риска предвзятости для рандомизированных испытаний (DVM/HS), и возможные разногласия были решены третьим рецензентом (AF).",
+          "output_tokens": 46,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Два независимых наблюдателя завершили пересмотренный инструмент Кокрейновского риска предвзятости для рандомизированных испытаний (DVM/HS), и возможные разногласия были решены третьим рецензентом (AF).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "2. Материалы и методы / 2.5. Исследование риска предвзятости",
+      "excluded_from_corpus": true,
+      "scope_exclusion_reason": "Методика поиска/статистического анализа обзора: не содержит тренировочного протокола или ответа предметной области. Перевод сохранён отдельно.",
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-022:p0010",
+      "section_en": "3. Results",
+      "text_en": "The electronic search identified 2298 records from the three databases. Following the removal of duplicates (n = 649), the remainder of titles and abstracts were screened. The full text of 86 papers were consulted and 65 were not considered in the present review for the following reasons: sample did not include athletes or participants with training experience (n = 27), BCAAs were combined with different substances (n = 33), one study administrated BCAAs by infusion, one study did not include a control group and three papers were classified as reviews or letters to the editor (Figure 1).",
+      "section_ru": "Результаты",
+      "text_ru_machine": "Электронный поиск выявил 2298 записей из трех баз данных. После удаления дубликатов (n = 649) были отсортированы остальные заголовки и рефераты. Полный текст 86 статей был рассмотрен и 65 не были рассмотрены в настоящем обзоре по следующим причинам: выборка не включала спортсменов или участников с опытом тренировок (n = 27), BCAA были объединены с различными веществами (n = 33), одно исследование администрировало BCAA путем инфузии, одно исследование не включало контрольную группу и три статьи были классифицированы как обзоры или письма редактору (рисунок 1).",
+      "text_ru": "Электронный поиск выявил 2298 записей из трех баз данных. После удаления дубликатов (n = 649) были отсортированы остальные заголовки и рефераты. Полный текст 86 статей был рассмотрен и 65 не были рассмотрены в настоящем обзоре по следующим причинам: выборка не включала спортсменов или участников с опытом тренировок (n = 27), BCAA были объединены с различными веществами (n = 33), одно исследование администрировало BCAA путем инфузии, одно исследование не включало контрольную группу и три статьи были классифицированы как обзоры или письма редактору (рисунок 1).",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "The electronic search identified 2298 records from the three databases.",
+          "ru": "Электронный поиск выявил 2298 записей из трех баз данных.",
+          "output_tokens": 12,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Электронный поиск выявил 2298 записей из трех баз данных.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Following the removal of duplicates (n = 649), the remainder of titles and abstracts were screened.",
+          "ru": "После удаления дубликатов (n = 649) были отсортированы остальные заголовки и рефераты.",
+          "output_tokens": 24,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "После удаления дубликатов (n = 649) были отсортированы остальные заголовки и рефераты.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The full text of 86 papers were consulted and 65 were not considered in the present review for the following reasons: sample did not include athletes or participants with training experience (n = 27), BCAAs were combined with different substances (n = 33), one study administrated BCAAs by infusion, one study did not include a control group and three papers were classified as reviews or letters to the editor (Figure 1).",
+          "ru": "Полный текст 86 статей был рассмотрен и 65 не были рассмотрены в настоящем обзоре по следующим причинам: выборка не включала спортсменов или участников с опытом тренировок (n = 27), BCAA были объединены с различными веществами (n = 33), одно исследование администрировало BCAA путем инфузии, одно исследование не включало контрольную группу и три статьи были классифицированы как обзоры или письма редактору (рисунок 1).",
+          "output_tokens": 94,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Полный текст 86 статей был рассмотрен и 65 не были рассмотрены в настоящем обзоре по следующим причинам: выборка не включала спортсменов или участников с опытом тренировок (n = 27), BCAA были объединены с различными веществами (n = 33), одно исследование администрировало BCAA путем инфузии, одно исследование не включало контрольную группу и три статьи были классифицированы как обзоры или письма редактору (рисунок 1).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "3. Результаты.",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-022:p0011",
+      "section_en": "3. Results / 3.1. Study Characteristics",
+      "text_en": "The studies included in the present review are summarized in Table 1. Different outcomes were used to examine the impact of BCAA supplementation among athletes. The studies have investigated the effect of BCAAs on performance, body composition, muscle soreness or recovery and changes in biochemical, hormonal, or molecular signaling.",
+      "section_ru": "3. Результаты / 3.1. Характеристики исследования",
+      "text_ru_machine": "Результаты исследований, включенных в настоящий обзор, кратко изложены в таблице 1. Различные результаты были использованы для изучения влияния добавок BCAA среди спортсменов. В исследованиях изучалось влияние BCAA на производительность, состав тела, болезненность мышц или восстановление и изменения в биохимической, гормональной или молекулярной сигнализации.",
+      "text_ru": "Результаты исследований, включенных в настоящий обзор, кратко изложены в таблице 1. Различные результаты были использованы для изучения влияния добавок BCAA среди спортсменов. В исследованиях изучалось влияние BCAA на работоспособность, состав тела, болезненность мышц или восстановление и изменения в биохимической, гормональной или молекулярной сигнализации.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "The studies included in the present review are summarized in Table 1.",
+          "ru": "Результаты исследований, включенных в настоящий обзор, кратко изложены в таблице 1.",
+          "output_tokens": 17,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Результаты исследований, включенных в настоящий обзор, кратко изложены в таблице 1.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Different outcomes were used to examine the impact of BCAA supplementation among athletes.",
+          "ru": "Различные результаты были использованы для изучения влияния добавок BCAA среди спортсменов.",
+          "output_tokens": 13,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Различные результаты были использованы для изучения влияния добавок BCAA среди спортсменов.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The studies have investigated the effect of BCAAs on performance, body composition, muscle soreness or recovery and changes in biochemical, hormonal, or molecular signaling.",
+          "ru": "В исследованиях изучалось влияние BCAA на производительность, состав тела, болезненность мышц или восстановление и изменения в биохимической, гормональной или молекулярной сигнализации.",
+          "output_tokens": 34,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В исследованиях изучалось влияние BCAA на работоспособность, состав тела, болезненность мышц или восстановление и изменения в биохимической, гормональной или молекулярной сигнализации.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_performance_wording"
+      ],
+      "section_ru_machine": "3. Результаты / 3.1. Характеристики исследования",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 1
+      }
+    },
+    {
+      "paragraph_id": "SU-022:p0012",
+      "section_en": "3. Results / 3.1. Study Characteristics",
+      "text_en": "The effects of BCAAs were tested using different exercise protocols and/or exposing athletes to a variety of diets. Two studies examined the influence of BCAAs on specific outputs after an intense bout of exercise, promoting glycogenic depletion. A muscle-damaging protocol was applied in resistance athletes and strength, jump performance, creatine kinase, muscle soreness were assessed after acute BCAA supplementation. A separate investigation measured the impact of BCAAs on body weight, body composition, strength parameters and resting metabolic rate using a carbohydrate restrictive diet. The BCAA supplementation protocols varied between studies in relation to timing and amount. For example, 10 g of BCAAs were ingested five minutes before and after strength training sessions, while immunological parameters were tested in 12 triathletes and 24 marathon runners across 1 month supplemented with six grams of BCAA.",
+      "section_ru": "3. Результаты / 3.1. Характеристики исследования",
+      "text_ru_machine": "Эффекты BCAA тестировались с использованием различных протоколов упражнений и/или подвергали спортсменов различным диетам. В двух исследованиях изучалось влияние BCAA на конкретные результаты после интенсивного упражнения, способствующего гликогенному истощению. Протокол повреждения мышц был применен у спортсменов с сопротивлением и силой, эффективность прыжка, креатинкиназа, мышечная болезненность были оценены после острой добавки BCAA. Отдельное исследование измерило влияние BCAA на массу тела, состав тела, параметры силы и скорость метаболизма в покое с использованием углеводной ограничительной диеты. Протоколы BCAA варьировались между исследованиями в зависимости от времени и количества. Например, 10 г BCAA были проглочены за пять минут до и после силовых тренировок, в то время как иммунологические параметры были протестированы у 12 триатлонистов и 24 марафонцев в течение 1 месяца, дополненных шестью граммами BCAA.",
+      "text_ru": "Эффекты BCAA тестировались с использованием различных протоколов упражнений и/или подвергали спортсменов различным диетам. В двух исследованиях изучалось влияние BCAA на конкретные результаты после интенсивного упражнения, способствующего гликогенному истощению. Протокол повреждения мышц был применен у спортсменов с сопротивлением и силой, эффективность прыжка, креатинкиназа, мышечная болезненность были оценены после острой добавки BCAA. Отдельное исследование измерило влияние BCAA на массу тела, состав тела, параметры силы и скорость метаболизма в покое с использованием углеводной ограничительной диеты. Протоколы BCAA варьировались между исследованиями в зависимости от времени и количества. Например, 10 г BCAA были проглочены за пять минут до и после силовых тренировок, в то время как иммунологические параметры были протестированы у 12 триатлонистов и 24 марафонцев в течение 1 месяца, дополненных шестью граммами BCAA.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "The effects of BCAAs were tested using different exercise protocols and/or exposing athletes to a variety of diets.",
+          "ru": "Эффекты BCAA тестировались с использованием различных протоколов упражнений и/или подвергали спортсменов различным диетам.",
+          "output_tokens": 22,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Эффекты BCAA тестировались с использованием различных протоколов упражнений и/или подвергали спортсменов различным диетам.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Two studies examined the influence of BCAAs on specific outputs after an intense bout of exercise, promoting glycogenic depletion.",
+          "ru": "В двух исследованиях изучалось влияние BCAA на конкретные результаты после интенсивного упражнения, способствующего гликогенному истощению.",
+          "output_tokens": 25,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В двух исследованиях изучалось влияние BCAA на конкретные результаты после интенсивного упражнения, способствующего гликогенному истощению.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "A muscle-damaging protocol was applied in resistance athletes and strength, jump performance, creatine kinase, muscle soreness were assessed after acute BCAA supplementation.",
+          "ru": "Протокол повреждения мышц был применен у спортсменов с сопротивлением и силой, эффективность прыжка, креатинкиназа, мышечная болезненность были оценены после острой добавки BCAA.",
+          "output_tokens": 40,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Протокол повреждения мышц был применен у спортсменов с сопротивлением и силой, эффективность прыжка, креатинкиназа, мышечная болезненность были оценены после острой добавки BCAA.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "A separate investigation measured the impact of BCAAs on body weight, body composition, strength parameters and resting metabolic rate using a carbohydrate restrictive diet.",
+          "ru": "Отдельное исследование измерило влияние BCAA на массу тела, состав тела, параметры силы и скорость метаболизма в покое с использованием углеводной ограничительной диеты.",
+          "output_tokens": 37,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Отдельное исследование измерило влияние BCAA на массу тела, состав тела, параметры силы и скорость метаболизма в покое с использованием углеводной ограничительной диеты.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The BCAA supplementation protocols varied between studies in relation to timing and amount.",
+          "ru": "Протоколы BCAA варьировались между исследованиями в зависимости от времени и количества.",
+          "output_tokens": 18,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Протоколы BCAA варьировались между исследованиями в зависимости от времени и количества.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "For example, 10 g of BCAAs were ingested five minutes before and after strength training sessions, while immunological parameters were tested in 12 triathletes and 24 marathon runners across 1 month supplemented with six grams of BCAA.",
+          "ru": "Например, 10 г BCAA были проглочены за пять минут до и после силовых тренировок, в то время как иммунологические параметры были протестированы у 12 триатлонистов и 24 марафонцев в течение 1 месяца, дополненных шестью граммами BCAA.",
+          "output_tokens": 57,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Например, 10 г BCAA были проглочены за пять минут до и после силовых тренировок, в то время как иммунологические параметры были протестированы у 12 триатлонистов и 24 марафонцев в течение 1 месяца, дополненных шестью граммами BCAA.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "3. Результаты / 3.1. Характеристики исследования",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-022:p0013",
+      "section_en": "3. Results / 3.2. Risk of Bias",
+      "text_en": "In general, studies show a lower risk of bias for the five domains (see Figure 2). The details of randomization were not totally clarified in studies. The interpretation of the second domain—deviations from intended interventions—in seven studies needs caution. On the fourth domain—concerning measurement outcome—five studies demonstrated a higher risk of bias. This was mainly related to the lack of assessors blinding before the intervention or manuscripts failed to report whether observers were aware of treatment and control groups. The 21 studies show a low risk of bias in the third and fifth domains.",
+      "section_ru": "3.Результаты / 3.2.Риск предвзятости",
+      "text_ru_machine": "В целом, исследования показывают более низкий риск смещения для пяти доменов (см. Рисунок 2). Детали рандомизации не были полностью выяснены в исследованиях. Интерпретация второй области — отклонения от предполагаемых вмешательств — в семи исследованиях требует осторожности. В четвертой области, касающейся результатов измерений, пять исследований продемонстрировали более высокий риск смещения. В основном это было связано с отсутствием слепоты оценщиков до вмешательства или с тем, что в рукописях не сообщалось о том, были ли наблюдатели осведомлены о группах лечения и контроля. 21 исследование показывает низкий риск смещения в третьей и пятой областях.",
+      "text_ru": "В целом, исследования показывают более низкий риск смещения для пяти доменов (см. Рисунок 2). Детали рандомизации не были полностью выяснены в исследованиях. Интерпретация второй области — отклонения от предполагаемых вмешательств — в семи исследованиях требует осторожности. В четвертой области, касающейся результатов измерений, пять исследований продемонстрировали более высокий риск смещения. В основном это было связано с отсутствием слепоты оценщиков до вмешательства или с тем, что в рукописях не сообщалось о том, были ли наблюдатели осведомлены о группах лечения и контроля. 21 исследование показывает низкий риск смещения в третьей и пятой областях.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "In general, studies show a lower risk of bias for the five domains (see Figure 2).",
+          "ru": "В целом, исследования показывают более низкий риск смещения для пяти доменов (см. Рисунок 2).",
+          "output_tokens": 22,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В целом, исследования показывают более низкий риск смещения для пяти доменов (см. Рисунок 2).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The details of randomization were not totally clarified in studies.",
+          "ru": "Детали рандомизации не были полностью выяснены в исследованиях.",
+          "output_tokens": 13,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Детали рандомизации не были полностью выяснены в исследованиях.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The interpretation of the second domain—deviations from intended interventions—in seven studies needs caution.",
+          "ru": "Интерпретация второй области — отклонения от предполагаемых вмешательств — в семи исследованиях требует осторожности.",
+          "output_tokens": 22,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Интерпретация второй области — отклонения от предполагаемых вмешательств — в семи исследованиях требует осторожности.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "On the fourth domain—concerning measurement outcome—five studies demonstrated a higher risk of bias.",
+          "ru": "В четвертой области, касающейся результатов измерений, пять исследований продемонстрировали более высокий риск смещения.",
+          "output_tokens": 19,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В четвертой области, касающейся результатов измерений, пять исследований продемонстрировали более высокий риск смещения.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "This was mainly related to the lack of assessors blinding before the intervention or manuscripts failed to report whether observers were aware of treatment and control groups.",
+          "ru": "В основном это было связано с отсутствием слепоты оценщиков до вмешательства или с тем, что в рукописях не сообщалось о том, были ли наблюдатели осведомлены о группах лечения и контроля.",
+          "output_tokens": 44,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В основном это было связано с отсутствием слепоты оценщиков до вмешательства или с тем, что в рукописях не сообщалось о том, были ли наблюдатели осведомлены о группах лечения и контроля.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The 21 studies show a low risk of bias in the third and fifth domains.",
+          "ru": "21 исследование показывает низкий риск смещения в третьей и пятой областях.",
+          "output_tokens": 13,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "21 исследование показывает низкий риск смещения в третьей и пятой областях.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "3.Результаты / 3.2.Риск предвзятости",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-022:p0014",
+      "section_en": "3. Results / 3.3. Results of Individual Studies",
+      "text_en": "For the studies that evaluated the impact of BCAA supplementation on performance, the participants typically consisted of cycling and running athletes, athletes undertaking resistance training, volleyball and soccer players. Allowing for variation in protocols of supplementation, the results of the present review suggest that BCAAs had trivial effects on performance outputs. In another study, participants followed a hypocaloric diet with either carbohydrate or BCAAs and a heavy resistance training programme across 8 weeks. The authors found that BCAA supplementation increased upper (15.1 ± 2.2 kg) and lower body strength (7.1 ± 1.6 kg), significantly, while the CHO group demonstrated negligible changes in upper body strength (4.8 ± 1.8 kg). A separate study examining the effects of long-term BCAA supplementation over 10 weeks in 18 cyclists, found a group vs. time interaction for peak power in the BCAA group. However, the authors did not control nutritional intake and athletes were instructed to maintain their habitual dietary habits during the investigation. Other studies examined the effects of BCAA supplementation over 7 to 8 days immediately before, during, or after exercise. For these studies, few manuscripts tested BCAA supplementation with reference to performance indicators.",
+      "section_ru": "3. Результаты / 3.3. Результаты индивидуальных исследований",
+      "text_ru_machine": "Для исследований, в которых оценивалось влияние добавок BCAA на производительность, участники обычно состояли из велосипедистов и беговых спортсменов, спортсменов, занимающихся тренировками сопротивления, волейбола и футболистов. Учитывая различия в протоколах добавления, результаты настоящего обзора свидетельствуют о том, что BCAA оказывают тривиальное воздействие на результаты деятельности. В другом исследовании участники следовали гипокалорийной диете с углеводами или BCAA и программой тренировок с тяжелой резистентностью в течение 8 недель. Авторы обнаружили, что добавки BCAA значительно увеличили верхнюю (15,1 ± 2,2 кг) и нижнюю прочность тела (7,1 ± 1,6 кг), в то время как группа CHO продемонстрировала незначительные изменения в прочности верхней части тела (4,8 ± 1,8 кг). Отдельное исследование, изучающее эффекты долгосрочных добавок BCAA в течение 10 недель у 18 велосипедистов, показало, что в группе BCAA наблюдается взаимодействие между группой и временем для пиковой мощности. Однако авторы не контролировали потребление питательных веществ, и спортсменам было поручено поддерживать свои привычные диетические привычки во время исследования. В других исследованиях изучалось влияние добавок BCAA в течение 7-8 дней непосредственно перед, во время или после тренировки. Для этих исследований в нескольких рукописях были проверены добавки BCAA со ссылкой на показатели эффективности.",
+      "text_ru": "Для исследований, в которых оценивалось влияние добавок BCAA на работоспособность, участники обычно состояли из велосипедистов и беговых спортсменов, спортсменов, занимающихся тренировками с отягощениями, волейбола и футболистов. Учитывая различия в протоколах добавления, результаты настоящего обзора свидетельствуют о том, что BCAA оказывают тривиальное воздействие на результаты деятельности. В другом исследовании участники восемь недель сочетали дефицит энергии, углеводную добавку либо BCAA и тяжёлую силовую программу. Авторы обнаружили, что добавки BCAA значительно увеличили верхнюю (15,1 ± 2,2 кг) и нижнюю прочность тела (7,1 ± 1,6 кг), в то время как группа CHO продемонстрировала незначительные изменения в прочности верхней части тела (4,8 ± 1,8 кг). Отдельное исследование, изучающее эффекты долгосрочных добавок BCAA в течение 10 недель у 18 велосипедистов, показало, что в группе BCAA наблюдается взаимодействие между группой и временем для пиковой мощности. Однако авторы не контролировали потребление питательных веществ, и спортсменам было поручено поддерживать свои привычные диетические привычки во время исследования. В других исследованиях изучалось влияние добавок BCAA в течение 7-8 дней непосредственно перед, во время или после тренировки. Для этих исследований в нескольких рукописях были проверены добавки BCAA со ссылкой на показатели эффективности.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "For the studies that evaluated the impact of BCAA supplementation on performance, the participants typically consisted of cycling and running athletes, athletes undertaking resistance training, volleyball and soccer players.",
+          "ru": "Для исследований, в которых оценивалось влияние добавок BCAA на производительность, участники обычно состояли из велосипедистов и беговых спортсменов, спортсменов, занимающихся тренировками сопротивления, волейбола и футболистов.",
+          "output_tokens": 44,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Для исследований, в которых оценивалось влияние добавок BCAA на работоспособность, участники обычно состояли из велосипедистов и беговых спортсменов, спортсменов, занимающихся тренировками с отягощениями, волейбола и футболистов.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Allowing for variation in protocols of supplementation, the results of the present review suggest that BCAAs had trivial effects on performance outputs.",
+          "ru": "Учитывая различия в протоколах добавления, результаты настоящего обзора свидетельствуют о том, что BCAA оказывают тривиальное воздействие на результаты деятельности.",
+          "output_tokens": 28,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Учитывая различия в протоколах добавления, результаты настоящего обзора свидетельствуют о том, что BCAA оказывают тривиальное воздействие на результаты деятельности.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "In another study, participants followed a hypocaloric diet with either carbohydrate or BCAAs and a heavy resistance training programme across 8 weeks.",
+          "ru": "В другом исследовании участники следовали гипокалорийной диете с углеводами или BCAA и программой тренировок с тяжелой резистентностью в течение 8 недель.",
+          "output_tokens": 34,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В другом исследовании участники восемь недель сочетали дефицит энергии, углеводную добавку либо BCAA и тяжёлую силовую программу.",
+          "editorial_status": "reviewed",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The authors found that BCAA supplementation increased upper (15.1 ± 2.2 kg) and lower body strength (7.1 ± 1.6 kg), significantly, while the CHO group demonstrated negligible changes in upper body strength (4.8 ± 1.8 kg).",
+          "ru": "Авторы обнаружили, что добавки BCAA значительно увеличили верхнюю (15,1 ± 2,2 кг) и нижнюю прочность тела (7,1 ± 1,6 кг), в то время как группа CHO продемонстрировала незначительные изменения в прочности верхней части тела (4,8 ± 1,8 кг).",
+          "output_tokens": 65,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Авторы обнаружили, что добавки BCAA значительно увеличили верхнюю (15,1 ± 2,2 кг) и нижнюю прочность тела (7,1 ± 1,6 кг), в то время как группа CHO продемонстрировала незначительные изменения в прочности верхней части тела (4,8 ± 1,8 кг).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "A separate study examining the effects of long-term BCAA supplementation over 10 weeks in 18 cyclists, found a group vs. time interaction for peak power in the BCAA group.",
+          "ru": "Отдельное исследование, изучающее эффекты долгосрочных добавок BCAA в течение 10 недель у 18 велосипедистов, показало, что в группе BCAA наблюдается взаимодействие между группой и временем для пиковой мощности.",
+          "output_tokens": 40,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Отдельное исследование, изучающее эффекты долгосрочных добавок BCAA в течение 10 недель у 18 велосипедистов, показало, что в группе BCAA наблюдается взаимодействие между группой и временем для пиковой мощности.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "However, the authors did not control nutritional intake and athletes were instructed to maintain their habitual dietary habits during the investigation.",
+          "ru": "Однако авторы не контролировали потребление питательных веществ, и спортсменам было поручено поддерживать свои привычные диетические привычки во время исследования.",
+          "output_tokens": 26,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Однако авторы не контролировали потребление питательных веществ, и спортсменам было поручено поддерживать свои привычные диетические привычки во время исследования.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Other studies examined the effects of BCAA supplementation over 7 to 8 days immediately before, during, or after exercise.",
+          "ru": "В других исследованиях изучалось влияние добавок BCAA в течение 7-8 дней непосредственно перед, во время или после тренировки.",
+          "output_tokens": 23,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В других исследованиях изучалось влияние добавок BCAA в течение 7-8 дней непосредственно перед, во время или после тренировки.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "For these studies, few manuscripts tested BCAA supplementation with reference to performance indicators.",
+          "ru": "Для этих исследований в нескольких рукописях были проверены добавки BCAA со ссылкой на показатели эффективности.",
+          "output_tokens": 22,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Для этих исследований в нескольких рукописях были проверены добавки BCAA со ссылкой на показатели эффективности.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_performance_wording",
+        "check_training_term"
+      ],
+      "section_ru_machine": "3. Результаты / 3.3. Результаты индивидуальных исследований",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 1,
+        "rule_applications": 2
+      }
+    },
+    {
+      "paragraph_id": "SU-022:p0015",
+      "section_en": "3. Results / 3.3. Results of Individual Studies",
+      "text_en": "The effectiveness of BCAA supplementation on body composition was examined in 50 amateur runners, 17 resistance athletes and 18 cyclists. Comparable changes in body weight were observed in BCAAs and the control group after 7 days of oral supplementation. Negligible effects for the BCAA group were observed in lean tissue and fat mass.",
+      "section_ru": "3. Результаты / 3.3. Результаты индивидуальных исследований",
+      "text_ru_machine": "Эффективность добавок BCAA по составу тела была изучена у 50 бегунов-любителей, 17 спортсменов с отягощениями и 18 велосипедистов. Сопоставимые изменения массы тела наблюдались в БЦАА и контрольной группе после 7 дней приема пероральных добавок. Незначительные эффекты для группы BCAA наблюдались в постной ткани и жировой массе.",
+      "text_ru": "Эффективность добавок BCAA по составу тела была изучена у 50 бегунов-любителей, 17 спортсменов с отягощениями и 18 велосипедистов. Сопоставимые изменения массы тела наблюдались в БЦАА и контрольной группе после 7 дней приема пероральных добавок. Незначительные эффекты для группы BCAA наблюдались в постной ткани и жировой массе.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "The effectiveness of BCAA supplementation on body composition was examined in 50 amateur runners, 17 resistance athletes and 18 cyclists.",
+          "ru": "Эффективность добавок BCAA по составу тела была изучена у 50 бегунов-любителей, 17 спортсменов с отягощениями и 18 велосипедистов.",
+          "output_tokens": 34,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Эффективность добавок BCAA по составу тела была изучена у 50 бегунов-любителей, 17 спортсменов с отягощениями и 18 велосипедистов.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Comparable changes in body weight were observed in BCAAs and the control group after 7 days of oral supplementation.",
+          "ru": "Сопоставимые изменения массы тела наблюдались в БЦАА и контрольной группе после 7 дней приема пероральных добавок.",
+          "output_tokens": 27,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Сопоставимые изменения массы тела наблюдались в БЦАА и контрольной группе после 7 дней приема пероральных добавок.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Negligible effects for the BCAA group were observed in lean tissue and fat mass.",
+          "ru": "Незначительные эффекты для группы BCAA наблюдались в постной ткани и жировой массе.",
+          "output_tokens": 20,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Незначительные эффекты для группы BCAA наблюдались в постной ткани и жировой массе.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "3. Результаты / 3.3. Результаты индивидуальных исследований",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-022:p0017",
+      "section_en": "4. Discussion",
+      "text_en": "The aim of this systematic review was to summarize the effects of BCAAs on performance, muscle soreness, recovery, body composition and biochemical, hormonal and molecular indicators among athletic populations. It was demonstrated that BCAA supplementation has minimal impact on performance and negligible effects on body composition. The effects of BCAAs on recovery and perceived muscle soreness were largely dependent of sport and exercise modality. For endurance sports athletes, the results differed between studies while in resistance participants the BCAAs mostly attenuated muscle soreness.",
+      "section_ru": "Обсуждение",
+      "text_ru_machine": "Целью этого систематического обзора было обобщить влияние BCAA на производительность, болезненность мышц, восстановление, состав тела и биохимические, гормональные и молекулярные показатели среди спортивных популяций. Было продемонстрировано, что добавки BCAA оказывают минимальное влияние на производительность и незначительное влияние на состав тела. Влияние BCAA на восстановление и воспринимаемую мышечную болезненность в значительной степени зависело от спорта и физических упражнений. Для спортсменов на выносливость результаты различались между исследованиями, в то время как у участников сопротивления BCAA в основном ослабляли мышечную болезненность.",
+      "text_ru": "Целью этого систематического обзора было обобщить влияние BCAA на работоспособность, болезненность мышц, восстановление, состав тела и биохимические, гормональные и молекулярные показатели среди спортивных популяций. Было продемонстрировано, что добавки BCAA оказывают минимальное влияние на работоспособность и незначительное влияние на состав тела. Влияние BCAA на восстановление и воспринимаемую мышечную болезненность в значительной степени зависело от спорта и физических упражнений. Для спортсменов на выносливость результаты различались между исследованиями, в то время как у участников сопротивления BCAA в основном ослабляли мышечную болезненность.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "The aim of this systematic review was to summarize the effects of BCAAs on performance, muscle soreness, recovery, body composition and biochemical, hormonal and molecular indicators among athletic populations.",
+          "ru": "Целью этого систематического обзора было обобщить влияние BCAA на производительность, болезненность мышц, восстановление, состав тела и биохимические, гормональные и молекулярные показатели среди спортивных популяций.",
+          "output_tokens": 42,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Целью этого систематического обзора было обобщить влияние BCAA на работоспособность, болезненность мышц, восстановление, состав тела и биохимические, гормональные и молекулярные показатели среди спортивных популяций.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        },
+        {
+          "en": "It was demonstrated that BCAA supplementation has minimal impact on performance and negligible effects on body composition.",
+          "ru": "Было продемонстрировано, что добавки BCAA оказывают минимальное влияние на производительность и незначительное влияние на состав тела.",
+          "output_tokens": 24,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Было продемонстрировано, что добавки BCAA оказывают минимальное влияние на работоспособность и незначительное влияние на состав тела.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The effects of BCAAs on recovery and perceived muscle soreness were largely dependent of sport and exercise modality.",
+          "ru": "Влияние BCAA на восстановление и воспринимаемую мышечную болезненность в значительной степени зависело от спорта и физических упражнений.",
+          "output_tokens": 27,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Влияние BCAA на восстановление и воспринимаемую мышечную болезненность в значительной степени зависело от спорта и физических упражнений.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "For endurance sports athletes, the results differed between studies while in resistance participants the BCAAs mostly attenuated muscle soreness.",
+          "ru": "Для спортсменов на выносливость результаты различались между исследованиями, в то время как у участников сопротивления BCAA в основном ослабляли мышечную болезненность.",
+          "output_tokens": 34,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Для спортсменов на выносливость результаты различались между исследованиями, в то время как у участников сопротивления BCAA в основном ослабляли мышечную болезненность.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_performance_wording"
+      ],
+      "section_ru_machine": "4. Обсуждение",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 2
+      }
+    },
+    {
+      "paragraph_id": "SU-022:p0018",
+      "section_en": "4. Discussion",
+      "text_en": "An early study claimed that BCAAs can be used as fuel during exercise, as an alternative to carbohydrates and fats. This may explain the adoption of BCAA supplementation during exercise in studies that evaluated performance outputs. The effects of BCAAs on performance were negligible irrespective of short or long-term protocols of supplementation. Note, the skeletons of amino acids are often metabolized to Krebs cycle (citric acidy cycle) intermediates. Although BCAA oxidation occurs mainly in the muscle, the impact of carbohydrates on the muscle is more evident. By inference, the role of carbohydrates on performance is crucial.",
+      "section_ru": "Обсуждение",
+      "text_ru_machine": "Раннее исследование утверждало, что BCAA можно использовать в качестве топлива во время физических упражнений, в качестве альтернативы углеводам и жирам. Это может объяснить принятие добавок BCAA во время физических упражнений в исследованиях, которые оценивали результаты производительности. Влияние BCAA на производительность было незначительным независимо от краткосрочных или долгосрочных протоколов добавок. Обратите внимание, что скелеты аминокислот часто метаболизируются в промежуточные соединения цикла Кребса (цикл лимонной кислоты). Хотя окисление BCAA происходит в основном в мышцах, влияние углеводов на мышцы более очевидно. По заключению, роль углеводов в производительности имеет решающее значение.",
+      "text_ru": "Раннее исследование утверждало, что BCAA можно использовать в качестве топлива во время физических упражнений, в качестве альтернативы углеводам и жирам. Это может объяснить принятие добавок BCAA во время физических упражнений в исследованиях, которые оценивали результаты работоспособности. Влияние BCAA на работоспособность было незначительным независимо от краткосрочных или долгосрочных протоколов добавок. Обратите внимание, что скелеты аминокислот часто метаболизируются в промежуточные соединения цикла Кребса (цикл лимонной кислоты). Хотя окисление BCAA происходит в основном в мышцах, влияние углеводов на мышцы более очевидно. По заключению, роль углеводов в работоспособности имеет решающее значение.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "An early study claimed that BCAAs can be used as fuel during exercise, as an alternative to carbohydrates and fats.",
+          "ru": "Раннее исследование утверждало, что BCAA можно использовать в качестве топлива во время физических упражнений, в качестве альтернативы углеводам и жирам.",
+          "output_tokens": 29,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Раннее исследование утверждало, что BCAA можно использовать в качестве топлива во время физических упражнений, в качестве альтернативы углеводам и жирам.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "This may explain the adoption of BCAA supplementation during exercise in studies that evaluated performance outputs.",
+          "ru": "Это может объяснить принятие добавок BCAA во время физических упражнений в исследованиях, которые оценивали результаты производительности.",
+          "output_tokens": 21,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Это может объяснить принятие добавок BCAA во время физических упражнений в исследованиях, которые оценивали результаты работоспособности.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The effects of BCAAs on performance were negligible irrespective of short or long-term protocols of supplementation.",
+          "ru": "Влияние BCAA на производительность было незначительным независимо от краткосрочных или долгосрочных протоколов добавок.",
+          "output_tokens": 20,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Влияние BCAA на работоспособность было незначительным независимо от краткосрочных или долгосрочных протоколов добавок.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Note, the skeletons of amino acids are often metabolized to Krebs cycle (citric acidy cycle) intermediates.",
+          "ru": "Обратите внимание, что скелеты аминокислот часто метаболизируются в промежуточные соединения цикла Кребса (цикл лимонной кислоты).",
+          "output_tokens": 27,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Обратите внимание, что скелеты аминокислот часто метаболизируются в промежуточные соединения цикла Кребса (цикл лимонной кислоты).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Although BCAA oxidation occurs mainly in the muscle, the impact of carbohydrates on the muscle is more evident.",
+          "ru": "Хотя окисление BCAA происходит в основном в мышцах, влияние углеводов на мышцы более очевидно.",
+          "output_tokens": 19,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Хотя окисление BCAA происходит в основном в мышцах, влияние углеводов на мышцы более очевидно.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "By inference, the role of carbohydrates on performance is crucial.",
+          "ru": "По заключению, роль углеводов в производительности имеет решающее значение.",
+          "output_tokens": 13,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "По заключению, роль углеводов в работоспособности имеет решающее значение.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_performance_wording"
+      ],
+      "section_ru_machine": "4. Обсуждение",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 3
+      }
+    },
+    {
+      "paragraph_id": "SU-022:p0020",
+      "section_en": "4. Discussion",
+      "text_en": "When consuming during prolonged exercise, BCAAs showed an increase in the BCAAs:tryptophan ratio, confirming the central fatigue hypothesis. It has been shown that during prolonged exercise, plasma fatty acids increased significantly and compete with tryptophan for binding to albumin. The increase in free tryptophan in the blood resulted in the transport of this amino acid across the blood–brain barrier. Consequently, tryptophan is converted into serotonin which is related to central fatigue. On the other hand, substantial increments of plasma BCAAs reduce the transportation of tryptophan to the brain and serotonin formation. Two studies investigated the ratio BCAAs:tryptophan ratio during exercise. For example, among 18 cyclists, the BCAAs:tryptophan ratio was higher in the BCAA group with an increase of 20% and 4% peak and mean power outputs, respectively. It is plausible to suggest that the increase in BCAAs:tryptophan ratio reduced the production of serotonin and fatigue and, subsequently, performance improved. An additional study indicated differences in the BCAAs:tryptophan ratio between groups with a small impact on the Stroop Colour Word Test. Nevertheless, BCAAs are often combined with other macronutrients or supplements and this issue needs future research.",
+      "section_ru": "Обсуждение",
+      "text_ru_machine": "При употреблении во время длительных физических упражнений BCAA показали увеличение соотношения BCAA:триптофан, подтверждая гипотезу центральной усталости. Было показано, что во время длительных физических нагрузок плазменные жирные кислоты значительно увеличиваются и конкурируют с триптофаном за связывание с альбумином. Увеличение свободного триптофана в крови привело к транспортировке этой аминокислоты через гематоэнцефалический барьер. Следовательно, триптофан превращается в серотонин, который связан с центральной усталостью. С другой стороны, существенные приращения плазменных BCAA уменьшают транспорт триптофана в мозг и образование серотонина. В двух исследованиях изучалось соотношение BCAA: соотношение триптофана во время физических упражнений. Например, среди 18 велосипедистов соотношение BCAA:триптофан было выше в группе BCAA с увеличением пиковых и средних выходов мощности на 20% и 4% соответственно. Вполне вероятно, что увеличение соотношения BCAA:триптофана уменьшило выработку серотонина и усталость и, впоследствии, производительность улучшилась. Дополнительное исследование показало различия в соотношении BCAA:триптофан между группами с небольшим влиянием на тест Stroop Color Word. Тем не менее, BCAA часто сочетаются с другими макроэлементами или добавками, и этот вопрос требует будущих исследований.",
+      "text_ru": "При употреблении во время длительных физических упражнений BCAA показали увеличение соотношения BCAA:триптофан, подтверждая гипотезу центральной усталости. Было показано, что во время длительных физических нагрузок плазменные жирные кислоты значительно увеличиваются и конкурируют с триптофаном за связывание с альбумином. Увеличение свободного триптофана в крови привело к транспортировке этой аминокислоты через гематоэнцефалический барьер. Следовательно, триптофан превращается в серотонин, который связан с центральной усталостью. С другой стороны, существенные приращения плазменных BCAA уменьшают транспорт триптофана в мозг и образование серотонина. В двух исследованиях изучалось соотношение BCAA: соотношение триптофана во время физических упражнений. Например, среди 18 велосипедистов соотношение BCAA:триптофан было выше в группе BCAA с увеличением пиковых и средних выходов мощности на 20% и 4% соответственно. Вполне вероятно, что увеличение соотношения BCAA:триптофана уменьшило выработку серотонина и усталость и, впоследствии, работоспособность улучшилась. Дополнительное исследование показало различия в соотношении BCAA:триптофан между группами с небольшим влиянием на тест Stroop Color Word. Тем не менее, BCAA часто сочетаются с другими макроэлементами или добавками, и этот вопрос требует будущих исследований.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "When consuming during prolonged exercise, BCAAs showed an increase in the BCAAs:tryptophan ratio, confirming the central fatigue hypothesis.",
+          "ru": "При употреблении во время длительных физических упражнений BCAA показали увеличение соотношения BCAA:триптофан, подтверждая гипотезу центральной усталости.",
+          "output_tokens": 32,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "При употреблении во время длительных физических упражнений BCAA показали увеличение соотношения BCAA:триптофан, подтверждая гипотезу центральной усталости.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "It has been shown that during prolonged exercise, plasma fatty acids increased significantly and compete with tryptophan for binding to albumin.",
+          "ru": "Было показано, что во время длительных физических нагрузок плазменные жирные кислоты значительно увеличиваются и конкурируют с триптофаном за связывание с альбумином.",
+          "output_tokens": 39,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Было показано, что во время длительных физических нагрузок плазменные жирные кислоты значительно увеличиваются и конкурируют с триптофаном за связывание с альбумином.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The increase in free tryptophan in the blood resulted in the transport of this amino acid across the blood–brain barrier.",
+          "ru": "Увеличение свободного триптофана в крови привело к транспортировке этой аминокислоты через гематоэнцефалический барьер.",
+          "output_tokens": 30,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Увеличение свободного триптофана в крови привело к транспортировке этой аминокислоты через гематоэнцефалический барьер.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Consequently, tryptophan is converted into serotonin which is related to central fatigue.",
+          "ru": "Следовательно, триптофан превращается в серотонин, который связан с центральной усталостью.",
+          "output_tokens": 22,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Следовательно, триптофан превращается в серотонин, который связан с центральной усталостью.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "On the other hand, substantial increments of plasma BCAAs reduce the transportation of tryptophan to the brain and serotonin formation.",
+          "ru": "С другой стороны, существенные приращения плазменных BCAA уменьшают транспорт триптофана в мозг и образование серотонина.",
+          "output_tokens": 29,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "С другой стороны, существенные приращения плазменных BCAA уменьшают транспорт триптофана в мозг и образование серотонина.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Two studies investigated the ratio BCAAs:tryptophan ratio during exercise.",
+          "ru": "В двух исследованиях изучалось соотношение BCAA: соотношение триптофана во время физических упражнений.",
+          "output_tokens": 20,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В двух исследованиях изучалось соотношение BCAA: соотношение триптофана во время физических упражнений.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "For example, among 18 cyclists, the BCAAs:tryptophan ratio was higher in the BCAA group with an increase of 20% and 4% peak and mean power outputs, respectively.",
+          "ru": "Например, среди 18 велосипедистов соотношение BCAA:триптофан было выше в группе BCAA с увеличением пиковых и средних выходов мощности на 20% и 4% соответственно.",
+          "output_tokens": 37,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Например, среди 18 велосипедистов соотношение BCAA:триптофан было выше в группе BCAA с увеличением пиковых и средних выходов мощности на 20% и 4% соответственно.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "It is plausible to suggest that the increase in BCAAs:tryptophan ratio reduced the production of serotonin and fatigue and, subsequently, performance improved.",
+          "ru": "Вполне вероятно, что увеличение соотношения BCAA:триптофана уменьшило выработку серотонина и усталость и, впоследствии, производительность улучшилась.",
+          "output_tokens": 34,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Вполне вероятно, что увеличение соотношения BCAA:триптофана уменьшило выработку серотонина и усталость и, впоследствии, работоспособность улучшилась.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        },
+        {
+          "en": "An additional study indicated differences in the BCAAs:tryptophan ratio between groups with a small impact on the Stroop Colour Word Test.",
+          "ru": "Дополнительное исследование показало различия в соотношении BCAA:триптофан между группами с небольшим влиянием на тест Stroop Color Word.",
+          "output_tokens": 30,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Дополнительное исследование показало различия в соотношении BCAA:триптофан между группами с небольшим влиянием на тест Stroop Color Word.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Nevertheless, BCAAs are often combined with other macronutrients or supplements and this issue needs future research.",
+          "ru": "Тем не менее, BCAA часто сочетаются с другими макроэлементами или добавками, и этот вопрос требует будущих исследований.",
+          "output_tokens": 26,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Тем не менее, BCAA часто сочетаются с другими макроэлементами или добавками, и этот вопрос требует будущих исследований.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_performance_wording"
+      ],
+      "section_ru_machine": "4. Обсуждение",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 1
+      }
+    },
+    {
+      "paragraph_id": "SU-022:p0021",
+      "section_en": "4. Discussion",
+      "text_en": "The studies extracted from this systematic review suggest that BCAA supplementation attenuate muscle soreness, particularly in resistance athletes. Variable results were found as indicators of muscle damage (i.e., creatine kinase and lactate dehydrogenase) at post-exercise across studies. These results were consistent with previous reviews that examined the effects of BCAAs on muscle damage indicators and muscle soreness. Muscle damage markers (creatine kinase, lactate dehydrogenase and myoglobin) were lower at 24 and 48 post-exercise for the BCAA group than the placebo condition. Likewise, delayed onset muscle soreness was lower for the BCAA group than the placebo trial. A recent meta-analysis found that BCAAs had no significant effect on lactate dehydrogenase, while lower levels of creatine kinase were reported post-exercise in the BCAA group (<24 h; 24 h and 48 h). A significant heterogeneity between studies (75%) was observed 24- and 48-h post-exercise.",
+      "section_ru": "Обсуждение",
+      "text_ru_machine": "Исследования, извлеченные из этого систематического обзора, показывают, что добавки BCAA ослабляют мышечную болезненность, особенно у спортсменов с резистентностью. Переменные результаты были обнаружены в качестве индикаторов повреждения мышц (т.е. креатинкиназы и лактатдегидрогеназы) в послеоперационных исследованиях. Эти результаты соответствовали предыдущим обзорам, в которых изучалось влияние BCAA на показатели повреждения мышц и мышечную болезненность. Маркеры повреждения мышц (креатинкиназа, лактатдегидрогеназа и миоглобин) были ниже в 24 и 48 после тренировки для группы BCAA, чем состояние плацебо. Аналогичным образом, задержка начала мышечной боли была ниже для группы BCAA, чем в исследовании плацебо. Недавний мета-анализ показал, что BCAA не оказывали существенного влияния на лактатдегидрогеназу, в то время как более низкие уровни креатинкиназы были зарегистрированы после тренировки в группе BCAA (<24 ч; 24 ч и 48 ч). Значительная неоднородность между исследованиями (75%) наблюдалась через 24- и 48 часов после тренировки.",
+      "text_ru": "Исследования, извлеченные из этого систематического обзора, показывают, что добавки BCAA ослабляют мышечную болезненность, особенно у спортсменов с резистентностью. Переменные результаты были обнаружены в качестве индикаторов повреждения мышц (т.е. креатинкиназы и лактатдегидрогеназы) в послеоперационных исследованиях. Эти результаты соответствовали предыдущим обзорам, в которых изучалось влияние BCAA на показатели повреждения мышц и мышечную болезненность. Маркеры повреждения мышц (креатинкиназа, лактатдегидрогеназа и миоглобин) были ниже в 24 и 48 после тренировки для группы BCAA, чем состояние плацебо. Аналогичным образом, задержка начала мышечной боли была ниже для группы BCAA, чем в исследовании плацебо. Недавний мета-анализ показал, что BCAA не оказывали существенного влияния на лактатдегидрогеназу, в то время как более низкие уровни креатинкиназы были зарегистрированы после тренировки в группе BCAA (<24 ч; 24 ч и 48 ч). Значительная неоднородность между исследованиями (75%) наблюдалась через 24- и 48 часов после тренировки.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "The studies extracted from this systematic review suggest that BCAA supplementation attenuate muscle soreness, particularly in resistance athletes.",
+          "ru": "Исследования, извлеченные из этого систематического обзора, показывают, что добавки BCAA ослабляют мышечную болезненность, особенно у спортсменов с резистентностью.",
+          "output_tokens": 33,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Исследования, извлеченные из этого систематического обзора, показывают, что добавки BCAA ослабляют мышечную болезненность, особенно у спортсменов с резистентностью.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Variable results were found as indicators of muscle damage (i.e., creatine kinase and lactate dehydrogenase) at post-exercise across studies.",
+          "ru": "Переменные результаты были обнаружены в качестве индикаторов повреждения мышц (т.е. креатинкиназы и лактатдегидрогеназы) в послеоперационных исследованиях.",
+          "output_tokens": 41,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Переменные результаты были обнаружены в качестве индикаторов повреждения мышц (т.е. креатинкиназы и лактатдегидрогеназы) в послеоперационных исследованиях.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "These results were consistent with previous reviews that examined the effects of BCAAs on muscle damage indicators and muscle soreness.",
+          "ru": "Эти результаты соответствовали предыдущим обзорам, в которых изучалось влияние BCAA на показатели повреждения мышц и мышечную болезненность.",
+          "output_tokens": 25,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Эти результаты соответствовали предыдущим обзорам, в которых изучалось влияние BCAA на показатели повреждения мышц и мышечную болезненность.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Muscle damage markers (creatine kinase, lactate dehydrogenase and myoglobin) were lower at 24 and 48 post-exercise for the BCAA group than the placebo condition.",
+          "ru": "Маркеры повреждения мышц (креатинкиназа, лактатдегидрогеназа и миоглобин) были ниже в 24 и 48 после тренировки для группы BCAA, чем состояние плацебо.",
+          "output_tokens": 45,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Маркеры повреждения мышц (креатинкиназа, лактатдегидрогеназа и миоглобин) были ниже в 24 и 48 после тренировки для группы BCAA, чем состояние плацебо.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Likewise, delayed onset muscle soreness was lower for the BCAA group than the placebo trial.",
+          "ru": "Аналогичным образом, задержка начала мышечной боли была ниже для группы BCAA, чем в исследовании плацебо.",
+          "output_tokens": 22,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Аналогичным образом, задержка начала мышечной боли была ниже для группы BCAA, чем в исследовании плацебо.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "A recent meta-analysis found that BCAAs had no significant effect on lactate dehydrogenase, while lower levels of creatine kinase were reported post-exercise in the BCAA group (<24 h; 24 h and 48 h).",
+          "ru": "Недавний мета-анализ показал, что BCAA не оказывали существенного влияния на лактатдегидрогеназу, в то время как более низкие уровни креатинкиназы были зарегистрированы после тренировки в группе BCAA (<24 ч; 24 ч и 48 ч).",
+          "output_tokens": 61,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Недавний мета-анализ показал, что BCAA не оказывали существенного влияния на лактатдегидрогеназу, в то время как более низкие уровни креатинкиназы были зарегистрированы после тренировки в группе BCAA (<24 ч; 24 ч и 48 ч).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "A significant heterogeneity between studies (75%) was observed 24- and 48-h post-exercise.",
+          "ru": "Значительная неоднородность между исследованиями (75%) наблюдалась через 24- и 48 часов после тренировки.",
+          "output_tokens": 23,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Значительная неоднородность между исследованиями (75%) наблюдалась через 24- и 48 часов после тренировки.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "4. Обсуждение",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-022:p0022",
+      "section_en": "4. Discussion",
+      "text_en": "In the current review, the inclusion criteria did not include grey literature. Furthermore, the original studies present limitations that should be recognized. Firstly, few studies reported the nutritional intake, especially protein ingestion expressed per kilogram of body mass. Given the important role of leucine to simulate anabolic signals, future studies should analyze the effects of isolated leucine and BCAAs separately, by including different groups on experimental design. Additionally, future research should control the nutritional intake.",
+      "section_ru": "Обсуждение",
+      "text_ru_machine": "В текущем обзоре критерии включения не включали серую литературу. Кроме того, первоначальные исследования содержат ограничения, которые должны быть признаны. Во-первых, в нескольких исследованиях сообщалось о потреблении питательных веществ, особенно при употреблении белка, выраженном на килограмм массы тела. Учитывая важную роль лейцина в моделировании анаболических сигналов, будущие исследования должны анализировать эффекты изолированного лейцина и BCAA отдельно, включая различные группы по экспериментальному проектированию. Кроме того, будущие исследования должны контролировать потребление питательных веществ.",
+      "text_ru": "В текущем обзоре критерии включения не включали серую литературу. Кроме того, первоначальные исследования содержат ограничения, которые должны быть признаны. Во-первых, в нескольких исследованиях сообщалось о потреблении питательных веществ, особенно при употреблении белка, выраженном на килограмм массы тела. Учитывая важную роль лейцина в моделировании анаболических сигналов, будущие исследования должны анализировать эффекты изолированного лейцина и BCAA отдельно, включая различные группы по экспериментальному проектированию. Кроме того, будущие исследования должны контролировать потребление питательных веществ.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "In the current review, the inclusion criteria did not include grey literature.",
+          "ru": "В текущем обзоре критерии включения не включали серую литературу.",
+          "output_tokens": 14,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В текущем обзоре критерии включения не включали серую литературу.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Furthermore, the original studies present limitations that should be recognized.",
+          "ru": "Кроме того, первоначальные исследования содержат ограничения, которые должны быть признаны.",
+          "output_tokens": 15,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Кроме того, первоначальные исследования содержат ограничения, которые должны быть признаны.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Firstly, few studies reported the nutritional intake, especially protein ingestion expressed per kilogram of body mass.",
+          "ru": "Во-первых, в нескольких исследованиях сообщалось о потреблении питательных веществ, особенно при употреблении белка, выраженном на килограмм массы тела.",
+          "output_tokens": 29,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Во-первых, в нескольких исследованиях сообщалось о потреблении питательных веществ, особенно при употреблении белка, выраженном на килограмм массы тела.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Given the important role of leucine to simulate anabolic signals, future studies should analyze the effects of isolated leucine and BCAAs separately, by including different groups on experimental design.",
+          "ru": "Учитывая важную роль лейцина в моделировании анаболических сигналов, будущие исследования должны анализировать эффекты изолированного лейцина и BCAA отдельно, включая различные группы по экспериментальному проектированию.",
+          "output_tokens": 43,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Учитывая важную роль лейцина в моделировании анаболических сигналов, будущие исследования должны анализировать эффекты изолированного лейцина и BCAA отдельно, включая различные группы по экспериментальному проектированию.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Additionally, future research should control the nutritional intake.",
+          "ru": "Кроме того, будущие исследования должны контролировать потребление питательных веществ.",
+          "output_tokens": 12,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Кроме того, будущие исследования должны контролировать потребление питательных веществ.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "4. Обсуждение",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-022:p0023",
+      "section_en": "5. Conclusions",
+      "text_en": "It was recently recommended that 200 mg.kg−1.day−1 over 10 days should be ingested to attenuate exercise-induced muscle damage. In the present review, supplementation protocols were widely variable in terms of timing and quantity, and this issue deserves particular attention in future research. The present review highlighted that BCAA supplementation does not appear to have a significant impact on performance. On the other hand, oral ingestion of isolated BCAAs reduces muscle soreness. BCAAs are also available in different supplementation products (e.g., protein whey) and are often combined with other nutrients (e.g., carbohydrates). Thereby, the potential benefits of isolated BCAA supplementation among athletes to attenuate muscle soreness and delay fatigue need to be interpreted with caution.",
+      "section_ru": "Выводы",
+      "text_ru_machine": "Недавно было рекомендовано принимать 200 мг.кг-1.day-1 в течение 10 дней, чтобы ослабить повреждение мышц, вызванное физическими упражнениями. В настоящем обзоре протоколы дополнений широко варьируются с точки зрения сроков и количества, и этот вопрос заслуживает особого внимания в будущих исследованиях. В настоящем обзоре подчеркивается, что добавление BCAA, по-видимому, не оказывает существенного влияния на производительность. С другой стороны, пероральный прием изолированных BCAA снижает болезненность мышц. BCAA также доступны в различных пищевых продуктах (например, белковой сыворотке) и часто сочетаются с другими питательными веществами (например, углеводами). Таким образом, потенциальные преимущества изолированных добавок BCAA среди спортсменов для ослабления мышечной боли и задержки усталости следует интерпретировать с осторожностью.",
+      "text_ru": "В предшествующей работе для уменьшения повреждения мышц после нагрузки обсуждалось 200 мг/кг BCAA в сутки в течение 10 дней. В данном обзоре время и количество приёма сильно различались между исследованиями, поэтому единую схему установить нельзя. Обзор не выявил убедительного значимого влияния BCAA на спортивные результаты, хотя отдельный приём мог уменьшать мышечную болезненность. BCAA также входят в сывороточный белок и другие продукты и нередко сочетаются с углеводами. Поэтому предполагаемую пользу изолированных BCAA для уменьшения болезненности и отсрочки утомления у спортсменов следует трактовать осторожно.",
+      "flags": [],
+      "review_status": "reviewed",
+      "segments": [
+        {
+          "en": "It was recently recommended that 200 mg.kg−1.day−1 over 10 days should be ingested to attenuate exercise-induced muscle damage.",
+          "ru": "Недавно было рекомендовано принимать 200 мг.кг-1.day-1 в течение 10 дней, чтобы ослабить повреждение мышц, вызванное физическими упражнениями.",
+          "output_tokens": 32,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Недавно было рекомендовано принимать 200 мг.кг-1.day-1 в течение 10 дней, чтобы ослабить повреждение мышц, вызванное физическими упражнениями.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "In the present review, supplementation protocols were widely variable in terms of timing and quantity, and this issue deserves particular attention in future research.",
+          "ru": "В настоящем обзоре протоколы дополнений широко варьируются с точки зрения сроков и количества, и этот вопрос заслуживает особого внимания в будущих исследованиях.",
+          "output_tokens": 28,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В настоящем обзоре протоколы дополнений широко варьируются с точки зрения сроков и количества, и этот вопрос заслуживает особого внимания в будущих исследованиях.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The present review highlighted that BCAA supplementation does not appear to have a significant impact on performance.",
+          "ru": "В настоящем обзоре подчеркивается, что добавление BCAA, по-видимому, не оказывает существенного влияния на производительность.",
+          "output_tokens": 25,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В настоящем обзоре подчеркивается, что добавление BCAA, по-видимому, не оказывает существенного влияния на работоспособность.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        },
+        {
+          "en": "On the other hand, oral ingestion of isolated BCAAs reduces muscle soreness.",
+          "ru": "С другой стороны, пероральный прием изолированных BCAA снижает болезненность мышц.",
+          "output_tokens": 17,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "С другой стороны, пероральный прием изолированных BCAA снижает болезненность мышц.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "BCAAs are also available in different supplementation products (e.g., protein whey) and are often combined with other nutrients (e.g., carbohydrates).",
+          "ru": "BCAA также доступны в различных пищевых продуктах (например, белковой сыворотке) и часто сочетаются с другими питательными веществами (например, углеводами).",
+          "output_tokens": 35,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "BCAA также доступны в различных пищевых продуктах (например, белковой сыворотке) и часто сочетаются с другими питательными веществами (например, углеводами).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Thereby, the potential benefits of isolated BCAA supplementation among athletes to attenuate muscle soreness and delay fatigue need to be interpreted with caution.",
+          "ru": "Таким образом, потенциальные преимущества изолированных добавок BCAA среди спортсменов для ослабления мышечной боли и задержки усталости следует интерпретировать с осторожностью.",
+          "output_tokens": 30,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Таким образом, потенциальные преимущества изолированных добавок BCAA среди спортсменов для ослабления мышечной боли и задержки усталости следует интерпретировать с осторожностью.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_performance_wording"
+      ],
+      "section_ru_machine": "5. Выводы",
+      "editorial_review": {
+        "reviewer": "Codex: перевод и сопоставление с оригиналом без сторонних моделей",
+        "reason": "Самостоятельный редакторский перевод ранее не вошедшего в чанки раздела; смысл, ограничения и числа сопоставлены с английским оригиналом.",
+        "original_sha256": "5db180bcfacfed117004b3827f481bca476fd40d4b9d6cdc8a2a080d4c6c9130",
+        "review_date": "2026-11-20",
+        "text_sha256": "31e95a93cd78e2c4b35a85b0329ba77db097537aedf75ae50d7cd2ec8e3715aa"
+      },
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": true,
+        "manually_edited_segments": 0,
+        "rule_applications": 1
+      }
+    }
+  ]
+}

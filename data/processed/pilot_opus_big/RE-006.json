@@ -1,0 +1,71 @@
+{
+  "source_id": "RE-006",
+  "model": "Helsinki-NLP/opus-mt-tc-big-en-zle",
+  "model_revision": "708be1d372fe4c358a352f404e6dc9ca0126ba48",
+  "engine": "CTranslate2 int8; beam_size=4; length_penalty=1.0; sentence-level",
+  "paragraphs": [
+    {
+      "paragraph_id": "RE-006:p0001",
+      "section_en": "Key Points",
+      "text_en": "Increasing sleep duration through naps or night-time sleep may positively impact physical and/or cognitive performance. Extending sleep duration by 46–113 min in athletes that habitually sleep ~ 7 h per night may be a general recommendation for future sleep extension programs. Supplementing sleep during the day with a 20–90-min nap can improve performance outcomes after a regular night and restore performance decrements to baseline levels after a night with partial sleep restriction.",
+      "section_ru": "Ключевые моменты",
+      "text_ru_machine": "Увеличение продолжительности сна через сон или ночной сон может положительно повлиять на физические и / или когнитивные функции. Увеличение продолжительности сна на 46-3 мин у спортсменов, которые обычно спят  7 ч в сутки, может быть общей рекомендацией для будущих программ продления сна. Добавление сна в течение дня с 20-90-минутным сном может улучшить результаты производительности после обычной ночи и восстановить снижение производительности до базовых уровней после ночи с частичным ограничением сна.",
+      "text_ru": "Увеличение продолжительности сна через сон или ночной сон может положительно повлиять на физические и / или когнитивные функции. Увеличение продолжительности сна на 46-3 мин у спортсменов, которые обычно спят  7 ч в сутки, может быть общей рекомендацией для будущих программ продления сна. Добавление сна в течение дня с 20-90-минутным сном может улучшить результаты производительности после обычной ночи и восстановить снижение производительности до базовых уровней после ночи с частичным ограничением сна.",
+      "flags": [
+        "numbers_changed",
+        "units_changed"
+      ],
+      "review_status": "pending",
+      "segments": [
+        {
+          "en": "Increasing sleep duration through naps or night-time sleep may positively impact physical and/or cognitive performance.",
+          "ru": "Увеличение продолжительности сна через сон или ночной сон может положительно повлиять на физические и / или когнитивные функции."
+        },
+        {
+          "en": "Extending sleep duration by 46–113 min in athletes that habitually sleep ~ 7 h per night may be a general recommendation for future sleep extension programs.",
+          "ru": "Увеличение продолжительности сна на 46-3 мин у спортсменов, которые обычно спят  7 ч в сутки, может быть общей рекомендацией для будущих программ продления сна."
+        },
+        {
+          "en": "Supplementing sleep during the day with a 20–90-min nap can improve performance outcomes after a regular night and restore performance decrements to baseline levels after a night with partial sleep restriction.",
+          "ru": "Добавление сна в течение дня с 20-90-минутным сном может улучшить результаты производительности после обычной ночи и восстановить снижение производительности до базовых уровней после ночи с частичным ограничением сна."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "RE-006:p0209",
+      "section_en": "Discussion / Limitations",
+      "text_en": "The current systematic review has limitations which should be acknowledged. First, the strengths of our conclusions are limited, since none of the included studies presented a low risk of bias. This is in line with a recent expert consensus statement about athletes' sleep studies, warning about the poor quality of the evidence, and the need to use more consistent, reliable, and valid research methods in athletes’ sleep studies. To reduce the risk of bias, future studies should: design randomized controlled or crossover trials; identify the chronotype, due to possible bias in performance measures; explain in detail the randomization process; monitor a baseline sleep period (1–2 weeks) without any intervention; consider the carry over effect of the interventions, in the case of crossover trials; use objective and/or subjective validated tools for monitoring sleep; use objective performance measures; report missing data; and register the protocol before conducting the study. Second, there was high heterogeneity between the type of sleep interventions, type of sport, performance tests used, and level of the athletes. Lastly, there is a risk of language bias because we only considered studies written in English.",
+      "section_ru": "Обсуждение / Ограничения",
+      "text_ru_machine": "Нынешний систематический обзор имеет ограничения, которые следует признать. Во-первых, сильные стороны наших выводов ограничены, поскольку ни одно из включенных исследований не представило низкий риск смещения. Это согласуется с недавним консенсусным заявлением экспертов об исследованиях сна спортсменов, предупреждающим о низком качестве доказательств и необходимости использования более последовательных, надежных и обоснованных методов исследования сна спортсменов. Чтобы уменьшить риск смещения, будущие исследования должны: разработать рандомизированные контролируемые или перекрестные испытания; определить хронотип из-за возможного смещения в показателях производительности; подробно объяснить процесс рандомизации; контролировать базовый период сна (1-2 недели) без какого-либо вмешательства; рассмотреть эффект переноса вмешательств в случае перекрестных испытаний; использовать объективные и / или субъективные проверенные инструменты для мониторинга сна; использовать объективные показатели производительности; сообщать отсутствующие данные; и регистрировать протокол перед проведением исследования. Во-вторых, наблюдалась высокая неоднородность между типом вмешательства во время сна, видом спорта, используемыми тестами производительности и уровнем спортсменов. Наконец, существует риск языковой предвзятости, потому что мы рассматривали только исследования, написанные на английском языке.",
+      "text_ru": "Нынешний систематический обзор имеет ограничения, которые следует признать. Во-первых, сильные стороны наших выводов ограничены, поскольку ни одно из включенных исследований не представило низкий риск смещения. Это согласуется с недавним консенсусным заявлением экспертов об исследованиях сна спортсменов, предупреждающим о низком качестве доказательств и необходимости использования более последовательных, надежных и обоснованных методов исследования сна спортсменов. Чтобы уменьшить риск смещения, будущие исследования должны: разработать рандомизированные контролируемые или перекрестные испытания; определить хронотип из-за возможного смещения в показателях производительности; подробно объяснить процесс рандомизации; контролировать базовый период сна (1-2 недели) без какого-либо вмешательства; рассмотреть эффект переноса вмешательств в случае перекрестных испытаний; использовать объективные и / или субъективные проверенные инструменты для мониторинга сна; использовать объективные показатели производительности; сообщать отсутствующие данные; и регистрировать протокол перед проведением исследования. Во-вторых, наблюдалась высокая неоднородность между типом вмешательства во время сна, видом спорта, используемыми тестами производительности и уровнем спортсменов. Наконец, существует риск языковой предвзятости, потому что мы рассматривали только исследования, написанные на английском языке.",
+      "flags": [],
+      "review_status": "pending",
+      "segments": [
+        {
+          "en": "The current systematic review has limitations which should be acknowledged.",
+          "ru": "Нынешний систематический обзор имеет ограничения, которые следует признать."
+        },
+        {
+          "en": "First, the strengths of our conclusions are limited, since none of the included studies presented a low risk of bias.",
+          "ru": "Во-первых, сильные стороны наших выводов ограничены, поскольку ни одно из включенных исследований не представило низкий риск смещения."
+        },
+        {
+          "en": "This is in line with a recent expert consensus statement about athletes' sleep studies, warning about the poor quality of the evidence, and the need to use more consistent, reliable, and valid research methods in athletes’ sleep studies.",
+          "ru": "Это согласуется с недавним консенсусным заявлением экспертов об исследованиях сна спортсменов, предупреждающим о низком качестве доказательств и необходимости использования более последовательных, надежных и обоснованных методов исследования сна спортсменов."
+        },
+        {
+          "en": "To reduce the risk of bias, future studies should: design randomized controlled or crossover trials; identify the chronotype, due to possible bias in performance measures; explain in detail the randomization process; monitor a baseline sleep period (1–2 weeks) without any intervention; consider the carry over effect of the interventions, in the case of crossover trials; use objective and/or subjective validated tools for monitoring sleep; use objective performance measures; report missing data; and register the protocol before conducting the study.",
+          "ru": "Чтобы уменьшить риск смещения, будущие исследования должны: разработать рандомизированные контролируемые или перекрестные испытания; определить хронотип из-за возможного смещения в показателях производительности; подробно объяснить процесс рандомизации; контролировать базовый период сна (1-2 недели) без какого-либо вмешательства; рассмотреть эффект переноса вмешательств в случае перекрестных испытаний; использовать объективные и / или субъективные проверенные инструменты для мониторинга сна; использовать объективные показатели производительности; сообщать отсутствующие данные; и регистрировать протокол перед проведением исследования."
+        },
+        {
+          "en": "Second, there was high heterogeneity between the type of sleep interventions, type of sport, performance tests used, and level of the athletes.",
+          "ru": "Во-вторых, наблюдалась высокая неоднородность между типом вмешательства во время сна, видом спорта, используемыми тестами производительности и уровнем спортсменов."
+        },
+        {
+          "en": "Lastly, there is a risk of language bias because we only considered studies written in English.",
+          "ru": "Наконец, существует риск языковой предвзятости, потому что мы рассматривали только исследования, написанные на английском языке."
+        }
+      ]
+    }
+  ]
+}

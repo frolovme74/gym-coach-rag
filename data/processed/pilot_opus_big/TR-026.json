@@ -1,0 +1,88 @@
+{
+  "source_id": "TR-026",
+  "model": "Helsinki-NLP/opus-mt-tc-big-en-zle",
+  "model_revision": "708be1d372fe4c358a352f404e6dc9ca0126ba48",
+  "engine": "CTranslate2 int8; beam_size=4; length_penalty=1.0; sentence-level",
+  "paragraphs": [
+    {
+      "paragraph_id": "TR-026:p0002",
+      "section_en": "Introduction",
+      "text_en": "Strength training increases muscular strength and hypertrophy, and provides numerous other positive health benefits, including improved functional ability, cardio-metabolic risk profile and well-being. Strength training is therefore recommended as an interventional strategy for the general population. However, a majority of people refrain from performing strength training and other forms of exercise, and as much as a quarter of the world’s population are at risk for developing health-related problems and diseases linked to inactivity. Therefore, it is necessary to find ways to engage more people in both daily-life physical activities and regimented forms of exercise such as strength training, which is one of the most popular forms of exercise globally. Lack of time is a common self-reported barrier to engagement in structured exercise. Thus, understanding how strength training programs can be designed in ways that reduce training time without meaningfully compromising results could encourage more people to engage in this form of exercise.",
+      "section_ru": "Введение",
+      "text_ru_machine": "Силовые тренировки увеличивают мышечную силу и гипертрофию, а также обеспечивают множество других положительных преимуществ для здоровья, включая улучшение функциональных способностей, кардио-метаболический профиль риска и благополучие. Поэтому силовая подготовка рекомендуется в качестве стратегии вмешательства для населения в целом. Тем не менее, большинство людей воздерживаются от выполнения силовых тренировок и других форм упражнений, и до четверти населения мира подвергаются риску развития проблем со здоровьем и заболеваний, связанных с бездействием. Поэтому необходимо найти способы вовлечь больше людей как в повседневную физическую активность, так и в регламентированные формы упражнений, такие как силовые тренировки, которые являются одной из самых популярных форм упражнений во всем мире. Недостаток времени является распространенным барьером для участия в структурированных упражнениях. Таким образом, понимание того, как программы силовых тренировок могут быть разработаны таким образом, чтобы сократить время обучения без существенного ущерба для результатов, может побудить больше людей заниматься этой формой упражнений.",
+      "text_ru": "Силовые тренировки увеличивают мышечную силу и гипертрофию, а также обеспечивают множество других положительных преимуществ для здоровья, включая улучшение функциональных способностей, кардио-метаболический профиль риска и благополучие. Поэтому силовая подготовка рекомендуется в качестве стратегии вмешательства для населения в целом. Тем не менее, большинство людей воздерживаются от выполнения силовых тренировок и других форм упражнений, и до четверти населения мира подвергаются риску развития проблем со здоровьем и заболеваний, связанных с бездействием. Поэтому необходимо найти способы вовлечь больше людей как в повседневную физическую активность, так и в регламентированные формы упражнений, такие как силовые тренировки, которые являются одной из самых популярных форм упражнений во всем мире. Недостаток времени является распространенным барьером для участия в структурированных упражнениях. Таким образом, понимание того, как программы силовых тренировок могут быть разработаны таким образом, чтобы сократить время обучения без существенного ущерба для результатов, может побудить больше людей заниматься этой формой упражнений.",
+      "flags": [],
+      "review_status": "pending",
+      "segments": [
+        {
+          "en": "Strength training increases muscular strength and hypertrophy, and provides numerous other positive health benefits, including improved functional ability, cardio-metabolic risk profile and well-being.",
+          "ru": "Силовые тренировки увеличивают мышечную силу и гипертрофию, а также обеспечивают множество других положительных преимуществ для здоровья, включая улучшение функциональных способностей, кардио-метаболический профиль риска и благополучие."
+        },
+        {
+          "en": "Strength training is therefore recommended as an interventional strategy for the general population.",
+          "ru": "Поэтому силовая подготовка рекомендуется в качестве стратегии вмешательства для населения в целом."
+        },
+        {
+          "en": "However, a majority of people refrain from performing strength training and other forms of exercise, and as much as a quarter of the world’s population are at risk for developing health-related problems and diseases linked to inactivity.",
+          "ru": "Тем не менее, большинство людей воздерживаются от выполнения силовых тренировок и других форм упражнений, и до четверти населения мира подвергаются риску развития проблем со здоровьем и заболеваний, связанных с бездействием."
+        },
+        {
+          "en": "Therefore, it is necessary to find ways to engage more people in both daily-life physical activities and regimented forms of exercise such as strength training, which is one of the most popular forms of exercise globally.",
+          "ru": "Поэтому необходимо найти способы вовлечь больше людей как в повседневную физическую активность, так и в регламентированные формы упражнений, такие как силовые тренировки, которые являются одной из самых популярных форм упражнений во всем мире."
+        },
+        {
+          "en": "Lack of time is a common self-reported barrier to engagement in structured exercise.",
+          "ru": "Недостаток времени является распространенным барьером для участия в структурированных упражнениях."
+        },
+        {
+          "en": "Thus, understanding how strength training programs can be designed in ways that reduce training time without meaningfully compromising results could encourage more people to engage in this form of exercise.",
+          "ru": "Таким образом, понимание того, как программы силовых тренировок могут быть разработаны таким образом, чтобы сократить время обучения без существенного ущерба для результатов, может побудить больше людей заниматься этой формой упражнений."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "TR-026:p0050",
+      "section_en": "Conclusion",
+      "text_en": "In this narrative review, we have provided an overview of how acute training variables can be manipulated, and how specific training techniques can be used to optimize the training response: time ratio. This knowledge is important for people with limited time for training and for fitness and health professionals. Those with limited time for training should aim to train with ≥ 4 weekly sets per muscle group using a 6–15 RM loading range; if training is performed to volitional failure, a 15–40 repetitions range can also be employed. By performing bilateral, multi-joint exercises, all major muscle-groups can be targeted with as few as three exercises (i.e. a leg pressing exercise, an upper-body pushing exercise, and an upper-body pulling exercise: e.g. leg press, bench press and seated rows). Training can be performed in one, or several shorter sessions—whatever suits the individual. Additionally, advanced training techniques such as drop-sets, rest-pause training and supersets can be used to increase training volume in a more time-efficient fashion. To further reduce training time, individuals could abstain from stretching and a general warm-up, and limit the specific warm-up to the first exercise for each muscle group.",
+      "section_ru": "Заключение",
+      "text_ru_machine": "В этом повествовательном обзоре мы представили обзор того, как можно манипулировать острыми переменными обучения и как можно использовать конкретные методы обучения для оптимизации тренировочного ответа: соотношение времени. Эти знания важны для людей с ограниченным временем для тренировок, а также для специалистов в области фитнеса и здравоохранения. Те, у кого ограниченное время для тренировок, должны стремиться тренироваться с  4 еженедельных наборов на группу мышц с использованием диапазона нагрузки 612 РМ; если тренировка выполняется до волевого отказа, также может быть использован диапазон 1540 повторений. Выполняя двусторонние, многосуставные упражнения, все основные мышечные группы могут быть нацелены всего на три упражнения (т. Е. Упражнение для нажатия на ногу, упражнение для толкания верхней части тела и упражнение для вытягивания верхней части тела: например, нажатие на ногу, нажим на скамейку и сидячие ряды). Обучение может быть выполнено в один или несколько коротких сеансов — в зависимости от того, что подходит человеку. Кроме того, передовые методы обучения, такие как дроп-сеты, тренировки для паузы в отдыхе и суперсеты, могут быть использованы для увеличения объема обучения более эффективным способом. Чтобы еще больше сократить время тренировки, люди могли бы воздерживаться от растяжки и общей разминки и ограничить конкретную разминку до первого упражнения для каждой группы мышц.",
+      "text_ru": "В этом повествовательном обзоре мы представили обзор того, как можно манипулировать острыми переменными обучения и как можно использовать конкретные методы обучения для оптимизации тренировочного ответа: соотношение времени. Эти знания важны для людей с ограниченным временем для тренировок, а также для специалистов в области фитнеса и здравоохранения. Те, у кого ограниченное время для тренировок, должны стремиться тренироваться с  4 еженедельных наборов на группу мышц с использованием диапазона нагрузки 612 РМ; если тренировка выполняется до волевого отказа, также может быть использован диапазон 1540 повторений. Выполняя двусторонние, многосуставные упражнения, все основные мышечные группы могут быть нацелены всего на три упражнения (т. Е. Упражнение для нажатия на ногу, упражнение для толкания верхней части тела и упражнение для вытягивания верхней части тела: например, нажатие на ногу, нажим на скамейку и сидячие ряды). Обучение может быть выполнено в один или несколько коротких сеансов — в зависимости от того, что подходит человеку. Кроме того, передовые методы обучения, такие как дроп-сеты, тренировки для паузы в отдыхе и суперсеты, могут быть использованы для увеличения объема обучения более эффективным способом. Чтобы еще больше сократить время тренировки, люди могли бы воздерживаться от растяжки и общей разминки и ограничить конкретную разминку до первого упражнения для каждой группы мышц.",
+      "flags": [
+        "numbers_changed",
+        "units_changed",
+        "check_comparison_bound"
+      ],
+      "review_status": "pending",
+      "segments": [
+        {
+          "en": "In this narrative review, we have provided an overview of how acute training variables can be manipulated, and how specific training techniques can be used to optimize the training response: time ratio.",
+          "ru": "В этом повествовательном обзоре мы представили обзор того, как можно манипулировать острыми переменными обучения и как можно использовать конкретные методы обучения для оптимизации тренировочного ответа: соотношение времени."
+        },
+        {
+          "en": "This knowledge is important for people with limited time for training and for fitness and health professionals.",
+          "ru": "Эти знания важны для людей с ограниченным временем для тренировок, а также для специалистов в области фитнеса и здравоохранения."
+        },
+        {
+          "en": "Those with limited time for training should aim to train with ≥ 4 weekly sets per muscle group using a 6–15 RM loading range; if training is performed to volitional failure, a 15–40 repetitions range can also be employed.",
+          "ru": "Те, у кого ограниченное время для тренировок, должны стремиться тренироваться с  4 еженедельных наборов на группу мышц с использованием диапазона нагрузки 612 РМ; если тренировка выполняется до волевого отказа, также может быть использован диапазон 1540 повторений."
+        },
+        {
+          "en": "By performing bilateral, multi-joint exercises, all major muscle-groups can be targeted with as few as three exercises (i.e. a leg pressing exercise, an upper-body pushing exercise, and an upper-body pulling exercise: e.g. leg press, bench press and seated rows).",
+          "ru": "Выполняя двусторонние, многосуставные упражнения, все основные мышечные группы могут быть нацелены всего на три упражнения (т. Е. Упражнение для нажатия на ногу, упражнение для толкания верхней части тела и упражнение для вытягивания верхней части тела: например, нажатие на ногу, нажим на скамейку и сидячие ряды)."
+        },
+        {
+          "en": "Training can be performed in one, or several shorter sessions—whatever suits the individual.",
+          "ru": "Обучение может быть выполнено в один или несколько коротких сеансов — в зависимости от того, что подходит человеку."
+        },
+        {
+          "en": "Additionally, advanced training techniques such as drop-sets, rest-pause training and supersets can be used to increase training volume in a more time-efficient fashion.",
+          "ru": "Кроме того, передовые методы обучения, такие как дроп-сеты, тренировки для паузы в отдыхе и суперсеты, могут быть использованы для увеличения объема обучения более эффективным способом."
+        },
+        {
+          "en": "To further reduce training time, individuals could abstain from stretching and a general warm-up, and limit the specific warm-up to the first exercise for each muscle group.",
+          "ru": "Чтобы еще больше сократить время тренировки, люди могли бы воздерживаться от растяжки и общей разминки и ограничить конкретную разминку до первого упражнения для каждой группы мышц."
+        }
+      ]
+    }
+  ]
+}

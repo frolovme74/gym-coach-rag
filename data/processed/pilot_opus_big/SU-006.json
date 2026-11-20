@@ -1,0 +1,76 @@
+{
+  "source_id": "SU-006",
+  "model": "Helsinki-NLP/opus-mt-tc-big-en-zle",
+  "model_revision": "708be1d372fe4c358a352f404e6dc9ca0126ba48",
+  "engine": "CTranslate2 int8; beam_size=4; length_penalty=1.0; sentence-level",
+  "paragraphs": [
+    {
+      "paragraph_id": "SU-006:p0001",
+      "section_en": "Introduction",
+      "text_en": "Caffeine is the world’s most widely consumed psychoactive substance and naturally occurs in dozens of plant species, including coffee, tea and cocoa. Caffeine is ingested most frequently in the form of a beverage such as coffee, soft drinks and tea, although the consumption of many functional beverages, such as energy drinks, has been on a steady rise in the past two decades. In Western countries, approximately 90% of adults consume caffeine on a regular basis, with dietary caffeine consumption of U.S. adult men and women estimated at approximately 200 mg/day in a 2009–2010 survey. In young adults and exercising individuals, there has also been a rise in the consumption of other caffeine-containing products, including energy drinks, ‘pre-workout supplements’, chewing gum, energy gels and chews, aerosols, and many other novel caffeinated food products. Caffeine-containing products have a range of doses per serving, from 1 mg in milk chocolate up to > 300 mg in some dietary supplements.",
+      "section_ru": "Введение",
+      "text_ru_machine": "Кофеин является наиболее широко потребляемым психоактивным веществом в мире и естественным образом встречается в десятках видов растений, включая кофе, чай и какао. Кофеин чаще всего употребляется в виде напитка, такого как кофе, безалкогольные напитки и чай, хотя потребление многих функциональных напитков, таких как энергетические напитки, неуклонно растет в последние два десятилетия. В западных странах примерно 90% взрослых потребляют кофеин на регулярной основе, при этом диетическое потребление кофеина взрослыми мужчинами и женщинами в США оценивается примерно в 200 мг / день в 2009-2010 годах. У молодых людей и людей, занимающихся физическими упражнениями, также наблюдается рост потребления других кофеиносодержащих продуктов, включая энергетические напитки, «добавки перед тренировкой», жевательную резинку, энергетические гели и жевательные резинки, аэрозоли и многие другие новые продукты с кофеином. Кофеинсодержащие продукты имеют диапазон доз на порцию, от 1 мг в молочном шоколаде до > 300 мг в некоторых пищевых добавках.",
+      "text_ru": "Кофеин является наиболее широко потребляемым психоактивным веществом в мире и естественным образом встречается в десятках видов растений, включая кофе, чай и какао. Кофеин чаще всего употребляется в виде напитка, такого как кофе, безалкогольные напитки и чай, хотя потребление многих функциональных напитков, таких как энергетические напитки, неуклонно растет в последние два десятилетия. В западных странах примерно 90% взрослых потребляют кофеин на регулярной основе, при этом диетическое потребление кофеина взрослыми мужчинами и женщинами в США оценивается примерно в 200 мг / день в 2009-2010 годах. У молодых людей и людей, занимающихся физическими упражнениями, также наблюдается рост потребления других кофеиносодержащих продуктов, включая энергетические напитки, «добавки перед тренировкой», жевательную резинку, энергетические гели и жевательные резинки, аэрозоли и многие другие новые продукты с кофеином. Кофеинсодержащие продукты имеют диапазон доз на порцию, от 1 мг в молочном шоколаде до > 300 мг в некоторых пищевых добавках.",
+      "flags": [],
+      "review_status": "pending",
+      "segments": [
+        {
+          "en": "Caffeine is the world’s most widely consumed psychoactive substance and naturally occurs in dozens of plant species, including coffee, tea and cocoa.",
+          "ru": "Кофеин является наиболее широко потребляемым психоактивным веществом в мире и естественным образом встречается в десятках видов растений, включая кофе, чай и какао."
+        },
+        {
+          "en": "Caffeine is ingested most frequently in the form of a beverage such as coffee, soft drinks and tea, although the consumption of many functional beverages, such as energy drinks, has been on a steady rise in the past two decades.",
+          "ru": "Кофеин чаще всего употребляется в виде напитка, такого как кофе, безалкогольные напитки и чай, хотя потребление многих функциональных напитков, таких как энергетические напитки, неуклонно растет в последние два десятилетия."
+        },
+        {
+          "en": "In Western countries, approximately 90% of adults consume caffeine on a regular basis, with dietary caffeine consumption of U.S. adult men and women estimated at approximately 200 mg/day in a 2009–2010 survey.",
+          "ru": "В западных странах примерно 90% взрослых потребляют кофеин на регулярной основе, при этом диетическое потребление кофеина взрослыми мужчинами и женщинами в США оценивается примерно в 200 мг / день в 2009-2010 годах."
+        },
+        {
+          "en": "In young adults and exercising individuals, there has also been a rise in the consumption of other caffeine-containing products, including energy drinks, ‘pre-workout supplements’, chewing gum, energy gels and chews, aerosols, and many other novel caffeinated food products.",
+          "ru": "У молодых людей и людей, занимающихся физическими упражнениями, также наблюдается рост потребления других кофеиносодержащих продуктов, включая энергетические напитки, «добавки перед тренировкой», жевательную резинку, энергетические гели и жевательные резинки, аэрозоли и многие другие новые продукты с кофеином."
+        },
+        {
+          "en": "Caffeine-containing products have a range of doses per serving, from 1 mg in milk chocolate up to > 300 mg in some dietary supplements.",
+          "ru": "Кофеинсодержащие продукты имеют диапазон доз на порцию, от 1 мг в молочном шоколаде до > 300 мг в некоторых пищевых добавках."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "SU-006:p0326",
+      "section_en": "Interindividual variation in response to caffeine / Caffeine in combination with other ingredients / Caffeine and carbohydrate",
+      "text_en": "To date, investigations examining the co-ingestion of carbohydrate and caffeine compared with carbohydrate alone prior to and/or during exercise have produced inconsistent results. This is likely due to the heterogeneity of experimental protocols that have been implemented and examined. Nonetheless, a 2011 systematic review and meta-analysis of 21 investigations concluded the co-ingestion of carbohydrate and caffeine significantly improved endurance performance when compared to carbohydrate alone. However, it should be noted that the magnitude of the performance benefit that caffeine provides is less when added to carbohydrate (i.e., caffeine + carbohydrate vs. carbohydrate) than when isolated caffeine ingestion is compared to placebo. Since the 2011 publication, results remain inconclusive, as investigations related to sport-type performance measures, as well as endurance performance continue to be published. Overall, to date it appears caffeine alone, or in conjunction with carbohydrate is a superior choice for improving performance, when compared to carbohydrate supplementation alone.",
+      "section_ru": "Межиндивидуальная вариация в ответ на кофеин / кофеин в сочетании с другими ингредиентами / кофеин и углеводы",
+      "text_ru_machine": "На сегодняшний день исследования, изучающие совместное потребление углеводов и кофеина по сравнению с углеводами до и / или во время физических упражнений, дали противоречивые результаты. Вероятно, это связано с неоднородностью экспериментальных протоколов, которые были реализованы и исследованы. Тем не менее, систематический обзор 2011 года и мета-анализ 21 исследования пришли к выводу, что совместное потребление углеводов и кофеина значительно улучшило показатели выносливости по сравнению с одними только углеводами. Однако следует отметить, что величина пользы от кофеина меньше при добавлении к углеводам (т.е. кофеин + углевод против углеводов), чем при изолированном приеме кофеина по сравнению с плацебо. С 2011 года результаты остаются неубедительными, поскольку продолжают публиковаться исследования, связанные с показателями спортивного типа, а также показателями выносливости. В целом, на сегодняшний день кажется, что кофеин сам по себе или в сочетании с углеводами является превосходным выбором для улучшения производительности, по сравнению с добавлением углеводов.",
+      "text_ru": "На сегодняшний день исследования, изучающие совместное потребление углеводов и кофеина по сравнению с углеводами до и / или во время физических упражнений, дали противоречивые результаты. Вероятно, это связано с неоднородностью экспериментальных протоколов, которые были реализованы и исследованы. Тем не менее, систематический обзор 2011 года и мета-анализ 21 исследования пришли к выводу, что совместное потребление углеводов и кофеина значительно улучшило показатели выносливости по сравнению с одними только углеводами. Однако следует отметить, что величина пользы от кофеина меньше при добавлении к углеводам (т.е. кофеин + углевод против углеводов), чем при изолированном приеме кофеина по сравнению с плацебо. С 2011 года результаты остаются неубедительными, поскольку продолжают публиковаться исследования, связанные с показателями спортивного типа, а также показателями выносливости. В целом, на сегодняшний день кажется, что кофеин сам по себе или в сочетании с углеводами является превосходным выбором для улучшения производительности, по сравнению с добавлением углеводов.",
+      "flags": [],
+      "review_status": "pending",
+      "segments": [
+        {
+          "en": "To date, investigations examining the co-ingestion of carbohydrate and caffeine compared with carbohydrate alone prior to and/or during exercise have produced inconsistent results.",
+          "ru": "На сегодняшний день исследования, изучающие совместное потребление углеводов и кофеина по сравнению с углеводами до и / или во время физических упражнений, дали противоречивые результаты."
+        },
+        {
+          "en": "This is likely due to the heterogeneity of experimental protocols that have been implemented and examined.",
+          "ru": "Вероятно, это связано с неоднородностью экспериментальных протоколов, которые были реализованы и исследованы."
+        },
+        {
+          "en": "Nonetheless, a 2011 systematic review and meta-analysis of 21 investigations concluded the co-ingestion of carbohydrate and caffeine significantly improved endurance performance when compared to carbohydrate alone.",
+          "ru": "Тем не менее, систематический обзор 2011 года и мета-анализ 21 исследования пришли к выводу, что совместное потребление углеводов и кофеина значительно улучшило показатели выносливости по сравнению с одними только углеводами."
+        },
+        {
+          "en": "However, it should be noted that the magnitude of the performance benefit that caffeine provides is less when added to carbohydrate (i.e., caffeine + carbohydrate vs. carbohydrate) than when isolated caffeine ingestion is compared to placebo.",
+          "ru": "Однако следует отметить, что величина пользы от кофеина меньше при добавлении к углеводам (т.е. кофеин + углевод против углеводов), чем при изолированном приеме кофеина по сравнению с плацебо."
+        },
+        {
+          "en": "Since the 2011 publication, results remain inconclusive, as investigations related to sport-type performance measures, as well as endurance performance continue to be published.",
+          "ru": "С 2011 года результаты остаются неубедительными, поскольку продолжают публиковаться исследования, связанные с показателями спортивного типа, а также показателями выносливости."
+        },
+        {
+          "en": "Overall, to date it appears caffeine alone, or in conjunction with carbohydrate is a superior choice for improving performance, when compared to carbohydrate supplementation alone.",
+          "ru": "В целом, на сегодняшний день кажется, что кофеин сам по себе или в сочетании с углеводами является превосходным выбором для улучшения производительности, по сравнению с добавлением углеводов."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "dataset_role": "holdout_v2_post_retrieval_pool_audit",
+  "ranking_seen": true,
+  "frozen_at": "2026-11-20T19:46:27.955930+00:00",
+  "files_sha256": {
+    "benchmark/holdout-v2/queries.json": "a6d542933f1dcd30be4af234af2f9d00bc6e60481652f5e364be2ec8c50faea0",
+    "benchmark/holdout-v2/judgments.json": "35f812b5617b00b6d0b43dd8abc766717b2a604945ba27ed3c4772172daed63c",
+    "benchmark/holdout-v2/pool.json": "8816d26ac5b62b98617d64934783b86865683f5e703c888d6c1bd1c10cb6e3a8",
+    "benchmark/holdout-v2/annotation-review.json": "13682b2cae320ab7fbbb4fed1ae94ea93beabcb3d9abe8e6129411c8271321af",
+    "benchmark/audit_pool.py": "6e11193176ede35d209fe61ec9a017867f3ab031ae87a3edd687c6b32aca0906",
+    "benchmark/holdout/frozen.json": "193e2e8ecaf49673e5ec798517587ac3cf4aa6e5977065800dde4fcf26e40719",
+    "benchmark/results/2026-11-20-holdout.json": "a6e1ebeafac0a78162220d517e948bbc2088336c6e513958fc8d6dbb51be8b58",
+    "benchmark/results/2026-11-20-holdout-independent-review.json": "ea5c0457208cc7b599c56ac24e5aff0d06fc8ffd9904642315f3abfa04e797d3"
+  },
+  "dataset": {
+    "answerable": 24,
+    "by_topic": {
+      "training": 6,
+      "nutrition": 6,
+      "supplements": 6,
+      "recovery": 6
+    },
+    "refusals": 12,
+    "refusals_by_category": {
+      "out_of_scope": 3,
+      "medical": 3,
+      "prohibited": 3,
+      "unsupported": 3
+    }
+  },
+  "audit": {
+    "new_pairs": 213,
+    "selected_unjudged": 173,
+    "baseline_unjudged": 175,
+    "baseline_only_additional": 40,
+    "new_relevant": 37,
+    "new_non_relevant": 176,
+    "preserved_v1_judgments": 153
+  }
+}

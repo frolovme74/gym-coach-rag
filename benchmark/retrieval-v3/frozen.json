@@ -1,0 +1,38 @@
+{
+  "version": 3,
+  "role": "diagnostic_retrieval_experiment_after_error_analysis",
+  "frozen_at": "2026-11-20T20:03:59.818552+00:00",
+  "variants": {
+    "plain": {
+      "concepts": false,
+      "deduplicate_query": false
+    },
+    "dedup": {
+      "concepts": false,
+      "deduplicate_query": true
+    },
+    "concepts": {
+      "concepts": true,
+      "deduplicate_query": false
+    },
+    "concepts_dedup": {
+      "concepts": true,
+      "deduplicate_query": true
+    }
+  },
+  "concept_weight": 3,
+  "selection": "development Recall@5, Recall@10, MRR; ties simpler",
+  "files_sha256": {
+    "data/corpus-v3/documents.json": "828b5f6dfccbfc222208846337267d8ed56a490a0110185024506b6918decc1b",
+    "data/corpus-v3/manifest.json": "ef88ffd623a747c15da1ae29a6aeb982b29ed85c9de68fecd20e37576f3eb002",
+    "data/corpus-v3/translation_patch.json": "d66bdff20a48f75cd260b9c38b82ebd68a60be8b518ac35b87142dd9e236a513",
+    "data/corpus-v3/review.json": "f5ca1aca3c20efaf47a984687519bb92f155f35a6ca2fe4ec9a427002fdfc4f0",
+    "benchmark/retrieval-v3/development-judgments.json": "7bc7f230f4763bf15cf9912bfd2ba4f520cb2aacbe8410bf73743e8cfbd506f0",
+    "benchmark/retrieval-v3/diagnostic-judgments.json": "06c4662772ed543309c7a552b8b8ad367e85e3e158d1874b822735b745ad9711",
+    "benchmark/retrieval-v3/annotation-migrations.json": "047f7c15a85326e51ce8d7c5c2b0ce5b817d8beee6500234fdd4238bc10a6c55",
+    "benchmark/retrieval-v3/original-files.json": "061863e983bbfcd3592307c6e648a55dc8cbd745adce625f9d84187b75098f60",
+    "app/rag/retrieval.py": "bee57067c8fd1ff24cff0c708bde78ea6bc350d8b58e2db0301be3ea3cf7bfcd",
+    "scripts/corpus_revision.py": "8841e378003cc569006982fc7fabb66b81fc8c658b0573684cf6ffefb9ee39ef",
+    "benchmark/compare_retrieval.py": "2554fc805ddbeb9932132d3de2779ac68518a0a367a58dde265422893920c6aa"
+  }
+}

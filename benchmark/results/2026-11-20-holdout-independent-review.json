@@ -1,0 +1,744 @@
+{
+  "start_hashes_verified": {
+    "benchmark/queries.json": "eeea847e7d23f0c381508f7632755541ae6247b8995ff5b1765cc135874bcc5b",
+    "benchmark/judgments.json": "8030f600dd10654ed9f84680be4c151026f85d1c7a21d1634c3087904708290d",
+    "benchmark/selected_config.json": "98fc10d58e06d0a335995c53971d6b6fad0301d2eadb18eea4e8f22aa2ef66f1",
+    "benchmark/results/2026-11-20-baseline.json": "c355e17b9514755d915ed9250b652842a3e1db91f894ce866d1bb20f7c733a71",
+    "benchmark/results/2026-11-20-tuning.json": "a684daab7439fb384bb2a6fcb405d8943638e6c9ebfd91d3144cc036d6e167d4",
+    "data/corpus/documents.json": "b970b7b90566da8c944eaef606303d00324dbe7ca40f93d8f895e8570222a275",
+    "app/rag/bm25.py": "4ebce87d20533aeef5e5ab615175520b1434c22200cdba003026f35ae97fcec5",
+    "app/rag/preprocess.py": "e5aec70e0c23b509feb244070088c8e549ad6408699797698ea3f94afb4c678e",
+    "app/server.py": "a2d55c42559219f8e25b32197e392b129180deaea52f98c1540e3ca3e6a9cb50",
+    "app/stub.py": "10c8ca2f8eaa7d4d7bc34ec1b3295fa35e93e9fe4f59fde2d889c9d73a027089",
+    "spec/tech/api.md": "781e17b1b444899e142afa066e0958706ba860eac9321c3ff878a4ae694ced60"
+  },
+  "status": "passed",
+  "reviewer": "holdout_review",
+  "method": "Scoring independently implemented from serialized postings with literal BM25 formula; no benchmark.run/evaluate/retrieval_metrics or BM25Index.search/scores used. Shared frozen preprocessing only.",
+  "compared_query_profiles": 72,
+  "verified_annotation_decisions": 153,
+  "frozen_file_sha256": "193e2e8ecaf49673e5ec798517587ac3cf4aa6e5977065800dde4fcf26e40719",
+  "report_file_sha256": "a6e1ebeafac0a78162220d517e948bbc2088336c6e513958fc8d6dbb51be8b58",
+  "profiles": {
+    "baseline": {
+      "overall": {
+        "recall_at_5": 0.3760912698412698,
+        "recall_at_10": 0.4925429894179894,
+        "mrr": 0.6172357326769091
+      },
+      "by_topic": {
+        "training": {
+          "recall_at_5": 0.29444444444444445,
+          "recall_at_10": 0.39166666666666666,
+          "mrr": 0.5544372294372294
+        },
+        "nutrition": {
+          "recall_at_5": 0.15277777777777776,
+          "recall_at_10": 0.3634259259259259,
+          "mrr": 0.43247955747955746
+        },
+        "supplements": {
+          "recall_at_5": 0.6126984126984126,
+          "recall_at_10": 0.7095238095238096,
+          "mrr": 0.8333333333333334
+        },
+        "recovery": {
+          "recall_at_5": 0.4444444444444444,
+          "recall_at_10": 0.5055555555555555,
+          "mrr": 0.6486928104575164
+        }
+      },
+      "correct_refusals": 0,
+      "false_refusals": 0,
+      "per_query": [
+        {
+          "id": "ht01",
+          "topic": "training",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 18.976188766055916,
+          "recall_at_5": 0.375,
+          "recall_at_10": 0.375,
+          "mrr": 1.0
+        },
+        {
+          "id": "ht02",
+          "topic": "training",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 19.386460253977038,
+          "recall_at_5": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.09090909090909091
+        },
+        {
+          "id": "ht03",
+          "topic": "training",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 23.61767284162202,
+          "recall_at_5": 0.125,
+          "recall_at_10": 0.375,
+          "mrr": 0.2
+        },
+        {
+          "id": "ht04",
+          "topic": "training",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 30.810327235370046,
+          "recall_at_5": 0.6,
+          "recall_at_10": 0.6,
+          "mrr": 1.0
+        },
+        {
+          "id": "ht05",
+          "topic": "training",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 12.249209036432484,
+          "recall_at_5": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.03571428571428571
+        },
+        {
+          "id": "ht06",
+          "topic": "training",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 17.99234697823901,
+          "recall_at_5": 0.6666666666666666,
+          "recall_at_10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "test_nu01",
+          "topic": "nutrition",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 18.68168889354117,
+          "recall_at_5": 0.5,
+          "recall_at_10": 0.625,
+          "mrr": 1.0
+        },
+        {
+          "id": "test_nu02",
+          "topic": "nutrition",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 22.143931935023865,
+          "recall_at_5": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.09090909090909091
+        },
+        {
+          "id": "test_nu03",
+          "topic": "nutrition",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 16.894760228030304,
+          "recall_at_5": 0.25,
+          "recall_at_10": 0.5,
+          "mrr": 1.0
+        },
+        {
+          "id": "test_nu04",
+          "topic": "nutrition",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 10.502278838207044,
+          "recall_at_5": 0.16666666666666666,
+          "recall_at_10": 0.16666666666666666,
+          "mrr": 0.25
+        },
+        {
+          "id": "test_nu05",
+          "topic": "nutrition",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 17.48509965248246,
+          "recall_at_5": 0.0,
+          "recall_at_10": 0.6666666666666666,
+          "mrr": 0.14285714285714285
+        },
+        {
+          "id": "test_nu06",
+          "topic": "nutrition",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 13.795274526017439,
+          "recall_at_5": 0.0,
+          "recall_at_10": 0.2222222222222222,
+          "mrr": 0.1111111111111111
+        },
+        {
+          "id": "hs01",
+          "topic": "supplements",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 24.30731990803971,
+          "recall_at_5": 0.14285714285714285,
+          "recall_at_10": 0.35714285714285715,
+          "mrr": 0.5
+        },
+        {
+          "id": "hs02",
+          "topic": "supplements",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 22.54019924132455,
+          "recall_at_5": 0.2,
+          "recall_at_10": 0.4,
+          "mrr": 1.0
+        },
+        {
+          "id": "hs03",
+          "topic": "supplements",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 21.794509630982375,
+          "recall_at_5": 0.6666666666666666,
+          "recall_at_10": 0.6666666666666666,
+          "mrr": 0.5
+        },
+        {
+          "id": "hs04",
+          "topic": "supplements",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 24.008126547125066,
+          "recall_at_5": 1.0,
+          "recall_at_10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "hs05",
+          "topic": "supplements",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 22.364552909591225,
+          "recall_at_5": 0.6666666666666666,
+          "recall_at_10": 0.8333333333333334,
+          "mrr": 1.0
+        },
+        {
+          "id": "hs06",
+          "topic": "supplements",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 38.54432845043382,
+          "recall_at_5": 1.0,
+          "recall_at_10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "test_re01",
+          "topic": "recovery",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 29.37286742109817,
+          "recall_at_5": 0.6,
+          "recall_at_10": 0.6,
+          "mrr": 1.0
+        },
+        {
+          "id": "test_re02",
+          "topic": "recovery",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 16.49761263065814,
+          "recall_at_5": 0.4,
+          "recall_at_10": 0.6,
+          "mrr": 0.5
+        },
+        {
+          "id": "test_re03",
+          "topic": "recovery",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 20.1794547367779,
+          "recall_at_5": 0.3333333333333333,
+          "recall_at_10": 0.3333333333333333,
+          "mrr": 0.3333333333333333
+        },
+        {
+          "id": "test_re04",
+          "topic": "recovery",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 22.887657563790235,
+          "recall_at_5": 0.8333333333333334,
+          "recall_at_10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "test_re05",
+          "topic": "recovery",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 14.687036054146713,
+          "recall_at_5": 0.5,
+          "recall_at_10": 0.5,
+          "mrr": 1.0
+        },
+        {
+          "id": "test_re06",
+          "topic": "recovery",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 14.330554782701146,
+          "recall_at_5": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.058823529411764705
+        },
+        {
+          "id": "hf01",
+          "topic": null,
+          "expected": "refuse",
+          "refuse": false,
+          "max_score": 6.572868905410785
+        },
+        {
+          "id": "hf02",
+          "topic": null,
+          "expected": "refuse",
+          "refuse": false,
+          "max_score": 11.688115972981434
+        },
+        {
+          "id": "hf03",
+          "topic": null,
+          "expected": "refuse",
+          "refuse": false,
+          "max_score": 9.183201528805427
+        },
+        {
+          "id": "hf04",
+          "topic": null,
+          "expected": "refuse",
+          "refuse": false,
+          "max_score": 8.550353282026363
+        },
+        {
+          "id": "hf05",
+          "topic": null,
+          "expected": "refuse",
+          "refuse": false,
+          "max_score": 14.1650404961013
+        },
+        {
+          "id": "hf06",
+          "topic": null,
+          "expected": "refuse",
+          "refuse": false,
+          "max_score": 10.141746575714665
+        },
+        {
+          "id": "hf07",
+          "topic": null,
+          "expected": "refuse",
+          "refuse": false,
+          "max_score": 7.144021764093258
+        },
+        {
+          "id": "hf08",
+          "topic": null,
+          "expected": "refuse",
+          "refuse": false,
+          "max_score": 9.745722710382152
+        },
+        {
+          "id": "hf09",
+          "topic": null,
+          "expected": "refuse",
+          "refuse": false,
+          "max_score": 8.456911334765945
+        },
+        {
+          "id": "hf10",
+          "topic": null,
+          "expected": "refuse",
+          "refuse": false,
+          "max_score": 5.8429008133869775
+        },
+        {
+          "id": "hf11",
+          "topic": null,
+          "expected": "refuse",
+          "refuse": false,
+          "max_score": 13.766958607359317
+        },
+        {
+          "id": "hf12",
+          "topic": null,
+          "expected": "refuse",
+          "refuse": false,
+          "max_score": 12.208980086260116
+        }
+      ]
+    },
+    "selected": {
+      "overall": {
+        "recall_at_5": 0.376984126984127,
+        "recall_at_10": 0.5078538359788359,
+        "mrr": 0.6637723272918309
+      },
+      "by_topic": {
+        "training": {
+          "recall_at_5": 0.29444444444444445,
+          "recall_at_10": 0.45416666666666666,
+          "mrr": 0.5430522721302863
+        },
+        "nutrition": {
+          "recall_at_5": 0.15277777777777776,
+          "recall_at_10": 0.29907407407407405,
+          "mrr": 0.4361111111111111
+        },
+        "supplements": {
+          "recall_at_5": 0.5746031746031747,
+          "recall_at_10": 0.730952380952381,
+          "mrr": 0.9166666666666666
+        },
+        "recovery": {
+          "recall_at_5": 0.4861111111111111,
+          "recall_at_10": 0.5472222222222222,
+          "mrr": 0.7592592592592592
+        }
+      },
+      "correct_refusals": 10,
+      "false_refusals": 1,
+      "per_query": [
+        {
+          "id": "ht01",
+          "topic": "training",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 23.106628637876167,
+          "recall_at_5": 0.375,
+          "recall_at_10": 0.625,
+          "mrr": 1.0
+        },
+        {
+          "id": "ht02",
+          "topic": "training",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 24.48897966750696,
+          "recall_at_5": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.037037037037037035
+        },
+        {
+          "id": "ht03",
+          "topic": "training",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 26.541010571956008,
+          "recall_at_5": 0.125,
+          "recall_at_10": 0.5,
+          "mrr": 0.2
+        },
+        {
+          "id": "ht04",
+          "topic": "training",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 41.788084334914856,
+          "recall_at_5": 0.6,
+          "recall_at_10": 0.6,
+          "mrr": 1.0
+        },
+        {
+          "id": "ht05",
+          "topic": "training",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 16.395727511998206,
+          "recall_at_5": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.02127659574468085
+        },
+        {
+          "id": "ht06",
+          "topic": "training",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 22.07659823255919,
+          "recall_at_5": 0.6666666666666666,
+          "recall_at_10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "test_nu01",
+          "topic": "nutrition",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 23.54596456879488,
+          "recall_at_5": 0.5,
+          "recall_at_10": 0.5,
+          "mrr": 1.0
+        },
+        {
+          "id": "test_nu02",
+          "topic": "nutrition",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 24.497080668248554,
+          "recall_at_5": 0.0,
+          "recall_at_10": 0.1,
+          "mrr": 0.125
+        },
+        {
+          "id": "test_nu03",
+          "topic": "nutrition",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 20.502466656828023,
+          "recall_at_5": 0.25,
+          "recall_at_10": 0.25,
+          "mrr": 1.0
+        },
+        {
+          "id": "test_nu04",
+          "topic": "nutrition",
+          "expected": "answer",
+          "refuse": true,
+          "max_score": 13.284482938803933,
+          "recall_at_5": 0.16666666666666666,
+          "recall_at_10": 0.16666666666666666,
+          "mrr": 0.2
+        },
+        {
+          "id": "test_nu05",
+          "topic": "nutrition",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 21.17775632379421,
+          "recall_at_5": 0.0,
+          "recall_at_10": 0.6666666666666666,
+          "mrr": 0.16666666666666666
+        },
+        {
+          "id": "test_nu06",
+          "topic": "nutrition",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 16.301730786321638,
+          "recall_at_5": 0.0,
+          "recall_at_10": 0.1111111111111111,
+          "mrr": 0.125
+        },
+        {
+          "id": "hs01",
+          "topic": "supplements",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 30.732673568295446,
+          "recall_at_5": 0.21428571428571427,
+          "recall_at_10": 0.2857142857142857,
+          "mrr": 1.0
+        },
+        {
+          "id": "hs02",
+          "topic": "supplements",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 28.71183225910678,
+          "recall_at_5": 0.4,
+          "recall_at_10": 0.6,
+          "mrr": 1.0
+        },
+        {
+          "id": "hs03",
+          "topic": "supplements",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 30.630398726630034,
+          "recall_at_5": 0.3333333333333333,
+          "recall_at_10": 0.6666666666666666,
+          "mrr": 0.5
+        },
+        {
+          "id": "hs04",
+          "topic": "supplements",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 29.116976383653117,
+          "recall_at_5": 1.0,
+          "recall_at_10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "hs05",
+          "topic": "supplements",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 23.72341614980256,
+          "recall_at_5": 0.5,
+          "recall_at_10": 0.8333333333333334,
+          "mrr": 1.0
+        },
+        {
+          "id": "hs06",
+          "topic": "supplements",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 45.639193747697746,
+          "recall_at_5": 1.0,
+          "recall_at_10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "test_re01",
+          "topic": "recovery",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 38.88013788828175,
+          "recall_at_5": 0.6,
+          "recall_at_10": 0.6,
+          "mrr": 1.0
+        },
+        {
+          "id": "test_re02",
+          "topic": "recovery",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 22.295018793512284,
+          "recall_at_5": 0.4,
+          "recall_at_10": 0.6,
+          "mrr": 1.0
+        },
+        {
+          "id": "test_re03",
+          "topic": "recovery",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 29.487704663062345,
+          "recall_at_5": 0.3333333333333333,
+          "recall_at_10": 0.3333333333333333,
+          "mrr": 0.5
+        },
+        {
+          "id": "test_re04",
+          "topic": "recovery",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 24.624791378292855,
+          "recall_at_5": 0.8333333333333334,
+          "recall_at_10": 1.0,
+          "mrr": 1.0
+        },
+        {
+          "id": "test_re05",
+          "topic": "recovery",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 21.740875198202648,
+          "recall_at_5": 0.75,
+          "recall_at_10": 0.75,
+          "mrr": 1.0
+        },
+        {
+          "id": "test_re06",
+          "topic": "recovery",
+          "expected": "answer",
+          "refuse": false,
+          "max_score": 16.989138422013486,
+          "recall_at_5": 0.0,
+          "recall_at_10": 0.0,
+          "mrr": 0.05555555555555555
+        },
+        {
+          "id": "hf01",
+          "topic": null,
+          "expected": "refuse",
+          "refuse": true,
+          "max_score": 7.594465995085247
+        },
+        {
+          "id": "hf02",
+          "topic": null,
+          "expected": "refuse",
+          "refuse": true,
+          "max_score": 11.176354937786805
+        },
+        {
+          "id": "hf03",
+          "topic": null,
+          "expected": "refuse",
+          "refuse": true,
+          "max_score": 11.952455795492497
+        },
+        {
+          "id": "hf04",
+          "topic": null,
+          "expected": "refuse",
+          "refuse": true,
+          "max_score": 11.978768645259558
+        },
+        {
+          "id": "hf05",
+          "topic": null,
+          "expected": "refuse",
+          "refuse": false,
+          "max_score": 15.265207662344974
+        },
+        {
+          "id": "hf06",
+          "topic": null,
+          "expected": "refuse",
+          "refuse": true,
+          "max_score": 12.06953293084564
+        },
+        {
+          "id": "hf07",
+          "topic": null,
+          "expected": "refuse",
+          "refuse": true,
+          "max_score": 9.1393074820519
+        },
+        {
+          "id": "hf08",
+          "topic": null,
+          "expected": "refuse",
+          "refuse": true,
+          "max_score": 10.384228667406836
+        },
+        {
+          "id": "hf09",
+          "topic": null,
+          "expected": "refuse",
+          "refuse": true,
+          "max_score": 11.315546921876114
+        },
+        {
+          "id": "hf10",
+          "topic": null,
+          "expected": "refuse",
+          "refuse": true,
+          "max_score": 7.42783315502166
+        },
+        {
+          "id": "hf11",
+          "topic": null,
+          "expected": "refuse",
+          "refuse": false,
+          "max_score": 16.355641579689273
+        },
+        {
+          "id": "hf12",
+          "topic": null,
+          "expected": "refuse",
+          "refuse": true,
+          "max_score": 11.982945276335197
+        }
+      ]
+    }
+  },
+  "code_review": "freeze/verify_frozen/run and tests reviewed before freeze; no blocking findings",
+  "limitations": [
+    "Same corpus and agent-authored questions; incomplete qrels.",
+    "No scientific audit of original publications or full translation.",
+    "No parameter or threshold tuning on holdout."
+  ]
+}

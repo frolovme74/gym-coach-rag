@@ -1,0 +1,7 @@
+{
+  "app/server.py": "a2d55c42559219f8e25b32197e392b129180deaea52f98c1540e3ca3e6a9cb50",
+  "app/static/app.js": "959b4038fa95a34867065ebb8f18d1ff7971a4c29549542bc808cde76d184440",
+  "tests/test_api.py": "f03d5ed40b5911ee0f572d5c06466fe9d005b9aa6357c09b5d5edbff08220f6f",
+  "app/static/index.html": "580eb6a2515540376c07aa577457107f4fcbf45042667da259176eaae4206547",
+  "app/static/style.css": "a412b59a97c64e5db28f630e0e5d4a92a9dd977a6fada55d6e3314d9ed365e8d"
+}

@@ -1,0 +1,322 @@
+{
+  "source_id": "RE-034",
+  "paragraphs": [
+    {
+      "paragraph_id": "RE-034:p0001",
+      "section_en": "Background",
+      "text_en": "Performance increase in (endurance) sports is a result of continuous, consecutive training sessions. To optimize the effect of these sessions, sufficient recovery is needed to be able to adapt a training stimulus. An imbalance between the induced stress of training and the subsequent recovery possibly affects the rate of post-exercise glycogen synthesis/stores, inflammation processes, and metabolic disturbances. Over time, this could accumulate into serious health problems like injuries, illnesses, and non-functional overreaching. It is therefore assumed that post-exercise recovery strategies are vital in improving the time course of recovery between (training) sessions. This is especially vital for athletes with exceptionally high training loads, such as endurance athletes. For instance, male marathon runners typically cover an average of 150 to 260 km per week. Marathon running had the highest metabolic equivalent (MET) hours at 13.3, followed by triathlons and speed skating at the same level, rowing at 12.0, cycling at 10, and swimming at 9.8. In comparison, non-endurance athletes and team sports like bodybuilding scored 6 in MET hours, basketball 8.0, and soccer 10.0. Given their demand for high-volume and intense training, optimizing recovery is imperative for endurance athletes. Therefore, they will be the focus point of this umbrella review."
+    },
+    {
+      "paragraph_id": "RE-034:p0002",
+      "section_en": "Background",
+      "text_en": "Due to its multifaceted nature, recovery can be seen as an umbrella term covering multiple modalities. To account for this, there is no one marker for recovery, but instead a variety of markers. Performance tests (e.g., countermovement jumps and aerobic tests ) are often used to monitor recovery and performance in athletes. Thereby such tests provide specific markers that are associated with fatigue and recovery. They can be categorized, for example, as biomechanical (e.g. step length during a treadmill test) or biochemical markers (e.g. creatine kinase and lactate ). In addition, physiological markers (e.g., VO2max or heart rate ) can determine the underlying physiology of the post-exercise/competition recovery process. Finally, psychological markers that capture the perception of an athlete have been shown to be highly relevant for monitoring training responses. These markers are often assessed via self-reported measures (e.g., athlete recovery stress questionnaires or mood ). Given this variety of markers, it is hard to judge if a recovery strategy is efficient as it could show positive results for one marker while there are no benefits for others."
+    },
+    {
+      "paragraph_id": "RE-034:p0003",
+      "section_en": "Background",
+      "text_en": "Recovery strategies can be distinguished by their type of application. Using this approach, Kellmann et al. (2018) classified recovery strategies into passive, active, and proactive recovery. Passive recovery is seen as the process in which the body recovers through external stimulations, such as massage, compression garments, temperature-based strategies, or nutrition supplements. In contrast, active recovery involves voluntary activities like jogging, walking, and stretching. Proactive recovery involves self-initiated and social activities chosen by the individual and catered to the individual’s needs, for example, breathing techniques, social activities or improving psychological resilience in athletes. We will include all three categories in this umbrella review. Furthermore, we distinguish recovery strategies from rest within this umbrella review. Thereby, we see recovery, in line with the definition by Kellmann et al. (2018), as an additional provided stimulus, whereas we see rest as inactivity (e.g. standing still or sitting) or not changing an athlete’s normal daily routine."
+    },
+    {
+      "paragraph_id": "RE-034:p0004",
+      "section_en": "Background",
+      "text_en": "Recovery strategies can also be classified based on the timing of application into immediate, short-term, and training recovery. Immediate recovery refers to recovery occurring between short time movements, for instance, an alternating runner’s footstep. Short-term recovery includes strategies used between training sets, like two sets of sprints or a timeout in team games. In contrast, training recovery focuses on the time between consecutive training sessions or competitions. As most exercise-induced adaptations occur during the recovery period, training recovery plays a vital role in the adaptation process, e.g., restoring muscle and liver glycogen. While some earlier reviews reported the effectiveness of recovery strategies in terms of timing (varying from immediately after the exercise to 120 h after), there is no systematic analysis of effectiveness in terms of training recovery. Hence, we will assess the effectiveness of different recovery strategies on a training recovery timeframe (8–24 h) in this review. In addition, we will evaluate the general effectiveness of various recovery strategies in endurance athletes by type of application (passive, active, and proactive)."
+    },
+    {
+      "paragraph_id": "RE-034:p0005",
+      "section_en": "Background",
+      "text_en": "Although a recent questionnaire study by Braun-Trocchio et al. (2022) provided an overview of which recovery strategies are used by endurance athletes, a cohesive overview on ways to enhance training recovery in endurance athletes is still lacking. Thus, in this umbrella review (UR), we focus on training recovery to provide athletes and practitioners with evidence-based recommendations and guidelines to improve recovery, optimize the training process, and in turn improve performance."
+    },
+    {
+      "paragraph_id": "RE-034:p0006",
+      "section_en": "Methods",
+      "text_en": "This UR addressed all the PRISMA statement’s recommendations (see Additional file 1: Table S1). The review protocol was registered with the International Prospective Register of Systematic Reviews (PROSPERO ID CRD42021260509)."
+    },
+    {
+      "paragraph_id": "RE-034:p0009",
+      "section_en": "Methods / Selection Criteria",
+      "text_en": "Systematic reviews (SR), meta-analyses (MA), and systematic reviews with meta-analyses (SRMA) were included if they focused on observational and experimental studies that explored the effects of recovery strategies in endurance athletes. Recovery, in this UR, was seen as a process of reducing exercise-induced fatigue; therefore, reviews focusing on recovery from injuries, wounds, or similar were excluded."
+    },
+    {
+      "paragraph_id": "RE-034:p0010",
+      "section_en": "Methods / Selection Criteria / Participants",
+      "text_en": "Adult male or female athletes at a recreational (e.g., trained, club), competitive (e.g., actively training for sports competition), or elite (e.g., highly trained, international) level with a focus on endurance sports in their training regime were eligible for this umbrella review. This is equivalent to tier 1 to tier 5 of the participant categorization framework of colleagues. Endurance sports were seen as activities by individuals (e.g., non-team athletes) in which key muscles were used at submaximal intensity for prolonged periods."
+    },
+    {
+      "paragraph_id": "RE-034:p0011",
+      "section_en": "Methods / Selection Criteria / Interventions",
+      "text_en": "We conducted a targeted search for all recovery strategies, including massage, active recovery, cryotherapy, contrast temperature water immersion, compression garments, stretching, and electrostimulation, but not limited to those mentioned by Barnett 2006. Then, all strategies included were classified into three categories based on Kellmann 2022."
+    },
+    {
+      "paragraph_id": "RE-034:p0012",
+      "section_en": "Methods / Evaluation of the Methodological Quality",
+      "text_en": "Two reviewers (SL, MK) examined the quality of the reviews using the A MeaSurement Tool to Assess systematic Reviews 2 (AMSTAR 2) tool. The AMSTAR 2 checklist is a dependable and effective tool for determining bias in reviews. All reviews were evaluated using the standard AMSTAR 2 with 16 items (detail items see Additional file 3: File S3). The modified AMSTAR 2 with 13 items was used if the article was an SR. The score for each question was ‘yes (1 point)’, ‘no (0 point)’, ‘partial yes (0.5 point)’, and ‘N/A (not applicable)’. According to the total score, reviews were divided into four quality groups, namely high (≥ 75%), moderate (≥ 50%), low (< 50%), and critically low (< 25%). To ensure the quality of included studies, the reviews with a ‘critically low’ overall confidence (OC) rating were eliminated from further analyses."
+    },
+    {
+      "paragraph_id": "RE-034:p0014",
+      "section_en": "Methods / Data Synthesis",
+      "text_en": "The outcomes of different recovery strategies were evaluated in terms of athletic performance and physiological and self-perceived outcomes. Outcome measures were chosen based on the frequency of occurrence in the included studies. The most frequently used outcome variables were selected for further analysis. The results were assessed using criteria from Born et al. (2013) and Engle et al. (2016) and divided into four categories: positive effects (↑), negative effects (↓), no effect (↔), or contradictory effects (↑↓) of positive as well as negative effects (see Additional file 4: Table S4)."
+    },
+    {
+      "paragraph_id": "RE-034:p0015",
+      "section_en": "Results / Search Results",
+      "text_en": "Our literature search yielded twenty-two reviews, including nine SR, three MA, and ten SRMA (see Fig. 1). An overview of all 1030 excluded reviews can be found in Additional file 5: Table S5. All included reviews (see Table 1) were published in English before December 2022. Ten reviews were published from 2012 to 2018, and 12 were published between 2019 to 2022. The 22 included reviews contained 547 studies with 9327 participants in various sports. All reviews were categorized as either focusing on passive (nineteen reviews, 460 studies, 8097 participants, see \"Effectiveness of Passive Recovery Strategies\" section), active (two reviews, 75 studies, 1103 participants, see \"Effectiveness of Active Recovery Strategies\" section), or proactive recovery (one review, 12 studies, 127 participants, see \"Effectiveness of Proactive Recovery Strategies\" section) strategies. A complete overview of all included recovery strategies can be found in Table 1. Further details focusing on endurance athletes are presented in \"Effects in Endurance Athletes\", \"Effect in Endurance Athletes\", \"Effect In Endurance Athletes\" sections, and Fig. 2."
+    },
+    {
+      "paragraph_id": "RE-034:p0074",
+      "section_en": "Results / Methodological Quality",
+      "text_en": "The methodological quality of included reviews is presented in Table 2. The results of the AMSTAR 2 ranged from ‘critically low’ to ‘high’ in the OC ratings. Three reviews received ‘high’ level OC rates; eleven were rated ‘moderate’, and eight were rated ‘low’. One review was excluded due to a critically low AMSTAR 2 quality. This means that 22 reviews were considered for further analysis of the different recovery strategies."
+    },
+    {
+      "paragraph_id": "RE-034:p0077",
+      "section_en": "Results / Methodological Quality",
+      "text_en": "One item of the AMSTAR 2 was reported more rigorously than others. All reviews disclosed potential conflicts of interest (item 16). Except for the critically low review, only one review did not report the basic PICOT format (item 1). Moreover, only one study did not report adequate details of the included reviews (item 8). Furthermore, the majority of the reviews (17 out of 23) reported the risk of bias (RoB) in individual reviews (item 9), which is considered to be one of the essential items in the AMSTAR 2 tool."
+    },
+    {
+      "paragraph_id": "RE-034:p0078",
+      "section_en": "Results / Methodological Quality",
+      "text_en": "Most reviews neglected the following three general methodological items: 2 out of 23 reviews explained the design of the selected reviews (item 3), 4 out of 23 reviews listed the excluded reviews and provided justification for their exclusion (item 7), and 2 out of 23 reviews disclosed funding for the source reviews (item 10)."
+    },
+    {
+      "paragraph_id": "RE-034:p0079",
+      "section_en": "Results / Methodological Quality",
+      "text_en": "In addition, 4 out of 23 reviews reported that the research protocol was developed prior to the review and reported deviations from the protocol (item 2). Therefore, most included reviews were not registered on websites such as The International Prospective Register of Systematic Reviews (PROSPERO) or Cochrane Central Register of Controlled Trials (CENTRAL)."
+    },
+    {
+      "paragraph_id": "RE-034:p0080",
+      "section_en": "Results / Characteristics of Included Studies",
+      "text_en": "Based on the research questions, we mainly focused on outcomes for endurance athletes. In total, 165 studies with 2473 participants studying endurance athletes were extracted from the 22 reviews. Overall, after removing the studies that had mixed comparison groups (multiple interventions or studies that did not compare with the placebo/control group) and duplicated studies, sixty-three studies (1100 participants: 835 male, 120 female, 145 sex non-mentioned) were assessed for eligibility, which utilized passive recovery (60 studies) and active recovery (3 studies). None of the included studies investigated proactive recovery strategies for endurance athletes. The included reviews consisted of various sports; based on the research questions, we mainly focused on outcomes for endurance athletes (such as cyclists, runners, climbers, and triathletes [for an overview see Additional file 4: Table S4])."
+    },
+    {
+      "paragraph_id": "RE-034:p0081",
+      "section_en": "Results / Characteristics of Included Studies",
+      "text_en": "Pre- recovery exercises were generally in line with the athlete’s sport, meaning that, for example, runners mostly performed a running activity. The pre-recovery exercise intensities varied considerably between sports and studies. For cycling, they ranged from sprinting to two hours of cycling between 59 and 80% of VO2max. For running, both road (marathon) or lab (treadmill) runs at different intensity levels (3 × 30 s sprints for the marathon or 120 min at 60% of VO2max to TTE test at 90% of VO2max) were used, while in swimming, only maximal intensity swims were studied. Additionally, full or half triathlon competitions were used."
+    },
+    {
+      "paragraph_id": "RE-034:p0082",
+      "section_en": "Results / Characteristics of Included Studies",
+      "text_en": "In terms of study design, there were major differences in the assessment of different recovery strategies. Studies applying cryotherapy and massage typically used a pre-post design, where a single exercise bout was followed by the application of the recovery strategy and multiple post-measurements were taken to give an overview of the effectiveness over time. Other studies, such as those evaluating supplements and compression garments (CG), typically had only one post-measurement. A minority of studies also included several post-measurements at different time points after the initial intervention."
+    },
+    {
+      "paragraph_id": "RE-034:p0083",
+      "section_en": "Results / Characteristics of Included Studies",
+      "text_en": "Outcomes for endurance athletes were assessed by the ten most common outcome variables via time to exhaustion (TTE) on a treadmill or cycle ergometer, countermovement jumps (CMJ), and running economy (RE) for performance benefits. To measure physiological adaptations, lactate (La), oxygen consumption (VO2), maximum oxygen consumption (VO2max), heart rate (HR), and creatine kinase (CK) were evaluated. Furthermore, the rate of perceived exertion (RPE) and muscle soreness were the most used measures for perceived outcome variables."
+    },
+    {
+      "paragraph_id": "RE-034:p0084",
+      "section_en": "Results / Effectiveness of Passive Recovery Strategies / General Information on Reviews on Passive Recovery",
+      "text_en": "Nineteen reviews focused on passive recovery, of which eight examined the effects of nutrition or nutrition supplements, six reviews conducted research on cryotherapy and three reviews focused on the use of CG. Two reviews focused on the effects of massage (see Table 1)."
+    },
+    {
+      "paragraph_id": "RE-034:p0085",
+      "section_en": "Results / Effectiveness of Passive Recovery Strategies / General Information on Reviews on Passive Recovery / Supplements",
+      "text_en": "Used supplements were cow milk, chocolate milk, milk, carbohydrates and protein, antioxidants, pomegranate, and curcumin. Considering all athletes, mixed results were found for the effectiveness of nutrition supplements. Carbohydrate and curcumin supplements benefited recovery, while pomegranate showed a potentially beneficial effect on endurance and strength performance."
+    },
+    {
+      "paragraph_id": "RE-034:p0086",
+      "section_en": "Results / Effectiveness of Passive Recovery Strategies / General Information on Reviews on Passive Recovery / Temperature-Based",
+      "text_en": "Cryotherapy included whole-body cryotherapy (WBC), partial-body cooling, cold water immersion (CWI), alternating hot and cold-water immersion treatments, and cooling packs. The effectiveness of cryotherapy was mixed across studies with a lack of conclusive evidence. Only one review showed that cryotherapy had negligible positive effects (2.4%, g = 0.28) on recovery performance. Conversely, another review showed that the use of cryotherapy resulted in harmful effects."
+    },
+    {
+      "paragraph_id": "RE-034:p0087",
+      "section_en": "Results / Effectiveness of Passive Recovery Strategies / General Information on Reviews on Passive Recovery / CG",
+      "text_en": "CG included the application of stockings, knee socks/calf sleeves, arm sleeves, whole-body garments, graduated tights, and sleeved tops. In general, marginal to large effects were found for the application of CG indicating a positive effect on recovery."
+    },
+    {
+      "paragraph_id": "RE-034:p0088",
+      "section_en": "Results / Effectiveness of Passive Recovery Strategies / General Information on Reviews on Passive Recovery / Massage",
+      "text_en": "Massage included automated massage, vibration, warm under-water water jet, pneumatic classic, manual massage, and petrissage, friction, and tapotement. The effect of massage on recovery was marginal or nonexistent (see Table 1)."
+    },
+    {
+      "paragraph_id": "RE-034:p0089",
+      "section_en": "Results / Effectiveness of Passive Recovery Strategies / Effects in Endurance Athletes",
+      "text_en": "In total, 1052 endurance athletes participated in 60 studies on passive recovery, and a detailed overview of the distribution can be found in Fig. 2. Not all of the included studies on endurance athletes reported one of the pre-determined (most common) outcome variables (see Additional file 4: Table S4 for an overview)."
+    },
+    {
+      "paragraph_id": "RE-034:p0090",
+      "section_en": "Results / Effectiveness of Passive Recovery Strategies / Effects in Endurance Athletes / CG",
+      "text_en": "For CG, positive effects on performance variables (TTE and CMJ) were found only twice, while non-significant results in these variables were apparent 12 times across studies. The study by Rider et al. (2014) even found a negative impact of CG on TTE in a maximal treadmill test. Conversely, this study showed a beneficial effect of using CG on lactate concentration one minute after exercise. The only other study that showed a positive effect of using CG on the physiological variables was Driller and Halson (2013) for HR, while there were 39 non-significant effects for the other physiological variables (La, VO2, VO2max, HR, and CK). For self-perceived variables like muscle soreness, two positive and four non-significant results were found across the studies. For RPE, only Rugg and Sternlicht (2013) found a beneficial effect while 13 non-significant and one controversial finding was found."
+    },
+    {
+      "paragraph_id": "RE-034:p0091",
+      "section_en": "Results / Effectiveness of Passive Recovery Strategies / Effects in Endurance Athletes / Temperature-Based",
+      "text_en": "For temperature-based recovery strategies, there was no positive or negative effect on performance, while non-significant results were found twice for TTE. Three studies showed a positive effect of temperature on HR and CK, while six non-significant effects for the other physiological variables (La, HR, and CK). For self-perceived variables, one positive outcome was observed on muscle soreness and ten non-significant results across the studies (RPE and muscle soreness)."
+    },
+    {
+      "paragraph_id": "RE-034:p0092",
+      "section_en": "Results / Effectiveness of Passive Recovery Strategies / Effects in Endurance Athletes / Supplements",
+      "text_en": "None of the studies using nutrition supplements for recovery reported any performance variables. The study by Abbiss et al. (2008) found a negative impact on lactate concentration following the carbohydrate compared with the placebo. Other than that, thirteen non-significant effects were observed for the other physiological variables (La, HR, and CK) using supplements. In addition, only one study found a positive effect on RPE while five were non-significant. Two studies found a non-significant effect of supplement use on muscle soreness."
+    },
+    {
+      "paragraph_id": "RE-034:p0093",
+      "section_en": "Results / Effectiveness of Passive Recovery Strategies / Effects in Endurance Athletes / Massage",
+      "text_en": "Similarly to nutrition supplements, none of the studies applying massage for recovery reported any performance variable or information on physiological variables like HR and VO2max. RPE was not included in any of these studies either. However, Edge et al. (2009) found non-significant results for whole-body vibration on La, VO2, and CK. For self-perceived variables, only two studies showed a positive effect of massage on muscle soreness, while the other two found a non-significant effect on the same variable."
+    },
+    {
+      "paragraph_id": "RE-034:p0094",
+      "section_en": "Results / Effectiveness of Active Recovery Strategies / General Information on Reviews on Active Recovery",
+      "text_en": "Two reviews investigated active recovery strategies, once of which examined the effects of foam rolling (FR). The other review evaluated active recovery (AR) with a variety of submaximal activities, such as running, jogging, cycling, swimming, or active stretching (see Table 1). As in this review studies did not compare the effects of active recovery against a control group (ten studies), we did not include their results in our analysis."
+    },
+    {
+      "paragraph_id": "RE-034:p0095",
+      "section_en": "Results / Effectiveness of Active Recovery Strategies / General Information on Reviews on Active Recovery",
+      "text_en": "Submaximal activities (e.g., warm and cool down) generally resulted in positive effects on recovery. It was further mentioned that FR should be combined with dynamic stretching and an active warm-up before training at the same time. In general, a reduction of muscle stiffness and DOMS was apparent after FR (see Table 1)."
+    },
+    {
+      "paragraph_id": "RE-034:p0096",
+      "section_en": "Results / Effectiveness of Active Recovery Strategies / Effect in Endurance Athletes",
+      "text_en": "In total, 48 endurance athletes participated in three studies on active recovery (see Fig. 2). All three studies included in the active recovery category reported at least one outcome measure. None of the studies reported any performance and self-perceived variables. Positive effects on La were found twice, while there were three non-significant effects for other physiological variables (VO2 and HR)."
+    },
+    {
+      "paragraph_id": "RE-034:p0097",
+      "section_en": "Results / Effectiveness of Proactive Recovery Strategies / General Information on Reviews on Proactive Recovery",
+      "text_en": "Only one proactive recovery review was identified, focusing on alcohol consumption (see Table 1). For this review, outcomes like force, power, muscular endurance, soreness, and RPE were unaffected during recovery, meaning no negative effects could be found."
+    },
+    {
+      "paragraph_id": "RE-034:p0098",
+      "section_en": "Results / Effectiveness of Proactive Recovery Strategies / Effect in Endurance Athletes",
+      "text_en": "No endurance athletes were included in the review of the proactive recovery strategy."
+    },
+    {
+      "paragraph_id": "RE-034:p0099",
+      "section_en": "Results / Training Recovery Time Frame",
+      "text_en": "Five out of twenty-two reviews, focusing on massage, cryotherapy, and CG, compared recovery outcomes at different time points. Eight studies from these five reviews examined the effects in endurance athletes 8–24 h after the exercise and qualified for further analysis. Of these eight studies, strength, jump, sprint, and endurance performance were reported (see Table 3)."
+    },
+    {
+      "paragraph_id": "RE-034:p0103",
+      "section_en": "Results / Training Recovery Time Frame",
+      "text_en": "Four out of the eight studies applied cryotherapy to enhance recovery, with generally positive outcomes (ES 0.33 to 3.00). The largest effects were reported for the strength performance of runners, who benefited by 10.8% compared to controls allocated to 3 × 3 min in a cryo-chamber at − 110 °C. Sprint performance of cyclists also improved by 2.6% compared to controls after 24 h using a 14-min whole-body CWI at 15 °C and by 7.8% when using a 5-min whole-body CWI at 10.1 °C. However, the effects were marginal for similar applications for endurance performance."
+    },
+    {
+      "paragraph_id": "RE-034:p0104",
+      "section_en": "Results / Training Recovery Time Frame",
+      "text_en": "The two studies using massage as a recovery strategy found no benefits compared to controls."
+    },
+    {
+      "paragraph_id": "RE-034:p0105",
+      "section_en": "Results / Training Recovery Time Frame",
+      "text_en": "Using CG in the form of compression stockings (CS) and graduated tights benefited the recovery of endurance athletes for strength and jump performance after 24 h."
+    },
+    {
+      "paragraph_id": "RE-034:p0106",
+      "section_en": "Discussion",
+      "text_en": "This is the first umbrella review that systematically evaluated recovery strategies for endurance athletes. The main findings were: (1) in terms of methodological quality, only three reviews had high scores (two assessing cryotherapy and one assessing supplementation), while the other included reviews were of low to moderate quality; (2) in general, none of the investigated recovery strategies were effective across the ten parameters; however, the utilization of active recovery in endurance athletes resulted in reduction in lactate concentration following exercise when compared to control groups. Muscle soreness was also reduced after applying different passive recovery strategies (CG, massage, and cryotherapy); (3) The subgroup analysis on training recovery (8–24 h after initial exercise) revealed promising tendencies for CG and cryotherapy. However, there is a scarcity of studies focusing exclusively on training recovery in endurance athletes."
+    },
+    {
+      "paragraph_id": "RE-034:p0107",
+      "section_en": "Discussion / Methodological Quality",
+      "text_en": "The quality of included reviews mostly (19 out of 22) ranged from low to moderate except for one review. This means that the overall quality of research in this field still needs improvement, with specific recurring issues. Among the common methodological items of AMSTAR 2, only a few studies explicitly addressed the following items, namely: “an explanation of the selected study design”, “a list of excluded studies and rationale”, and “reported funding reports for source studies”. Although all studies included in this UR were published after 2009 and after publishing the PRISMA statement, not all actually adhere to the guidelines. While these items might not drastically influence the quality of evidence, they should be reported. Therefore, authors should pay attention in future studies to properly follow the updated PRISMA statement and explain each item separately."
+    },
+    {
+      "paragraph_id": "RE-034:p0108",
+      "section_en": "Discussion / Methodological Quality",
+      "text_en": "Arguably, item 9, the RoB, is one of the most vital components in AMSTAR 2. It is an essential tool for assessing the quality of a review. It was found that six out of twenty-two included reviews did not use the appropriate tool to assess the RoB, which demonstrates the increasing attention authors in sports science are paying to the RoB. Other than AMSTAR 2, authors may also consider using the Risk Of Bias In Systematic reviews (ROBIS) tool, a more effective instrument for assessing the RoB. While most authors chose suitable RoB tools, not all of them registered their reviews in PROSPERO or other registration websites. PROSPERO and the Cochrane Database of Systematic Reviews (CDSR) are two databases where systematic review protocols can be registered. Such protocols can help reduce the risk of duplication of reviews by independent research groups. However, even when a review was submitted to PROSPERO, it could still run the risk of not being explicitly registered under the sports discipline. Many systematic reviewers in sports science overlook this critical step. Therefore, as the number of sport-related systematic reviews increases, it will be necessary to recommend a register specifically for this area in the future."
+    },
+    {
+      "paragraph_id": "RE-034:p0109",
+      "section_en": "Discussion / General Effectiveness of Recovery Strategies in Endurance Athletes",
+      "text_en": "Passive recovery was the most investigated type of recovery with a variety of strategies. Among the 63 studies that included endurance athletes, CG (28 out of 63) was the most extensively researched recovery strategy. Our results indicated that there was no conclusive evidence that CG benefited sports-related variables (RE, VO2max, and CK), except for a limited number of studies showing positive results for performance (TTE and CMJ) and physiological (La and HR) outcomes. However, these findings were not consistent across all studies. The results on CG were rather confusing, as highlighted by one study that found cross-country runners had lower La concentration after wearing CS, but a longer time to fatigue in the non-CS group. Our findings also align with the results of the review by Marqués-Jiménez et al. (2016), indicating that CG did not help decrease lactate or creatine kinase levels. Based on previous research, we had anticipated that CG would have an effect on performance-related variables, such as the power and strength. However, this was not the case. One reason for this could be bias in the sample as most studies using CG were conducted with marathon runners wearing CS while running. In addition, marathon runners are different from general endurance athletes in that they have different physical and muscular demands, which may also affect the outcome indicators of wearing CS."
+    },
+    {
+      "paragraph_id": "RE-034:p0110",
+      "section_en": "Discussion / General Effectiveness of Recovery Strategies in Endurance Athletes",
+      "text_en": "In addition, contradictory results were found for CMJ, VO2, and RPE in endurance athletes who utilized CG. A study that investigated the performance of wearing different graduated CS during 10 km time trials found that wearing low (12–15 mm Hg) and medium (18–21 mm Hg) graduated CS improved leg muscle function and CMJ. The effect was even more prominent after intense endurance exercise (five 10-km time trials with 7 days recovery between each trial) compared to control and high (23–32 mm Hg) graduated CS groups. Another study compared the difference between graduated compression tights during a 15-min incremental run at 50, 70, and 85% heart rate reserve. The tights had ankle, calf, and thigh pressure of 18.0 mm Hg, 12.6 mm Hg, and 7.2 mm Hg, respectively, and the results showed a significant improvement in both CMJ and RPE. Comparing the socks from the previous study, it was concluded that the highest pressure sock was not necessarily the optimal option for different exercise intensities. These findings also indicated that wearing different types/pressures of socks may have caused the contradictory results and further research is needed to determine the optimal application of CG. It must also be noted that while the included reviews on CG yielded overall benefits for recovery, endurance athletes did not seem to experience a benefit in RPE from wearing CS, especially when compared to soccer players."
+    },
+    {
+      "paragraph_id": "RE-034:p0111",
+      "section_en": "Discussion / General Effectiveness of Recovery Strategies in Endurance Athletes",
+      "text_en": "For temperature-based recovery strategies, we could only draw conclusions for CWI, given the lack of studies on other strategies. We observed that CWI reduced the HR of endurance athletes after a 100 m swim and a 40-min cycle as well as CK levels after a 10 km run using water of 14 °C for 5 min, 11.5 °C for 60 s repeated three times, and 10 °C for 10 min, respectively. A temperature below 14 °C seemed to be essential for a physiological effect of CWI, as a previous study compared the physiological responses of water immersion at three different temperatures (32 °C, 20 °C, and 14 °C) and showed that HR and blood pressure increased in 14 °C compared to warm water. The authors explained that this was due to shivering, which was treated as light exercise, rather than due to the cold. Despite the numerous studies on CWI, the variety in the design of the application, including immersion times, patterns, ambient temperatures, immersion areas, and other factors, make it hard to give concrete recommendations for best practice. It should also be mentioned that a recent review by Malta et al. (2021) found CWI to be harmful in different performance variables. However, these findings are based on non-endurance athletes."
+    },
+    {
+      "paragraph_id": "RE-034:p0112",
+      "section_en": "Discussion / General Effectiveness of Recovery Strategies in Endurance Athletes",
+      "text_en": "The included supplements-based strategies were ingesting carbohydrates (with and without water) or curcumin. Our UR found that the consumption of carbohydrates and curcumin did not result in positive outcomes for HR and RPE in exercise lasting longer than 90 min during recovery, which was consistent with the study by Saunders et al. (2004). While these findings are discouraging, it must be noted that the included studies did not examine variables related to performance. Additionally, there was a lack of studies on exercise duration for less than 90 min. In contrast, the review by McCartney et al. (2018) found a beneficial effect of CHO (and CHO + water) for aerobic and endurance exercises (lasting from 45 min to 2 h). However, their analysis also included non-endurance athletes and several intervention groups instead of a comparison against a control group."
+    },
+    {
+      "paragraph_id": "RE-034:p0113",
+      "section_en": "Discussion / General Effectiveness of Recovery Strategies in Endurance Athletes",
+      "text_en": "A review by Cheung showed that massage did have an effect on DOMS, depending on the type of massage, time, and technique. Also, in our results, massage only affected muscle soreness while other non-self-reported measures (La, VO2, and CK) were not affected."
+    },
+    {
+      "paragraph_id": "RE-034:p0114",
+      "section_en": "Discussion / General Effectiveness of Recovery Strategies in Endurance Athletes",
+      "text_en": "In terms of active recovery strategies, it was shown that active recovery had a positive effect on lactate (concentration) compared to seated rest in swimmers and climbers. Similar results were also found by Mota et al. (2017) in a 200 m freestyle swimming trial, where blood lactate was decreased. However, these results were limited by the intensity of exercise over a very short period of time. In general, the review by Ortiz et al. (2019) recommends an active recovery period of 6 to 10 min after exercise, but they also state that the benefits might be psychological rather than physiological."
+    },
+    {
+      "paragraph_id": "RE-034:p0115",
+      "section_en": "Discussion / General Effectiveness of Recovery Strategies in Endurance Athletes",
+      "text_en": "According to Kellman’s definition, proactive recovery was primarily a form of recovery from social activity as well as self-selection. In terms of proactive recovery strategies, sleep was the most popular one. Unfortunately, no studies related to sleep were included based on the search criteria of this UR, as there was a lack of endurance athletes in these studies. However, several studies on sleep in team sports have been conducted, and from these studies, it was observed that sleep was positively associated with recovery and later athletic performance. The only proactive recovery strategy included in this UR was alcohol, but the participants were non-endurance athletes, so further analysis for endurance athletes was not conducted. A previous study of cyclists showed that acute small ethanol (EtOH) consumption during recovery (0.5 ml EtOH/kg fat-free mass, combined with carbohydrate) did not affect recovery but decreased endurance performance. Another review not included in our UR also supported this conclusion."
+    },
+    {
+      "paragraph_id": "RE-034:p0116",
+      "section_en": "Discussion / Effects of Recovery Strategies on Training Recovery",
+      "text_en": "Out of the total of twenty-two reviews, only five investigated recovery strategies (cryotherapy, massage, and CG) with a focus on their effects on training recovery. Within these five reviews, eight studies were eligible for further analysis. We observed that applying passive recovery (CG and cryotherapy) strategies could benefit endurance athletes’ recovery following training sessions."
+    },
+    {
+      "paragraph_id": "RE-034:p0117",
+      "section_en": "Discussion / Effects of Recovery Strategies on Training Recovery",
+      "text_en": "Applying CG in the form of stockings consistently yielded benefits for runners (see Table 3). However, since the study focused on runners, these benefits might not be transferable to other endurance sports. Furthermore, the effects were only demonstrated for strength and jump performance after 24 h and not for sprint and endurance performance. While no study tested the influence of CG on endurance performance, Brown et al. (2017) suggested that based on data from other sports, beneficial effects of CG are likely. They demonstrated positive effects at 24 h following metabolic exercise or prior to endurance performance, indicating a potential benefit for endurance athletes."
+    },
+    {
+      "paragraph_id": "RE-034:p0118",
+      "section_en": "Discussion / Effects of Recovery Strategies on Training Recovery",
+      "text_en": "For cryotherapy, mixed results were observed as three studies showed large effects (ES 0.57 to 1.01) and four showed low effects (0.1 to 0.17) (see Table 3). The findings suggest that cryotherapy may have positive effects on sprint performance, but the results were mixed for strength, and marginal effects were observed for jump and endurance performance. The inconsistent results for strength performance could be due to differences in the applied methods. For instance, Hausswirth et al. (2011) reported benefits from WBC (− 110 °C for 3 min), while Vaile et al. (2008) found marginal effects using CWI (15 °C for 14 min). This indicates that WBC could be more useful. However, similar cold-water immersion protocols did show beneficial effects on sprint performance. Furthermore, one should be cautious when applying whole-body cryotherapy on a regular basis, as excessive exposure to very low temperatures (e.g., ice immersion) can be harmful to training adaptations according to Fröhlich et al. (2014)."
+    },
+    {
+      "paragraph_id": "RE-034:p0119",
+      "section_en": "Discussion / Effects of Recovery Strategies on Training Recovery",
+      "text_en": "Our results suggest that massage does not affect training recovery, except for one study by Viitasalo et al. (1995), who showed an improvement in jump performance after 12 h of underwater jet massage. However, this effect was negative after 20 h, which makes the initial findings questionable. In general, massage appears to have more of a psychological placebo effect with short-term benefits."
+    },
+    {
+      "paragraph_id": "RE-034:p0120",
+      "section_en": "Discussion / Strengths and Methodological Limitations",
+      "text_en": "The findings of this umbrella review contribute to the current literature. Firstly, this UR is the first comprehensive investigation of different recovery strategies in endurance athletes. Secondly, the results are from not only the reviews but also trace back to individual studies. Thirdly, we present an overview of the effectiveness of various recovery strategies rather than focusing on a single approach. By only including studies that use a control group, we can also provide a better understanding of the benefits of different recovery strategies in endurance athletes."
+    },
+    {
+      "paragraph_id": "RE-034:p0121",
+      "section_en": "Discussion / Strengths and Methodological Limitations",
+      "text_en": "However, our findings suggest the need for further research on endurance athletes recovering from training to confirm the conclusions drawn from the data collected in this UR. Our research has certain limitations, including a limited number of analyses for the time course of the different recovery strategies. With a rather low number of training recovery studies, it is hard to draw general conclusions. Therefore, our results regarding training recovery need to be interpreted with caution. In addition, given the number of different outcome measures for recovery, it is challenging to compare studies with one another and draw a conclusion from the meta-analysis. Furthermore, the results need to be interpreted with caution as there could be inconsistencies in exercise modality, volume, and recovery protocols, as these were not always reported in the individual studies. In general, the current dearth of high-quality meta-analyses limits our understanding of the application of various recovery strategies at various points during recovery in endurance athletes."
+    },
+    {
+      "paragraph_id": "RE-034:p0122",
+      "section_en": "Discussion / Suggestions for Future Research",
+      "text_en": "Our analysis highlights that researchers prefer to conduct research on passive strategies in endurance athletes. High-quality studies for active recovery and proactive strategies are lacking. Future studies should clearly follow the relevant statement and specifically register under the sports field catalogue. While there is a body of research on recovery, active recovery strategies are seldom evaluated against control or sham groups. Also, the specific changes in recovery measures over time are relatively unknown. To better understand the processes and mechanisms of recovery, we suggest conducting studies focusing on the time course of recovery. Furthermore, one can suggest that using only one recovery strategy no longer meets the sport’s increasing recovery demands. Future studies might consider utilizing various recovery strategy combinations to allow each athlete to realize recovery to its maximum potential. For instance, combining CWI and massage is better than only using massage to reduce blood lactate levels after submaximal exercise. Finally, when discussing recovery strategies, it is best to focus on one peer group instead of mixing them. For example, comparing endurance athletes with team sport athletes may show different responses to the same treatment."
+    },
+    {
+      "paragraph_id": "RE-034:p0123",
+      "section_en": "Conclusion",
+      "text_en": "In summary, we found that most studies investigating the recovery of endurance athletes utilized nutrition supplements or compression garments. However, based on the studied recovery-related outcome variables, no particular recovery strategy demonstrated consistent benefits across different studies for endurance athletes in general. This means one cannot advise the use of one strategy based on our findings. On the other hand, for a small number of studies, both compression garments and cold-water immersion seem to be promising strategies to enhance performance in terms of training recovery. Nevertheless, further research is needed to confirm these findings."
+    }
+  ],
+  "excluded": [
+    {
+      "paragraph_id": "RE-034:p0007",
+      "section_en": "Methods / Search Strategy",
+      "text_en": "The literature search was carried out by one reviewer (SL) in December 2022 and focused on three databases: PubMed, Web of Science, and Cochrane Database of Systematic Reviews. Relevant search terms were connected with Boolean operators by keywords of recovery and endurance to search for eligible reviews. The exact search terms are included in Additional file 2: Table S2.",
+      "reason": "процедура поиска и статистической обработки обзора; не практическое содержание"
+    },
+    {
+      "paragraph_id": "RE-034:p0008",
+      "section_en": "Methods / Search Strategy",
+      "text_en": "The lead author searched the reference lists for eligible studies and topical review articles (SL). Two reviewers (SL and MK) independently selected and extracted the data using the online application Rayyan (Rayyan Systems Inc., Cambridge, MA, USA). Two reviewers (SL and MK) scanned the titles and abstracts of all included studies. All authors discussed conflicts in the extracted data to reach an agreement on the included reviews; one reviewer (SL) removed the duplicates.",
+      "reason": "процедура поиска и статистической обработки обзора; не практическое содержание"
+    },
+    {
+      "paragraph_id": "RE-034:p0013",
+      "section_en": "Methods / Data Extraction and Analysis",
+      "text_en": "Two reviewers (SL and MK) extracted data in three steps using Microsoft Excel (Microsoft Excel for Mac Version 16.69) to organize the data. Firstly, we presented the characteristics of the selected reviews as follows: authors, recovery type, number of included studies, number of participants, heterogeneity (I2), confidence intervals (95% CI) around the effect size, p value, as well as the main finding. As all reviews also included non-endurance athletes, individual studies focusing only on endurance athletes were extracted from the selected reviews in a second step. For further inclusion, those studies needed to have a clear control or placebo group. To control for that, all studies included in the reviews were checked and those that met these criteria were used for further analysis. As some studies were repeated in different reviews, the information in the study with the higher AMSTAR 2 rating was used for further analysis. For these included studies, key information like the number and types of participants, type of exercise, intervention exercise (intensity), recovery type, comparison group, and main outcomes were extracted. The extracted data for each recovery strategy are presented in Additional file 4: Table S4. In the final and third steps, we analyzed the time courses of the different recovery strategies 8 to 24 h after training or competition with metadata of reviews.",
+      "reason": "процедура поиска и статистической обработки обзора; не практическое содержание"
+    },
+    {
+      "paragraph_id": "RE-034:p0124",
+      "section_en": "Supplementary Information",
+      "text_en": "",
+      "reason": "служебный раздел"
+    }
+  ],
+  "copyright_notice": "© The Author(s) 2024https://creativecommons.org/licenses/by/4.0/Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.",
+  "license_links": [
+    "https://creativecommons.org/licenses/by/4.0/",
+    "http://creativecommons.org/licenses/by/4.0/."
+  ],
+  "word_count_en": 5597
+}

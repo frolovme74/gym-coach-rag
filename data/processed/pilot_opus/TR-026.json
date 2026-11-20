@@ -1,0 +1,84 @@
+{
+  "source_id": "TR-026",
+  "model": "Helsinki-NLP/opus-mt-en-ru",
+  "model_revision": "bb09c99d180016eac6819df3dae68edb1690fdee",
+  "engine": "CTranslate2 int8; beam_size=4; length_penalty=1.0; sentence-level",
+  "paragraphs": [
+    {
+      "paragraph_id": "TR-026:p0002",
+      "section_en": "Introduction",
+      "text_en": "Strength training increases muscular strength and hypertrophy, and provides numerous other positive health benefits, including improved functional ability, cardio-metabolic risk profile and well-being. Strength training is therefore recommended as an interventional strategy for the general population. However, a majority of people refrain from performing strength training and other forms of exercise, and as much as a quarter of the world’s population are at risk for developing health-related problems and diseases linked to inactivity. Therefore, it is necessary to find ways to engage more people in both daily-life physical activities and regimented forms of exercise such as strength training, which is one of the most popular forms of exercise globally. Lack of time is a common self-reported barrier to engagement in structured exercise. Thus, understanding how strength training programs can be designed in ways that reduce training time without meaningfully compromising results could encourage more people to engage in this form of exercise.",
+      "section_ru": "Введение",
+      "text_ru_machine": "Профессиональная подготовка по вопросам укрепления потенциала повышает мышечную силу и гипертрофию и обеспечивает многочисленные другие позитивные преимущества для здоровья, включая повышение функциональных возможностей, характеристику кардиометаболических рисков и благосостояние. В связи с этим в качестве стратегии вмешательства для населения в целом рекомендуется организовать профессиональную подготовку по вопросам укрепления потенциала. Однако большинство людей воздерживаются от прохождения профессиональной подготовки и других видов физических упражнений, и почти четверть населения мира подвергается риску возникновения связанных со здоровьем проблем и болезней, связанных с бездействием. Поэтому необходимо найти пути вовлечения большего числа людей как в повседневную физическую деятельность, так и в такие повстанческие формы упражнений, как силовая подготовка, которая является одной из наиболее популярных форм упражнений в мире. Отсутствие времени является общим препятствием для участия в структурированных учениях, о котором сами сообщают. Таким образом, понимание того, как можно разработать программы профессиональной подготовки таким образом, чтобы сократить время обучения без существенного ущерба для результатов, могло бы побудить больше людей к участию в такой форме занятий.",
+      "text_ru": "Профессиональная подготовка по вопросам укрепления потенциала повышает мышечную силу и гипертрофию и обеспечивает многочисленные другие позитивные преимущества для здоровья, включая повышение функциональных возможностей, характеристику кардиометаболических рисков и благосостояние. В связи с этим в качестве стратегии вмешательства для населения в целом рекомендуется организовать профессиональную подготовку по вопросам укрепления потенциала. Однако большинство людей воздерживаются от прохождения профессиональной подготовки и других видов физических упражнений, и почти четверть населения мира подвергается риску возникновения связанных со здоровьем проблем и болезней, связанных с бездействием. Поэтому необходимо найти пути вовлечения большего числа людей как в повседневную физическую деятельность, так и в такие повстанческие формы упражнений, как силовая подготовка, которая является одной из наиболее популярных форм упражнений в мире. Отсутствие времени является общим препятствием для участия в структурированных учениях, о котором сами сообщают. Таким образом, понимание того, как можно разработать программы профессиональной подготовки таким образом, чтобы сократить время обучения без существенного ущерба для результатов, могло бы побудить больше людей к участию в такой форме занятий.",
+      "flags": [],
+      "review_status": "pending",
+      "segments": [
+        {
+          "en": "Strength training increases muscular strength and hypertrophy, and provides numerous other positive health benefits, including improved functional ability, cardio-metabolic risk profile and well-being.",
+          "ru": "Профессиональная подготовка по вопросам укрепления потенциала повышает мышечную силу и гипертрофию и обеспечивает многочисленные другие позитивные преимущества для здоровья, включая повышение функциональных возможностей, характеристику кардиометаболических рисков и благосостояние."
+        },
+        {
+          "en": "Strength training is therefore recommended as an interventional strategy for the general population.",
+          "ru": "В связи с этим в качестве стратегии вмешательства для населения в целом рекомендуется организовать профессиональную подготовку по вопросам укрепления потенциала."
+        },
+        {
+          "en": "However, a majority of people refrain from performing strength training and other forms of exercise, and as much as a quarter of the world’s population are at risk for developing health-related problems and diseases linked to inactivity.",
+          "ru": "Однако большинство людей воздерживаются от прохождения профессиональной подготовки и других видов физических упражнений, и почти четверть населения мира подвергается риску возникновения связанных со здоровьем проблем и болезней, связанных с бездействием."
+        },
+        {
+          "en": "Therefore, it is necessary to find ways to engage more people in both daily-life physical activities and regimented forms of exercise such as strength training, which is one of the most popular forms of exercise globally.",
+          "ru": "Поэтому необходимо найти пути вовлечения большего числа людей как в повседневную физическую деятельность, так и в такие повстанческие формы упражнений, как силовая подготовка, которая является одной из наиболее популярных форм упражнений в мире."
+        },
+        {
+          "en": "Lack of time is a common self-reported barrier to engagement in structured exercise.",
+          "ru": "Отсутствие времени является общим препятствием для участия в структурированных учениях, о котором сами сообщают."
+        },
+        {
+          "en": "Thus, understanding how strength training programs can be designed in ways that reduce training time without meaningfully compromising results could encourage more people to engage in this form of exercise.",
+          "ru": "Таким образом, понимание того, как можно разработать программы профессиональной подготовки таким образом, чтобы сократить время обучения без существенного ущерба для результатов, могло бы побудить больше людей к участию в такой форме занятий."
+        }
+      ]
+    },
+    {
+      "paragraph_id": "TR-026:p0050",
+      "section_en": "Conclusion",
+      "text_en": "In this narrative review, we have provided an overview of how acute training variables can be manipulated, and how specific training techniques can be used to optimize the training response: time ratio. This knowledge is important for people with limited time for training and for fitness and health professionals. Those with limited time for training should aim to train with ≥ 4 weekly sets per muscle group using a 6–15 RM loading range; if training is performed to volitional failure, a 15–40 repetitions range can also be employed. By performing bilateral, multi-joint exercises, all major muscle-groups can be targeted with as few as three exercises (i.e. a leg pressing exercise, an upper-body pushing exercise, and an upper-body pulling exercise: e.g. leg press, bench press and seated rows). Training can be performed in one, or several shorter sessions—whatever suits the individual. Additionally, advanced training techniques such as drop-sets, rest-pause training and supersets can be used to increase training volume in a more time-efficient fashion. To further reduce training time, individuals could abstain from stretching and a general warm-up, and limit the specific warm-up to the first exercise for each muscle group.",
+      "section_ru": "Заключение",
+      "text_ru_machine": "В настоящем обзоре описательной части мы представили обзор того, как можно манипулировать острыми переменными в области профессиональной подготовки и как можно использовать конкретные методы профессиональной подготовки для оптимизации ответных мер в области профессиональной подготовки: соотношение времени. Эти знания имеют важное значение для лиц с ограниченным временем подготовки, а также для специалистов в области физической подготовки и здравоохранения. Те, кто имеет ограниченное время для подготовки, должны стремиться к тому, чтобы тренироваться ≥ 4 еженедельных комплекта на каждую мышечную группу с использованием диапазона нагрузки 6-15 RM; если тренировка проводится в случае вольтального отказа, то можно также использовать диапазон повторений 15-40. Проводя двусторонние, многосовместные учения, все основные мышечные группы могут быть охвачены тремя упражнениями (т.е. упражнение по нажиму ног, упражнение по толканию верхней части тела и упражнение по вытягиванию верхней части тела: например, ножной пресс, стендовый пресс и сидячие ряды). Профессиональная подготовка может проводиться в рамках одного или нескольких более коротких занятий, независимо от того, как это подходит отдельному лицу. Кроме того, для более эффективного с точки зрения времени увеличения объема профессиональной подготовки могут использоваться такие передовые методы обучения, как сбрасывание, подготовка по вопросам отдыха и суперсети. В целях дальнейшего сокращения времени обучения отдельные лица могли бы воздержаться от растяжения и общего разогрева и ограничить разогрев до первого упражнения для каждой группы мышц.",
+      "text_ru": "В настоящем обзоре описательной части мы представили обзор того, как можно манипулировать острыми переменными в области профессиональной подготовки и как можно использовать конкретные методы профессиональной подготовки для оптимизации ответных мер в области профессиональной подготовки: соотношение времени. Эти знания имеют важное значение для лиц с ограниченным временем подготовки, а также для специалистов в области физической подготовки и здравоохранения. Те, кто имеет ограниченное время для подготовки, должны стремиться к тому, чтобы тренироваться ≥ 4 еженедельных комплекта на каждую мышечную группу с использованием диапазона нагрузки 6-15 RM; если тренировка проводится в случае вольтального отказа, то можно также использовать диапазон повторений 15-40. Проводя двусторонние, многосовместные учения, все основные мышечные группы могут быть охвачены тремя упражнениями (т.е. упражнение по нажиму ног, упражнение по толканию верхней части тела и упражнение по вытягиванию верхней части тела: например, ножной пресс, стендовый пресс и сидячие ряды). Профессиональная подготовка может проводиться в рамках одного или нескольких более коротких занятий, независимо от того, как это подходит отдельному лицу. Кроме того, для более эффективного с точки зрения времени увеличения объема профессиональной подготовки могут использоваться такие передовые методы обучения, как сбрасывание, подготовка по вопросам отдыха и суперсети. В целях дальнейшего сокращения времени обучения отдельные лица могли бы воздержаться от растяжения и общего разогрева и ограничить разогрев до первого упражнения для каждой группы мышц.",
+      "flags": [],
+      "review_status": "pending",
+      "segments": [
+        {
+          "en": "In this narrative review, we have provided an overview of how acute training variables can be manipulated, and how specific training techniques can be used to optimize the training response: time ratio.",
+          "ru": "В настоящем обзоре описательной части мы представили обзор того, как можно манипулировать острыми переменными в области профессиональной подготовки и как можно использовать конкретные методы профессиональной подготовки для оптимизации ответных мер в области профессиональной подготовки: соотношение времени."
+        },
+        {
+          "en": "This knowledge is important for people with limited time for training and for fitness and health professionals.",
+          "ru": "Эти знания имеют важное значение для лиц с ограниченным временем подготовки, а также для специалистов в области физической подготовки и здравоохранения."
+        },
+        {
+          "en": "Those with limited time for training should aim to train with ≥ 4 weekly sets per muscle group using a 6–15 RM loading range; if training is performed to volitional failure, a 15–40 repetitions range can also be employed.",
+          "ru": "Те, кто имеет ограниченное время для подготовки, должны стремиться к тому, чтобы тренироваться ≥ 4 еженедельных комплекта на каждую мышечную группу с использованием диапазона нагрузки 6-15 RM; если тренировка проводится в случае вольтального отказа, то можно также использовать диапазон повторений 15-40."
+        },
+        {
+          "en": "By performing bilateral, multi-joint exercises, all major muscle-groups can be targeted with as few as three exercises (i.e. a leg pressing exercise, an upper-body pushing exercise, and an upper-body pulling exercise: e.g. leg press, bench press and seated rows).",
+          "ru": "Проводя двусторонние, многосовместные учения, все основные мышечные группы могут быть охвачены тремя упражнениями (т.е. упражнение по нажиму ног, упражнение по толканию верхней части тела и упражнение по вытягиванию верхней части тела: например, ножной пресс, стендовый пресс и сидячие ряды)."
+        },
+        {
+          "en": "Training can be performed in one, or several shorter sessions—whatever suits the individual.",
+          "ru": "Профессиональная подготовка может проводиться в рамках одного или нескольких более коротких занятий, независимо от того, как это подходит отдельному лицу."
+        },
+        {
+          "en": "Additionally, advanced training techniques such as drop-sets, rest-pause training and supersets can be used to increase training volume in a more time-efficient fashion.",
+          "ru": "Кроме того, для более эффективного с точки зрения времени увеличения объема профессиональной подготовки могут использоваться такие передовые методы обучения, как сбрасывание, подготовка по вопросам отдыха и суперсети."
+        },
+        {
+          "en": "To further reduce training time, individuals could abstain from stretching and a general warm-up, and limit the specific warm-up to the first exercise for each muscle group.",
+          "ru": "В целях дальнейшего сокращения времени обучения отдельные лица могли бы воздержаться от растяжения и общего разогрева и ограничить разогрев до первого упражнения для каждой группы мышц."
+        }
+      ]
+    }
+  ]
+}

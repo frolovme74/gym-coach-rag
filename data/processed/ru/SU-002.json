@@ -1,0 +1,1527 @@
+{
+  "source_id": "SU-002",
+  "model": "Argos Translate English–Russian 1.9",
+  "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811",
+  "engine": "CTranslate2 int8; beam_size=4; length_penalty=0.2; sentence-level",
+  "paragraphs": [
+    {
+      "paragraph_id": "SU-002:p0001",
+      "section_en": "1. Introduction",
+      "text_en": "Creatine (methylguanidine-acetic acid) is considered to be one of the few efficacious ergogenic dietary supplements for augmenting resistance training (RT) adaptations. Mechanistically, creatine supplementation increases the skeletal muscles’ total creatine (free creatine and phosphocreatine), allowing for a greater capacity to rapidly resynthesize adenosine triphosphate and consequently enhance high-intensity exercise. Furthermore, creatine influences insulin-like growth factor-1, myogenic regulatory factors, satellite cells, cellular hydration, calcium and protein kinetics, glycogen content, inflammation, and oxidative stress, which may contribute to muscle accretion over time. Longitudinal evidence indicates that creatine supplementation, in conjunction with RT, augments gains in muscular strength, power output, and performance in a variety of physical tests related to anaerobic metabolism.",
+      "section_ru": "1.Введение",
+      "text_ru_machine": "Креатин (метилгуанидин-уксусная кислота) считается одним из немногих эффективных эргогенных пищевых добавок для повышения устойчивости к тренировкам (РТ). Механистически добавка креатина увеличивает общий креатин скелетных мышц (свободный креатин и фосфокреатин), что позволяет увеличить способность быстро ресинтезировать аденозинтрифосфат и, следовательно, усиливать упражнения высокой интенсивности. Кроме того, креатин влияет на инсулиноподобный фактор роста-1, миогенные регуляторные факторы, клетки-спутники, клеточную гидратацию, кинетику кальция и белка, содержание гликогена, воспаление и окислительный стресс, которые могут способствовать аккреции мышц с течением времени. Продольные данные показывают, что добавление креатина в сочетании с RT увеличивает увеличение мышечной силы, выходной мощности и производительности в различных физических тестах, связанных с анаэробным метаболизмом.",
+      "text_ru": "Креатин (метилгуанидин-уксусная кислота) считается одним из немногих эффективных эргогенных пищевых добавок для повышения устойчивости к тренировкам (РТ). Механистически добавка креатина увеличивает общий креатин скелетных мышц (свободный креатин и фосфокреатин), что позволяет увеличить способность быстро ресинтезировать аденозинтрифосфат и, следовательно, усиливать упражнения высокой интенсивности. Кроме того, креатин влияет на инсулиноподобный фактор роста-1, миогенные регуляторные факторы, клетки-спутники, клеточную гидратацию, кинетику кальция и белка, содержание гликогена, воспаление и окислительный стресс, которые могут способствовать аккреции мышц с течением времени. Продольные данные показывают, что добавление креатина в сочетании с RT увеличивает увеличение мышечной силы, выходной мощности и работоспособности в различных физических тестах, связанных с анаэробным метаболизмом.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "Creatine (methylguanidine-acetic acid) is considered to be one of the few efficacious ergogenic dietary supplements for augmenting resistance training (RT) adaptations.",
+          "ru": "Креатин (метилгуанидин-уксусная кислота) считается одним из немногих эффективных эргогенных пищевых добавок для повышения устойчивости к тренировкам (РТ).",
+          "output_tokens": 38,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Креатин (метилгуанидин-уксусная кислота) считается одним из немногих эффективных эргогенных пищевых добавок для повышения устойчивости к тренировкам (РТ).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Mechanistically, creatine supplementation increases the skeletal muscles’ total creatine (free creatine and phosphocreatine), allowing for a greater capacity to rapidly resynthesize adenosine triphosphate and consequently enhance high-intensity exercise.",
+          "ru": "Механистически добавка креатина увеличивает общий креатин скелетных мышц (свободный креатин и фосфокреатин), что позволяет увеличить способность быстро ресинтезировать аденозинтрифосфат и, следовательно, усиливать упражнения высокой интенсивности.",
+          "output_tokens": 57,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Механистически добавка креатина увеличивает общий креатин скелетных мышц (свободный креатин и фосфокреатин), что позволяет увеличить способность быстро ресинтезировать аденозинтрифосфат и, следовательно, усиливать упражнения высокой интенсивности.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Furthermore, creatine influences insulin-like growth factor-1, myogenic regulatory factors, satellite cells, cellular hydration, calcium and protein kinetics, glycogen content, inflammation, and oxidative stress, which may contribute to muscle accretion over time.",
+          "ru": "Кроме того, креатин влияет на инсулиноподобный фактор роста-1, миогенные регуляторные факторы, клетки-спутники, клеточную гидратацию, кинетику кальция и белка, содержание гликогена, воспаление и окислительный стресс, которые могут способствовать аккреции мышц с течением времени.",
+          "output_tokens": 69,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Кроме того, креатин влияет на инсулиноподобный фактор роста-1, миогенные регуляторные факторы, клетки-спутники, клеточную гидратацию, кинетику кальция и белка, содержание гликогена, воспаление и окислительный стресс, которые могут способствовать аккреции мышц с течением времени.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Longitudinal evidence indicates that creatine supplementation, in conjunction with RT, augments gains in muscular strength, power output, and performance in a variety of physical tests related to anaerobic metabolism.",
+          "ru": "Продольные данные показывают, что добавление креатина в сочетании с RT увеличивает увеличение мышечной силы, выходной мощности и производительности в различных физических тестах, связанных с анаэробным метаболизмом.",
+          "output_tokens": 44,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Продольные данные показывают, что добавление креатина в сочетании с RT увеличивает увеличение мышечной силы, выходной мощности и работоспособности в различных физических тестах, связанных с анаэробным метаболизмом.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_performance_wording"
+      ],
+      "section_ru_machine": "1.Введение",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 1
+      }
+    },
+    {
+      "paragraph_id": "SU-002:p0002",
+      "section_en": "1. Introduction",
+      "text_en": "Several meta-analyses have investigated the combined effects of creatine supplementation and RT, operationally defined as “a form of physical activity that is designed to improve muscular fitness by exercising a muscle or a muscle group against external resistance”, on changes in whole-body lean mass, as assessed by methods such as dual-energy X-ray absorptiometry (DXA), hydrodensitometry, whole-body air displacement plethysmography, and bioelectrical impedance analyses. Collectively, a combination of creatine supplementation and RT results in greater gains in lean mass compared to RT and a placebo. However, lean mass is an imprecise proxy surrogate for skeletal muscle mass as it comprises all non-fat tissue, including body water. Indeed, DXA, often considered to be a gold-standard measure of lean mass, correlates relatively poorly with longitudinal hypertrophic changes, as assessed by site-specific imaging modalities, which are regarded as gold-standard measures for assessing muscle size.",
+      "section_ru": "1.Введение",
+      "text_ru_machine": "Несколько мета-анализов исследовали комбинированные эффекты добавок креатина и РТ, оперативно определяемые как «форма физической активности, которая предназначена для улучшения мышечной пригодности путем тренировки мышцы или группы мышц против внешнего сопротивления», на изменения мышечной массы всего тела, как оценивается такими методами, как двухэнергетическая рентгеновская абсорбционометрия (DXA), гидродензитометрия, плетизмография смещения воздуха всего тела и биоэлектрический импедансный анализ. В совокупности комбинация добавок креатина и RT приводит к большему увеличению мышечной массы по сравнению с RT и плацебо. Тем не менее, постная масса является неточным прокси-суррогатом для скелетной мышечной массы, поскольку она включает в себя все нежирные ткани, включая воду для тела. Действительно, DXA, часто считающийся золотой стандартной мерой мышечной массы, относительно плохо коррелирует с продольными гипертрофическими изменениями, оцениваемыми с помощью специфических методов визуализации, которые рассматриваются как золотой стандарт для оценки размера мышц.",
+      "text_ru": "Несколько мета-анализов исследовали комбинированные эффекты добавок креатина и РТ, оперативно определяемые как «форма физической активности, которая предназначена для улучшения мышечной пригодности путем тренировки мышцы или группы мышц против внешнего сопротивления», на изменения мышечной массы всего тела, как оценивается такими методами, как двухэнергетическая рентгеновская абсорбционометрия (DXA), гидродензитометрия, плетизмография смещения воздуха всего тела и биоэлектрический импедансный анализ. В совокупности комбинация добавок креатина и RT приводит к большему увеличению мышечной массы по сравнению с RT и плацебо. Тем не менее, постная масса является неточным прокси-суррогатом для скелетной мышечной массы, поскольку она включает в себя все нежирные ткани, включая воду для тела. Действительно, DXA, часто считающийся золотой стандартной мерой мышечной массы, относительно плохо коррелирует с продольными гипертрофическими изменениями, оцениваемыми с помощью специфических методов визуализации, которые рассматриваются как золотой стандарт для оценки размера мышц.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "Several meta-analyses have investigated the combined effects of creatine supplementation and RT, operationally defined as “a form of physical activity that is designed to improve muscular fitness by exercising a muscle or a muscle group against external resistance”, on changes in whole-body lean mass, as assessed by methods such as dual-energy X-ray absorptiometry (DXA), hydrodensitometry, whole-body air displacement plethysmography, and bioelectrical impedance analyses.",
+          "ru": "Несколько мета-анализов исследовали комбинированные эффекты добавок креатина и РТ, оперативно определяемые как «форма физической активности, которая предназначена для улучшения мышечной пригодности путем тренировки мышцы или группы мышц против внешнего сопротивления», на изменения мышечной массы всего тела, как оценивается такими методами, как двухэнергетическая рентгеновская абсорбционометрия (DXA), гидродензитометрия, плетизмография смещения воздуха всего тела и биоэлектрический импедансный анализ.",
+          "output_tokens": 106,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Несколько мета-анализов исследовали комбинированные эффекты добавок креатина и РТ, оперативно определяемые как «форма физической активности, которая предназначена для улучшения мышечной пригодности путем тренировки мышцы или группы мышц против внешнего сопротивления», на изменения мышечной массы всего тела, как оценивается такими методами, как двухэнергетическая рентгеновская абсорбционометрия (DXA), гидродензитометрия, плетизмография смещения воздуха всего тела и биоэлектрический импедансный анализ.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Collectively, a combination of creatine supplementation and RT results in greater gains in lean mass compared to RT and a placebo.",
+          "ru": "В совокупности комбинация добавок креатина и RT приводит к большему увеличению мышечной массы по сравнению с RT и плацебо.",
+          "output_tokens": 25,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В совокупности комбинация добавок креатина и RT приводит к большему увеличению мышечной массы по сравнению с RT и плацебо.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "However, lean mass is an imprecise proxy surrogate for skeletal muscle mass as it comprises all non-fat tissue, including body water.",
+          "ru": "Тем не менее, постная масса является неточным прокси-суррогатом для скелетной мышечной массы, поскольку она включает в себя все нежирные ткани, включая воду для тела.",
+          "output_tokens": 41,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Тем не менее, постная масса является неточным прокси-суррогатом для скелетной мышечной массы, поскольку она включает в себя все нежирные ткани, включая воду для тела.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Indeed, DXA, often considered to be a gold-standard measure of lean mass, correlates relatively poorly with longitudinal hypertrophic changes, as assessed by site-specific imaging modalities, which are regarded as gold-standard measures for assessing muscle size.",
+          "ru": "Действительно, DXA, часто считающийся золотой стандартной мерой мышечной массы, относительно плохо коррелирует с продольными гипертрофическими изменениями, оцениваемыми с помощью специфических методов визуализации, которые рассматриваются как золотой стандарт для оценки размера мышц.",
+          "output_tokens": 54,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Действительно, DXA, часто считающийся золотой стандартной мерой мышечной массы, относительно плохо коррелирует с продольными гипертрофическими изменениями, оцениваемыми с помощью специфических методов визуализации, которые рассматриваются как золотой стандарт для оценки размера мышц.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "1.Введение",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-002:p0003",
+      "section_en": "1. Introduction",
+      "text_en": "Research indicates that creatine supplementation increases total body water. Given that creatine acts as an osmolyte, it is generally believed that the majority of its hydrating effects are compartmentalized intracellularly. However, some evidence suggests that at least some of the lean mass gains from creatine supplementation can be attributed to water retention, perhaps mediated by a decreased urine output. For example, supplementation with 20 g/day of creatine for 3 days followed by 5 g/day for 7 days in untrained participants increased the DXA estimates of their lean mass. More recently, Bone et al. found that supplementation with 20 g/day of creatine for 5 days followed by 3 g/day altered muscle metabolites and water content, which influenced the estimates of lean mass during a time period where minimal changes in the muscle protein mass were likely. Accordingly, the use of lean mass as a proxy for hypertrophy may be particularly problematic in studies investigating the effects of creatine supplementation when combined with regimented RT. To address this issue, we carried out a systematic review and meta-analysis of the current literature on the combined effects of RT and creatine supplementation on the regional changes in muscle mass in studies that utilize direct imaging measures of hypertrophy. Moreover, we performed regression analyses to determine the potential influence of covariates.",
+      "section_ru": "1.Введение",
+      "text_ru_machine": "Исследования показывают, что добавление креатина увеличивает общее количество воды в организме. Учитывая, что креатин действует как осмолит, считается, что большинство его гидратирующих эффектов разделены внутриклеточно. Тем не менее, некоторые данные свидетельствуют о том, что, по крайней мере, некоторые из прироста мышечной массы от приема креатина могут быть связаны с задержкой воды, возможно, опосредованной снижением выхода мочи. Например, добавление 20 г/день креатина в течение 3 дней с последующим 5 г/день в течение 7 дней у неподготовленных участников увеличило оценки DXA их мышечной массы. Совсем недавно Bone et al. обнаружили, что добавление 20 г/день креатина в течение 5 дней с последующим изменением 3 г/день мышечных метаболитов и содержания воды, что повлияло на оценки мышечной массы в течение периода времени, когда минимальные изменения мышечной массы белка были вероятны. Соответственно, использование постной массы в качестве прокси для гипертрофии может быть особенно проблематичным в исследованиях, исследующих эффекты добавок креатина в сочетании с регламентированным РТ. Для решения этой проблемы мы провели систематический обзор и мета-анализ современной литературы по комбинированному воздействию добавок РТ и креатина на региональные изменения мышечной массы в исследованиях, в которых используются прямые измерения визуализации гипертрофии. Кроме того, мы провели регрессионный анализ, чтобы определить потенциальное влияние ковариатов.",
+      "text_ru": "Исследования показывают, что добавление креатина увеличивает общее количество воды в организме. Учитывая, что креатин действует как осмолит, считается, что большинство его гидратирующих эффектов разделены внутриклеточно. Тем не менее, некоторые данные свидетельствуют о том, что, по крайней мере, некоторые из прироста мышечной массы от приема креатина могут быть связаны с задержкой воды, возможно, опосредованной снижением выхода мочи. Например, добавление 20 г/день креатина в течение 3 дней с последующим 5 г/день в течение 7 дней у неподготовленных участников увеличило оценки DXA их мышечной массы. Совсем недавно Bone et al. обнаружили, что добавление 20 г/день креатина в течение 5 дней с последующим изменением 3 г/день мышечных метаболитов и содержания воды, что повлияло на оценки мышечной массы в течение периода времени, когда минимальные изменения мышечной массы белка были вероятны. Соответственно, использование безжировой массы в качестве прокси для гипертрофии может быть особенно проблематичным в исследованиях, исследующих эффекты добавок креатина в сочетании с регламентированным РТ. Для решения этой проблемы мы провели систематический обзор и мета-анализ современной литературы по комбинированному воздействию добавок РТ и креатина на региональные изменения мышечной массы в исследованиях, в которых используются прямые измерения визуализации гипертрофии. Кроме того, мы провели регрессионный анализ, чтобы определить потенциальное влияние ковариатов.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "Research indicates that creatine supplementation increases total body water.",
+          "ru": "Исследования показывают, что добавление креатина увеличивает общее количество воды в организме.",
+          "output_tokens": 16,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Исследования показывают, что добавление креатина увеличивает общее количество воды в организме.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Given that creatine acts as an osmolyte, it is generally believed that the majority of its hydrating effects are compartmentalized intracellularly.",
+          "ru": "Учитывая, что креатин действует как осмолит, считается, что большинство его гидратирующих эффектов разделены внутриклеточно.",
+          "output_tokens": 29,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Учитывая, что креатин действует как осмолит, считается, что большинство его гидратирующих эффектов разделены внутриклеточно.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "However, some evidence suggests that at least some of the lean mass gains from creatine supplementation can be attributed to water retention, perhaps mediated by a decreased urine output.",
+          "ru": "Тем не менее, некоторые данные свидетельствуют о том, что, по крайней мере, некоторые из прироста мышечной массы от приема креатина могут быть связаны с задержкой воды, возможно, опосредованной снижением выхода мочи.",
+          "output_tokens": 50,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Тем не менее, некоторые данные свидетельствуют о том, что, по крайней мере, некоторые из прироста мышечной массы от приема креатина могут быть связаны с задержкой воды, возможно, опосредованной снижением выхода мочи.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "For example, supplementation with 20 g/day of creatine for 3 days followed by 5 g/day for 7 days in untrained participants increased the DXA estimates of their lean mass.",
+          "ru": "Например, добавление 20 г/день креатина в течение 3 дней с последующим 5 г/день в течение 7 дней у неподготовленных участников увеличило оценки DXA их мышечной массы.",
+          "output_tokens": 45,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Например, добавление 20 г/день креатина в течение 3 дней с последующим 5 г/день в течение 7 дней у неподготовленных участников увеличило оценки DXA их мышечной массы.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "More recently, Bone et al. found that supplementation with 20 g/day of creatine for 5 days followed by 3 g/day altered muscle metabolites and water content, which influenced the estimates of lean mass during a time period where minimal changes in the muscle protein mass were likely.",
+          "ru": "Совсем недавно Bone et al. обнаружили, что добавление 20 г/день креатина в течение 5 дней с последующим изменением 3 г/день мышечных метаболитов и содержания воды, что повлияло на оценки мышечной массы в течение периода времени, когда минимальные изменения мышечной массы белка были вероятны.",
+          "output_tokens": 69,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Совсем недавно Bone et al. обнаружили, что добавление 20 г/день креатина в течение 5 дней с последующим изменением 3 г/день мышечных метаболитов и содержания воды, что повлияло на оценки мышечной массы в течение периода времени, когда минимальные изменения мышечной массы белка были вероятны.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Accordingly, the use of lean mass as a proxy for hypertrophy may be particularly problematic in studies investigating the effects of creatine supplementation when combined with regimented RT.",
+          "ru": "Соответственно, использование постной массы в качестве прокси для гипертрофии может быть особенно проблематичным в исследованиях, исследующих эффекты добавок креатина в сочетании с регламентированным РТ.",
+          "output_tokens": 39,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Соответственно, использование безжировой массы в качестве прокси для гипертрофии может быть особенно проблематичным в исследованиях, исследующих эффекты добавок креатина в сочетании с регламентированным РТ.",
+          "editorial_status": "reviewed",
+          "flags_after_edit": []
+        },
+        {
+          "en": "To address this issue, we carried out a systematic review and meta-analysis of the current literature on the combined effects of RT and creatine supplementation on the regional changes in muscle mass in studies that utilize direct imaging measures of hypertrophy.",
+          "ru": "Для решения этой проблемы мы провели систематический обзор и мета-анализ современной литературы по комбинированному воздействию добавок РТ и креатина на региональные изменения мышечной массы в исследованиях, в которых используются прямые измерения визуализации гипертрофии.",
+          "output_tokens": 47,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Для решения этой проблемы мы провели систематический обзор и мета-анализ современной литературы по комбинированному воздействию добавок РТ и креатина на региональные изменения мышечной массы в исследованиях, в которых используются прямые измерения визуализации гипертрофии.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Moreover, we performed regression analyses to determine the potential influence of covariates.",
+          "ru": "Кроме того, мы провели регрессионный анализ, чтобы определить потенциальное влияние ковариатов.",
+          "output_tokens": 20,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Кроме того, мы провели регрессионный анализ, чтобы определить потенциальное влияние ковариатов.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "1.Введение",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 1,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-002:p0004",
+      "section_en": "2. Methods / 2.1. Literature Search",
+      "text_en": "We preregistered our methods for both the systematic review and the meta-analysis on the Open Science Framework website (https://osf.io/c7bez and https://osf.io/hdqzb (accessed on 15 January 2023), respectively). We searched the PubMed/MEDLINE, Scopus, and Web of Science databases from inception to February 2023 to locate relevant studies. The search syntax was performed using the following combination of terms: (“creatine”) AND (“supplement*”) AND (“resistance training” OR “resistance exercise” OR “weight lifting” OR “weight-lifting” OR “weightlifting” OR “strength exercise” OR “strength training” OR “strengthening” OR “resistive exercise” OR “resistive training”) AND (“muscle hypertrophy” OR “muscular hypertrophy” OR “muscle mass” OR “muscle size” OR “muscle thickness” OR “cross-sectional area” OR “cross sectional area” OR “muscle volume”). The other articles included in our systematic review were either known by the authors or identified by manually searching the bibliographies of the retrieved articles. Two researchers (RB and AM) screened the retrieved abstracts and reviewed the full texts for studies that conceivably met the inclusion criteria. Inclusion required agreement between both researchers; in cases where a disagreement arose, a third researcher (BJS) resolved the dispute. The methods followed the guidelines set forth by the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA).",
+      "section_ru": "2. Методы / 2.1. Литературный поиск",
+      "text_ru_machine": "Мы предварительно зарегистрировали наши методы для систематического обзора и мета-анализа на веб-сайте Open Science Framework (https://osf.io/c7bez и https://osf.io/hdqzb (доступен 15 января 2023 года), соответственно). Мы провели поиск в базах данных PubMed/MEDLINE, Scopus и Web of Science с начала по февраль 2023 года, чтобы найти соответствующие исследования. Поисковый синтаксис выполнялся с использованием следующего сочетания терминов: («креатин») И («дополнение*») И («тренинг сопротивления» ИЛИ «упражнение сопротивления» ИЛИ «подъем веса» ИЛИ «тяжелая атлетика» ИЛИ «упражнение силы» ИЛИ «укрепление силы» ИЛИ «упражнение резистентности» ИЛИ «гипертрофия мышц» ИЛИ «мускульная гипертрофия» ИЛИ «размер мышц» ИЛИ «толщина мышц» ИЛИ «площадь поперечного сечения» ИЛИ «объём мышц»). Другие статьи, включенные в наш систематический обзор, были либо известны авторам, либо идентифицированы путем ручного поиска библиографий извлеченных статей. Два исследователя (RB и AM) проверили извлеченные рефераты и рассмотрели полные тексты исследований, которые, возможно, соответствовали критериям включения. Включение требовало согласия между обоими исследователями; в случаях, когда возникало несогласие, спор разрешал третий исследователь (BJS). Методы соответствовали руководящим принципам, изложенным в Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA).",
+      "text_ru": "Мы предварительно зарегистрировали наши методы для систематического обзора и мета-анализа на веб-сайте Open Science Framework (https://osf.io/c7bez и https://osf.io/hdqzb (доступен 15 января 2023 года), соответственно). Мы провели поиск в базах данных PubMed/MEDLINE, Scopus и Web of Science с начала по февраль 2023 года, чтобы найти соответствующие исследования. Поисковый синтаксис выполнялся с использованием следующего сочетания терминов: («креатин») И («дополнение*») И («тренинг сопротивления» ИЛИ «упражнение сопротивления» ИЛИ «подъем веса» ИЛИ «тяжелая атлетика» ИЛИ «упражнение силы» ИЛИ «укрепление силы» ИЛИ «упражнение резистентности» ИЛИ «гипертрофия мышц» ИЛИ «мускульная гипертрофия» ИЛИ «размер мышц» ИЛИ «толщина мышц» ИЛИ «площадь поперечного сечения» ИЛИ «объём мышц»). Другие статьи, включенные в наш систематический обзор, были либо известны авторам, либо идентифицированы путем ручного поиска библиографий извлеченных статей. Два исследователя (RB и AM) проверили извлеченные рефераты и рассмотрели полные тексты исследований, которые, возможно, соответствовали критериям включения. Включение требовало согласия между обоими исследователями; в случаях, когда возникало несогласие, спор разрешал третий исследователь (BJS). Методы соответствовали руководящим принципам, изложенным в Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA).",
+      "flags": [
+        "check_training_term",
+        "mostly_not_russian"
+      ],
+      "review_status": "needs_review",
+      "segments": [
+        {
+          "en": "We preregistered our methods for both the systematic review and the meta-analysis on the Open Science Framework website (https://osf.io/c7bez and https://osf.io/hdqzb (accessed on 15 January 2023), respectively).",
+          "ru": "Мы предварительно зарегистрировали наши методы для систематического обзора и мета-анализа на веб-сайте Open Science Framework (https://osf.io/c7bez и https://osf.io/hdqzb (доступен 15 января 2023 года), соответственно).",
+          "output_tokens": 69,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Мы предварительно зарегистрировали наши методы для систематического обзора и мета-анализа на веб-сайте Open Science Framework (https://osf.io/c7bez и https://osf.io/hdqzb (доступен 15 января 2023 года), соответственно).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "We searched the PubMed/MEDLINE, Scopus, and Web of Science databases from inception to February 2023 to locate relevant studies.",
+          "ru": "Мы провели поиск в базах данных PubMed/MEDLINE, Scopus и Web of Science с начала по февраль 2023 года, чтобы найти соответствующие исследования.",
+          "output_tokens": 38,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Мы провели поиск в базах данных PubMed/MEDLINE, Scopus и Web of Science с начала по февраль 2023 года, чтобы найти соответствующие исследования.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The search syntax was performed using the following combination of terms: (“creatine”) AND (“supplement*”) AND (“resistance training” OR “resistance exercise” OR “weight lifting” OR “weight-lifting” OR “weightlifting” OR “strength exercise” OR “strength training” OR “strengthening” OR “resistive exercise” OR “resistive training”) AND (“muscle hypertrophy” OR “muscular hypertrophy” OR “muscle mass” OR “muscle size” OR “muscle thickness” OR “cross-sectional area” OR “cross sectional area” OR “muscle volume”).",
+          "ru": "Поисковый синтаксис выполнялся с использованием следующего сочетания терминов: («креатин») И («дополнение*») И («тренинг сопротивления» ИЛИ «упражнение сопротивления» ИЛИ «подъем веса» ИЛИ «тяжелая атлетика» ИЛИ «упражнение силы» ИЛИ «укрепление силы» ИЛИ «упражнение резистентности» ИЛИ «гипертрофия мышц» ИЛИ «мускульная гипертрофия» ИЛИ «размер мышц» ИЛИ «толщина мышц» ИЛИ «площадь поперечного сечения» ИЛИ «объём мышц»).",
+          "output_tokens": 143,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Поисковый синтаксис выполнялся с использованием следующего сочетания терминов: («креатин») И («дополнение*») И («тренинг сопротивления» ИЛИ «упражнение сопротивления» ИЛИ «подъем веса» ИЛИ «тяжелая атлетика» ИЛИ «упражнение силы» ИЛИ «укрепление силы» ИЛИ «упражнение резистентности» ИЛИ «гипертрофия мышц» ИЛИ «мускульная гипертрофия» ИЛИ «размер мышц» ИЛИ «толщина мышц» ИЛИ «площадь поперечного сечения» ИЛИ «объём мышц»).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": [
+            "check_training_term"
+          ]
+        },
+        {
+          "en": "The other articles included in our systematic review were either known by the authors or identified by manually searching the bibliographies of the retrieved articles.",
+          "ru": "Другие статьи, включенные в наш систематический обзор, были либо известны авторам, либо идентифицированы путем ручного поиска библиографий извлеченных статей.",
+          "output_tokens": 33,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Другие статьи, включенные в наш систематический обзор, были либо известны авторам, либо идентифицированы путем ручного поиска библиографий извлеченных статей.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Two researchers (RB and AM) screened the retrieved abstracts and reviewed the full texts for studies that conceivably met the inclusion criteria.",
+          "ru": "Два исследователя (RB и AM) проверили извлеченные рефераты и рассмотрели полные тексты исследований, которые, возможно, соответствовали критериям включения.",
+          "output_tokens": 35,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Два исследователя (RB и AM) проверили извлеченные рефераты и рассмотрели полные тексты исследований, которые, возможно, соответствовали критериям включения.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Inclusion required agreement between both researchers; in cases where a disagreement arose, a third researcher (BJS) resolved the dispute.",
+          "ru": "Включение требовало согласия между обоими исследователями; в случаях, когда возникало несогласие, спор разрешал третий исследователь (BJS).",
+          "output_tokens": 32,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Включение требовало согласия между обоими исследователями; в случаях, когда возникало несогласие, спор разрешал третий исследователь (BJS).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The methods followed the guidelines set forth by the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA).",
+          "ru": "Методы соответствовали руководящим принципам, изложенным в Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA).",
+          "output_tokens": 36,
+          "possible_output_truncation": false,
+          "flags_machine": [
+            "mostly_not_russian"
+          ],
+          "text_ru_edited": "Методы соответствовали руководящим принципам, изложенным в Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": [
+            "mostly_not_russian"
+          ]
+        }
+      ],
+      "flags_machine": [
+        "check_training_term",
+        "mostly_not_russian"
+      ],
+      "section_ru_machine": "2. Методы / 2.1. Литературный поиск",
+      "excluded_from_corpus": true,
+      "scope_exclusion_reason": "Методика поиска/статистического анализа обзора: не содержит тренировочного протокола или ответа предметной области. Перевод сохранён отдельно.",
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-002:p0005",
+      "section_en": "2. Methods / 2.2. Inclusion/Exclusion Criteria",
+      "text_en": "We included studies that: (1) investigated the longitudinal effects of creatine supplementation (in any form) combined with RT vs. RT without creatine supplementation; (2) had a duration of ≥6 weeks; (3) included adults (≥18 years of age); (4) were published in English-language peer-reviewed journals; and (5) reported pre–post study changes in site-specific hypertrophy, employing a validated imaging modality including magnetic resonance imaging (MRI), computed tomography (CT), or ultrasound.",
+      "section_ru": "2. Методы/ 2.2. Критерии включения/исключения",
+      "text_ru_machine": "Мы включили исследования, которые: (1) исследовали продольные эффекты добавок креатина (в любой форме) в сочетании с RT против RT без добавок креатина; (2) имели продолжительность ≥6 недель; (3) включали взрослых (≥18 лет); (4) были опубликованы в англоязычных рецензируемых журналах; и (5) сообщили об изменениях до пост-исследования в специфической для сайта гипертрофии, используя проверенную модальность визуализации, включая магнитно-резонансную томографию (МРТ), компьютерную томографию (КТ) или ультразвук.",
+      "text_ru": "Мы включили исследования, которые: (1) исследовали продольные эффекты добавок креатина (в любой форме) в сочетании с RT против RT без добавок креатина; (2) имели продолжительность ≥6 недель; (3) включали взрослых (≥18 лет); (4) были опубликованы в англоязычных рецензируемых журналах; и (5) сообщили об изменениях до пост-исследования в специфической для сайта гипертрофии, используя проверенную модальность визуализации, включая магнитно-резонансную томографию (МРТ), компьютерную томографию (КТ) или ультразвук.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "We included studies that: (1) investigated the longitudinal effects of creatine supplementation (in any form) combined with RT vs. RT without creatine supplementation; (2) had a duration of ≥6 weeks; (3) included adults (≥18 years of age); (4) were published in English-language peer-reviewed journals; and (5) reported pre–post study changes in site-specific hypertrophy, employing a validated imaging modality including magnetic resonance imaging (MRI), computed tomography (CT), or ultrasound.",
+          "ru": "Мы включили исследования, которые: (1) исследовали продольные эффекты добавок креатина (в любой форме) в сочетании с RT против RT без добавок креатина; (2) имели продолжительность ≥6 недель; (3) включали взрослых (≥18 лет); (4) были опубликованы в англоязычных рецензируемых журналах; и (5) сообщили об изменениях до пост-исследования в специфической для сайта гипертрофии, используя проверенную модальность визуализации, включая магнитно-резонансную томографию (МРТ), компьютерную томографию (КТ) или ультразвук.",
+          "output_tokens": 126,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Мы включили исследования, которые: (1) исследовали продольные эффекты добавок креатина (в любой форме) в сочетании с RT против RT без добавок креатина; (2) имели продолжительность ≥6 недель; (3) включали взрослых (≥18 лет); (4) были опубликованы в англоязычных рецензируемых журналах; и (5) сообщили об изменениях до пост-исследования в специфической для сайта гипертрофии, используя проверенную модальность визуализации, включая магнитно-резонансную томографию (МРТ), компьютерную томографию (КТ) или ультразвук.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "2. Методы/ 2.2. Критерии включения/исключения",
+      "excluded_from_corpus": true,
+      "scope_exclusion_reason": "Методика поиска/статистического анализа обзора: не содержит тренировочного протокола или ответа предметной области. Перевод сохранён отдельно.",
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-002:p0006",
+      "section_en": "2. Methods / 2.2. Inclusion/Exclusion Criteria",
+      "text_en": "Studies were excluded if: (1) the participants had pre-existing musculoskeletal disorders, cardiovascular diseases, or any other condition that could be considered detrimental to the RT performance; (2) other potentially anabolic ingredients were included in the supplementation formula (since protein is a food source, we allowed for supplementation with this macronutrient, provided its provision was equated between conditions); (3) blood flow restriction was incorporated into the RT protocol; or (4) there was insufficient numerical or graphical data provided to assess the differences between the conditions.",
+      "section_ru": "2. Методы/ 2.2. Критерии включения/исключения",
+      "text_ru_machine": "Исследования были исключены, если: (1) у участников были ранее существовавшие нарушения опорно-двигательного аппарата, сердечно-сосудистые заболевания или любое другое состояние, которое можно было бы считать вредным для производительности РТ; (2) другие потенциально анаболические ингредиенты были включены в формулу добавки (поскольку белок является источником пищи, мы допустили добавление этого макроэлемента, при условии, что его обеспечение было приравнено к условиям); (3) ограничение кровотока было включено в протокол РТ; или (4) было недостаточно численных или графических данных, предоставленных для оценки различий между условиями.",
+      "text_ru": "Исследования были исключены, если: (1) у участников были ранее существовавшие нарушения опорно-двигательного аппарата, сердечно-сосудистые заболевания или любое другое состояние, которое можно было бы считать вредным для работоспособности РТ; (2) другие потенциально анаболические ингредиенты были включены в формулу добавки (поскольку белок является источником пищи, мы допустили добавление этого макроэлемента, при условии, что его обеспечение было приравнено к условиям); (3) ограничение кровотока было включено в протокол РТ; или (4) было недостаточно численных или графических данных, предоставленных для оценки различий между условиями.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "Studies were excluded if: (1) the participants had pre-existing musculoskeletal disorders, cardiovascular diseases, or any other condition that could be considered detrimental to the RT performance; (2) other potentially anabolic ingredients were included in the supplementation formula (since protein is a food source, we allowed for supplementation with this macronutrient, provided its provision was equated between conditions); (3) blood flow restriction was incorporated into the RT protocol; or (4) there was insufficient numerical or graphical data provided to assess the differences between the conditions.",
+          "ru": "Исследования были исключены, если: (1) у участников были ранее существовавшие нарушения опорно-двигательного аппарата, сердечно-сосудистые заболевания или любое другое состояние, которое можно было бы считать вредным для производительности РТ; (2) другие потенциально анаболические ингредиенты были включены в формулу добавки (поскольку белок является источником пищи, мы допустили добавление этого макроэлемента, при условии, что его обеспечение было приравнено к условиям); (3) ограничение кровотока было включено в протокол РТ; или (4) было недостаточно численных или графических данных, предоставленных для оценки различий между условиями.",
+          "output_tokens": 131,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Исследования были исключены, если: (1) у участников были ранее существовавшие нарушения опорно-двигательного аппарата, сердечно-сосудистые заболевания или любое другое состояние, которое можно было бы считать вредным для работоспособности РТ; (2) другие потенциально анаболические ингредиенты были включены в формулу добавки (поскольку белок является источником пищи, мы допустили добавление этого макроэлемента, при условии, что его обеспечение было приравнено к условиям); (3) ограничение кровотока было включено в протокол РТ; или (4) было недостаточно численных или графических данных, предоставленных для оценки различий между условиями.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_performance_wording"
+      ],
+      "section_ru_machine": "2. Методы/ 2.2. Критерии включения/исключения",
+      "excluded_from_corpus": true,
+      "scope_exclusion_reason": "Методика поиска/статистического анализа обзора: не содержит тренировочного протокола или ответа предметной области. Перевод сохранён отдельно.",
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 1
+      }
+    },
+    {
+      "paragraph_id": "SU-002:p0007",
+      "section_en": "2. Methods / 2.3. Data Coding and Analysis",
+      "text_en": "We extracted the data from the included studies and coded them in an Excel spreadsheet (Microsoft Corporation, Redmond, Washington), which was performed by 2 authors (FA and MC) using the following classifications: (1) study characteristics (author, year of publication, and sample size); (2) participant demographics (age, sex, and RT status); (3) training methods (sets, exercises, frequency, duration, and repetitions); (4) supplementation methods (dose, timing, blinding, placebo, and protein supplementation); and (5) pre- and post-training means and standard deviations of hypertrophy. In cases where the studies lacked sufficient information regarding pre–post changes, we contacted the authors to request the missing data. If we were unable to acquire this data from authors, we extracted values from the figures using the WebPlotDigitizer online software (https://apps.automeris.io/wpd/, (accessed on 15 March 2023)) where applicable. To account for the possibility of coder drift, a third researcher (MS) re-coded 30% of the studies, all of which were randomly selected for assessment. The per case agreement was determined by dividing the number of variables that were coded the same by the total number of variables. Acceptance required a mean agreement of ≥90%. Any discrepancies in the extracted data were resolved through discussion and the mutual consensus of the coders.",
+      "section_ru": "2. Методы / 2.3. Кодирование и анализ данных",
+      "text_ru_machine": "Мы извлекли данные из включенных исследований и закодировали их в электронной таблице Excel (Microsoft Corporation, Redmond, Washington), которая была выполнена 2 авторами (FA и MC) с использованием следующих классификаций: (1) характеристики исследования (автор, год публикации и размер выборки); (2) демографические данные участников (возраст, пол и статус RT); (3) методы обучения (наборы, упражнения, частота, продолжительность и повторения); (4) методы добавок (доза, время, ослепление, плацебо и белковые добавки); и (5) до- и послетренировочные средства и стандартные отклонения гипертрофии. В тех случаях, когда в исследованиях отсутствовала достаточная информация об изменениях до публикации, мы связывались с авторами, чтобы запросить недостающие данные. Если мы не смогли получить эти данные от авторов, мы извлекли значения из цифр с помощью онлайн-программного обеспечения WebPlotDigitizer (https://apps.automeris.io/wpd/, (доступен 15 марта 2023 года)), где это применимо. Чтобы учесть возможность дрейфа кодеров, третий исследователь (MS) перекодировал 30% исследований, все из которых были случайно выбраны для оценки. Согласие на случай определялось путем деления числа переменных, которые были закодированы одинаково, на общее число переменных. Для принятия необходимо среднее соглашение ≥90%. Любые расхождения в извлеченных данных разрешались путем обсуждения и взаимного согласия кодеров.",
+      "text_ru": "Мы извлекли данные из включенных исследований и закодировали их в электронной таблице Excel (Microsoft Corporation, Redmond, Washington), которая была выполнена 2 авторами (FA и MC) с использованием следующих классификаций: (1) характеристики исследования (автор, год публикации и размер выборки); (2) демографические данные участников (возраст, пол и статус RT); (3) методы тренировки (подходы, упражнения, частота, продолжительность и повторения); (4) методы добавок (доза, время, ослепление, плацебо и белковые добавки); и (5) до- и послетренировочные средства и стандартные отклонения гипертрофии. В тех случаях, когда в исследованиях отсутствовала достаточная информация об изменениях до публикации, мы связывались с авторами, чтобы запросить недостающие данные. Если мы не смогли получить эти данные от авторов, мы извлекли значения из цифр с помощью онлайн-программного обеспечения WebPlotDigitizer (https://apps.automeris.io/wpd/, (доступен 15 марта 2023 года)), где это применимо. Чтобы учесть возможность дрейфа кодеров, третий исследователь (MS) перекодировал 30% исследований, все из которых были случайно выбраны для оценки. Согласие на случай определялось путем деления числа переменных, которые были закодированы одинаково, на общее число переменных. Для принятия необходимо среднее соглашение ≥90%. Любые расхождения в извлеченных данных разрешались путем обсуждения и взаимного согласия кодеров.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "We extracted the data from the included studies and coded them in an Excel spreadsheet (Microsoft Corporation, Redmond, Washington), which was performed by 2 authors (FA and MC) using the following classifications: (1) study characteristics (author, year of publication, and sample size); (2) participant demographics (age, sex, and RT status); (3) training methods (sets, exercises, frequency, duration, and repetitions); (4) supplementation methods (dose, timing, blinding, placebo, and protein supplementation); and (5) pre- and post-training means and standard deviations of hypertrophy.",
+          "ru": "Мы извлекли данные из включенных исследований и закодировали их в электронной таблице Excel (Microsoft Corporation, Redmond, Washington), которая была выполнена 2 авторами (FA и MC) с использованием следующих классификаций: (1) характеристики исследования (автор, год публикации и размер выборки); (2) демографические данные участников (возраст, пол и статус RT); (3) методы обучения (наборы, упражнения, частота, продолжительность и повторения); (4) методы добавок (доза, время, ослепление, плацебо и белковые добавки); и (5) до- и послетренировочные средства и стандартные отклонения гипертрофии.",
+          "output_tokens": 137,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Мы извлекли данные из включенных исследований и закодировали их в электронной таблице Excel (Microsoft Corporation, Redmond, Washington), которая была выполнена 2 авторами (FA и MC) с использованием следующих классификаций: (1) характеристики исследования (автор, год публикации и размер выборки); (2) демографические данные участников (возраст, пол и статус RT); (3) методы тренировки (подходы, упражнения, частота, продолжительность и повторения); (4) методы добавок (доза, время, ослепление, плацебо и белковые добавки); и (5) до- и послетренировочные средства и стандартные отклонения гипертрофии.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        },
+        {
+          "en": "In cases where the studies lacked sufficient information regarding pre–post changes, we contacted the authors to request the missing data.",
+          "ru": "В тех случаях, когда в исследованиях отсутствовала достаточная информация об изменениях до публикации, мы связывались с авторами, чтобы запросить недостающие данные.",
+          "output_tokens": 36,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В тех случаях, когда в исследованиях отсутствовала достаточная информация об изменениях до публикации, мы связывались с авторами, чтобы запросить недостающие данные.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "If we were unable to acquire this data from authors, we extracted values from the figures using the WebPlotDigitizer online software (https://apps.automeris.io/wpd/, (accessed on 15 March 2023)) where applicable.",
+          "ru": "Если мы не смогли получить эти данные от авторов, мы извлекли значения из цифр с помощью онлайн-программного обеспечения WebPlotDigitizer (https://apps.automeris.io/wpd/, (доступен 15 марта 2023 года)), где это применимо.",
+          "output_tokens": 68,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Если мы не смогли получить эти данные от авторов, мы извлекли значения из цифр с помощью онлайн-программного обеспечения WebPlotDigitizer (https://apps.automeris.io/wpd/, (доступен 15 марта 2023 года)), где это применимо.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "To account for the possibility of coder drift, a third researcher (MS) re-coded 30% of the studies, all of which were randomly selected for assessment.",
+          "ru": "Чтобы учесть возможность дрейфа кодеров, третий исследователь (MS) перекодировал 30% исследований, все из которых были случайно выбраны для оценки.",
+          "output_tokens": 31,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Чтобы учесть возможность дрейфа кодеров, третий исследователь (MS) перекодировал 30% исследований, все из которых были случайно выбраны для оценки.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The per case agreement was determined by dividing the number of variables that were coded the same by the total number of variables.",
+          "ru": "Согласие на случай определялось путем деления числа переменных, которые были закодированы одинаково, на общее число переменных.",
+          "output_tokens": 26,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Согласие на случай определялось путем деления числа переменных, которые были закодированы одинаково, на общее число переменных.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Acceptance required a mean agreement of ≥90%.",
+          "ru": "Для принятия необходимо среднее соглашение ≥90%.",
+          "output_tokens": 12,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Для принятия необходимо среднее соглашение ≥90%.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Any discrepancies in the extracted data were resolved through discussion and the mutual consensus of the coders.",
+          "ru": "Любые расхождения в извлеченных данных разрешались путем обсуждения и взаимного согласия кодеров.",
+          "output_tokens": 19,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Любые расхождения в извлеченных данных разрешались путем обсуждения и взаимного согласия кодеров.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_set_term",
+        "check_training_term"
+      ],
+      "section_ru_machine": "2. Методы / 2.3. Кодирование и анализ данных",
+      "excluded_from_corpus": true,
+      "scope_exclusion_reason": "Методика поиска/статистического анализа обзора: не содержит тренировочного протокола или ответа предметной области. Перевод сохранён отдельно.",
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 2
+      }
+    },
+    {
+      "paragraph_id": "SU-002:p0008",
+      "section_en": "2. Methods / 2.4. Methodological Quality",
+      "text_en": "As previously described, we assessed the methodological quality of the included studies via the Downs and Black assessment tool, which is a 27-item checklist that addresses the following aspects of a study’s design: reporting (items 1–10), external validity (items 11–13), internal validity (items 14–26), and statistical power (item 27). Consistent with previous systematic reviews of exercise interventions, we modified the checklist by adding two items relating to participant adherence (item 28) and training supervision (item 29). Each item in the checklist was scored with a “1” if the criterion was satisfied or with “0” if the criterion was not satisfied. Based on the summary scores, the studies were classified as follows: “good quality” (21–29 points); “moderate quality” (11–20 points); or “poor quality” (less than 11 points). Three reviewers (AP, FA, and AM) independently rated each study; any disagreements in the study ratings were resolved by a majority consensus.",
+      "section_ru": "2. Методы / 2.4. Методологическое качество",
+      "text_ru_machine": "Как было описано ранее, мы оценили методологическое качество включенных исследований с помощью инструмента оценки Downs and Black, который представляет собой контрольный список из 27 пунктов, в котором рассматриваются следующие аспекты дизайна исследования: отчетность (пункты 1-10), внешняя валидность (пункты 11-13), внутренняя валидность (пункты 14-26) и статистическая мощность (пункт 27). В соответствии с предыдущими систематическими обзорами мероприятий по физической нагрузке мы изменили контрольный список, добавив два пункта, касающихся соблюдения участниками (пункт 28) и контроля за профессиональной подготовкой (пункт 29). Каждый пункт контрольного перечня оценивался с помощью \"1\", если критерий был удовлетворен, или \"0\", если критерий не был удовлетворен. На основании итоговых баллов исследования были классифицированы следующим образом: «хорошее качество» (21–29 баллов); «умеренное качество» (11–20 баллов); или «плохое качество» (менее 11 баллов). Три рецензента (AP, FA и AM) независимо оценили каждое исследование; любые разногласия в рейтингах исследования были решены консенсусом большинства.",
+      "text_ru": "Как было описано ранее, мы оценили методологическое качество включенных исследований с помощью инструмента оценки Downs and Black, который представляет собой контрольный список из 27 пунктов, в котором рассматриваются следующие аспекты дизайна исследования: отчетность (пункты 1-10), внешняя валидность (пункты 11-13), внутренняя валидность (пункты 14-26) и статистическая мощность (пункт 27). В соответствии с предыдущими систематическими обзорами мероприятий по физической нагрузке мы изменили контрольный список, добавив два пункта, касающихся соблюдения участниками (пункт 28) и контроля за профессиональной подготовкой (пункт 29). Каждый пункт контрольного перечня оценивался с помощью \"1\", если критерий был удовлетворен, или \"0\", если критерий не был удовлетворен. На основании итоговых баллов исследования были классифицированы следующим образом: «хорошее качество» (21–29 баллов); «умеренное качество» (11–20 баллов); или «плохое качество» (менее 11 баллов). Три рецензента (AP, FA и AM) независимо оценили каждое исследование; любые разногласия в рейтингах исследования были решены консенсусом большинства.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "As previously described, we assessed the methodological quality of the included studies via the Downs and Black assessment tool, which is a 27-item checklist that addresses the following aspects of a study’s design: reporting (items 1–10), external validity (items 11–13), internal validity (items 14–26), and statistical power (item 27).",
+          "ru": "Как было описано ранее, мы оценили методологическое качество включенных исследований с помощью инструмента оценки Downs and Black, который представляет собой контрольный список из 27 пунктов, в котором рассматриваются следующие аспекты дизайна исследования: отчетность (пункты 1-10), внешняя валидность (пункты 11-13), внутренняя валидность (пункты 14-26) и статистическая мощность (пункт 27).",
+          "output_tokens": 85,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Как было описано ранее, мы оценили методологическое качество включенных исследований с помощью инструмента оценки Downs and Black, который представляет собой контрольный список из 27 пунктов, в котором рассматриваются следующие аспекты дизайна исследования: отчетность (пункты 1-10), внешняя валидность (пункты 11-13), внутренняя валидность (пункты 14-26) и статистическая мощность (пункт 27).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Consistent with previous systematic reviews of exercise interventions, we modified the checklist by adding two items relating to participant adherence (item 28) and training supervision (item 29).",
+          "ru": "В соответствии с предыдущими систематическими обзорами мероприятий по физической нагрузке мы изменили контрольный список, добавив два пункта, касающихся соблюдения участниками (пункт 28) и контроля за профессиональной подготовкой (пункт 29).",
+          "output_tokens": 43,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В соответствии с предыдущими систематическими обзорами мероприятий по физической нагрузке мы изменили контрольный список, добавив два пункта, касающихся соблюдения участниками (пункт 28) и контроля за профессиональной подготовкой (пункт 29).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Each item in the checklist was scored with a “1” if the criterion was satisfied or with “0” if the criterion was not satisfied.",
+          "ru": "Каждый пункт контрольного перечня оценивался с помощью \"1\", если критерий был удовлетворен, или \"0\", если критерий не был удовлетворен.",
+          "output_tokens": 33,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Каждый пункт контрольного перечня оценивался с помощью \"1\", если критерий был удовлетворен, или \"0\", если критерий не был удовлетворен.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Based on the summary scores, the studies were classified as follows: “good quality” (21–29 points); “moderate quality” (11–20 points); or “poor quality” (less than 11 points).",
+          "ru": "На основании итоговых баллов исследования были классифицированы следующим образом: «хорошее качество» (21–29 баллов); «умеренное качество» (11–20 баллов); или «плохое качество» (менее 11 баллов).",
+          "output_tokens": 51,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "На основании итоговых баллов исследования были классифицированы следующим образом: «хорошее качество» (21–29 баллов); «умеренное качество» (11–20 баллов); или «плохое качество» (менее 11 баллов).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Three reviewers (AP, FA, and AM) independently rated each study; any disagreements in the study ratings were resolved by a majority consensus.",
+          "ru": "Три рецензента (AP, FA и AM) независимо оценили каждое исследование; любые разногласия в рейтингах исследования были решены консенсусом большинства.",
+          "output_tokens": 33,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Три рецензента (AP, FA и AM) независимо оценили каждое исследование; любые разногласия в рейтингах исследования были решены консенсусом большинства.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "2. Методы / 2.4. Методологическое качество",
+      "excluded_from_corpus": true,
+      "scope_exclusion_reason": "Методика поиска/статистического анализа обзора: не содержит тренировочного протокола или ответа предметной области. Перевод сохранён отдельно.",
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-002:p0009",
+      "section_en": "2. Methods / 2.5. Statistics",
+      "text_en": "A Bayesian framework was chosen over a frequentist approach as it can provide more flexible modeling, enabling the results to be presented intuitively through the reporting of subjective probabilities. Where sufficient data were available, the comparative effects comparing RT with and without creatine supplementation were quantified using controlled absolute mean differences effect sizes to facilitate interpretations. Where there was a need to combine the results on different scales, controlled standardized mean differences effect sizes were used. Three-level random-effect Bayesian hierarchical models were used to pool the effect sizes and model the average effects, variance within the studies, variance between the studies, and covariance of multiple outcomes reported in the same study (e.g., hypertrophy of different sites and/or outcomes reported at multiple time points following the baseline). Within-study variance is influenced by pre–post correlations that are generally not reported. Rather than specifying a single correlation value, this was estimated but constrained using informative prior distributions. We intended to use these informative prior distributions for the comparative effect sizes based on previous meta-analysis data. However, due to limited information regarding regional changes in muscle mass, we ultimately employed default weakly informative prior distributions.",
+      "section_ru": "2. Методы / 2.5. Статистика",
+      "text_ru_machine": "Байесовская структура была выбрана по сравнению с частотным подходом, поскольку она может обеспечить более гибкое моделирование, позволяющее интуитивно представлять результаты посредством представления субъективных вероятностей. Там, где были доступны достаточные данные, сравнительные эффекты, сравнивающие RT с и без добавок креатина, были количественно оценены с использованием контролируемых абсолютных средних размеров эффектов для облегчения интерпретации. В тех случаях, когда возникает необходимость комбинировать результаты в различных масштабах, используются контролируемые стандартизированные средние размеры эффекта разницы. Трехуровневые байесовские иерархические модели случайных эффектов использовались для объединения размеров эффектов и моделирования средних эффектов, дисперсии в исследованиях, дисперсии между исследованиями и ковариации множественных результатов, сообщенных в одном и том же исследовании (например, гипертрофия различных участков и / или результаты, сообщенные в нескольких временных точках после базового уровня). На дисперсию внутри исследования влияют корреляции, которые обычно не сообщаются. Вместо определения единственного значения корреляции это было оценено, но ограничено с использованием информативных предыдущих распределений. Мы намеревались использовать эти информативные предварительные распределения для сравнительных размеров эффекта на основе предыдущих данных метаанализа. Однако из-за ограниченности информации о региональных изменениях мышечной массы мы в конечном итоге использовали слабоинформативные предварительные распределения.",
+      "text_ru": "Байесовская структура была выбрана по сравнению с частотным подходом, поскольку она может обеспечить более гибкое моделирование, позволяющее интуитивно представлять результаты посредством представления субъективных вероятностей. Там, где были доступны достаточные данные, сравнительные эффекты, сравнивающие RT с и без добавок креатина, были количественно оценены с использованием контролируемых абсолютных средних размеров эффектов для облегчения интерпретации. В тех случаях, когда возникает необходимость комбинировать результаты в различных масштабах, используются контролируемые стандартизированные средние размеры эффекта разницы. Трехуровневые байесовские иерархические модели случайных эффектов использовались для объединения размеров эффектов и моделирования средних эффектов, дисперсии в исследованиях, дисперсии между исследованиями и ковариации множественных результатов, сообщенных в одном и том же исследовании (например, гипертрофия различных участков и / или результаты, сообщенные в нескольких временных точках после базового уровня). На дисперсию внутри исследования влияют корреляции, которые обычно не сообщаются. Вместо определения единственного значения корреляции это было оценено, но ограничено с использованием информативных предыдущих распределений. Мы намеревались использовать эти информативные предварительные распределения для сравнительных размеров эффекта на основе предыдущих данных метаанализа. Однако из-за ограниченности информации о региональных изменениях мышечной массы мы в конечном итоге использовали слабоинформативные предварительные распределения.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "A Bayesian framework was chosen over a frequentist approach as it can provide more flexible modeling, enabling the results to be presented intuitively through the reporting of subjective probabilities.",
+          "ru": "Байесовская структура была выбрана по сравнению с частотным подходом, поскольку она может обеспечить более гибкое моделирование, позволяющее интуитивно представлять результаты посредством представления субъективных вероятностей.",
+          "output_tokens": 41,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Байесовская структура была выбрана по сравнению с частотным подходом, поскольку она может обеспечить более гибкое моделирование, позволяющее интуитивно представлять результаты посредством представления субъективных вероятностей.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Where sufficient data were available, the comparative effects comparing RT with and without creatine supplementation were quantified using controlled absolute mean differences effect sizes to facilitate interpretations.",
+          "ru": "Там, где были доступны достаточные данные, сравнительные эффекты, сравнивающие RT с и без добавок креатина, были количественно оценены с использованием контролируемых абсолютных средних размеров эффектов для облегчения интерпретации.",
+          "output_tokens": 45,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Там, где были доступны достаточные данные, сравнительные эффекты, сравнивающие RT с и без добавок креатина, были количественно оценены с использованием контролируемых абсолютных средних размеров эффектов для облегчения интерпретации.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Where there was a need to combine the results on different scales, controlled standardized mean differences effect sizes were used.",
+          "ru": "В тех случаях, когда возникает необходимость комбинировать результаты в различных масштабах, используются контролируемые стандартизированные средние размеры эффекта разницы.",
+          "output_tokens": 27,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В тех случаях, когда возникает необходимость комбинировать результаты в различных масштабах, используются контролируемые стандартизированные средние размеры эффекта разницы.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Three-level random-effect Bayesian hierarchical models were used to pool the effect sizes and model the average effects, variance within the studies, variance between the studies, and covariance of multiple outcomes reported in the same study (e.g., hypertrophy of different sites and/or outcomes reported at multiple time points following the baseline).",
+          "ru": "Трехуровневые байесовские иерархические модели случайных эффектов использовались для объединения размеров эффектов и моделирования средних эффектов, дисперсии в исследованиях, дисперсии между исследованиями и ковариации множественных результатов, сообщенных в одном и том же исследовании (например, гипертрофия различных участков и / или результаты, сообщенные в нескольких временных точках после базового уровня).",
+          "output_tokens": 83,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Трехуровневые байесовские иерархические модели случайных эффектов использовались для объединения размеров эффектов и моделирования средних эффектов, дисперсии в исследованиях, дисперсии между исследованиями и ковариации множественных результатов, сообщенных в одном и том же исследовании (например, гипертрофия различных участков и / или результаты, сообщенные в нескольких временных точках после базового уровня).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Within-study variance is influenced by pre–post correlations that are generally not reported.",
+          "ru": "На дисперсию внутри исследования влияют корреляции, которые обычно не сообщаются.",
+          "output_tokens": 17,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "На дисперсию внутри исследования влияют корреляции, которые обычно не сообщаются.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Rather than specifying a single correlation value, this was estimated but constrained using informative prior distributions.",
+          "ru": "Вместо определения единственного значения корреляции это было оценено, но ограничено с использованием информативных предыдущих распределений.",
+          "output_tokens": 28,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Вместо определения единственного значения корреляции это было оценено, но ограничено с использованием информативных предыдущих распределений.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "We intended to use these informative prior distributions for the comparative effect sizes based on previous meta-analysis data.",
+          "ru": "Мы намеревались использовать эти информативные предварительные распределения для сравнительных размеров эффекта на основе предыдущих данных метаанализа.",
+          "output_tokens": 27,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Мы намеревались использовать эти информативные предварительные распределения для сравнительных размеров эффекта на основе предыдущих данных метаанализа.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "However, due to limited information regarding regional changes in muscle mass, we ultimately employed default weakly informative prior distributions.",
+          "ru": "Однако из-за ограниченности информации о региональных изменениях мышечной массы мы в конечном итоге использовали слабоинформативные предварительные распределения.",
+          "output_tokens": 27,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Однако из-за ограниченности информации о региональных изменениях мышечной массы мы в конечном итоге использовали слабоинформативные предварительные распределения.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "2. Методы / 2.5. Статистика",
+      "excluded_from_corpus": true,
+      "scope_exclusion_reason": "Методика поиска/статистического анализа обзора: не содержит тренировочного протокола или ответа предметной области. Перевод сохранён отдельно.",
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-002:p0010",
+      "section_en": "2. Methods / 2.5. Statistics",
+      "text_en": "The inconsistency in the models was described by comparing the variances across the three levels. Inferences from all the analyses were made from posterior samples generated using the Hamiltonian Markov Chain Monte Carlo method and via the use of credible intervals (CrI), and the probabilities were calculated. The interpretations were based on the range of values within the CrI and the calculations of the probability that the magnitude of the average effect size exceeded the qualitative thresholds (i.e., small, medium, and large) that were specific to the strength and conditioning interventions. Meta-regression or subgroup analyses were performed when there were sufficient data, including a minimum of 4 data points per category level or 10 data points for the continuous variables. The small-study effects (publication bias, etc.) were visually inspected with funnel plots and quantified with a multi-level extension of Egger’s regression intercept test. The analyses were performed using the R wrapper package brms interfaced with Stan to perform the sampling.",
+      "section_ru": "2. Методы / 2.5. Статистика",
+      "text_ru_machine": "Несоответствие в моделях было описано путем сравнения дисперсий на трех уровнях. Выводы из всех анализов были сделаны из задних образцов, полученных с использованием метода Гамильтоновой цепи Маркова Монте-Карло и с использованием достоверных интервалов (CrI), и были рассчитаны вероятности. Интерпретации были основаны на диапазоне значений в CrI и расчетах вероятности того, что величина среднего размера эффекта превысила качественные пороги (т.е. малые, средние и большие), которые были специфичны для вмешательств силы и кондиционирования. Мета-регрессионные или подгрупповые анализы проводились при наличии достаточного количества данных, включая минимум 4 точки данных на уровне категории или 10 точек данных для непрерывных переменных. Эффекты небольших исследований (предвзятость публикации и т. Д.) были визуально проверены с помощью вороночных участков и количественно оценены с помощью многоуровневого расширения теста перехвата регрессии Эггера. Анализы проводились с использованием пакета R-обертки brms, сопряженного со Stan, для выполнения выборки.",
+      "text_ru": "Несоответствие в моделях было описано путем сравнения дисперсий на трех уровнях. Выводы из всех анализов были сделаны из задних образцов, полученных с использованием метода Гамильтоновой цепи Маркова Монте-Карло и с использованием достоверных интервалов (CrI), и были рассчитаны вероятности. Интерпретации были основаны на диапазоне значений в CrI и расчетах вероятности того, что величина среднего размера эффекта превысила качественные пороги (т.е. малые, средние и большие), которые были специфичны для вмешательств силы и кондиционирования. Мета-регрессионные или подгрупповые анализы проводились при наличии достаточного количества данных, включая минимум 4 точки данных на уровне категории или 10 точек данных для непрерывных переменных. Эффекты небольших исследований (предвзятость публикации и т. Д.) были визуально проверены с помощью вороночных участков и количественно оценены с помощью многоуровневого расширения теста перехвата регрессии Эггера. Анализы проводились с использованием пакета R-обертки brms, сопряженного со Stan, для выполнения выборки.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "The inconsistency in the models was described by comparing the variances across the three levels.",
+          "ru": "Несоответствие в моделях было описано путем сравнения дисперсий на трех уровнях.",
+          "output_tokens": 19,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Несоответствие в моделях было описано путем сравнения дисперсий на трех уровнях.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Inferences from all the analyses were made from posterior samples generated using the Hamiltonian Markov Chain Monte Carlo method and via the use of credible intervals (CrI), and the probabilities were calculated.",
+          "ru": "Выводы из всех анализов были сделаны из задних образцов, полученных с использованием метода Гамильтоновой цепи Маркова Монте-Карло и с использованием достоверных интервалов (CrI), и были рассчитаны вероятности.",
+          "output_tokens": 48,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Выводы из всех анализов были сделаны из задних образцов, полученных с использованием метода Гамильтоновой цепи Маркова Монте-Карло и с использованием достоверных интервалов (CrI), и были рассчитаны вероятности.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The interpretations were based on the range of values within the CrI and the calculations of the probability that the magnitude of the average effect size exceeded the qualitative thresholds (i.e., small, medium, and large) that were specific to the strength and conditioning interventions.",
+          "ru": "Интерпретации были основаны на диапазоне значений в CrI и расчетах вероятности того, что величина среднего размера эффекта превысила качественные пороги (т.е. малые, средние и большие), которые были специфичны для вмешательств силы и кондиционирования.",
+          "output_tokens": 58,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Интерпретации были основаны на диапазоне значений в CrI и расчетах вероятности того, что величина среднего размера эффекта превысила качественные пороги (т.е. малые, средние и большие), которые были специфичны для вмешательств силы и кондиционирования.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Meta-regression or subgroup analyses were performed when there were sufficient data, including a minimum of 4 data points per category level or 10 data points for the continuous variables.",
+          "ru": "Мета-регрессионные или подгрупповые анализы проводились при наличии достаточного количества данных, включая минимум 4 точки данных на уровне категории или 10 точек данных для непрерывных переменных.",
+          "output_tokens": 39,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Мета-регрессионные или подгрупповые анализы проводились при наличии достаточного количества данных, включая минимум 4 точки данных на уровне категории или 10 точек данных для непрерывных переменных.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The small-study effects (publication bias, etc.) were visually inspected with funnel plots and quantified with a multi-level extension of Egger’s regression intercept test.",
+          "ru": "Эффекты небольших исследований (предвзятость публикации и т. Д.) были визуально проверены с помощью вороночных участков и количественно оценены с помощью многоуровневого расширения теста перехвата регрессии Эггера.",
+          "output_tokens": 50,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Эффекты небольших исследований (предвзятость публикации и т. Д.) были визуально проверены с помощью вороночных участков и количественно оценены с помощью многоуровневого расширения теста перехвата регрессии Эггера.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The analyses were performed using the R wrapper package brms interfaced with Stan to perform the sampling.",
+          "ru": "Анализы проводились с использованием пакета R-обертки brms, сопряженного со Stan, для выполнения выборки.",
+          "output_tokens": 28,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Анализы проводились с использованием пакета R-обертки brms, сопряженного со Stan, для выполнения выборки.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "2. Методы / 2.5. Статистика",
+      "excluded_from_corpus": true,
+      "scope_exclusion_reason": "Методика поиска/статистического анализа обзора: не содержит тренировочного протокола или ответа предметной области. Перевод сохранён отдельно.",
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-002:p0011",
+      "section_en": "3. Results / 3.1. Descriptive Data",
+      "text_en": "A total of 10 articles met the inclusion criteria (see Figure 1 and Table 1). The duration of the studies ranged from 6 to 52 weeks. Four studies included young adults (aged 21–26 years) and 6 studies included older adults (aged 57–72 years). Four studies included only males, one study included only females, and five studies included both males and females. Two studies employed resistance-trained participants and the others employed untrained participants. All the studies incorporated a parallel group design and all the RT sessions were performed two–five times per week. One study solely focused on training the elbow flexors; all the other studies implemented total-body training protocols. One study involved a creatine “loading” phase, which involved the consumption of 20 g/day of creatine for 5 consecutive days prior to consuming 5 g/day for the remaining duration of the study; one study involved the supplementation of either 6 g/day of creatine or 6 g/day of creatine in combination with 30 g of whey protein; and all the other studies implemented dosing protocols of either 0.1 or 0.15 g/kg/day of creatine. Three studies involved the ingestion of creatine two–four times per week and all the other studies involved the ingestion of creatine five–seven times per week. One study measured the muscle CSA of the lower leg and forearm using peripheral quantitative computed tomography, one study measured the CSA of the vastus lateralis using ultrasonography, and the remaining studies measured the muscle thickness of the upper and lower extremities using ultrasonography.",
+      "section_ru": "3.Результаты / 3.1.Описательные данные",
+      "text_ru_machine": "В общей сложности 10 статей соответствовали критериям включения (см. Рисунок 1 и Таблица 1). Продолжительность исследований варьировалась от 6 до 52 недель. Четыре исследования включали молодых людей (в возрасте 21-26 лет) и 6 исследований включали пожилых людей (в возрасте 57-72 лет). Четыре исследования включали только мужчин, одно исследование включало только женщин, а пять исследований включали как мужчин, так и женщин. В двух исследованиях использовались участники, обученные сопротивлению, а в других — неподготовленные участники. Все исследования включали параллельный групповой дизайн, и все сеансы RT проводились два-пять раз в неделю. Одно исследование было сосредоточено исключительно на тренировке локтевых сгибателей; во всех других исследованиях были реализованы протоколы обучения всего тела. Одно исследование включало фазу «загрузки» креатина, которая включала потребление 20 г / день креатина в течение 5 последовательных дней до потребления 5 г / день в течение оставшейся продолжительности исследования; одно исследование включало добавление либо 6 г / день креатина, либо 6 г / день креатина в сочетании с 30 г сывороточного белка; и все другие исследования реализовали протоколы дозирования 0,1 или 0,15 г / кг / день креатина. Три исследования включали прием креатина два-четыре раза в неделю, а все другие исследования включали прием креатина пять-семь раз в неделю. В одном исследовании измеряли мышечную CSA нижней части ноги и предплечья с помощью периферической количественной компьютерной томографии, в одном исследовании измеряли CSA обширного бокового прохода с помощью ультрасонографии, а в остальных исследованиях измеряли толщину мышц верхней и нижней конечностей с помощью ультрасонографии.",
+      "text_ru": "В общей сложности 10 статей соответствовали критериям включения (см. Рисунок 1 и Таблица 1). Продолжительность исследований варьировалась от 6 до 52 недель. Четыре исследования включали молодых людей (в возрасте 21-26 лет) и 6 исследований включали пожилых людей (в возрасте 57-72 лет). Четыре исследования включали только мужчин, одно исследование включало только женщин, а пять исследований включали как мужчин, так и женщин. В двух исследованиях использовались участники, тренированные в силовых упражнениях, а в других — неподготовленные участники. Все исследования включали параллельный групповой дизайн, и все сеансы RT проводились два-пять раз в неделю. Одно исследование было сосредоточено исключительно на тренировке локтевых сгибателей; во всех других исследованиях были реализованы протоколы тренировки всего тела. Одно исследование включало фазу «загрузки» креатина, которая включала потребление 20 г / день креатина в течение 5 последовательных дней до потребления 5 г / день в течение оставшейся продолжительности исследования; одно исследование включало добавление либо 6 г / день креатина, либо 6 г / день креатина в сочетании с 30 г сывороточного белка; и все другие исследования реализовали протоколы дозирования 0,1 или 0,15 г / кг / день креатина. Три исследования включали прием креатина два-четыре раза в неделю, а все другие исследования включали прием креатина пять-семь раз в неделю. В одном исследовании измеряли мышечную CSA нижней части ноги и предплечья с помощью периферической количественной компьютерной томографии, в одном исследовании измеряли CSA обширного бокового прохода с помощью ультрасонографии, а в остальных исследованиях измеряли толщину мышц верхней и нижней конечностей с помощью ультрасонографии.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "A total of 10 articles met the inclusion criteria (see Figure 1 and Table 1).",
+          "ru": "В общей сложности 10 статей соответствовали критериям включения (см. Рисунок 1 и Таблица 1).",
+          "output_tokens": 23,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В общей сложности 10 статей соответствовали критериям включения (см. Рисунок 1 и Таблица 1).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The duration of the studies ranged from 6 to 52 weeks.",
+          "ru": "Продолжительность исследований варьировалась от 6 до 52 недель.",
+          "output_tokens": 14,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Продолжительность исследований варьировалась от 6 до 52 недель.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Four studies included young adults (aged 21–26 years) and 6 studies included older adults (aged 57–72 years).",
+          "ru": "Четыре исследования включали молодых людей (в возрасте 21-26 лет) и 6 исследований включали пожилых людей (в возрасте 57-72 лет).",
+          "output_tokens": 29,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Четыре исследования включали молодых людей (в возрасте 21-26 лет) и 6 исследований включали пожилых людей (в возрасте 57-72 лет).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Four studies included only males, one study included only females, and five studies included both males and females.",
+          "ru": "Четыре исследования включали только мужчин, одно исследование включало только женщин, а пять исследований включали как мужчин, так и женщин.",
+          "output_tokens": 26,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Четыре исследования включали только мужчин, одно исследование включало только женщин, а пять исследований включали как мужчин, так и женщин.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Two studies employed resistance-trained participants and the others employed untrained participants.",
+          "ru": "В двух исследованиях использовались участники, обученные сопротивлению, а в других — неподготовленные участники.",
+          "output_tokens": 23,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В двух исследованиях использовались участники, тренированные в силовых упражнениях, а в других — неподготовленные участники.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        },
+        {
+          "en": "All the studies incorporated a parallel group design and all the RT sessions were performed two–five times per week.",
+          "ru": "Все исследования включали параллельный групповой дизайн, и все сеансы RT проводились два-пять раз в неделю.",
+          "output_tokens": 24,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Все исследования включали параллельный групповой дизайн, и все сеансы RT проводились два-пять раз в неделю.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "One study solely focused on training the elbow flexors; all the other studies implemented total-body training protocols.",
+          "ru": "Одно исследование было сосредоточено исключительно на тренировке локтевых сгибателей; во всех других исследованиях были реализованы протоколы обучения всего тела.",
+          "output_tokens": 33,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Одно исследование было сосредоточено исключительно на тренировке локтевых сгибателей; во всех других исследованиях были реализованы протоколы тренировки всего тела.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        },
+        {
+          "en": "One study involved a creatine “loading” phase, which involved the consumption of 20 g/day of creatine for 5 consecutive days prior to consuming 5 g/day for the remaining duration of the study; one study involved the supplementation of either 6 g/day of creatine or 6 g/day of creatine in combination with 30 g of whey protein; and all the other studies implemented dosing protocols of either 0.1 or 0.15 g/kg/day of creatine.",
+          "ru": "Одно исследование включало фазу «загрузки» креатина, которая включала потребление 20 г / день креатина в течение 5 последовательных дней до потребления 5 г / день в течение оставшейся продолжительности исследования; одно исследование включало добавление либо 6 г / день креатина, либо 6 г / день креатина в сочетании с 30 г сывороточного белка; и все другие исследования реализовали протоколы дозирования 0,1 или 0,15 г / кг / день креатина.",
+          "output_tokens": 107,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Одно исследование включало фазу «загрузки» креатина, которая включала потребление 20 г / день креатина в течение 5 последовательных дней до потребления 5 г / день в течение оставшейся продолжительности исследования; одно исследование включало добавление либо 6 г / день креатина, либо 6 г / день креатина в сочетании с 30 г сывороточного белка; и все другие исследования реализовали протоколы дозирования 0,1 или 0,15 г / кг / день креатина.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Three studies involved the ingestion of creatine two–four times per week and all the other studies involved the ingestion of creatine five–seven times per week.",
+          "ru": "Три исследования включали прием креатина два-четыре раза в неделю, а все другие исследования включали прием креатина пять-семь раз в неделю.",
+          "output_tokens": 34,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Три исследования включали прием креатина два-четыре раза в неделю, а все другие исследования включали прием креатина пять-семь раз в неделю.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "One study measured the muscle CSA of the lower leg and forearm using peripheral quantitative computed tomography, one study measured the CSA of the vastus lateralis using ultrasonography, and the remaining studies measured the muscle thickness of the upper and lower extremities using ultrasonography.",
+          "ru": "В одном исследовании измеряли мышечную CSA нижней части ноги и предплечья с помощью периферической количественной компьютерной томографии, в одном исследовании измеряли CSA обширного бокового прохода с помощью ультрасонографии, а в остальных исследованиях измеряли толщину мышц верхней и нижней конечностей с помощью ультрасонографии.",
+          "output_tokens": 70,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В одном исследовании измеряли мышечную CSA нижней части ноги и предплечья с помощью периферической количественной компьютерной томографии, в одном исследовании измеряли CSA обширного бокового прохода с помощью ультрасонографии, а в остальных исследованиях измеряли толщину мышц верхней и нижней конечностей с помощью ультрасонографии.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_training_term"
+      ],
+      "section_ru_machine": "3.Результаты / 3.1.Описательные данные",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 3
+      }
+    },
+    {
+      "paragraph_id": "SU-002:p0013",
+      "section_en": "3. Results / 3.2. Univariate Analysis of Standardized Differences",
+      "text_en": "These distributions represent “shrunken estimates” based on all the effect sizes included and the random effects model fitted and borrowed information across the studies to reduce uncertainty. The black circles and connected intervals represent the median values and 95% credible intervals for the shrunken estimates. The white circles and intervals represent the raw estimates and sampling variances calculated directly from the study data.",
+      "section_ru": "3.Результаты / 3.2. Одномерный анализ стандартизованных различий",
+      "text_ru_machine": "Эти распределения представляют собой «сокращенные оценки», основанные на всех размерах эффекта и модели случайных эффектов, установленной и заимствованной информации в исследованиях для снижения неопределенности. Черные круги и связанные интервалы представляют собой средние значения и 95% достоверных интервалов для сокращенных оценок. Белые круги и интервалы представляют собой необработанные оценки и дисперсии выборки, рассчитанные непосредственно из данных исследования.",
+      "text_ru": "Эти распределения представляют собой «сокращенные оценки», основанные на всех размерах эффекта и модели случайных эффектов, установленной и заимствованной информации в исследованиях для снижения неопределенности. Черные круги и связанные интервалы представляют собой средние значения и 95% достоверных интервалов для сокращенных оценок. Белые круги и интервалы представляют собой необработанные оценки и дисперсии выборки, рассчитанные непосредственно из данных исследования.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "These distributions represent “shrunken estimates” based on all the effect sizes included and the random effects model fitted and borrowed information across the studies to reduce uncertainty.",
+          "ru": "Эти распределения представляют собой «сокращенные оценки», основанные на всех размерах эффекта и модели случайных эффектов, установленной и заимствованной информации в исследованиях для снижения неопределенности.",
+          "output_tokens": 37,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Эти распределения представляют собой «сокращенные оценки», основанные на всех размерах эффекта и модели случайных эффектов, установленной и заимствованной информации в исследованиях для снижения неопределенности.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The black circles and connected intervals represent the median values and 95% credible intervals for the shrunken estimates.",
+          "ru": "Черные круги и связанные интервалы представляют собой средние значения и 95% достоверных интервалов для сокращенных оценок.",
+          "output_tokens": 23,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Черные круги и связанные интервалы представляют собой средние значения и 95% достоверных интервалов для сокращенных оценок.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The white circles and intervals represent the raw estimates and sampling variances calculated directly from the study data.",
+          "ru": "Белые круги и интервалы представляют собой необработанные оценки и дисперсии выборки, рассчитанные непосредственно из данных исследования.",
+          "output_tokens": 29,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Белые круги и интервалы представляют собой необработанные оценки и дисперсии выборки, рассчитанные непосредственно из данных исследования.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "3.Результаты / 3.2. Одномерный анализ стандартизованных различий",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-002:p0014",
+      "section_en": "3. Results / 3.3. Multivariate Analysis of Absolute Differences",
+      "text_en": "The initial analyses were conducted using the controlled absolute changes in the muscle hypertrophy measured by an ultrasound in cm. The multivariable analyses were conducted and split into upper-body (elbow extensors: seven studies; elbow flexors: eight studies ) and lower-body (knee extensors and knee flexors: seven studies ).",
+      "section_ru": "3.Результаты / 3.3.Многомерный анализ абсолютных различий",
+      "text_ru_machine": "Первоначальный анализ проводился с использованием контролируемых абсолютных изменений гипертрофии мышц, измеренных ультразвуком в см. Многовариабельные анализы были проведены и разделены на верхние части тела (расширители локтя: семь исследований; сгибатели локтя: восемь исследований) и нижние части тела (расширители колена и сгибатели колена: семь исследований).",
+      "text_ru": "Первоначальный анализ проводился с использованием контролируемых абсолютных изменений гипертрофии мышц, измеренных ультразвуком в см. Многовариабельные анализы были проведены и разделены на верхние части тела (расширители локтя: семь исследований; сгибатели локтя: восемь исследований) и нижние части тела (расширители колена и сгибатели колена: семь исследований).",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "The initial analyses were conducted using the controlled absolute changes in the muscle hypertrophy measured by an ultrasound in cm.",
+          "ru": "Первоначальный анализ проводился с использованием контролируемых абсолютных изменений гипертрофии мышц, измеренных ультразвуком в см.",
+          "output_tokens": 27,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Первоначальный анализ проводился с использованием контролируемых абсолютных изменений гипертрофии мышц, измеренных ультразвуком в см.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The multivariable analyses were conducted and split into upper-body (elbow extensors: seven studies; elbow flexors: eight studies ) and lower-body (knee extensors and knee flexors: seven studies ).",
+          "ru": "Многовариабельные анализы были проведены и разделены на верхние части тела (расширители локтя: семь исследований; сгибатели локтя: восемь исследований) и нижние части тела (расширители колена и сгибатели колена: семь исследований).",
+          "output_tokens": 62,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Многовариабельные анализы были проведены и разделены на верхние части тела (расширители локтя: семь исследований; сгибатели локтя: восемь исследований) и нижние части тела (расширители колена и сгибатели колена: семь исследований).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "3.Результаты / 3.3.Многомерный анализ абсолютных различий",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-002:p0019",
+      "section_en": "3. Results / 3.5. Study Quality",
+      "text_en": "A qualitative assessment of the studies via the Downs and Black checklist indicated a median score of 20 (range: 17 to 25 points). Four studies were deemed to be of good quality, six studies were classified as being of moderate quality, and no studies were found to be of poor quality.",
+      "section_ru": "3.Результаты / 3.5.Качество исследования",
+      "text_ru_machine": "Качественная оценка исследований по контрольному списку Downs и Black показала средний балл 20 (диапазон: от 17 до 25 баллов). Четыре исследования были признаны качественными, шесть исследований были классифицированы как умеренные по качеству, и не было обнаружено ни одного исследования низкого качества.",
+      "text_ru": "Качественная оценка исследований по контрольному списку Downs и Black показала средний балл 20 (диапазон: от 17 до 25 баллов). Четыре исследования были признаны качественными, шесть исследований были классифицированы как умеренные по качеству, и не было обнаружено ни одного исследования низкого качества.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "A qualitative assessment of the studies via the Downs and Black checklist indicated a median score of 20 (range: 17 to 25 points).",
+          "ru": "Качественная оценка исследований по контрольному списку Downs и Black показала средний балл 20 (диапазон: от 17 до 25 баллов).",
+          "output_tokens": 33,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Качественная оценка исследований по контрольному списку Downs и Black показала средний балл 20 (диапазон: от 17 до 25 баллов).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Four studies were deemed to be of good quality, six studies were classified as being of moderate quality, and no studies were found to be of poor quality.",
+          "ru": "Четыре исследования были признаны качественными, шесть исследований были классифицированы как умеренные по качеству, и не было обнаружено ни одного исследования низкого качества.",
+          "output_tokens": 29,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Четыре исследования были признаны качественными, шесть исследований были классифицированы как умеренные по качеству, и не было обнаружено ни одного исследования низкого качества.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "3.Результаты / 3.5.Качество исследования",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-002:p0020",
+      "section_en": "4. Discussion",
+      "text_en": "This is the first meta-analysis to examine the regional changes in muscle accretion from a combination of creatine supplementation and RT. The pooled analysis of the supplementation and resistance protocols included in this review indicated that creatine supplementation enhances regional skeletal muscle hypertrophy when combined with structured RT. However, compared to a placebo, the magnitude of this effect was trivial to small (ES = 0.11), with a fairly narrow 95% CrI (−0.02, 0.25); as such, the practical significance and implications of this on an individual level are likely small. Previous meta-analyses performed on creatine supplementation and RT have shown significant increases in whole-body lean mass over time (1.1 to 1.4 kg), with larger standardized mean differences (SMD range: 0.24–0.42). These larger SMDs may be associated with creatine’s effect on increasing total body water; as such, it is possible that a portion of the observed increases in the lean mass may reflect the accumulation of extracellular fluid, as opposed to muscle hypertrophy. Alternatively, considering that lean mass measures take into account all the non-fat tissues of the entire body, it is also conceivable that hypertrophy occurred in regions not assessed by the direct imaging modalities or in other tissues (e.g., bone ). These hypotheses warrant further investigation.",
+      "section_ru": "Обсуждение",
+      "text_ru_machine": "Это первый мета-анализ для изучения региональных изменений в аккреции мышц от комбинации добавок креатина и РТ. Объединенный анализ протоколов добавок и резистентности, включенных в этот обзор, показал, что добавление креатина усиливает гипертрофию региональных скелетных мышц в сочетании со структурированным RT. Однако, по сравнению с плацебо, величина этого эффекта была незначительной (ES = 0,11), с довольно узким 95% CrI (-0,02, 0,25); как таковой, практическое значение и последствия этого на индивидуальном уровне, вероятно, малы. Предыдущие мета-анализы, проведенные на добавках креатина и РТ, показали значительное увеличение мышечной массы всего тела с течением времени (1,1-1,4 кг) с большими стандартизированными средними различиями (диапазон SMD: 0,24-0,42). Эти более крупные СМД могут быть связаны с влиянием креатина на увеличение общей воды в организме; поэтому возможно, что часть наблюдаемого увеличения мышечной массы может отражать накопление внеклеточной жидкости, в отличие от мышечной гипертрофии. В качестве альтернативы, учитывая, что измерения мышечной массы учитывают все нежирные ткани всего тела, также возможно, что гипертрофия произошла в областях, не оцененных методами прямой визуализации или в других тканях (например, кости). Эти гипотезы требуют дальнейшего расследования.",
+      "text_ru": "Это первый мета-анализ для изучения региональных изменений в аккреции мышц от комбинации добавок креатина и РТ. Объединенный анализ протоколов добавок и резистентности, включенных в этот обзор, показал, что добавление креатина усиливает гипертрофию региональных скелетных мышц в сочетании со структурированным RT. Однако, по сравнению с плацебо, величина этого эффекта была незначительной (ES = 0,11), с довольно узким 95% CrI (-0,02, 0,25); как таковой, практическое значение и последствия этого на индивидуальном уровне, вероятно, малы. Предыдущие мета-анализы, проведенные на добавках креатина и РТ, показали значительное увеличение мышечной массы всего тела с течением времени (1,1-1,4 кг) с большими стандартизированными средними различиями (диапазон SMD: 0,24-0,42). Эти более крупные СМД могут быть связаны с влиянием креатина на увеличение общей воды в организме; поэтому возможно, что часть наблюдаемого увеличения мышечной массы может отражать накопление внеклеточной жидкости, в отличие от мышечной гипертрофии. В качестве альтернативы, учитывая, что измерения мышечной массы учитывают все нежирные ткани всего тела, также возможно, что гипертрофия произошла в областях, не оцененных методами прямой визуализации или в других тканях (например, кости). Эти гипотезы требуют дальнейшего расследования.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "This is the first meta-analysis to examine the regional changes in muscle accretion from a combination of creatine supplementation and RT.",
+          "ru": "Это первый мета-анализ для изучения региональных изменений в аккреции мышц от комбинации добавок креатина и РТ.",
+          "output_tokens": 25,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Это первый мета-анализ для изучения региональных изменений в аккреции мышц от комбинации добавок креатина и РТ.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The pooled analysis of the supplementation and resistance protocols included in this review indicated that creatine supplementation enhances regional skeletal muscle hypertrophy when combined with structured RT.",
+          "ru": "Объединенный анализ протоколов добавок и резистентности, включенных в этот обзор, показал, что добавление креатина усиливает гипертрофию региональных скелетных мышц в сочетании со структурированным RT.",
+          "output_tokens": 41,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Объединенный анализ протоколов добавок и резистентности, включенных в этот обзор, показал, что добавление креатина усиливает гипертрофию региональных скелетных мышц в сочетании со структурированным RT.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "However, compared to a placebo, the magnitude of this effect was trivial to small (ES = 0.11), with a fairly narrow 95% CrI (−0.02, 0.25); as such, the practical significance and implications of this on an individual level are likely small.",
+          "ru": "Однако, по сравнению с плацебо, величина этого эффекта была незначительной (ES = 0,11), с довольно узким 95% CrI (-0,02, 0,25); как таковой, практическое значение и последствия этого на индивидуальном уровне, вероятно, малы.",
+          "output_tokens": 60,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Однако, по сравнению с плацебо, величина этого эффекта была незначительной (ES = 0,11), с довольно узким 95% CrI (-0,02, 0,25); как таковой, практическое значение и последствия этого на индивидуальном уровне, вероятно, малы.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Previous meta-analyses performed on creatine supplementation and RT have shown significant increases in whole-body lean mass over time (1.1 to 1.4 kg), with larger standardized mean differences (SMD range: 0.24–0.42).",
+          "ru": "Предыдущие мета-анализы, проведенные на добавках креатина и РТ, показали значительное увеличение мышечной массы всего тела с течением времени (1,1-1,4 кг) с большими стандартизированными средними различиями (диапазон SMD: 0,24-0,42).",
+          "output_tokens": 67,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Предыдущие мета-анализы, проведенные на добавках креатина и РТ, показали значительное увеличение мышечной массы всего тела с течением времени (1,1-1,4 кг) с большими стандартизированными средними различиями (диапазон SMD: 0,24-0,42).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "These larger SMDs may be associated with creatine’s effect on increasing total body water; as such, it is possible that a portion of the observed increases in the lean mass may reflect the accumulation of extracellular fluid, as opposed to muscle hypertrophy.",
+          "ru": "Эти более крупные СМД могут быть связаны с влиянием креатина на увеличение общей воды в организме; поэтому возможно, что часть наблюдаемого увеличения мышечной массы может отражать накопление внеклеточной жидкости, в отличие от мышечной гипертрофии.",
+          "output_tokens": 53,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Эти более крупные СМД могут быть связаны с влиянием креатина на увеличение общей воды в организме; поэтому возможно, что часть наблюдаемого увеличения мышечной массы может отражать накопление внеклеточной жидкости, в отличие от мышечной гипертрофии.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Alternatively, considering that lean mass measures take into account all the non-fat tissues of the entire body, it is also conceivable that hypertrophy occurred in regions not assessed by the direct imaging modalities or in other tissues (e.g., bone ).",
+          "ru": "В качестве альтернативы, учитывая, что измерения мышечной массы учитывают все нежирные ткани всего тела, также возможно, что гипертрофия произошла в областях, не оцененных методами прямой визуализации или в других тканях (например, кости).",
+          "output_tokens": 50,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В качестве альтернативы, учитывая, что измерения мышечной массы учитывают все нежирные ткани всего тела, также возможно, что гипертрофия произошла в областях, не оцененных методами прямой визуализации или в других тканях (например, кости).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "These hypotheses warrant further investigation.",
+          "ru": "Эти гипотезы требуют дальнейшего расследования.",
+          "output_tokens": 7,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Эти гипотезы требуют дальнейшего расследования.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "4. Обсуждение",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-002:p0021",
+      "section_en": "4. Discussion",
+      "text_en": "To determine the potential influence of covariates on our findings, we carried out subanalyses of body region, age, and study duration. In regard to the hypertrophy of individual muscle groups, our subanalyses revealed that creatine supplementation has similar effects on the upper and lower body musculature, as well as on the limb flexors and extensors, irrespective of the body region. This contrasts with DXA-derived evidence showing that creatine supplementation augmented RT gains in the upper body lean mass compared to the lower body (upper: 7.1% vs. lower: 3.2%) in resistance-trained men. Syrotuik and Bell found that “responders” to creatine supplementation had a higher percentage of type II muscle fibers (responders averaged 63.1% and non-responders averaged 39.5%), thus one could speculate that specific muscles that possess a higher percentage of type II muscle fibers may have a greater hypertrophic response. However, our results suggest that any specific differences between the muscles of an individual with regard to their fiber type do not appreciably alter the effectiveness of creatine. This is consistent with evidence that the majority of the body’s musculature has relatively similar fiber type percentages. Moreover, the magnitude of the effects of individual muscle groups were similarly small, with median improvements relative to the placebo ranging from 0.10 to 0.16 cms, which would suggest that the discrepancies between the whole body lean mass changes observed in previous meta-analyses compared to the present findings, using direct measures of site-specific hypertrophy, are unlikely to be due to the regions not assessed. However, future research is warranted to verify these speculations and assess other muscles (e.g., torso musculature).",
+      "section_ru": "Обсуждение",
+      "text_ru_machine": "Чтобы определить потенциальное влияние ковариатов на наши результаты, мы провели субанализ области тела, возраста и продолжительности исследования. Что касается гипертрофии отдельных групп мышц, наши субанализы показали, что добавка креатина оказывает аналогичное воздействие на мускулатуру верхней и нижней части тела, а также на сгибатели и разгибатели конечностей, независимо от области тела. Это контрастирует с полученными DXA доказательствами, показывающими, что добавление креатина увеличивает мышечную массу верхней части тела по сравнению с нижней частью тела (верхняя: 7,1% против нижней: 3,2%) у мужчин, обученных резистентности. Сиротуик и Белл обнаружили, что «ответчики» на добавление креатина имели более высокий процент мышечных волокон типа II (ответчики в среднем составляли 63,1%, а неответчики в среднем 39,5%), поэтому можно предположить, что конкретные мышцы, которые обладают более высоким процентом мышечных волокон типа II, могут иметь больший гипертрофический ответ. Однако наши результаты показывают, что любые специфические различия между мышцами человека в отношении их типа клетчатки не заметно изменяют эффективность креатина. Это согласуется с доказательствами того, что большая часть мускулатуры организма имеет относительно похожие проценты волокон. Кроме того, величина эффектов отдельных групп мышц была одинаково мала, при этом медианные улучшения по отношению к плацебо варьировались от 0,10 до 0,16 см, что предполагает, что расхождения между изменениями мышечной массы всего тела, наблюдаемыми в предыдущих мета-анализах по сравнению с настоящими результатами, с использованием прямых мер сайт-специфической гипертрофии, вряд ли будут связаны с регионами, не оцененными. Однако будущие исследования необходимы для проверки этих предположений и оценки других мышц (например, мускулатуры туловища).",
+      "text_ru": "Чтобы определить потенциальное влияние ковариатов на наши результаты, мы провели субанализ области тела, возраста и продолжительности исследования. Что касается гипертрофии отдельных групп мышц, наши субанализы показали, что добавка креатина оказывает аналогичное воздействие на мускулатуру верхней и нижней части тела, а также на сгибатели и разгибатели конечностей, независимо от области тела. Это контрастирует с полученными DXA доказательствами, показывающими, что добавление креатина увеличивает мышечную массу верхней части тела по сравнению с нижней частью тела (верхняя: 7,1% против нижней: 3,2%) у мужчин, тренированных в силовых упражнениях. Сиротуик и Белл обнаружили, что «ответчики» на добавление креатина имели более высокий процент мышечных волокон типа II (ответчики в среднем составляли 63,1%, а неответчики в среднем 39,5%), поэтому можно предположить, что конкретные мышцы, которые обладают более высоким процентом мышечных волокон типа II, могут иметь больший гипертрофический ответ. Однако наши результаты показывают, что любые специфические различия между мышцами человека в отношении их типа клетчатки не заметно изменяют эффективность креатина. Это согласуется с доказательствами того, что большая часть мускулатуры организма имеет относительно похожие проценты волокон. Кроме того, величина эффектов отдельных групп мышц была одинаково мала, при этом медианные улучшения по отношению к плацебо варьировались от 0,10 до 0,16 см, что предполагает, что расхождения между изменениями мышечной массы всего тела, наблюдаемыми в предыдущих мета-анализах по сравнению с настоящими результатами, с использованием прямых мер сайт-специфической гипертрофии, вряд ли будут связаны с регионами, не оцененными. Однако будущие исследования необходимы для проверки этих предположений и оценки других мышц (например, мускулатуры туловища).",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "To determine the potential influence of covariates on our findings, we carried out subanalyses of body region, age, and study duration.",
+          "ru": "Чтобы определить потенциальное влияние ковариатов на наши результаты, мы провели субанализ области тела, возраста и продолжительности исследования.",
+          "output_tokens": 26,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Чтобы определить потенциальное влияние ковариатов на наши результаты, мы провели субанализ области тела, возраста и продолжительности исследования.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "In regard to the hypertrophy of individual muscle groups, our subanalyses revealed that creatine supplementation has similar effects on the upper and lower body musculature, as well as on the limb flexors and extensors, irrespective of the body region.",
+          "ru": "Что касается гипертрофии отдельных групп мышц, наши субанализы показали, что добавка креатина оказывает аналогичное воздействие на мускулатуру верхней и нижней части тела, а также на сгибатели и разгибатели конечностей, независимо от области тела.",
+          "output_tokens": 58,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Что касается гипертрофии отдельных групп мышц, наши субанализы показали, что добавка креатина оказывает аналогичное воздействие на мускулатуру верхней и нижней части тела, а также на сгибатели и разгибатели конечностей, независимо от области тела.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "This contrasts with DXA-derived evidence showing that creatine supplementation augmented RT gains in the upper body lean mass compared to the lower body (upper: 7.1% vs. lower: 3.2%) in resistance-trained men.",
+          "ru": "Это контрастирует с полученными DXA доказательствами, показывающими, что добавление креатина увеличивает мышечную массу верхней части тела по сравнению с нижней частью тела (верхняя: 7,1% против нижней: 3,2%) у мужчин, обученных резистентности.",
+          "output_tokens": 61,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Это контрастирует с полученными DXA доказательствами, показывающими, что добавление креатина увеличивает мышечную массу верхней части тела по сравнению с нижней частью тела (верхняя: 7,1% против нижней: 3,2%) у мужчин, тренированных в силовых упражнениях.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Syrotuik and Bell found that “responders” to creatine supplementation had a higher percentage of type II muscle fibers (responders averaged 63.1% and non-responders averaged 39.5%), thus one could speculate that specific muscles that possess a higher percentage of type II muscle fibers may have a greater hypertrophic response.",
+          "ru": "Сиротуик и Белл обнаружили, что «ответчики» на добавление креатина имели более высокий процент мышечных волокон типа II (ответчики в среднем составляли 63,1%, а неответчики в среднем 39,5%), поэтому можно предположить, что конкретные мышцы, которые обладают более высоким процентом мышечных волокон типа II, могут иметь больший гипертрофический ответ.",
+          "output_tokens": 81,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Сиротуик и Белл обнаружили, что «ответчики» на добавление креатина имели более высокий процент мышечных волокон типа II (ответчики в среднем составляли 63,1%, а неответчики в среднем 39,5%), поэтому можно предположить, что конкретные мышцы, которые обладают более высоким процентом мышечных волокон типа II, могут иметь больший гипертрофический ответ.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "However, our results suggest that any specific differences between the muscles of an individual with regard to their fiber type do not appreciably alter the effectiveness of creatine.",
+          "ru": "Однако наши результаты показывают, что любые специфические различия между мышцами человека в отношении их типа клетчатки не заметно изменяют эффективность креатина.",
+          "output_tokens": 31,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Однако наши результаты показывают, что любые специфические различия между мышцами человека в отношении их типа клетчатки не заметно изменяют эффективность креатина.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "This is consistent with evidence that the majority of the body’s musculature has relatively similar fiber type percentages.",
+          "ru": "Это согласуется с доказательствами того, что большая часть мускулатуры организма имеет относительно похожие проценты волокон.",
+          "output_tokens": 26,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Это согласуется с доказательствами того, что большая часть мускулатуры организма имеет относительно похожие проценты волокон.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Moreover, the magnitude of the effects of individual muscle groups were similarly small, with median improvements relative to the placebo ranging from 0.10 to 0.16 cms, which would suggest that the discrepancies between the whole body lean mass changes observed in previous meta-analyses compared to the present findings, using direct measures of site-specific hypertrophy, are unlikely to be due to the regions not assessed.",
+          "ru": "Кроме того, величина эффектов отдельных групп мышц была одинаково мала, при этом медианные улучшения по отношению к плацебо варьировались от 0,10 до 0,16 см, что предполагает, что расхождения между изменениями мышечной массы всего тела, наблюдаемыми в предыдущих мета-анализах по сравнению с настоящими результатами, с использованием прямых мер сайт-специфической гипертрофии, вряд ли будут связаны с регионами, не оцененными.",
+          "output_tokens": 91,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Кроме того, величина эффектов отдельных групп мышц была одинаково мала, при этом медианные улучшения по отношению к плацебо варьировались от 0,10 до 0,16 см, что предполагает, что расхождения между изменениями мышечной массы всего тела, наблюдаемыми в предыдущих мета-анализах по сравнению с настоящими результатами, с использованием прямых мер сайт-специфической гипертрофии, вряд ли будут связаны с регионами, не оцененными.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "However, future research is warranted to verify these speculations and assess other muscles (e.g., torso musculature).",
+          "ru": "Однако будущие исследования необходимы для проверки этих предположений и оценки других мышц (например, мускулатуры туловища).",
+          "output_tokens": 29,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Однако будущие исследования необходимы для проверки этих предположений и оценки других мышц (например, мускулатуры туловища).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_training_term"
+      ],
+      "section_ru_machine": "4. Обсуждение",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 2
+      }
+    },
+    {
+      "paragraph_id": "SU-002:p0022",
+      "section_en": "4. Discussion",
+      "text_en": "A subanalysis evaluating the influence of age revealed a modest benefit for creatine supplementation combined with RT in young adults (ES = 0.23 (95%CrI: 0.01, 0.44)) compared to older adults (ES = 0.06 (95%CrI: −0.10, 0.21)). Syrotuik and Bell found that responders to creatine supplementation had a greater proportion of type II muscle fibers, as well as lower baseline levels of muscle creatine content. Evidence indicates that age-related remodeling of motor units is primarily due to the denervation of type II muscle fibers, which may, in theory and supported by our data, reduce the responsiveness to creatine supplementation. However, our findings are in contrast with a previous meta-analysis that observed similar gains between younger and older adults in whole-body measures of their lean masses (young: 1.2; older: 1.1 kg). Future research is warranted to compare the site-specific responses between younger and older adults. Overall, the practical implications of our findings that showed greater gains in young adults is questionable given the relatively modest magnitude of the effect between these populations.",
+      "section_ru": "Обсуждение",
+      "text_ru_machine": "Субанализ, оценивающий влияние возраста, выявил умеренную пользу для добавок креатина в сочетании с RT у молодых людей (ES = 0,23 (95% CrI: 0,01, 0,44)) по сравнению с пожилыми людьми (ES = 0,06 (95% CrI: −0,10, 0,21)). Сиротуик и Белл обнаружили, что ответчики на добавки креатина имели большую долю мышечных волокон типа II, а также более низкие базовые уровни содержания креатина в мышцах. Данные свидетельствуют о том, что возрастное ремоделирование двигательных агрегатов в первую очередь связано с денервацией мышечных волокон II типа, что теоретически и подтверждается нашими данными, может снизить восприимчивость к добавкам креатина. Тем не менее, наши результаты контрастируют с предыдущим мета-анализом, который наблюдал аналогичные успехи между молодыми и пожилыми людьми в показателях их мышечной массы (молодые: 1,2; пожилые: 1,1 кг). Будущие исследования необходимы для сравнения конкретных ответов между молодыми и пожилыми людьми. В целом, практические последствия наших результатов, которые показали большие успехи у молодых людей, сомнительны, учитывая относительно скромную величину эффекта между этими группами населения.",
+      "text_ru": "Субанализ, оценивающий влияние возраста, выявил умеренную пользу для добавок креатина в сочетании с RT у молодых людей (ES = 0,23 (95% CrI: 0,01, 0,44)) по сравнению с пожилыми людьми (ES = 0,06 (95% CrI: −0,10, 0,21)). Сиротуик и Белл обнаружили, что ответчики на добавки креатина имели большую долю мышечных волокон типа II, а также более низкие базовые уровни содержания креатина в мышцах. Данные свидетельствуют о том, что возрастное ремоделирование двигательных агрегатов в первую очередь связано с денервацией мышечных волокон II типа, что теоретически и подтверждается нашими данными, может снизить восприимчивость к добавкам креатина. Тем не менее, наши результаты контрастируют с предыдущим мета-анализом, который наблюдал аналогичные успехи между молодыми и пожилыми людьми в показателях их мышечной массы (молодые: 1,2; пожилые: 1,1 кг). Будущие исследования необходимы для сравнения конкретных ответов между молодыми и пожилыми людьми. В целом, практические последствия наших результатов, которые показали большие успехи у молодых людей, сомнительны, учитывая относительно скромную величину эффекта между этими группами населения.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "A subanalysis evaluating the influence of age revealed a modest benefit for creatine supplementation combined with RT in young adults (ES = 0.23 (95%CrI: 0.01, 0.44)) compared to older adults (ES = 0.06 (95%CrI: −0.10, 0.21)).",
+          "ru": "Субанализ, оценивающий влияние возраста, выявил умеренную пользу для добавок креатина в сочетании с RT у молодых людей (ES = 0,23 (95% CrI: 0,01, 0,44)) по сравнению с пожилыми людьми (ES = 0,06 (95% CrI: −0,10, 0,21)).",
+          "output_tokens": 77,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Субанализ, оценивающий влияние возраста, выявил умеренную пользу для добавок креатина в сочетании с RT у молодых людей (ES = 0,23 (95% CrI: 0,01, 0,44)) по сравнению с пожилыми людьми (ES = 0,06 (95% CrI: −0,10, 0,21)).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Syrotuik and Bell found that responders to creatine supplementation had a greater proportion of type II muscle fibers, as well as lower baseline levels of muscle creatine content.",
+          "ru": "Сиротуик и Белл обнаружили, что ответчики на добавки креатина имели большую долю мышечных волокон типа II, а также более низкие базовые уровни содержания креатина в мышцах.",
+          "output_tokens": 43,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Сиротуик и Белл обнаружили, что ответчики на добавки креатина имели большую долю мышечных волокон типа II, а также более низкие базовые уровни содержания креатина в мышцах.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Evidence indicates that age-related remodeling of motor units is primarily due to the denervation of type II muscle fibers, which may, in theory and supported by our data, reduce the responsiveness to creatine supplementation.",
+          "ru": "Данные свидетельствуют о том, что возрастное ремоделирование двигательных агрегатов в первую очередь связано с денервацией мышечных волокон II типа, что теоретически и подтверждается нашими данными, может снизить восприимчивость к добавкам креатина.",
+          "output_tokens": 52,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Данные свидетельствуют о том, что возрастное ремоделирование двигательных агрегатов в первую очередь связано с денервацией мышечных волокон II типа, что теоретически и подтверждается нашими данными, может снизить восприимчивость к добавкам креатина.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "However, our findings are in contrast with a previous meta-analysis that observed similar gains between younger and older adults in whole-body measures of their lean masses (young: 1.2; older: 1.1 kg).",
+          "ru": "Тем не менее, наши результаты контрастируют с предыдущим мета-анализом, который наблюдал аналогичные успехи между молодыми и пожилыми людьми в показателях их мышечной массы (молодые: 1,2; пожилые: 1,1 кг).",
+          "output_tokens": 48,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Тем не менее, наши результаты контрастируют с предыдущим мета-анализом, который наблюдал аналогичные успехи между молодыми и пожилыми людьми в показателях их мышечной массы (молодые: 1,2; пожилые: 1,1 кг).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Future research is warranted to compare the site-specific responses between younger and older adults.",
+          "ru": "Будущие исследования необходимы для сравнения конкретных ответов между молодыми и пожилыми людьми.",
+          "output_tokens": 18,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Будущие исследования необходимы для сравнения конкретных ответов между молодыми и пожилыми людьми.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Overall, the practical implications of our findings that showed greater gains in young adults is questionable given the relatively modest magnitude of the effect between these populations.",
+          "ru": "В целом, практические последствия наших результатов, которые показали большие успехи у молодых людей, сомнительны, учитывая относительно скромную величину эффекта между этими группами населения.",
+          "output_tokens": 34,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В целом, практические последствия наших результатов, которые показали большие успехи у молодых людей, сомнительны, учитывая относительно скромную величину эффекта между этими группами населения.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "4. Обсуждение",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-002:p0023",
+      "section_en": "4. Discussion",
+      "text_en": "A subanalysis of study duration found a greater benefit in shorter (≤10 weeks) compared to longer (≥16 weeks) supplementation protocols. However, the differences between these timeframes were trivial (median values of 0.15 and 0.06 for shorter and longer durations, respectively) and likely of little practical significance. Moreover, this finding is confounded by the fact that all the studies with longer time frames included older participants; thus, any effect, if one does indeed exist, may therefore be attributed to age as opposed to study duration.",
+      "section_ru": "Обсуждение",
+      "text_ru_machine": "Субанализ продолжительности исследования показал большую пользу в более коротких (≤10 недель) по сравнению с более длинными (≥16 недель) протоколами приема добавок. Однако различия между этими временными рамками были тривиальными (средние значения 0,15 и 0,06 для более коротких и более длительных периодов соответственно) и, вероятно, имели мало практического значения. Более того, этот вывод смущен тем фактом, что все исследования с более длительными временными рамками включали пожилых участников; таким образом, любой эффект, если он действительно существует, может быть отнесен к возрасту, а не к продолжительности исследования.",
+      "text_ru": "Субанализ продолжительности исследования показал большую пользу в более коротких (≤10 недель) по сравнению с более длинными (≥16 недель) протоколами приема добавок. Однако различия между этими временными рамками были тривиальными (средние значения 0,15 и 0,06 для более коротких и более длительных периодов соответственно) и, вероятно, имели мало практического значения. Более того, этот вывод смущен тем фактом, что все исследования с более длительными временными рамками включали пожилых участников; таким образом, любой эффект, если он действительно существует, может быть отнесен к возрасту, а не к продолжительности исследования.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "A subanalysis of study duration found a greater benefit in shorter (≤10 weeks) compared to longer (≥16 weeks) supplementation protocols.",
+          "ru": "Субанализ продолжительности исследования показал большую пользу в более коротких (≤10 недель) по сравнению с более длинными (≥16 недель) протоколами приема добавок.",
+          "output_tokens": 33,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Субанализ продолжительности исследования показал большую пользу в более коротких (≤10 недель) по сравнению с более длинными (≥16 недель) протоколами приема добавок.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "However, the differences between these timeframes were trivial (median values of 0.15 and 0.06 for shorter and longer durations, respectively) and likely of little practical significance.",
+          "ru": "Однако различия между этими временными рамками были тривиальными (средние значения 0,15 и 0,06 для более коротких и более длительных периодов соответственно) и, вероятно, имели мало практического значения.",
+          "output_tokens": 44,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Однако различия между этими временными рамками были тривиальными (средние значения 0,15 и 0,06 для более коротких и более длительных периодов соответственно) и, вероятно, имели мало практического значения.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Moreover, this finding is confounded by the fact that all the studies with longer time frames included older participants; thus, any effect, if one does indeed exist, may therefore be attributed to age as opposed to study duration.",
+          "ru": "Более того, этот вывод смущен тем фактом, что все исследования с более длительными временными рамками включали пожилых участников; таким образом, любой эффект, если он действительно существует, может быть отнесен к возрасту, а не к продолжительности исследования.",
+          "output_tokens": 57,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Более того, этот вывод смущен тем фактом, что все исследования с более длительными временными рамками включали пожилых участников; таким образом, любой эффект, если он действительно существует, может быть отнесен к возрасту, а не к продолжительности исследования.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "4. Обсуждение",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-002:p0024",
+      "section_en": "4. Discussion",
+      "text_en": "Our meta-analysis had several limitations that must be acknowledged. First, only one study investigated the hypertrophic effects of creatine supplementation in women only. Evidence indicates that men respond more favorably to supplementation than women for increases in lean mass. Whether these sex-related differences are also specific to muscle hypertrophy remains to be determined. Second, only two studies involved resistance-trained individuals. Conceivably, those with RT experience may be able to train harder and thus derive a greater benefit from creatine supplementation. This hypothesis warrants further investigation. Third, there is considerable interindividual variability in response to creatine supplementation, with increases in muscle creatine concentrations ranging from 2 to 40 mmol/kg of dry mass. Greenhaff et al. reported that approximately 20 to 30% of subjects are “nonresponders”, which is defined by an intramuscular creatine content that increases by less than 10 mmol/kg of dry mass after a loading phase. The characteristics that may underpin this nonresponse to creatine supplementation include high initial muscle creatine levels, a low percentage of type II fibers, a low muscle fiber CSA, and a low fat-free mass. Therefore, the modest effects of creatine supplementation on skeletal muscle hypertrophy may be at least partially due to a lack of delineation between responders and nonresponders within the studies included in the present analysis. Future longitudinal trials that correlate the changes in hypertrophy and intramuscular creatine content warrant more research.",
+      "section_ru": "Обсуждение",
+      "text_ru_machine": "Наш мета-анализ имеет ряд ограничений, которые необходимо признать. Во-первых, только в одном исследовании изучались гипертрофические эффекты добавок креатина только у женщин. Данные показывают, что мужчины более благоприятно реагируют на добавки, чем женщины, для увеличения мышечной массы. Остается определить, являются ли эти половые различия специфичными для мышечной гипертрофии. Во-вторых, только в двух исследованиях участвовали люди с резистентностью. Возможно, те, у кого есть опыт RT, могут тренироваться усерднее и, таким образом, получать большую пользу от приема креатина. Эта гипотеза требует дальнейшего изучения. В-третьих, существует значительная межиндивидуальная изменчивость в ответ на добавление креатина, с увеличением концентрации креатина в мышцах от 2 до 40 ммоль / кг сухой массы. Гринхафф и др. сообщили, что примерно от 20 до 30% испытуемых являются «неответчиками», что определяется внутримышечным содержанием креатина, которое увеличивается менее чем на 10 ммоль/кг сухой массы после фазы загрузки. Характеристики, которые могут лежать в основе этого нереагирования на креатин, включают высокие начальные уровни креатина в мышцах, низкий процент волокон типа II, низкое CSA мышечного волокна и низкую массу без жира. Таким образом, скромное влияние добавок креатина на гипертрофию скелетных мышц может быть, по крайней мере, частично связано с отсутствием разграничения между ответчиками и неответчиками в исследованиях, включенных в настоящий анализ. Будущие продольные испытания, которые коррелируют изменения в гипертрофии и внутримышечном содержании креатина, требуют дополнительных исследований.",
+      "text_ru": "Наш мета-анализ имеет ряд ограничений, которые необходимо признать. Во-первых, только в одном исследовании изучались гипертрофические эффекты добавок креатина только у женщин. Данные показывают, что мужчины более благоприятно реагируют на добавки, чем женщины, для увеличения мышечной массы. Остается определить, являются ли эти половые различия специфичными для мышечной гипертрофии. Во-вторых, только два исследования включали людей с опытом силовых тренировок. Возможно, те, у кого есть опыт RT, могут тренироваться усерднее и, таким образом, получать большую пользу от приема креатина. Эта гипотеза требует дальнейшего изучения. В-третьих, существует значительная межиндивидуальная изменчивость в ответ на добавление креатина, с увеличением концентрации креатина в мышцах от 2 до 40 ммоль / кг сухой массы. Гринхафф и др. сообщили, что примерно от 20 до 30% испытуемых являются «неответчиками», что определяется внутримышечным содержанием креатина, которое увеличивается менее чем на 10 ммоль/кг сухой массы после фазы загрузки. Характеристики, которые могут лежать в основе этого нереагирования на креатин, включают высокие начальные уровни креатина в мышцах, низкий процент волокон типа II, низкое CSA мышечного волокна и низкую массу без жира. Таким образом, скромное влияние добавок креатина на гипертрофию скелетных мышц может быть, по крайней мере, частично связано с отсутствием разграничения между ответчиками и неответчиками в исследованиях, включенных в настоящий анализ. Будущие продольные испытания, которые коррелируют изменения в гипертрофии и внутримышечном содержании креатина, требуют дополнительных исследований.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "Our meta-analysis had several limitations that must be acknowledged.",
+          "ru": "Наш мета-анализ имеет ряд ограничений, которые необходимо признать.",
+          "output_tokens": 12,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Наш мета-анализ имеет ряд ограничений, которые необходимо признать.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "First, only one study investigated the hypertrophic effects of creatine supplementation in women only.",
+          "ru": "Во-первых, только в одном исследовании изучались гипертрофические эффекты добавок креатина только у женщин.",
+          "output_tokens": 23,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Во-первых, только в одном исследовании изучались гипертрофические эффекты добавок креатина только у женщин.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Evidence indicates that men respond more favorably to supplementation than women for increases in lean mass.",
+          "ru": "Данные показывают, что мужчины более благоприятно реагируют на добавки, чем женщины, для увеличения мышечной массы.",
+          "output_tokens": 21,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Данные показывают, что мужчины более благоприятно реагируют на добавки, чем женщины, для увеличения мышечной массы.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Whether these sex-related differences are also specific to muscle hypertrophy remains to be determined.",
+          "ru": "Остается определить, являются ли эти половые различия специфичными для мышечной гипертрофии.",
+          "output_tokens": 20,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Остается определить, являются ли эти половые различия специфичными для мышечной гипертрофии.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Second, only two studies involved resistance-trained individuals.",
+          "ru": "Во-вторых, только в двух исследованиях участвовали люди с резистентностью.",
+          "output_tokens": 17,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Во-вторых, только два исследования включали людей с опытом силовых тренировок.",
+          "editorial_status": "reviewed",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Conceivably, those with RT experience may be able to train harder and thus derive a greater benefit from creatine supplementation.",
+          "ru": "Возможно, те, у кого есть опыт RT, могут тренироваться усерднее и, таким образом, получать большую пользу от приема креатина.",
+          "output_tokens": 32,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Возможно, те, у кого есть опыт RT, могут тренироваться усерднее и, таким образом, получать большую пользу от приема креатина.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "This hypothesis warrants further investigation.",
+          "ru": "Эта гипотеза требует дальнейшего изучения.",
+          "output_tokens": 7,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Эта гипотеза требует дальнейшего изучения.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Third, there is considerable interindividual variability in response to creatine supplementation, with increases in muscle creatine concentrations ranging from 2 to 40 mmol/kg of dry mass.",
+          "ru": "В-третьих, существует значительная межиндивидуальная изменчивость в ответ на добавление креатина, с увеличением концентрации креатина в мышцах от 2 до 40 ммоль / кг сухой массы.",
+          "output_tokens": 45,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В-третьих, существует значительная межиндивидуальная изменчивость в ответ на добавление креатина, с увеличением концентрации креатина в мышцах от 2 до 40 ммоль / кг сухой массы.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Greenhaff et al. reported that approximately 20 to 30% of subjects are “nonresponders”, which is defined by an intramuscular creatine content that increases by less than 10 mmol/kg of dry mass after a loading phase.",
+          "ru": "Гринхафф и др. сообщили, что примерно от 20 до 30% испытуемых являются «неответчиками», что определяется внутримышечным содержанием креатина, которое увеличивается менее чем на 10 ммоль/кг сухой массы после фазы загрузки.",
+          "output_tokens": 57,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Гринхафф и др. сообщили, что примерно от 20 до 30% испытуемых являются «неответчиками», что определяется внутримышечным содержанием креатина, которое увеличивается менее чем на 10 ммоль/кг сухой массы после фазы загрузки.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The characteristics that may underpin this nonresponse to creatine supplementation include high initial muscle creatine levels, a low percentage of type II fibers, a low muscle fiber CSA, and a low fat-free mass.",
+          "ru": "Характеристики, которые могут лежать в основе этого нереагирования на креатин, включают высокие начальные уровни креатина в мышцах, низкий процент волокон типа II, низкое CSA мышечного волокна и низкую массу без жира.",
+          "output_tokens": 55,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Характеристики, которые могут лежать в основе этого нереагирования на креатин, включают высокие начальные уровни креатина в мышцах, низкий процент волокон типа II, низкое CSA мышечного волокна и низкую массу без жира.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Therefore, the modest effects of creatine supplementation on skeletal muscle hypertrophy may be at least partially due to a lack of delineation between responders and nonresponders within the studies included in the present analysis.",
+          "ru": "Таким образом, скромное влияние добавок креатина на гипертрофию скелетных мышц может быть, по крайней мере, частично связано с отсутствием разграничения между ответчиками и неответчиками в исследованиях, включенных в настоящий анализ.",
+          "output_tokens": 52,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Таким образом, скромное влияние добавок креатина на гипертрофию скелетных мышц может быть, по крайней мере, частично связано с отсутствием разграничения между ответчиками и неответчиками в исследованиях, включенных в настоящий анализ.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Future longitudinal trials that correlate the changes in hypertrophy and intramuscular creatine content warrant more research.",
+          "ru": "Будущие продольные испытания, которые коррелируют изменения в гипертрофии и внутримышечном содержании креатина, требуют дополнительных исследований.",
+          "output_tokens": 33,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Будущие продольные испытания, которые коррелируют изменения в гипертрофии и внутримышечном содержании креатина, требуют дополнительных исследований.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_training_term"
+      ],
+      "section_ru_machine": "4. Обсуждение",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 1,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-002:p0025",
+      "section_en": "5. Conclusions",
+      "text_en": "A pooled analysis of the current data suggests that creatine supplementation promotes a small increase in skeletal muscle hypertrophy in both the upper and lower body musculature when combined with a regimented RT program. Those considering creatine supplementation for the goal of regional muscle hypertrophy should consider the practical significance of the small magnitude of effect. Furthermore, young adults appear to derive a greater hypertrophic benefit compared to older individuals, but the magnitude of this difference is relatively modest, calling into question the practical relevance of this finding. Future longitudinal studies should endeavor to assess the combined effects of creatine supplementation and RT on intra- vs. extracellular fluid accumulation and intramuscular creatine content, with respect to site-specific direct imaging measures of hypertrophy in both young and older adults and include both male and female participants.",
+      "section_ru": "Выводы",
+      "text_ru_machine": "Объединенный анализ текущих данных показывает, что добавление креатина способствует небольшому увеличению гипертрофии скелетных мышц как в верхней, так и в нижней части мускулатуры тела в сочетании с регламентированной программой RT. Те, кто рассматривает добавки креатина для достижения региональной мышечной гипертрофии, должны учитывать практическое значение небольшой величины эффекта. Кроме того, молодые люди, по-видимому, получают большую гипертрофическую пользу по сравнению с пожилыми людьми, но величина этой разницы относительно скромна, что ставит под сомнение практическую значимость этого открытия. Будущие продольные исследования должны попытаться оценить комбинированное влияние добавок креатина и РТ на внутриклеточное накопление жидкости и внутримышечное содержание креатина в отношении специфических для сайта прямых показателей гипертрофии у молодых и пожилых людей и включать как мужчин, так и женщин.",
+      "text_ru": "Объединённые данные показывают небольшое дополнительное увеличение мышц верхней и нижней частей тела при сочетании креатина с организованной силовой программой. При решении о приёме важно учитывать малую величину эффекта и её практическое значение. У молодых взрослых преимущество, по-видимому, больше, чем у пожилых, но различие тоже невелико. Будущим длительным исследованиям следует одновременно измерять внутриклеточную и внеклеточную жидкость, содержание креатина в мышцах и местную гипертрофию прямыми методами визуализации, включая молодых и пожилых участников обоих полов.",
+      "flags": [],
+      "review_status": "reviewed",
+      "segments": [
+        {
+          "en": "A pooled analysis of the current data suggests that creatine supplementation promotes a small increase in skeletal muscle hypertrophy in both the upper and lower body musculature when combined with a regimented RT program.",
+          "ru": "Объединенный анализ текущих данных показывает, что добавление креатина способствует небольшому увеличению гипертрофии скелетных мышц как в верхней, так и в нижней части мускулатуры тела в сочетании с регламентированной программой RT.",
+          "output_tokens": 47,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Объединенный анализ текущих данных показывает, что добавление креатина способствует небольшому увеличению гипертрофии скелетных мышц как в верхней, так и в нижней части мускулатуры тела в сочетании с регламентированной программой RT.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Those considering creatine supplementation for the goal of regional muscle hypertrophy should consider the practical significance of the small magnitude of effect.",
+          "ru": "Те, кто рассматривает добавки креатина для достижения региональной мышечной гипертрофии, должны учитывать практическое значение небольшой величины эффекта.",
+          "output_tokens": 28,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Те, кто рассматривает добавки креатина для достижения региональной мышечной гипертрофии, должны учитывать практическое значение небольшой величины эффекта.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Furthermore, young adults appear to derive a greater hypertrophic benefit compared to older individuals, but the magnitude of this difference is relatively modest, calling into question the practical relevance of this finding.",
+          "ru": "Кроме того, молодые люди, по-видимому, получают большую гипертрофическую пользу по сравнению с пожилыми людьми, но величина этой разницы относительно скромна, что ставит под сомнение практическую значимость этого открытия.",
+          "output_tokens": 45,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Кроме того, молодые люди, по-видимому, получают большую гипертрофическую пользу по сравнению с пожилыми людьми, но величина этой разницы относительно скромна, что ставит под сомнение практическую значимость этого открытия.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Future longitudinal studies should endeavor to assess the combined effects of creatine supplementation and RT on intra- vs. extracellular fluid accumulation and intramuscular creatine content, with respect to site-specific direct imaging measures of hypertrophy in both young and older adults and include both male and female participants.",
+          "ru": "Будущие продольные исследования должны попытаться оценить комбинированное влияние добавок креатина и РТ на внутриклеточное накопление жидкости и внутримышечное содержание креатина в отношении специфических для сайта прямых показателей гипертрофии у молодых и пожилых людей и включать как мужчин, так и женщин.",
+          "output_tokens": 63,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Будущие продольные исследования должны попытаться оценить комбинированное влияние добавок креатина и РТ на внутриклеточное накопление жидкости и внутримышечное содержание креатина в отношении специфических для сайта прямых показателей гипертрофии у молодых и пожилых людей и включать как мужчин, так и женщин.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "5. Выводы",
+      "editorial_review": {
+        "reviewer": "Codex: перевод и сопоставление с оригиналом без сторонних моделей",
+        "reason": "Самостоятельный редакторский перевод ранее не вошедшего в чанки раздела; смысл, ограничения и числа сопоставлены с английским оригиналом.",
+        "original_sha256": "45e9e60d7dd19dc8b074afc3e96349eb90c24c0d3545c16504ddb6ababfdfabc",
+        "review_date": "2026-11-20",
+        "text_sha256": "c34f42ebc003a4064131db5dea4933324423819fad54c701ada26096278c072b"
+      },
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": true,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    }
+  ]
+}

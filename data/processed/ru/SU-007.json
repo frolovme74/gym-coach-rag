@@ -1,0 +1,1735 @@
+{
+  "source_id": "SU-007",
+  "model": "Argos Translate English–Russian 1.9",
+  "model_revision": "591d743ae103752b88ffc38785c50421320f4eff93c8967e0d3d2e14d4e27811",
+  "engine": "CTranslate2 int8; beam_size=4; length_penalty=0.2; sentence-level",
+  "paragraphs": [
+    {
+      "paragraph_id": "SU-007:p0001",
+      "section_en": "Background",
+      "text_en": "Caffeine’s ergogenic potential has been extensively studied in the sports science literature, with research dating back to 1907. From investigating caffeine’s effects on aerobic exercise, in recent years the research focus has shifted to anaerobic exercise performance outcomes, such as muscular endurance, muscle strength, and jumping tasks that require muscle power. While caffeine has been found to significantly enhance muscular endurance, the effects of caffeine ingestion on maximal muscle strength (commonly operationalized as one repetition maximum [1RM]) and muscle power (commonly operationalized as vertical jump) remain unclear, and the practical utility of caffeine ingestion for enhancing performance in such physical tasks has not been fully elucidated.",
+      "section_ru": "Предыстория",
+      "text_ru_machine": "Эргогенный потенциал кофеина был широко изучен в спортивной научной литературе с исследованиями, датируемыми 1907 годом. От изучения влияния кофеина на аэробные упражнения, в последние годы внимание исследователей переключилось на результаты анаэробных упражнений, такие как мышечная выносливость, мышечная сила и прыжки, которые требуют мышечной силы. В то время как было обнаружено, что кофеин значительно повышает мышечную выносливость, влияние потребления кофеина на максимальную мышечную силу (обычно операционализируется как один максимум повторения [1RM]) и мышечную силу (обычно операционализируется как вертикальный скачок) остается неясным, и практическая полезность приема кофеина для повышения производительности в таких физических задачах не была полностью выяснена.",
+      "text_ru": "Эргогенный потенциал кофеина был широко изучен в спортивной научной литературе с исследованиями, датируемыми 1907 годом. От изучения влияния кофеина на аэробные упражнения, в последние годы внимание исследователей переключилось на результаты анаэробных упражнений, такие как мышечная выносливость, мышечная сила и прыжки, которые требуют мышечной силы. В то время как было обнаружено, что кофеин значительно повышает мышечную выносливость, влияние потребления кофеина на максимальную мышечную силу (обычно операционализируется как один максимум повторения [1RM]) и мышечную силу (обычно операционализируется как вертикальный скачок) остается неясным, и практическая полезность приема кофеина для повышения работоспособности в таких физических задачах не была полностью выяснена.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "Caffeine’s ergogenic potential has been extensively studied in the sports science literature, with research dating back to 1907.",
+          "ru": "Эргогенный потенциал кофеина был широко изучен в спортивной научной литературе с исследованиями, датируемыми 1907 годом.",
+          "output_tokens": 25,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Эргогенный потенциал кофеина был широко изучен в спортивной научной литературе с исследованиями, датируемыми 1907 годом.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "From investigating caffeine’s effects on aerobic exercise, in recent years the research focus has shifted to anaerobic exercise performance outcomes, such as muscular endurance, muscle strength, and jumping tasks that require muscle power.",
+          "ru": "От изучения влияния кофеина на аэробные упражнения, в последние годы внимание исследователей переключилось на результаты анаэробных упражнений, такие как мышечная выносливость, мышечная сила и прыжки, которые требуют мышечной силы.",
+          "output_tokens": 50,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "От изучения влияния кофеина на аэробные упражнения, в последние годы внимание исследователей переключилось на результаты анаэробных упражнений, такие как мышечная выносливость, мышечная сила и прыжки, которые требуют мышечной силы.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "While caffeine has been found to significantly enhance muscular endurance, the effects of caffeine ingestion on maximal muscle strength (commonly operationalized as one repetition maximum [1RM]) and muscle power (commonly operationalized as vertical jump) remain unclear, and the practical utility of caffeine ingestion for enhancing performance in such physical tasks has not been fully elucidated.",
+          "ru": "В то время как было обнаружено, что кофеин значительно повышает мышечную выносливость, влияние потребления кофеина на максимальную мышечную силу (обычно операционализируется как один максимум повторения [1RM]) и мышечную силу (обычно операционализируется как вертикальный скачок) остается неясным, и практическая полезность приема кофеина для повышения производительности в таких физических задачах не была полностью выяснена.",
+          "output_tokens": 94,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В то время как было обнаружено, что кофеин значительно повышает мышечную выносливость, влияние потребления кофеина на максимальную мышечную силу (обычно операционализируется как один максимум повторения [1RM]) и мышечную силу (обычно операционализируется как вертикальный скачок) остается неясным, и практическая полезность приема кофеина для повышения работоспособности в таких физических задачах не была полностью выяснена.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_performance_wording"
+      ],
+      "section_ru_machine": "Предыстория",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 1
+      }
+    },
+    {
+      "paragraph_id": "SU-007:p0002",
+      "section_en": "Background",
+      "text_en": "The pioneering work on caffeine’s effects on strength by Astorino et al. reported no significant strength-enhancing effects with caffeine ingestion in a group of resistance trained men. Recent work by Grgic and Mikulic, however, found a significant 3% increase in lower body strength with caffeine ingestion using the barbell back squat 1RM as a measure of maximal strength. Goldstein et al. reported a significant increase in upper body strength with caffeine ingestion, while Williams et al. reported no ergogenic effect. The inconsistent results of individual studies prevent drawing sound conclusions regarding the ergogenic potential of caffeine for maximal strength outcomes.",
+      "section_ru": "Предыстория",
+      "text_ru_machine": "Новаторская работа по воздействию кофеина на силу Astorino et al. не сообщила о значительных эффектах усиления силы при приеме кофеина в группе мужчин, обученных сопротивлению. Недавняя работа Grgic и Mikulic, однако, обнаружила значительное увеличение силы нижней части тела на 3% при употреблении кофеина, используя приседание на спине штанги 1RM в качестве меры максимальной силы. Goldstein et al. сообщили о значительном увеличении силы верхней части тела при приеме кофеина, в то время как Williams et al. сообщили об отсутствии эргогенного эффекта. Непоследовательные результаты отдельных исследований не позволяют сделать обоснованные выводы относительно эргогенного потенциала кофеина для достижения максимальных результатов.",
+      "text_ru": "Новаторская работа по воздействию кофеина на силу Astorino et al. не сообщила о значительных эффектах усиления силы при приеме кофеина в группе мужчин, тренированных в силовых упражнениях. Недавняя работа Grgic и Mikulic, однако, обнаружила значительное увеличение силы нижней части тела на 3% при употреблении кофеина, используя приседание на спине штанги 1RM в качестве меры максимальной силы. Goldstein et al. сообщили о значительном увеличении силы верхней части тела при приеме кофеина, в то время как Williams et al. сообщили об отсутствии эргогенного эффекта. Непоследовательные результаты отдельных исследований не позволяют сделать обоснованные выводы относительно эргогенного потенциала кофеина для достижения максимальных результатов.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "The pioneering work on caffeine’s effects on strength by Astorino et al. reported no significant strength-enhancing effects with caffeine ingestion in a group of resistance trained men.",
+          "ru": "Новаторская работа по воздействию кофеина на силу Astorino et al. не сообщила о значительных эффектах усиления силы при приеме кофеина в группе мужчин, обученных сопротивлению.",
+          "output_tokens": 41,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Новаторская работа по воздействию кофеина на силу Astorino et al. не сообщила о значительных эффектах усиления силы при приеме кофеина в группе мужчин, тренированных в силовых упражнениях.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Recent work by Grgic and Mikulic, however, found a significant 3% increase in lower body strength with caffeine ingestion using the barbell back squat 1RM as a measure of maximal strength.",
+          "ru": "Недавняя работа Grgic и Mikulic, однако, обнаружила значительное увеличение силы нижней части тела на 3% при употреблении кофеина, используя приседание на спине штанги 1RM в качестве меры максимальной силы.",
+          "output_tokens": 50,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Недавняя работа Grgic и Mikulic, однако, обнаружила значительное увеличение силы нижней части тела на 3% при употреблении кофеина, используя приседание на спине штанги 1RM в качестве меры максимальной силы.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Goldstein et al. reported a significant increase in upper body strength with caffeine ingestion, while Williams et al. reported no ergogenic effect.",
+          "ru": "Goldstein et al. сообщили о значительном увеличении силы верхней части тела при приеме кофеина, в то время как Williams et al. сообщили об отсутствии эргогенного эффекта.",
+          "output_tokens": 38,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Goldstein et al. сообщили о значительном увеличении силы верхней части тела при приеме кофеина, в то время как Williams et al. сообщили об отсутствии эргогенного эффекта.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The inconsistent results of individual studies prevent drawing sound conclusions regarding the ergogenic potential of caffeine for maximal strength outcomes.",
+          "ru": "Непоследовательные результаты отдельных исследований не позволяют сделать обоснованные выводы относительно эргогенного потенциала кофеина для достижения максимальных результатов.",
+          "output_tokens": 28,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Непоследовательные результаты отдельных исследований не позволяют сделать обоснованные выводы относительно эргогенного потенциала кофеина для достижения максимальных результатов.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_training_term"
+      ],
+      "section_ru_machine": "Предыстория",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 2
+      }
+    },
+    {
+      "paragraph_id": "SU-007:p0003",
+      "section_en": "Background",
+      "text_en": "Equivocal findings have also been presented for the effects of caffeine intake on muscle power. A recent study by Ali et al. reported no effect on countermovement jump height with caffeine ingestion. However, the findings of Bloms et al. support conclusions about caffeine as an effective ergogenic aid for achieving acute improvements in countermovement jump height and peak force. Given the importance of jumping abilities for many common sports, it would be of both scientific and practical significance to determine a reasonably precise estimate regarding the potential performance-enhancing impact of caffeine ingestion on muscle power.",
+      "section_ru": "Предыстория",
+      "text_ru_machine": "Эквивокальные результаты также были представлены для влияния потребления кофеина на мышечную силу. Недавнее исследование, проведенное Ali et al., показало отсутствие влияния на высоту скачка контрдвижения при приеме кофеина. Тем не менее, результаты Bloms et al. подтверждают выводы о кофеине как эффективной эргогенной помощи для достижения острых улучшений в высоте скачка контрдвижения и пиковой силе. Учитывая важность прыжковых способностей для многих распространенных видов спорта, было бы научно и практически важно определить достаточно точную оценку потенциального воздействия потребления кофеина на мышечную силу.",
+      "text_ru": "Эквивокальные результаты также были представлены для влияния потребления кофеина на мышечную силу. Недавнее исследование, проведенное Ali et al., показало отсутствие влияния на высоту скачка контрдвижения при приеме кофеина. Тем не менее, результаты Bloms et al. подтверждают выводы о кофеине как эффективной эргогенной помощи для достижения острых улучшений в высоте скачка контрдвижения и пиковой силе. Учитывая важность прыжковых способностей для многих распространенных видов спорта, было бы научно и практически важно определить достаточно точную оценку потенциального воздействия потребления кофеина на мышечную силу.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "Equivocal findings have also been presented for the effects of caffeine intake on muscle power.",
+          "ru": "Эквивокальные результаты также были представлены для влияния потребления кофеина на мышечную силу.",
+          "output_tokens": 18,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Эквивокальные результаты также были представлены для влияния потребления кофеина на мышечную силу.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "A recent study by Ali et al. reported no effect on countermovement jump height with caffeine ingestion.",
+          "ru": "Недавнее исследование, проведенное Ali et al., показало отсутствие влияния на высоту скачка контрдвижения при приеме кофеина.",
+          "output_tokens": 30,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Недавнее исследование, проведенное Ali et al., показало отсутствие влияния на высоту скачка контрдвижения при приеме кофеина.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "However, the findings of Bloms et al. support conclusions about caffeine as an effective ergogenic aid for achieving acute improvements in countermovement jump height and peak force.",
+          "ru": "Тем не менее, результаты Bloms et al. подтверждают выводы о кофеине как эффективной эргогенной помощи для достижения острых улучшений в высоте скачка контрдвижения и пиковой силе.",
+          "output_tokens": 44,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Тем не менее, результаты Bloms et al. подтверждают выводы о кофеине как эффективной эргогенной помощи для достижения острых улучшений в высоте скачка контрдвижения и пиковой силе.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Given the importance of jumping abilities for many common sports, it would be of both scientific and practical significance to determine a reasonably precise estimate regarding the potential performance-enhancing impact of caffeine ingestion on muscle power.",
+          "ru": "Учитывая важность прыжковых способностей для многих распространенных видов спорта, было бы научно и практически важно определить достаточно точную оценку потенциального воздействия потребления кофеина на мышечную силу.",
+          "output_tokens": 37,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Учитывая важность прыжковых способностей для многих распространенных видов спорта, было бы научно и практически важно определить достаточно точную оценку потенциального воздействия потребления кофеина на мышечную силу.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "Предыстория",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-007:p0004",
+      "section_en": "Background",
+      "text_en": "Several aspects that vary between studies, including the exercise used, participants’ characteristics (e.g., age, sex, and training experience), and caffeine form, might be responsible for the inconsistency of findings. Most importantly, small sample sizes often limited the statistical power to detect significant effects. A meta-analysis of individual studies is needed to circumvent these issues and provide in-depth, evidence-based scrutiny of the current body of evidence. The first meta-analytic investigation on the topic of caffeine and strength was performed by Warren et al., who found a mean increase of approximately 7% in lower body maximal voluntary contraction with caffeine ingestion. A limitation of the meta-analysis is that only two of the included studies tested the effects of caffeine ingestion on 1RM, which significantly restricted the findings to isometric and isokinetic strength outcomes.",
+      "section_ru": "Предыстория",
+      "text_ru_machine": "Несколько аспектов, которые различаются между исследованиями, включая используемые упражнения, характеристики участников (например, возраст, пол и опыт тренировок) и форма кофеина, могут быть ответственны за несоответствие результатов. Небольшие размеры выборки часто ограничивают статистическую способность обнаруживать значительные эффекты. Мета-анализ отдельных исследований необходим, чтобы обойти эти проблемы и обеспечить углубленное, основанное на фактических данных исследование текущего объема доказательств. Первое метааналитическое исследование по теме кофеина и силы было выполнено Уорреном и др., который обнаружил среднее увеличение примерно на 7% в максимальном добровольном сокращении нижней части тела при приеме кофеина. Ограничением мета-анализа является то, что только два из включенных исследований проверили влияние приема кофеина на 1RM, что значительно ограничило результаты изометрической и изокинетической прочности.",
+      "text_ru": "Несколько аспектов, которые различаются между исследованиями, включая используемые упражнения, характеристики участников (например, возраст, пол и опыт тренировок) и форма кофеина, могут быть ответственны за несоответствие результатов. Небольшие размеры выборки часто ограничивают статистическую способность обнаруживать значительные эффекты. Мета-анализ отдельных исследований необходим, чтобы обойти эти проблемы и обеспечить углубленное, основанное на фактических данных исследование текущего объема доказательств. Первое метааналитическое исследование по теме кофеина и силы было выполнено Уорреном и др., который обнаружил среднее увеличение примерно на 7% в максимальном добровольном сокращении нижней части тела при приеме кофеина. Ограничением мета-анализа является то, что только два из включенных исследований проверили влияние приема кофеина на 1RM, что значительно ограничило результаты изометрической и изокинетической прочности.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "Several aspects that vary between studies, including the exercise used, participants’ characteristics (e.g., age, sex, and training experience), and caffeine form, might be responsible for the inconsistency of findings.",
+          "ru": "Несколько аспектов, которые различаются между исследованиями, включая используемые упражнения, характеристики участников (например, возраст, пол и опыт тренировок) и форма кофеина, могут быть ответственны за несоответствие результатов.",
+          "output_tokens": 43,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Несколько аспектов, которые различаются между исследованиями, включая используемые упражнения, характеристики участников (например, возраст, пол и опыт тренировок) и форма кофеина, могут быть ответственны за несоответствие результатов.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Most importantly, small sample sizes often limited the statistical power to detect significant effects.",
+          "ru": "Небольшие размеры выборки часто ограничивают статистическую способность обнаруживать значительные эффекты.",
+          "output_tokens": 18,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Небольшие размеры выборки часто ограничивают статистическую способность обнаруживать значительные эффекты.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "A meta-analysis of individual studies is needed to circumvent these issues and provide in-depth, evidence-based scrutiny of the current body of evidence.",
+          "ru": "Мета-анализ отдельных исследований необходим, чтобы обойти эти проблемы и обеспечить углубленное, основанное на фактических данных исследование текущего объема доказательств.",
+          "output_tokens": 29,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Мета-анализ отдельных исследований необходим, чтобы обойти эти проблемы и обеспечить углубленное, основанное на фактических данных исследование текущего объема доказательств.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The first meta-analytic investigation on the topic of caffeine and strength was performed by Warren et al., who found a mean increase of approximately 7% in lower body maximal voluntary contraction with caffeine ingestion.",
+          "ru": "Первое метааналитическое исследование по теме кофеина и силы было выполнено Уорреном и др., который обнаружил среднее увеличение примерно на 7% в максимальном добровольном сокращении нижней части тела при приеме кофеина.",
+          "output_tokens": 49,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Первое метааналитическое исследование по теме кофеина и силы было выполнено Уорреном и др., который обнаружил среднее увеличение примерно на 7% в максимальном добровольном сокращении нижней части тела при приеме кофеина.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "A limitation of the meta-analysis is that only two of the included studies tested the effects of caffeine ingestion on 1RM, which significantly restricted the findings to isometric and isokinetic strength outcomes.",
+          "ru": "Ограничением мета-анализа является то, что только два из включенных исследований проверили влияние приема кофеина на 1RM, что значительно ограничило результаты изометрической и изокинетической прочности.",
+          "output_tokens": 44,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Ограничением мета-анализа является то, что только два из включенных исследований проверили влияние приема кофеина на 1RM, что значительно ограничило результаты изометрической и изокинетической прочности.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "Предыстория",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-007:p0006",
+      "section_en": "Background",
+      "text_en": "No previous meta-analyses have pooled the results of individual studies on the effects of caffeine on muscle power. The aim of this systematic review was, therefore, twofold: (a) to perform an updated meta-analysis of the acute effects of caffeine ingestion on maximal muscle strength; and (b) to conduct the first meta-analysis of acute effects of caffeine ingestion on muscle power assessed by vertical jump tests. The results may benefit athletes and practitioners in a variety of sports in which muscle strength and/or power are important determinants of performance.",
+      "section_ru": "Предыстория",
+      "text_ru_machine": "Никакие предыдущие мета-анализы не объединили результаты отдельных исследований влияния кофеина на мышечную силу. Таким образом, цель этого систематического обзора была двоякой: (a) провести обновленный мета-анализ острого воздействия приема кофеина на максимальную мышечную силу; и (b) провести первый мета-анализ острого воздействия приема кофеина на мышечную силу, оцененный с помощью тестов вертикального скачка. Результаты могут принести пользу спортсменам и практикам в различных видах спорта, в которых мышечная сила и / или сила являются важными определяющими факторами производительности.",
+      "text_ru": "Никакие предыдущие мета-анализы не объединили результаты отдельных исследований влияния кофеина на мышечную силу. Таким образом, цель этого систематического обзора была двоякой: (a) провести обновленный мета-анализ острого воздействия приема кофеина на максимальную мышечную силу; и (b) провести первый мета-анализ острого воздействия приема кофеина на мышечную силу, оцененный с помощью тестов вертикального скачка. Результаты могут принести пользу спортсменам и практикам в различных видах спорта, в которых мышечная сила и / или сила являются важными определяющими факторами работоспособности.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "No previous meta-analyses have pooled the results of individual studies on the effects of caffeine on muscle power.",
+          "ru": "Никакие предыдущие мета-анализы не объединили результаты отдельных исследований влияния кофеина на мышечную силу.",
+          "output_tokens": 21,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Никакие предыдущие мета-анализы не объединили результаты отдельных исследований влияния кофеина на мышечную силу.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The aim of this systematic review was, therefore, twofold:",
+          "ru": "Таким образом, цель этого систематического обзора была двоякой:",
+          "output_tokens": 15,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Таким образом, цель этого систематического обзора была двоякой:",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "(a) to perform an updated meta-analysis of the acute effects of caffeine ingestion on maximal muscle strength; and",
+          "ru": "(a) провести обновленный мета-анализ острого воздействия приема кофеина на максимальную мышечную силу; и",
+          "output_tokens": 23,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "(a) провести обновленный мета-анализ острого воздействия приема кофеина на максимальную мышечную силу; и",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "(b) to conduct the first meta-analysis of acute effects of caffeine ingestion on muscle power assessed by vertical jump tests.",
+          "ru": "(b) провести первый мета-анализ острого воздействия приема кофеина на мышечную силу, оцененный с помощью тестов вертикального скачка.",
+          "output_tokens": 30,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "(b) провести первый мета-анализ острого воздействия приема кофеина на мышечную силу, оцененный с помощью тестов вертикального скачка.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The results may benefit athletes and practitioners in a variety of sports in which muscle strength and/or power are important determinants of performance.",
+          "ru": "Результаты могут принести пользу спортсменам и практикам в различных видах спорта, в которых мышечная сила и / или сила являются важными определяющими факторами производительности.",
+          "output_tokens": 32,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Результаты могут принести пользу спортсменам и практикам в различных видах спорта, в которых мышечная сила и / или сила являются важными определяющими факторами работоспособности.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_performance_wording"
+      ],
+      "section_ru_machine": "Предыстория",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 1
+      }
+    },
+    {
+      "paragraph_id": "SU-007:p0010",
+      "section_en": "Methods / Inclusion criteria",
+      "text_en": "To warrant inclusion in the current analysis potential studies were required to meet the following criteria: an experimental trial published in English in a peer-reviewed journal, or a doctoral or a master’s thesis; assessed the effects of caffeine ingestion in the form of capsule, liquid, gum or gel on dynamic maximal muscle strength (i.e. the greatest amount of weight lifted in a single repetition – 1RM) using constant external resistance, and/or on muscle power assessed using a vertical jump test (both peak force and vertical jump height were considered); caffeine was not co-ingested with other drugs/substances or potentially ergogenic compounds; employed a single or double-blind, randomized crossover design; used human participants without known chronic disease or injury.",
+      "section_ru": "Методы",
+      "text_ru_machine": "Чтобы гарантировать включение в текущий анализ, потенциальные исследования должны были соответствовать следующим критериям: экспериментальное исследование, опубликованное на английском языке в рецензируемом журнале или докторской или магистерской диссертации; оценило влияние потребления кофеина в виде капсулы, жидкости, резинки или геля на динамическую максимальную мышечную силу (т.е. наибольшее количество веса, поднятого за одно повторение - 1RM) с использованием постоянного внешнего сопротивления и / или на мышечную силу, оцененную с использованием теста вертикального прыжка (оба пиковой силы и высоты вертикального прыжка были рассмотрены); кофеин не был принят совместно с другими препаратами / веществами или потенциально эргогенными соединениями; использовал один или двойной слепой, рандомизированный кроссовер дизайн; использовал участников человека без известных хронических заболеваний или травм.",
+      "text_ru": "В анализ включали англоязычные экспериментальные работы в рецензируемых журналах, а также магистерские и докторские диссертации. Исследования должны были оценивать кофеин в капсулах, жидкости, жевательной резинке или геле и его влияние на динамическую максимальную силу при постоянном внешнем сопротивлении — максимальный вес в одном повторении, 1RM, — либо на мышечную мощность по вертикальному прыжку, включая пиковую силу и высоту прыжка. Кофеин не должен был сочетаться с другими препаратами, веществами или потенциальными средствами повышения работоспособности. Требовался рандомизированный перекрёстный дизайн с одинарным или двойным ослеплением и участники без известных хронических заболеваний или травм.",
+      "flags": [],
+      "review_status": "reviewed",
+      "segments": [
+        {
+          "en": "To warrant inclusion in the current analysis potential studies were required to meet the following criteria: an experimental trial published in English in a peer-reviewed journal, or a doctoral or a master’s thesis; assessed the effects of caffeine ingestion in the form of capsule, liquid, gum or gel on dynamic maximal muscle strength (i.e. the greatest amount of weight lifted in a single repetition – 1RM) using constant external resistance, and/or on muscle power assessed using a vertical jump test (both peak force and vertical jump height were considered); caffeine was not co-ingested with other drugs/substances or potentially ergogenic compounds; employed a single or double-blind, randomized crossover design; used human participants without known chronic disease or injury.",
+          "ru": "Чтобы гарантировать включение в текущий анализ, потенциальные исследования должны были соответствовать следующим критериям: экспериментальное исследование, опубликованное на английском языке в рецензируемом журнале или докторской или магистерской диссертации; оценило влияние потребления кофеина в виде капсулы, жидкости, резинки или геля на динамическую максимальную мышечную силу (т.е. наибольшее количество веса, поднятого за одно повторение - 1RM) с использованием постоянного внешнего сопротивления и / или на мышечную силу, оцененную с использованием теста вертикального прыжка (оба пиковой силы и высоты вертикального прыжка были рассмотрены); кофеин не был принят совместно с другими препаратами / веществами или потенциально эргогенными соединениями; использовал один или двойной слепой, рандомизированный кроссовер дизайн; использовал участников человека без известных хронических заболеваний или травм.",
+          "output_tokens": 184,
+          "possible_output_truncation": false,
+          "flags_machine": [
+            "numbers_changed"
+          ],
+          "text_ru_edited": "Для включения в анализ исследование должно было соответствовать следующим критериям: быть экспериментальной работой, опубликованной на английском языке в рецензируемом журнале, либо докторской или магистерской диссертацией; оценивать влияние кофеина в капсулах, жидкости, жевательной резинке или геле на динамическую максимальную мышечную силу, то есть максимальный вес за одно повторение (1RM), при постоянном внешнем сопротивлении и/или на мышечную мощность в вертикальном прыжке, с учётом пиковой силы и высоты прыжка; не сочетать кофеин с другими препаратами, веществами или потенциально повышающими работоспособность соединениями; иметь рандомизированный перекрёстный дизайн с одинарным или двойным ослеплением; включать людей без известных хронических заболеваний или травм.",
+          "editorial_status": "reviewed",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "numbers_changed"
+      ],
+      "section_ru_machine": "Методы/критерии включения",
+      "editorial_review": {
+        "reviewer": "Codex: перевод и сопоставление с оригиналом без сторонних моделей",
+        "reason": "Самостоятельный редакторский перевод ранее не вошедшего в чанки раздела; смысл, ограничения и числа сопоставлены с английским оригиналом.",
+        "original_sha256": "2ba9eeaaf595f5a7b298fe2e35b40e3dcf0a60652c021e084ab416a866b6ca4a",
+        "review_date": "2026-11-20",
+        "text_sha256": "fdcdec1ca894fbb0c4690ab63c5f5fad6f040332872b6195f5be071598421872"
+      },
+      "excluded_from_corpus": true,
+      "scope_exclusion_reason": "Методика поиска/статистического анализа обзора: не содержит тренировочного протокола или ответа предметной области. Перевод сохранён отдельно.",
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": true,
+        "manually_edited_segments": 1,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-007:p0016",
+      "section_en": "Methods / Inclusion criteria",
+      "text_en": "Studies were excluded from the analysis if any of the above criteria were violated. Caffeine ingestion via coffee was not considered as coffee has several other biologically active compounds that might moderate the impact of caffeine.",
+      "section_ru": "Методы",
+      "text_ru_machine": "Исследования исключались из анализа при нарушении любого из вышеперечисленных критериев. Прием кофеина через кофе не рассматривался как кофе имеет несколько других биологически активных соединений, которые могут смягчить воздействие кофеина.",
+      "text_ru": "Работы, нарушавшие любой из критериев, исключали. Кофе как источник кофеина не рассматривали, поскольку он содержит другие биологически активные вещества, способные изменять эффект.",
+      "flags": [],
+      "review_status": "reviewed",
+      "segments": [
+        {
+          "en": "Studies were excluded from the analysis if any of the above criteria were violated.",
+          "ru": "Исследования исключались из анализа при нарушении любого из вышеперечисленных критериев.",
+          "output_tokens": 16,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Исследования исключались из анализа при нарушении любого из вышеперечисленных критериев.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Caffeine ingestion via coffee was not considered as coffee has several other biologically active compounds that might moderate the impact of caffeine.",
+          "ru": "Прием кофеина через кофе не рассматривался как кофе имеет несколько других биологически активных соединений, которые могут смягчить воздействие кофеина.",
+          "output_tokens": 29,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Прием кофеина через кофе не рассматривался как кофе имеет несколько других биологически активных соединений, которые могут смягчить воздействие кофеина.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "Методы/критерии включения",
+      "editorial_review": {
+        "reviewer": "Codex: перевод и сопоставление с оригиналом без сторонних моделей",
+        "reason": "Самостоятельный редакторский перевод ранее не вошедшего в чанки раздела; смысл, ограничения и числа сопоставлены с английским оригиналом.",
+        "original_sha256": "c0c332c5944dcc530131bc0846b32864c4a792c3d77373430114089d81359cbe",
+        "review_date": "2026-11-20",
+        "text_sha256": "fe311fe6fb44fe31132fd8c4e29ddac951537dd045cbfe5d13b9a526e2b597bd"
+      },
+      "excluded_from_corpus": true,
+      "scope_exclusion_reason": "Методика поиска/статистического анализа обзора: не содержит тренировочного протокола или ответа предметной области. Перевод сохранён отдельно.",
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": true,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-007:p0026",
+      "section_en": "Methods / Methodological quality",
+      "text_en": "The 11-point PEDro scale was used for the assessment of the methodological quality of studies. The first item concerns external validity and is not included in the total score; hence, the maximal score on the scale is 10. Studies were classified as in McCrary et al.. Two authors of the article (JG and BL) performed the search, coding, and appraisal of methodological quality independently, with discussion and consensus over any observed differences. Before correcting for observed differences, the overall agreement between the two independent data extractions was very high (Cohen’s kappa = 0.94).",
+      "section_ru": "Методы",
+      "text_ru_machine": "Для оценки методологического качества исследований использовалась 11-балльная шкала PEDro. Первый пункт касается внешней действительности и не включен в общий балл; следовательно, максимальный балл по шкале составляет 10. Исследования были классифицированы как в McCrary и др. Два автора статьи (JG и BL) выполнили поиск, кодирование и оценку методологического качества самостоятельно, с обсуждением и консенсусом по поводу любых наблюдаемых различий. До исправления наблюдаемых различий общее согласие между двумя независимыми извлечениями данных было очень высоким (каппа Коэна = 0,94).",
+      "text_ru": "Качество оценивали по 11 пунктам шкалы PEDro. Первый относится к внешней применимости результатов и не входит в сумму, поэтому максимум составляет 10 баллов. Исследования классифицировали по подходу Маккрери и соавторов. Два автора независимо выполняли поиск, кодирование и оценку качества, затем обсуждали расхождения до согласия. До согласования совпадение извлечённых данных было очень высоким: коэффициент каппа Коэна 0,94.",
+      "flags": [],
+      "review_status": "reviewed",
+      "segments": [
+        {
+          "en": "The 11-point PEDro scale was used for the assessment of the methodological quality of studies.",
+          "ru": "Для оценки методологического качества исследований использовалась 11-балльная шкала PEDro.",
+          "output_tokens": 21,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Для оценки методологического качества исследований использовалась 11-балльная шкала PEDro.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The first item concerns external validity and is not included in the total score; hence, the maximal score on the scale is 10.",
+          "ru": "Первый пункт касается внешней действительности и не включен в общий балл; следовательно, максимальный балл по шкале составляет 10.",
+          "output_tokens": 25,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Первый пункт касается внешней действительности и не включен в общий балл; следовательно, максимальный балл по шкале составляет 10.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Studies were classified as in McCrary et al..",
+          "ru": "Исследования были классифицированы как в McCrary и др.",
+          "output_tokens": 12,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Исследования были классифицированы как в McCrary и др.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Two authors of the article (JG and BL) performed the search, coding, and appraisal of methodological quality independently, with discussion and consensus over any observed differences.",
+          "ru": "Два автора статьи (JG и BL) выполнили поиск, кодирование и оценку методологического качества самостоятельно, с обсуждением и консенсусом по поводу любых наблюдаемых различий.",
+          "output_tokens": 37,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Два автора статьи (JG и BL) выполнили поиск, кодирование и оценку методологического качества самостоятельно, с обсуждением и консенсусом по поводу любых наблюдаемых различий.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Before correcting for observed differences, the overall agreement between the two independent data extractions was very high (Cohen’s kappa = 0.94).",
+          "ru": "До исправления наблюдаемых различий общее согласие между двумя независимыми извлечениями данных было очень высоким (каппа Коэна = 0,94).",
+          "output_tokens": 31,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "До исправления наблюдаемых различий общее согласие между двумя независимыми извлечениями данных было очень высоким (каппа Коэна = 0,94).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "Методы / Методологическое качество",
+      "editorial_review": {
+        "reviewer": "Codex: перевод и сопоставление с оригиналом без сторонних моделей",
+        "reason": "Самостоятельный редакторский перевод ранее не вошедшего в чанки раздела; смысл, ограничения и числа сопоставлены с английским оригиналом.",
+        "original_sha256": "8306b48c1d71499d403780350b9493e0b1097e7dd2864be8ee2ca7986f3e5325",
+        "review_date": "2026-11-20",
+        "text_sha256": "319463c041b5a999c11dc6582f88b544644f1ccee39d61a092e9c8c653e95d3f"
+      },
+      "excluded_from_corpus": true,
+      "scope_exclusion_reason": "Методика поиска/статистического анализа обзора: не содержит тренировочного протокола или ответа предметной области. Перевод сохранён отдельно.",
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": true,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-007:p0034",
+      "section_en": "Results",
+      "text_en": "Fifteen studies were published in peer-reviewed journals, while two studies were master’s theses. The median number of participants per study was 14. Most of the studies used a double-blind design (i.e., 15 studies), with two studies using a single-blind design. Caffeine dosage varied from 0.9 mg.kg− 1 to 7 mg.kg− 1. Only one study administered caffeine in the form of gel, while the rest used capsule or liquid forms. Only nine studies reported habitual caffeine intake, with Astorino et al. and Goldstein et al. reporting a large range of habitual caffeine intakes among the participants (0–600 mg.kg− 1 per day). Only three studies reported assessing the effectiveness of the blinding, with 60%, 50% and 33% of the participants correctly differentiating between the placebo and the caffeine trials, respectively. Individual characteristics of the included studies are reported in Table 1.",
+      "section_ru": "Результаты",
+      "text_ru_machine": "Пятнадцать исследований были опубликованы в рецензируемых журналах, а два исследования были магистерскими диссертациями. Среднее число участников на исследование составило 14 человек. В большинстве исследований использовался двойной слепой дизайн (то есть 15 исследований), причем в двух исследованиях использовался однослепой дизайн. Дозировка кофеина варьировалась от 0,9 мг.кг-1 до 7 мг.кг-1. Только в одном исследовании вводили кофеин в виде геля, в то время как в остальных использовались капсульные или жидкие формы. Только в девяти исследованиях сообщалось о привычном потреблении кофеина, причем Astorino et al. и Goldstein et al. сообщили о большом диапазоне привычного потребления кофеина среди участников (0-600 мг.кг-1 в день). Только в трех исследованиях сообщалось об оценке эффективности ослепления, причем 60%, 50% и 33% участников правильно дифференцировали между плацебо и испытаниями кофеина соответственно. Индивидуальные характеристики включенных исследований представлены в таблице 1.",
+      "text_ru": "Пятнадцать исследований были опубликованы в рецензируемых журналах, а два исследования были магистерскими диссертациями. Среднее число участников на исследование составило 14 человек. В большинстве исследований использовался двойной слепой дизайн (то есть 15 исследований), причем в двух исследованиях использовался однослепой дизайн. Дозировка кофеина варьировалась от 0,9 мг.кг-1 до 7 мг.кг-1. Только в одном исследовании вводили кофеин в виде геля, в то время как в остальных использовались капсульные или жидкие формы. Только в девяти исследованиях сообщалось о привычном потреблении кофеина, причем Astorino et al. и Goldstein et al. сообщили о большом диапазоне привычного потребления кофеина среди участников (0-600 мг.кг-1 в день). Только в трех исследованиях сообщалось об оценке эффективности ослепления, причем 60%, 50% и 33% участников правильно дифференцировали между плацебо и испытаниями кофеина соответственно. Индивидуальные характеристики включенных исследований представлены в таблице 1.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "Fifteen studies were published in peer-reviewed journals, while two studies were master’s theses.",
+          "ru": "Пятнадцать исследований были опубликованы в рецензируемых журналах, а два исследования были магистерскими диссертациями.",
+          "output_tokens": 23,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Пятнадцать исследований были опубликованы в рецензируемых журналах, а два исследования были магистерскими диссертациями.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The median number of participants per study was 14.",
+          "ru": "Среднее число участников на исследование составило 14 человек.",
+          "output_tokens": 11,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Среднее число участников на исследование составило 14 человек.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Most of the studies used a double-blind design (i.e., 15 studies), with two studies using a single-blind design.",
+          "ru": "В большинстве исследований использовался двойной слепой дизайн (то есть 15 исследований), причем в двух исследованиях использовался однослепой дизайн.",
+          "output_tokens": 26,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В большинстве исследований использовался двойной слепой дизайн (то есть 15 исследований), причем в двух исследованиях использовался однослепой дизайн.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Caffeine dosage varied from 0.9 mg.kg− 1 to 7 mg.kg− 1.",
+          "ru": "Дозировка кофеина варьировалась от 0,9 мг.кг-1 до 7 мг.кг-1.",
+          "output_tokens": 27,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Дозировка кофеина варьировалась от 0,9 мг.кг-1 до 7 мг.кг-1.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Only one study administered caffeine in the form of gel, while the rest used capsule or liquid forms.",
+          "ru": "Только в одном исследовании вводили кофеин в виде геля, в то время как в остальных использовались капсульные или жидкие формы.",
+          "output_tokens": 29,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Только в одном исследовании вводили кофеин в виде геля, в то время как в остальных использовались капсульные или жидкие формы.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Only nine studies reported habitual caffeine intake, with Astorino et al. and Goldstein et al. reporting a large range of habitual caffeine intakes among the participants (0–600 mg.kg− 1 per day).",
+          "ru": "Только в девяти исследованиях сообщалось о привычном потреблении кофеина, причем Astorino et al. и Goldstein et al. сообщили о большом диапазоне привычного потребления кофеина среди участников (0-600 мг.кг-1 в день).",
+          "output_tokens": 50,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Только в девяти исследованиях сообщалось о привычном потреблении кофеина, причем Astorino et al. и Goldstein et al. сообщили о большом диапазоне привычного потребления кофеина среди участников (0-600 мг.кг-1 в день).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Only three studies reported assessing the effectiveness of the blinding, with 60%, 50% and 33% of the participants correctly differentiating between the placebo and the caffeine trials, respectively.",
+          "ru": "Только в трех исследованиях сообщалось об оценке эффективности ослепления, причем 60%, 50% и 33% участников правильно дифференцировали между плацебо и испытаниями кофеина соответственно.",
+          "output_tokens": 34,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Только в трех исследованиях сообщалось об оценке эффективности ослепления, причем 60%, 50% и 33% участников правильно дифференцировали между плацебо и испытаниями кофеина соответственно.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Individual characteristics of the included studies are reported in Table 1.",
+          "ru": "Индивидуальные характеристики включенных исследований представлены в таблице 1.",
+          "output_tokens": 15,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Индивидуальные характеристики включенных исследований представлены в таблице 1.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "Результаты",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-007:p0035",
+      "section_en": "Results",
+      "text_en": "Results of the meta-analysis indicated a significant difference (p = 0.023) between the placebo and caffeine trials on measures of maximal strength (Fig. 2). The pooled SMD for the effects of caffeine ingestion on muscle strength was 0.20 (95% CI: 0.03, 0.36). A subgroup analysis indicated that caffeine significantly improves upper (SMD = 0.21; 95% CI: 0.02, 0.39; p = 0.026; Fig. 3) but not lower body strength (SMD = 0.15; 95% CI: -0.05, 0.34; p = 0.147; Fig. 4). Results from all of the remaining subgroup analysis may be found in Table 2.",
+      "section_ru": "Результаты",
+      "text_ru_machine": "Результаты мета-анализа показали существенную разницу (р = 0,023) между плацебо и исследованиями кофеина по мерам максимальной силы (рисунок 2). Объединенная СМД для воздействия потребления кофеина на мышечную силу составила 0,20 (95% ДИ: 0,03, 0,36). Анализ подгруппы показал, что кофеин значительно улучшает верхнюю (SMD = 0,21; 95% CI: 0,02, 0,39; p = 0,026; фиг.3), но не меньшую силу тела (SMD = 0,15; 95% CI: -0,05, 0,34; p = 0,147; фиг.4). Результаты всего оставшегося подгруппового анализа можно найти в таблице 2.",
+      "text_ru": "Результаты мета-анализа показали существенную разницу (р = 0,023) между плацебо и исследованиями кофеина по мерам максимальной силы (рисунок 2). Объединенная СМД для воздействия потребления кофеина на мышечную силу составила 0,20 (95% ДИ: 0,03, 0,36). Анализ подгруппы показал, что кофеин значительно улучшает верхнюю (SMD = 0,21; 95% CI: 0,02, 0,39; p = 0,026; фиг.3), но не меньшую силу тела (SMD = 0,15; 95% CI: -0,05, 0,34; p = 0,147; фиг.4). Результаты всего оставшегося подгруппового анализа можно найти в таблице 2.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "Results of the meta-analysis indicated a significant difference (p = 0.023) between the placebo and caffeine trials on measures of maximal strength (Fig. 2).",
+          "ru": "Результаты мета-анализа показали существенную разницу (р = 0,023) между плацебо и исследованиями кофеина по мерам максимальной силы (рисунок 2).",
+          "output_tokens": 33,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Результаты мета-анализа показали существенную разницу (р = 0,023) между плацебо и исследованиями кофеина по мерам максимальной силы (рисунок 2).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The pooled SMD for the effects of caffeine ingestion on muscle strength was 0.20 (95% CI: 0.03, 0.36).",
+          "ru": "Объединенная СМД для воздействия потребления кофеина на мышечную силу составила 0,20 (95% ДИ: 0,03, 0,36).",
+          "output_tokens": 32,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Объединенная СМД для воздействия потребления кофеина на мышечную силу составила 0,20 (95% ДИ: 0,03, 0,36).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "A subgroup analysis indicated that caffeine significantly improves upper (SMD = 0.21; 95% CI: 0.02, 0.39; p = 0.026; Fig. 3) but not lower body strength (SMD = 0.15; 95% CI: -0.05, 0.34; p = 0.147; Fig. 4).",
+          "ru": "Анализ подгруппы показал, что кофеин значительно улучшает верхнюю (SMD = 0,21; 95% CI: 0,02, 0,39; p = 0,026; фиг.3), но не меньшую силу тела (SMD = 0,15; 95% CI: -0,05, 0,34; p = 0,147; фиг.4).",
+          "output_tokens": 75,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Анализ подгруппы показал, что кофеин значительно улучшает верхнюю (SMD = 0,21; 95% CI: 0,02, 0,39; p = 0,026; фиг.3), но не меньшую силу тела (SMD = 0,15; 95% CI: -0,05, 0,34; p = 0,147; фиг.4).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Results from all of the remaining subgroup analysis may be found in Table 2.",
+          "ru": "Результаты всего оставшегося подгруппового анализа можно найти в таблице 2.",
+          "output_tokens": 15,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Результаты всего оставшегося подгруппового анализа можно найти в таблице 2.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "Результаты",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-007:p0041",
+      "section_en": "Results",
+      "text_en": "The meta-analysis performed for muscle power indicated a significant difference (SMD = 0.17; 95% CI: 0.00, 0.34; p = 0.047) between the placebo and caffeine trials (Fig. 5). Results from all of the subgroup analysis can be found in Table 2.",
+      "section_ru": "Результаты",
+      "text_ru_machine": "Мета-анализ, выполненный для мышечной силы, показал значительную разницу (SMD = 0,17; 95% ДИ: 0,00, 0,34; р = 0,047) между плацебо и испытаниями кофеина (рисунок 5). Результаты всех анализов подгрупп можно найти в таблице 2.",
+      "text_ru": "Мета-анализ, выполненный для мышечной силы, показал значительную разницу (SMD = 0,17; 95% ДИ: 0,00, 0,34; р = 0,047) между плацебо и испытаниями кофеина (рисунок 5). Результаты всех анализов подгрупп можно найти в таблице 2.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "The meta-analysis performed for muscle power indicated a significant difference (SMD = 0.17; 95% CI: 0.00, 0.34; p = 0.047) between the placebo and caffeine trials (Fig. 5).",
+          "ru": "Мета-анализ, выполненный для мышечной силы, показал значительную разницу (SMD = 0,17; 95% ДИ: 0,00, 0,34; р = 0,047) между плацебо и испытаниями кофеина (рисунок 5).",
+          "output_tokens": 52,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Мета-анализ, выполненный для мышечной силы, показал значительную разницу (SMD = 0,17; 95% ДИ: 0,00, 0,34; р = 0,047) между плацебо и испытаниями кофеина (рисунок 5).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Results from all of the subgroup analysis can be found in Table 2.",
+          "ru": "Результаты всех анализов подгрупп можно найти в таблице 2.",
+          "output_tokens": 13,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Результаты всех анализов подгрупп можно найти в таблице 2.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "Результаты",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-007:p0043",
+      "section_en": "Results",
+      "text_en": "The I2 statistic showed low heterogeneity for the studies assessing muscle strength and muscle power (I2 = 0.0; p = 0.981, and I2 = 0.0; p = 0.933, respectively). The analysis of funnel plots did not reveal substantial asymmetry for muscle strength or muscle power outcomes. The Trim-and-Fill method changed the pooled SMD for muscle power from 0.17 (95% CI: 0.00, 0.34) to 0.12 (95% CI: -0.01, 0.26). The Trim-and-Fill method did not have an impact on the pooled effect size for muscle strength outcomes.",
+      "section_ru": "Результаты",
+      "text_ru_machine": "Статистика I2 показала низкую неоднородность для исследований, оценивающих мышечную силу и мышечную силу (I2 = 0,0; p = 0,981, и I2 = 0,0; p = 0,933, соответственно). Анализ участков воронки не выявил существенной асимметрии для мышечной силы или результатов мышечной силы. Метод Trim-and-Fill изменил объединенную SMD для мышечной силы с 0,17 (95% ДИ: 0,00, 0,34) до 0,12 (95% ДИ: -0,01, 0,26). Метод Trim-and-Fill не оказал влияния на размер объединенного эффекта для результатов мышечной силы.",
+      "text_ru": "Статистика I2 показала низкую неоднородность для исследований, оценивающих мышечную силу и мышечную силу (I2 = 0,0; p = 0,981, и I2 = 0,0; p = 0,933, соответственно). Анализ участков воронки не выявил существенной асимметрии для мышечной силы или результатов мышечной силы. Метод Trim-and-Fill изменил объединенную SMD для мышечной силы с 0,17 (95% ДИ: 0,00, 0,34) до 0,12 (95% ДИ: -0,01, 0,26). Метод Trim-and-Fill не оказал влияния на размер объединенного эффекта для результатов мышечной силы.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "The I2 statistic showed low heterogeneity for the studies assessing muscle strength and muscle power (I2 = 0.0; p = 0.981, and I2 = 0.0; p = 0.933, respectively).",
+          "ru": "Статистика I2 показала низкую неоднородность для исследований, оценивающих мышечную силу и мышечную силу (I2 = 0,0; p = 0,981, и I2 = 0,0; p = 0,933, соответственно).",
+          "output_tokens": 53,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Статистика I2 показала низкую неоднородность для исследований, оценивающих мышечную силу и мышечную силу (I2 = 0,0; p = 0,981, и I2 = 0,0; p = 0,933, соответственно).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The analysis of funnel plots did not reveal substantial asymmetry for muscle strength or muscle power outcomes.",
+          "ru": "Анализ участков воронки не выявил существенной асимметрии для мышечной силы или результатов мышечной силы.",
+          "output_tokens": 23,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Анализ участков воронки не выявил существенной асимметрии для мышечной силы или результатов мышечной силы.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The Trim-and-Fill method changed the pooled SMD for muscle power from 0.17 (95% CI: 0.00, 0.34) to 0.12 (95% CI: -0.01, 0.26).",
+          "ru": "Метод Trim-and-Fill изменил объединенную SMD для мышечной силы с 0,17 (95% ДИ: 0,00, 0,34) до 0,12 (95% ДИ: -0,01, 0,26).",
+          "output_tokens": 53,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Метод Trim-and-Fill изменил объединенную SMD для мышечной силы с 0,17 (95% ДИ: 0,00, 0,34) до 0,12 (95% ДИ: -0,01, 0,26).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The Trim-and-Fill method did not have an impact on the pooled effect size for muscle strength outcomes.",
+          "ru": "Метод Trim-and-Fill не оказал влияния на размер объединенного эффекта для результатов мышечной силы.",
+          "output_tokens": 22,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Метод Trim-and-Fill не оказал влияния на размер объединенного эффекта для результатов мышечной силы.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "Результаты",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-007:p0044",
+      "section_en": "Results",
+      "text_en": "The mean PEDro methodological quality score was 9.6, with the values for individual studies ranging from 8 to 10. Three studies were categorized as being of “good methodological quality” (PEDro score = 8), while all other studies were classified as being of “excellent quality”.",
+      "section_ru": "Результаты",
+      "text_ru_machine": "Средний методологический балл качества PEDro составил 9,6, при этом значения для отдельных исследований варьировались от 8 до 10. Три исследования были классифицированы как «хорошее методологическое качество» (оценка PEDro = 8), в то время как все другие исследования были классифицированы как «отличное качество».",
+      "text_ru": "Средний методологический балл качества PEDro составил 9,6, при этом значения для отдельных исследований варьировались от 8 до 10. Три исследования были классифицированы как «хорошее методологическое качество» (оценка PEDro = 8), в то время как все другие исследования были классифицированы как «отличное качество».",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "The mean PEDro methodological quality score was 9.6, with the values for individual studies ranging from 8 to 10.",
+          "ru": "Средний методологический балл качества PEDro составил 9,6, при этом значения для отдельных исследований варьировались от 8 до 10.",
+          "output_tokens": 31,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Средний методологический балл качества PEDro составил 9,6, при этом значения для отдельных исследований варьировались от 8 до 10.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Three studies were categorized as being of “good methodological quality” (PEDro score = 8), while all other studies were classified as being of “excellent quality”.",
+          "ru": "Три исследования были классифицированы как «хорошее методологическое качество» (оценка PEDro = 8), в то время как все другие исследования были классифицированы как «отличное качество».",
+          "output_tokens": 41,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Три исследования были классифицированы как «хорошее методологическое качество» (оценка PEDro = 8), в то время как все другие исследования были классифицированы как «отличное качество».",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "Результаты",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-007:p0045",
+      "section_en": "Discussion",
+      "text_en": "The results of the meta-analysis show that caffeine may be an effective ergogenic aid for muscle strength and power. The pooled effects of caffeine on performance were small to medium. It is important to note that even small improvements in performance in some sports may translate to meaningful differences in competitive outcomes. A previous meta-analysis did not show a significant effect of caffeine supplementation on muscle strength, and the results of individual studies investigating caffeine’s effects on muscle power have not been previously pooled in a meta-analysis. Our novel results showing that caffeine may induce practically meaningful improvements in muscle strength and power can, therefore, be used to inform athletes, coaches, and sports nutritionists, as well as future research endeavors in this area, about the ergogenic potential of caffeine.",
+      "section_ru": "Обсуждение",
+      "text_ru_machine": "Результаты мета-анализа показывают, что кофеин может быть эффективным эргогенным средством для мышечной силы и силы. Совокупное влияние кофеина на производительность было небольшим и средним. Важно отметить, что даже небольшие улучшения в некоторых видах спорта могут привести к значительным различиям в результатах соревнований. Предыдущий мета-анализ не показал значительного влияния добавок кофеина на мышечную силу, и результаты отдельных исследований, изучающих влияние кофеина на мышечную силу, ранее не были объединены в мета-анализе. Наши новые результаты показывают, что кофеин может вызвать практически значимое улучшение мышечной силы и силы, поэтому его можно использовать для информирования спортсменов, тренеров и спортивных диетологов, а также будущих исследований в этой области об эргогенном потенциале кофеина.",
+      "text_ru": "Результаты мета-анализа показывают, что кофеин может быть эффективным эргогенным средством для мышечной силы и силы. Совокупное влияние кофеина на работоспособность было небольшим и средним. Важно отметить, что даже небольшие улучшения в некоторых видах спорта могут привести к значительным различиям в результатах соревнований. Предыдущий мета-анализ не показал значительного влияния добавок кофеина на мышечную силу, и результаты отдельных исследований, изучающих влияние кофеина на мышечную силу, ранее не были объединены в мета-анализе. Наши новые результаты показывают, что кофеин может вызвать практически значимое улучшение мышечной силы и силы, поэтому его можно использовать для информирования спортсменов, тренеров и спортивных диетологов, а также будущих исследований в этой области об эргогенном потенциале кофеина.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "The results of the meta-analysis show that caffeine may be an effective ergogenic aid for muscle strength and power.",
+          "ru": "Результаты мета-анализа показывают, что кофеин может быть эффективным эргогенным средством для мышечной силы и силы.",
+          "output_tokens": 25,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Результаты мета-анализа показывают, что кофеин может быть эффективным эргогенным средством для мышечной силы и силы.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The pooled effects of caffeine on performance were small to medium.",
+          "ru": "Совокупное влияние кофеина на производительность было небольшим и средним.",
+          "output_tokens": 15,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Совокупное влияние кофеина на работоспособность было небольшим и средним.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        },
+        {
+          "en": "It is important to note that even small improvements in performance in some sports may translate to meaningful differences in competitive outcomes.",
+          "ru": "Важно отметить, что даже небольшие улучшения в некоторых видах спорта могут привести к значительным различиям в результатах соревнований.",
+          "output_tokens": 22,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Важно отметить, что даже небольшие улучшения в некоторых видах спорта могут привести к значительным различиям в результатах соревнований.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "A previous meta-analysis did not show a significant effect of caffeine supplementation on muscle strength, and the results of individual studies investigating caffeine’s effects on muscle power have not been previously pooled in a meta-analysis.",
+          "ru": "Предыдущий мета-анализ не показал значительного влияния добавок кофеина на мышечную силу, и результаты отдельных исследований, изучающих влияние кофеина на мышечную силу, ранее не были объединены в мета-анализе.",
+          "output_tokens": 44,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Предыдущий мета-анализ не показал значительного влияния добавок кофеина на мышечную силу, и результаты отдельных исследований, изучающих влияние кофеина на мышечную силу, ранее не были объединены в мета-анализе.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Our novel results showing that caffeine may induce practically meaningful improvements in muscle strength and power can, therefore, be used to inform athletes, coaches, and sports nutritionists, as well as future research endeavors in this area, about the ergogenic potential of caffeine.",
+          "ru": "Наши новые результаты показывают, что кофеин может вызвать практически значимое улучшение мышечной силы и силы, поэтому его можно использовать для информирования спортсменов, тренеров и спортивных диетологов, а также будущих исследований в этой области об эргогенном потенциале кофеина.",
+          "output_tokens": 55,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Наши новые результаты показывают, что кофеин может вызвать практически значимое улучшение мышечной силы и силы, поэтому его можно использовать для информирования спортсменов, тренеров и спортивных диетологов, а также будущих исследований в этой области об эргогенном потенциале кофеина.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_performance_wording"
+      ],
+      "section_ru_machine": "Обсуждение",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 1
+      }
+    },
+    {
+      "paragraph_id": "SU-007:p0046",
+      "section_en": "Discussion / Strength outcomes / Upper and lower body strength",
+      "text_en": "The subgroup analysis indicated a significant increase in upper body, but not lower body strength, with caffeine ingestion. These results are somewhat unexpected, as Warren et al. suggested that larger muscles, such as those of the lower body, have a greater motor unit recruitment capability with caffeine intake than smaller muscles, such as those of the arm. Motor unit recruitment, in addition to the reduced rate of perceived exertion and the central effects of adenosine on neurotransmission, arousal, and pain perception, are considered to be underlying mechanisms by which caffeine can enhance performance, although the exact mechanisms remain to be fully elucidated. Based on the current results, it may be surmised that caffeine is a useful ergogenic aid for achieving acute increases in maximal upper body strength. In the included studies, lower body maximal strength was evaluated using only leg press and squat (machine-based and free weight) tests. Two studies used a free weight exercise (barbell back squat), and both reported a significant increase in lower body strength. Warren et al. concluded that caffeine ingestion might increase lower body isometric strength. Our findings do not indicate a strength increasing effect with caffeine ingestion for lower body dynamic strength. It is worth noting that in general, the included studies did not report on the reliability of their strength assessment, indicating potential reasons for the surprising findings for lower body strength. Further research is needed to examine the effects of caffeine on dynamic strength. Such studies may benefit from using a larger variety of dynamic lower body strength tests, as the current findings are mostly limited to a small selection of primarily machine-based tests.",
+      "section_ru": "Дискуссия / Результат по силе / Сила верхней и нижней части тела",
+      "text_ru_machine": "Анализ подгруппы показал значительное увеличение верхней части тела, но не нижней силы тела, при приеме кофеина. Эти результаты несколько неожиданны, поскольку Уоррен и другие предположили, что более крупные мышцы, такие как мышцы нижней части тела, имеют большую способность к набору моторных единиц с потреблением кофеина, чем более мелкие мышцы, такие как мышцы руки. Набор моторных единиц, в дополнение к уменьшенной скорости воспринимаемой нагрузки и центральному воздействию аденозина на нейротрансмиссию, возбуждение и восприятие боли, считаются основными механизмами, с помощью которых кофеин может повысить производительность, хотя точные механизмы остаются полностью выясненными. Основываясь на текущих результатах, можно предположить, что кофеин является полезным эргогенным средством для достижения резкого увеличения максимальной силы верхней части тела. В включенных исследованиях максимальная сила нижней части тела оценивалась с использованием только пресса для ног и приседаний (на основе машин и свободного веса). В двух исследованиях использовались упражнения со свободным весом (приседание на спине), и оба сообщили о значительном увеличении силы нижней части тела. Уоррен и др. пришли к выводу, что употребление кофеина может увеличить изометрическую силу нижней части тела. Наши результаты не указывают на усиление эффекта при приеме кофеина для динамической силы нижней части тела. Стоит отметить, что в целом включённые исследования не сообщали о достоверности их оценки силы, указывая на потенциальные причины неожиданных выводов о более низкой силе тела. Необходимы дальнейшие исследования для изучения влияния кофеина на динамическую силу. Такие исследования могут выиграть от использования большего разнообразия динамических тестов на прочность тела, поскольку текущие результаты в основном ограничены небольшим выбором в основном машинных тестов.",
+      "text_ru": "Анализ подгруппы показал значительное увеличение верхней части тела, но не нижней силы тела, при приеме кофеина. Эти результаты несколько неожиданны, поскольку Уоррен и другие предположили, что более крупные мышцы, такие как мышцы нижней части тела, имеют большую способность к набору моторных единиц с потреблением кофеина, чем более мелкие мышцы, такие как мышцы руки. Набор моторных единиц, в дополнение к уменьшенной скорости воспринимаемой нагрузки и центральному воздействию аденозина на нейротрансмиссию, возбуждение и восприятие боли, считаются основными механизмами, с помощью которых кофеин может повысить работоспособность, хотя точные механизмы остаются полностью выясненными. Основываясь на текущих результатах, можно предположить, что кофеин является полезным эргогенным средством для достижения резкого увеличения максимальной силы верхней части тела. В включенных исследованиях максимальная сила нижней части тела оценивалась с использованием только пресса для ног и приседаний (на основе машин и свободного веса). В двух исследованиях использовались упражнения со свободным весом (приседание на спине), и оба сообщили о значительном увеличении силы нижней части тела. Уоррен и др. пришли к выводу, что употребление кофеина может увеличить изометрическую силу нижней части тела. Наши результаты не указывают на усиление эффекта при приеме кофеина для динамической силы нижней части тела. Стоит отметить, что в целом включённые исследования не сообщали о достоверности их оценки силы, указывая на потенциальные причины неожиданных выводов о более низкой силе тела. Необходимы дальнейшие исследования для изучения влияния кофеина на динамическую силу. Такие исследования могут выиграть от использования большего разнообразия динамических тестов на прочность тела, поскольку текущие результаты в основном ограничены небольшим выбором в основном машинных тестов.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "The subgroup analysis indicated a significant increase in upper body, but not lower body strength, with caffeine ingestion.",
+          "ru": "Анализ подгруппы показал значительное увеличение верхней части тела, но не нижней силы тела, при приеме кофеина.",
+          "output_tokens": 23,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Анализ подгруппы показал значительное увеличение верхней части тела, но не нижней силы тела, при приеме кофеина.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "These results are somewhat unexpected, as Warren et al. suggested that larger muscles, such as those of the lower body, have a greater motor unit recruitment capability with caffeine intake than smaller muscles, such as those of the arm.",
+          "ru": "Эти результаты несколько неожиданны, поскольку Уоррен и другие предположили, что более крупные мышцы, такие как мышцы нижней части тела, имеют большую способность к набору моторных единиц с потреблением кофеина, чем более мелкие мышцы, такие как мышцы руки.",
+          "output_tokens": 51,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Эти результаты несколько неожиданны, поскольку Уоррен и другие предположили, что более крупные мышцы, такие как мышцы нижней части тела, имеют большую способность к набору моторных единиц с потреблением кофеина, чем более мелкие мышцы, такие как мышцы руки.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Motor unit recruitment, in addition to the reduced rate of perceived exertion and the central effects of adenosine on neurotransmission, arousal, and pain perception, are considered to be underlying mechanisms by which caffeine can enhance performance, although the exact mechanisms remain to be fully elucidated.",
+          "ru": "Набор моторных единиц, в дополнение к уменьшенной скорости воспринимаемой нагрузки и центральному воздействию аденозина на нейротрансмиссию, возбуждение и восприятие боли, считаются основными механизмами, с помощью которых кофеин может повысить производительность, хотя точные механизмы остаются полностью выясненными.",
+          "output_tokens": 60,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Набор моторных единиц, в дополнение к уменьшенной скорости воспринимаемой нагрузки и центральному воздействию аденозина на нейротрансмиссию, возбуждение и восприятие боли, считаются основными механизмами, с помощью которых кофеин может повысить работоспособность, хотя точные механизмы остаются полностью выясненными.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Based on the current results, it may be surmised that caffeine is a useful ergogenic aid for achieving acute increases in maximal upper body strength.",
+          "ru": "Основываясь на текущих результатах, можно предположить, что кофеин является полезным эргогенным средством для достижения резкого увеличения максимальной силы верхней части тела.",
+          "output_tokens": 30,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Основываясь на текущих результатах, можно предположить, что кофеин является полезным эргогенным средством для достижения резкого увеличения максимальной силы верхней части тела.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "In the included studies, lower body maximal strength was evaluated using only leg press and squat (machine-based and free weight) tests.",
+          "ru": "В включенных исследованиях максимальная сила нижней части тела оценивалась с использованием только пресса для ног и приседаний (на основе машин и свободного веса).",
+          "output_tokens": 32,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В включенных исследованиях максимальная сила нижней части тела оценивалась с использованием только пресса для ног и приседаний (на основе машин и свободного веса).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Two studies used a free weight exercise (barbell back squat), and both reported a significant increase in lower body strength.",
+          "ru": "В двух исследованиях использовались упражнения со свободным весом (приседание на спине), и оба сообщили о значительном увеличении силы нижней части тела.",
+          "output_tokens": 28,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В двух исследованиях использовались упражнения со свободным весом (приседание на спине), и оба сообщили о значительном увеличении силы нижней части тела.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Warren et al. concluded that caffeine ingestion might increase lower body isometric strength.",
+          "ru": "Уоррен и др. пришли к выводу, что употребление кофеина может увеличить изометрическую силу нижней части тела.",
+          "output_tokens": 25,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Уоррен и др. пришли к выводу, что употребление кофеина может увеличить изометрическую силу нижней части тела.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Our findings do not indicate a strength increasing effect with caffeine ingestion for lower body dynamic strength.",
+          "ru": "Наши результаты не указывают на усиление эффекта при приеме кофеина для динамической силы нижней части тела.",
+          "output_tokens": 21,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Наши результаты не указывают на усиление эффекта при приеме кофеина для динамической силы нижней части тела.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "It is worth noting that in general, the included studies did not report on the reliability of their strength assessment, indicating potential reasons for the surprising findings for lower body strength.",
+          "ru": "Стоит отметить, что в целом включённые исследования не сообщали о достоверности их оценки силы, указывая на потенциальные причины неожиданных выводов о более низкой силе тела.",
+          "output_tokens": 37,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Стоит отметить, что в целом включённые исследования не сообщали о достоверности их оценки силы, указывая на потенциальные причины неожиданных выводов о более низкой силе тела.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Further research is needed to examine the effects of caffeine on dynamic strength.",
+          "ru": "Необходимы дальнейшие исследования для изучения влияния кофеина на динамическую силу.",
+          "output_tokens": 18,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Необходимы дальнейшие исследования для изучения влияния кофеина на динамическую силу.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Such studies may benefit from using a larger variety of dynamic lower body strength tests, as the current findings are mostly limited to a small selection of primarily machine-based tests.",
+          "ru": "Такие исследования могут выиграть от использования большего разнообразия динамических тестов на прочность тела, поскольку текущие результаты в основном ограничены небольшим выбором в основном машинных тестов.",
+          "output_tokens": 32,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Такие исследования могут выиграть от использования большего разнообразия динамических тестов на прочность тела, поскольку текущие результаты в основном ограничены небольшим выбором в основном машинных тестов.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_performance_wording"
+      ],
+      "section_ru_machine": "Дискуссия / Результат по силе / Сила верхней и нижней части тела",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 1
+      }
+    },
+    {
+      "paragraph_id": "SU-007:p0047",
+      "section_en": "Discussion / Strength outcomes / Training status",
+      "text_en": "The subgroup analysis for training status indicated no significant differences in maximal strength in trained (p = 0.076) and untrained individuals (p = 0.144). The meta-analysis of the three studies among untrained individuals was limited by small overall sample size (n = 32). It may be considered indicative that two of three individual studies reported significant differences in maximal strength with caffeine ingestion, but more individual studies on this topic are needed before drawing firm conclusions. Training status seems to play a significant role in response to caffeine intake in other forms of physical activity, such as swimming, with greater improvements observed in trained athletes. However, it remains unclear whether the same applies to strength outcomes. More studies are needed before confidently drawing conclusions about the potential differences in effects of caffeine ingestion on muscle strength of trained and untrained individuals.",
+      "section_ru": "Дискуссия / Сильные результаты / Уровень тренированности",
+      "text_ru_machine": "Подгрупповой анализ состояния обучения не показал существенных различий в максимальной силе у обученных (р = 0,076) и необученных (р = 0,144). Мета-анализ трех исследований среди неподготовленных лиц был ограничен небольшим общим размером выборки (n = 32). Можно считать показательным, что два из трех отдельных исследований сообщили о значительных различиях в максимальной силе при приеме кофеина, но для получения твердых выводов необходимы более индивидуальные исследования по этой теме. Статус тренировки, по-видимому, играет значительную роль в ответ на потребление кофеина в других формах физической активности, таких как плавание, с большими улучшениями, наблюдаемыми у подготовленных спортсменов. Однако остается неясным, относится ли то же самое к результату силы. Необходимы дополнительные исследования, прежде чем уверенно делать выводы о потенциальных различиях в воздействии приема кофеина на мышечную силу обученных и неподготовленных людей.",
+      "text_ru": "Подгрупповой анализ состояния тренировки не показал существенных различий в максимальной силе у тренированных (р = 0,076) и нетренированных (р = 0,144). Мета-анализ трех исследований среди неподготовленных лиц был ограничен небольшим общим размером выборки (n = 32). Можно считать показательным, что два из трех отдельных исследований сообщили о значительных различиях в максимальной силе при приеме кофеина, но для получения твердых выводов необходимы более индивидуальные исследования по этой теме. Статус тренировки, по-видимому, играет значительную роль в ответ на потребление кофеина в других формах физической активности, таких как плавание, с большими улучшениями, наблюдаемыми у подготовленных спортсменов. Однако остается неясным, относится ли то же самое к результату силы. Необходимы дополнительные исследования, прежде чем уверенно делать выводы о потенциальных различиях в воздействии приема кофеина на мышечную силу тренированных и неподготовленных людей.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "The subgroup analysis for training status indicated no significant differences in maximal strength in trained (p = 0.076) and untrained individuals (p = 0.144).",
+          "ru": "Подгрупповой анализ состояния обучения не показал существенных различий в максимальной силе у обученных (р = 0,076) и необученных (р = 0,144).",
+          "output_tokens": 35,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Подгрупповой анализ состояния тренировки не показал существенных различий в максимальной силе у тренированных (р = 0,076) и нетренированных (р = 0,144).",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The meta-analysis of the three studies among untrained individuals was limited by small overall sample size (n = 32).",
+          "ru": "Мета-анализ трех исследований среди неподготовленных лиц был ограничен небольшим общим размером выборки (n = 32).",
+          "output_tokens": 25,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Мета-анализ трех исследований среди неподготовленных лиц был ограничен небольшим общим размером выборки (n = 32).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "It may be considered indicative that two of three individual studies reported significant differences in maximal strength with caffeine ingestion, but more individual studies on this topic are needed before drawing firm conclusions.",
+          "ru": "Можно считать показательным, что два из трех отдельных исследований сообщили о значительных различиях в максимальной силе при приеме кофеина, но для получения твердых выводов необходимы более индивидуальные исследования по этой теме.",
+          "output_tokens": 43,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Можно считать показательным, что два из трех отдельных исследований сообщили о значительных различиях в максимальной силе при приеме кофеина, но для получения твердых выводов необходимы более индивидуальные исследования по этой теме.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Training status seems to play a significant role in response to caffeine intake in other forms of physical activity, such as swimming, with greater improvements observed in trained athletes.",
+          "ru": "Статус тренировки, по-видимому, играет значительную роль в ответ на потребление кофеина в других формах физической активности, таких как плавание, с большими улучшениями, наблюдаемыми у подготовленных спортсменов.",
+          "output_tokens": 42,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Статус тренировки, по-видимому, играет значительную роль в ответ на потребление кофеина в других формах физической активности, таких как плавание, с большими улучшениями, наблюдаемыми у подготовленных спортсменов.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "However, it remains unclear whether the same applies to strength outcomes.",
+          "ru": "Однако остается неясным, относится ли то же самое к результату силы.",
+          "output_tokens": 17,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Однако остается неясным, относится ли то же самое к результату силы.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "More studies are needed before confidently drawing conclusions about the potential differences in effects of caffeine ingestion on muscle strength of trained and untrained individuals.",
+          "ru": "Необходимы дополнительные исследования, прежде чем уверенно делать выводы о потенциальных различиях в воздействии приема кофеина на мышечную силу обученных и неподготовленных людей.",
+          "output_tokens": 36,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Необходимы дополнительные исследования, прежде чем уверенно делать выводы о потенциальных различиях в воздействии приема кофеина на мышечную силу тренированных и неподготовленных людей.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_training_term"
+      ],
+      "section_ru_machine": "Дискуссия / Сильные результаты / Статус обучения",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 4
+      }
+    },
+    {
+      "paragraph_id": "SU-007:p0048",
+      "section_en": "Discussion / Strength outcomes / Sex",
+      "text_en": "The subgroup analysis in males showed a significant improvement in strength with caffeine ingestion. The subgroup analysis for females was limited by small sample size, as only three studies were found meeting the inclusion criteria. The landmark study by Goldstein et al. reported a significant increase in the 1RM bench press in a cohort of resistance trained females. However, the effect size was very small (SMD = 0.07), thereby limiting the practical significance of the finding. Another study among female participants was performed by Sabblah et al.. The researchers reported an SMD of 0.33 for increases in upper body strength with caffeine ingestion. However, the study employed a single-blind design and hence provided evidence of somewhat lower methodological quality compared to other studies. Additionally, the participants in the study from Sabblah et al. exhibited lower levels of fitness than the participants in the study from Goldstein et al., with marked disparities observed for 1RM strength (32 kg and 52 kg, respectively). None of the studies that included female participants controlled for the potential variability attributable to metabolic alterations across the menstrual cycle, which is a limitation of the current body of literature. Additional rigorously controlled studies are needed to provide clarity on the topic.",
+      "section_ru": "Дискуссия / Сильные результаты / Секс",
+      "text_ru_machine": "Анализ подгруппы у мужчин показал значительное улучшение силы при приеме кофеина. Анализ подгруппы для женщин был ограничен небольшим размером выборки, поскольку было обнаружено только три исследования, отвечающие критериям включения. Знаковое исследование Goldstein et al. сообщило о значительном увеличении пресса скамейки 1RM в когорте женщин, обученных сопротивлению. Однако размер эффекта был очень мал (SMD = 0,07), тем самым ограничивая практическую значимость находки. Другое исследование среди женщин-участников было проведено Sabblah et al. Исследователи сообщили о SMD 0,33 для увеличения силы верхней части тела при приеме кофеина. Тем не менее, исследование использовало однослепой дизайн и, следовательно, предоставило доказательства несколько более низкого методологического качества по сравнению с другими исследованиями. Кроме того, участники исследования из Sabblah et al. продемонстрировали более низкие уровни физической подготовки, чем участники исследования из Goldstein et al., с заметными различиями, наблюдаемыми для силы 1RM (32 кг и 52 кг, соответственно). Ни одно из исследований, в которых участвовали женщины, не контролировало потенциальную изменчивость, связанную с метаболическими изменениями в течение менструального цикла, что является ограничением текущего объема литературы. Необходимы дополнительные строго контролируемые исследования, чтобы обеспечить ясность по этой теме.",
+      "text_ru": "Анализ подгруппы у мужчин показал значительное улучшение силы при приеме кофеина. Анализ подгруппы для женщин был ограничен небольшим размером выборки, поскольку было обнаружено только три исследования, отвечающие критериям включения. Знаковое исследование Goldstein et al. сообщило о значительном увеличении пресса скамейки 1RM в когорте женщин, тренированных в силовых упражнениях. Однако размер эффекта был очень мал (SMD = 0,07), тем самым ограничивая практическую значимость находки. Другое исследование среди женщин-участников было проведено Sabblah et al. Исследователи сообщили о SMD 0,33 для увеличения силы верхней части тела при приеме кофеина. Тем не менее, исследование использовало однослепой дизайн и, следовательно, предоставило доказательства несколько более низкого методологического качества по сравнению с другими исследованиями. Кроме того, участники исследования из Sabblah et al. продемонстрировали более низкие уровни физической подготовки, чем участники исследования из Goldstein et al., с заметными различиями, наблюдаемыми для силы 1RM (32 кг и 52 кг, соответственно). Ни одно из исследований, в которых участвовали женщины, не контролировало потенциальную изменчивость, связанную с метаболическими изменениями в течение менструального цикла, что является ограничением текущего объема литературы. Необходимы дополнительные строго контролируемые исследования, чтобы обеспечить ясность по этой теме.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "The subgroup analysis in males showed a significant improvement in strength with caffeine ingestion.",
+          "ru": "Анализ подгруппы у мужчин показал значительное улучшение силы при приеме кофеина.",
+          "output_tokens": 16,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Анализ подгруппы у мужчин показал значительное улучшение силы при приеме кофеина.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The subgroup analysis for females was limited by small sample size, as only three studies were found meeting the inclusion criteria.",
+          "ru": "Анализ подгруппы для женщин был ограничен небольшим размером выборки, поскольку было обнаружено только три исследования, отвечающие критериям включения.",
+          "output_tokens": 26,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Анализ подгруппы для женщин был ограничен небольшим размером выборки, поскольку было обнаружено только три исследования, отвечающие критериям включения.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The landmark study by Goldstein et al. reported a significant increase in the 1RM bench press in a cohort of resistance trained females.",
+          "ru": "Знаковое исследование Goldstein et al. сообщило о значительном увеличении пресса скамейки 1RM в когорте женщин, обученных сопротивлению.",
+          "output_tokens": 35,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Знаковое исследование Goldstein et al. сообщило о значительном увеличении пресса скамейки 1RM в когорте женщин, тренированных в силовых упражнениях.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        },
+        {
+          "en": "However, the effect size was very small (SMD = 0.07), thereby limiting the practical significance of the finding.",
+          "ru": "Однако размер эффекта был очень мал (SMD = 0,07), тем самым ограничивая практическую значимость находки.",
+          "output_tokens": 25,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Однако размер эффекта был очень мал (SMD = 0,07), тем самым ограничивая практическую значимость находки.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Another study among female participants was performed by Sabblah et al..",
+          "ru": "Другое исследование среди женщин-участников было проведено Sabblah et al.",
+          "output_tokens": 17,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Другое исследование среди женщин-участников было проведено Sabblah et al.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The researchers reported an SMD of 0.33 for increases in upper body strength with caffeine ingestion.",
+          "ru": "Исследователи сообщили о SMD 0,33 для увеличения силы верхней части тела при приеме кофеина.",
+          "output_tokens": 20,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Исследователи сообщили о SMD 0,33 для увеличения силы верхней части тела при приеме кофеина.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "However, the study employed a single-blind design and hence provided evidence of somewhat lower methodological quality compared to other studies.",
+          "ru": "Тем не менее, исследование использовало однослепой дизайн и, следовательно, предоставило доказательства несколько более низкого методологического качества по сравнению с другими исследованиями.",
+          "output_tokens": 33,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Тем не менее, исследование использовало однослепой дизайн и, следовательно, предоставило доказательства несколько более низкого методологического качества по сравнению с другими исследованиями.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Additionally, the participants in the study from Sabblah et al. exhibited lower levels of fitness than the participants in the study from Goldstein et al., with marked disparities observed for 1RM strength (32 kg and 52 kg, respectively).",
+          "ru": "Кроме того, участники исследования из Sabblah et al. продемонстрировали более низкие уровни физической подготовки, чем участники исследования из Goldstein et al., с заметными различиями, наблюдаемыми для силы 1RM (32 кг и 52 кг, соответственно).",
+          "output_tokens": 52,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Кроме того, участники исследования из Sabblah et al. продемонстрировали более низкие уровни физической подготовки, чем участники исследования из Goldstein et al., с заметными различиями, наблюдаемыми для силы 1RM (32 кг и 52 кг, соответственно).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "None of the studies that included female participants controlled for the potential variability attributable to metabolic alterations across the menstrual cycle, which is a limitation of the current body of literature.",
+          "ru": "Ни одно из исследований, в которых участвовали женщины, не контролировало потенциальную изменчивость, связанную с метаболическими изменениями в течение менструального цикла, что является ограничением текущего объема литературы.",
+          "output_tokens": 40,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Ни одно из исследований, в которых участвовали женщины, не контролировало потенциальную изменчивость, связанную с метаболическими изменениями в течение менструального цикла, что является ограничением текущего объема литературы.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Additional rigorously controlled studies are needed to provide clarity on the topic.",
+          "ru": "Необходимы дополнительные строго контролируемые исследования, чтобы обеспечить ясность по этой теме.",
+          "output_tokens": 19,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Необходимы дополнительные строго контролируемые исследования, чтобы обеспечить ясность по этой теме.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_training_term"
+      ],
+      "section_ru_machine": "Дискуссия / Сильные результаты / Секс",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 2
+      }
+    },
+    {
+      "paragraph_id": "SU-007:p0049",
+      "section_en": "Discussion / Strength outcomes / Caffeine form",
+      "text_en": "The subgroup analysis indicated significant increases in strength after the ingestion of caffeine in the capsule form. The meta-analysis of the effects of the liquid form of caffeine included only three studies and did not report a significant effect. It is likely that the analysis was limited due to the small sample size (n = 50). Only one study used caffeine in the form of a gel. Previous studies indicate that there are no practically meaningful pharmacokinetic differences between these routes of caffeine ingestion; as such, it is unlikely that marked differences exist when comparing ergogenic effects of various forms of caffeine administration. Further investigations are needed for liquid forms of caffeine and others that have rarely or never been studied in this context, such as gum and gel.",
+      "section_ru": "Дискуссия / Результат по силе / Форма кофеина",
+      "text_ru_machine": "Анализ подгруппы показал значительное увеличение силы после приема кофеина в форме капсулы. Мета-анализ эффектов жидкой формы кофеина включал только три исследования и не сообщал о значительном эффекте. Вероятно, что анализ был ограничен из-за небольшого размера выборки (n = 50). Только в одном исследовании использовался кофеин в виде геля. Предыдущие исследования показывают, что между этими путями приема кофеина нет практически значимых фармакокинетических различий; поэтому маловероятно, что при сравнении эргогенных эффектов различных форм введения кофеина существуют заметные различия. Дальнейшие исследования необходимы для жидких форм кофеина и других, которые редко или никогда не изучались в этом контексте.",
+      "text_ru": "Анализ подгруппы показал значительное увеличение силы после приема кофеина в форме капсулы. Мета-анализ эффектов жидкой формы кофеина включал только три исследования и не сообщал о значительном эффекте. Вероятно, что анализ был ограничен из-за небольшого размера выборки (n = 50). Только в одном исследовании использовался кофеин в виде геля. Предыдущие исследования показывают, что между этими путями приема кофеина нет практически значимых фармакокинетических различий; поэтому маловероятно, что при сравнении эргогенных эффектов различных форм введения кофеина существуют заметные различия. Дальнейшие исследования необходимы для жидких форм кофеина и других, которые редко или никогда не изучались в этом контексте.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "The subgroup analysis indicated significant increases in strength after the ingestion of caffeine in the capsule form.",
+          "ru": "Анализ подгруппы показал значительное увеличение силы после приема кофеина в форме капсулы.",
+          "output_tokens": 17,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Анализ подгруппы показал значительное увеличение силы после приема кофеина в форме капсулы.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The meta-analysis of the effects of the liquid form of caffeine included only three studies and did not report a significant effect.",
+          "ru": "Мета-анализ эффектов жидкой формы кофеина включал только три исследования и не сообщал о значительном эффекте.",
+          "output_tokens": 24,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Мета-анализ эффектов жидкой формы кофеина включал только три исследования и не сообщал о значительном эффекте.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "It is likely that the analysis was limited due to the small sample size (n = 50).",
+          "ru": "Вероятно, что анализ был ограничен из-за небольшого размера выборки (n = 50).",
+          "output_tokens": 18,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Вероятно, что анализ был ограничен из-за небольшого размера выборки (n = 50).",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Only one study used caffeine in the form of a gel.",
+          "ru": "Только в одном исследовании использовался кофеин в виде геля.",
+          "output_tokens": 13,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Только в одном исследовании использовался кофеин в виде геля.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Previous studies indicate that there are no practically meaningful pharmacokinetic differences between these routes of caffeine ingestion; as such, it is unlikely that marked differences exist when comparing ergogenic effects of various forms of caffeine administration.",
+          "ru": "Предыдущие исследования показывают, что между этими путями приема кофеина нет практически значимых фармакокинетических различий; поэтому маловероятно, что при сравнении эргогенных эффектов различных форм введения кофеина существуют заметные различия.",
+          "output_tokens": 46,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Предыдущие исследования показывают, что между этими путями приема кофеина нет практически значимых фармакокинетических различий; поэтому маловероятно, что при сравнении эргогенных эффектов различных форм введения кофеина существуют заметные различия.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Further investigations are needed for liquid forms of caffeine and others that have rarely or never been studied in this context, such as gum and gel.",
+          "ru": "Дальнейшие исследования необходимы для жидких форм кофеина и других, которые редко или никогда не изучались в этом контексте.",
+          "output_tokens": 24,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Дальнейшие исследования необходимы для жидких форм кофеина и других, которые редко или никогда не изучались в этом контексте.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "Дискуссия / Результат по силе / Форма кофеина",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-007:p0050",
+      "section_en": "Discussion / Strength outcomes / Power outcomes",
+      "text_en": "The meta-analysis supports caffeine as an effective ergogenic aid for achieving acute increases in muscle power expressed as vertical jump height. These results may have considerable applicability to many sports, including basketball and volleyball, in which muscle power and jumping ability are highly related to performance outcomes. The magnitude of acute improvement in vertical jump height found in the current analysis for a single caffeine ingestion is roughly equivalent to the effects of ~ 4 weeks of plyometric training. The current analysis included only studies that used vertical jump as the power outcome; as such, it is possible that caffeine ingestion could produce somewhat different effects on other types of muscle power tests. However, a recent meta-analysis also showed a significant performance-enhancing effect of caffeine on the Wingate test, which is a common test of power. Furthermore, most of the included studies used countermovement jump for assessing vertical jump; it remains to be explored whether the caffeine ingestion would produce different effects on other forms of vertical jumping. In addition, all of the included studies evaluated these effects in isolated conditions that may not accurately reflect in-game, sport-specific jumping tasks. More evidence may be needed to determine if the performance-enhancing effects of caffeine would transfer in the context of individual sports and/or team-sport matches.",
+      "section_ru": "Дискуссия / Силовые результаты / Силовые результаты",
+      "text_ru_machine": "Мета-анализ поддерживает кофеин в качестве эффективного эргогенного средства для достижения резкого увеличения мышечной силы, выраженной в вертикальном прыжке. Эти результаты могут иметь значительную применимость ко многим видам спорта, включая баскетбол и волейбол, в которых мышечная сила и способность к прыжкам сильно связаны с результатами производительности. Величина резкого улучшения высоты вертикального скачка, обнаруженная в текущем анализе для одного приема кофеина, примерно эквивалентна эффектам ~ 4 недель плиометрической тренировки. Текущий анализ включал только исследования, которые использовали вертикальный скачок в качестве результата питания; как таковой, возможно, что потребление кофеина может привести к несколько иному воздействию на другие типы мышечных тестов. Тем не менее, недавний мета-анализ также показал значительное влияние кофеина на тест Вингейта, который является распространенным тестом на мощность. Кроме того, в большинстве включенных исследований для оценки вертикального скачка использовались контрдвижения; еще предстоит выяснить, будет ли прием кофеина оказывать различное влияние на другие формы вертикального скачка. Кроме того, все включенные исследования оценивали эти эффекты в изолированных условиях, которые могут не точно отражать внутриигровые, спортивные задачи. Для определения того, будет ли эффект кофеина, повышающий производительность, передаваться в контексте отдельных спортивных и/или командных спортивных матчей, могут потребоваться дополнительные доказательства.",
+      "text_ru": "Мета-анализ поддерживает кофеин в качестве эффективного эргогенного средства для достижения резкого увеличения мышечной силы, выраженной в вертикальном прыжке. Эти результаты могут иметь значительную применимость ко многим видам спорта, включая баскетбол и волейбол, в которых мышечная сила и способность к прыжкам сильно связаны с результатами работоспособности. Величина резкого улучшения высоты вертикального скачка, обнаруженная в текущем анализе для одного приема кофеина, примерно эквивалентна эффектам ~ 4 недель плиометрической тренировки. Текущий анализ включал только исследования, которые использовали вертикальный скачок в качестве результата питания; как таковой, возможно, что потребление кофеина может привести к несколько иному воздействию на другие типы мышечных тестов. Тем не менее, недавний мета-анализ также показал значительное влияние кофеина на тест Вингейта, который является распространенным тестом на мощность. Кроме того, в большинстве включенных исследований для оценки вертикального скачка использовались контрдвижения; еще предстоит выяснить, будет ли прием кофеина оказывать различное влияние на другие формы вертикального скачка. Кроме того, все включенные исследования оценивали эти эффекты в изолированных условиях, которые могут не точно отражать внутриигровые, спортивные задачи. Для определения того, будет ли эффект кофеина, повышающий работоспособность, передаваться в контексте отдельных спортивных и/или командных спортивных матчей, могут потребоваться дополнительные доказательства.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "The meta-analysis supports caffeine as an effective ergogenic aid for achieving acute increases in muscle power expressed as vertical jump height.",
+          "ru": "Мета-анализ поддерживает кофеин в качестве эффективного эргогенного средства для достижения резкого увеличения мышечной силы, выраженной в вертикальном прыжке.",
+          "output_tokens": 34,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Мета-анализ поддерживает кофеин в качестве эффективного эргогенного средства для достижения резкого увеличения мышечной силы, выраженной в вертикальном прыжке.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "These results may have considerable applicability to many sports, including basketball and volleyball, in which muscle power and jumping ability are highly related to performance outcomes.",
+          "ru": "Эти результаты могут иметь значительную применимость ко многим видам спорта, включая баскетбол и волейбол, в которых мышечная сила и способность к прыжкам сильно связаны с результатами производительности.",
+          "output_tokens": 40,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Эти результаты могут иметь значительную применимость ко многим видам спорта, включая баскетбол и волейбол, в которых мышечная сила и способность к прыжкам сильно связаны с результатами работоспособности.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The magnitude of acute improvement in vertical jump height found in the current analysis for a single caffeine ingestion is roughly equivalent to the effects of ~ 4 weeks of plyometric training.",
+          "ru": "Величина резкого улучшения высоты вертикального скачка, обнаруженная в текущем анализе для одного приема кофеина, примерно эквивалентна эффектам ~ 4 недель плиометрической тренировки.",
+          "output_tokens": 41,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Величина резкого улучшения высоты вертикального скачка, обнаруженная в текущем анализе для одного приема кофеина, примерно эквивалентна эффектам ~ 4 недель плиометрической тренировки.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The current analysis included only studies that used vertical jump as the power outcome; as such, it is possible that caffeine ingestion could produce somewhat different effects on other types of muscle power tests.",
+          "ru": "Текущий анализ включал только исследования, которые использовали вертикальный скачок в качестве результата питания; как таковой, возможно, что потребление кофеина может привести к несколько иному воздействию на другие типы мышечных тестов.",
+          "output_tokens": 44,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Текущий анализ включал только исследования, которые использовали вертикальный скачок в качестве результата питания; как таковой, возможно, что потребление кофеина может привести к несколько иному воздействию на другие типы мышечных тестов.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "However, a recent meta-analysis also showed a significant performance-enhancing effect of caffeine on the Wingate test, which is a common test of power.",
+          "ru": "Тем не менее, недавний мета-анализ также показал значительное влияние кофеина на тест Вингейта, который является распространенным тестом на мощность.",
+          "output_tokens": 32,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Тем не менее, недавний мета-анализ также показал значительное влияние кофеина на тест Вингейта, который является распространенным тестом на мощность.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Furthermore, most of the included studies used countermovement jump for assessing vertical jump; it remains to be explored whether the caffeine ingestion would produce different effects on other forms of vertical jumping.",
+          "ru": "Кроме того, в большинстве включенных исследований для оценки вертикального скачка использовались контрдвижения; еще предстоит выяснить, будет ли прием кофеина оказывать различное влияние на другие формы вертикального скачка.",
+          "output_tokens": 42,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Кроме того, в большинстве включенных исследований для оценки вертикального скачка использовались контрдвижения; еще предстоит выяснить, будет ли прием кофеина оказывать различное влияние на другие формы вертикального скачка.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "In addition, all of the included studies evaluated these effects in isolated conditions that may not accurately reflect in-game, sport-specific jumping tasks.",
+          "ru": "Кроме того, все включенные исследования оценивали эти эффекты в изолированных условиях, которые могут не точно отражать внутриигровые, спортивные задачи.",
+          "output_tokens": 30,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Кроме того, все включенные исследования оценивали эти эффекты в изолированных условиях, которые могут не точно отражать внутриигровые, спортивные задачи.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "More evidence may be needed to determine if the performance-enhancing effects of caffeine would transfer in the context of individual sports and/or team-sport matches.",
+          "ru": "Для определения того, будет ли эффект кофеина, повышающий производительность, передаваться в контексте отдельных спортивных и/или командных спортивных матчей, могут потребоваться дополнительные доказательства.",
+          "output_tokens": 38,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Для определения того, будет ли эффект кофеина, повышающий работоспособность, передаваться в контексте отдельных спортивных и/или командных спортивных матчей, могут потребоваться дополнительные доказательства.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_performance_wording"
+      ],
+      "section_ru_machine": "Дискуссия / Силовые результаты / Силовые результаты",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 2
+      }
+    },
+    {
+      "paragraph_id": "SU-007:p0051",
+      "section_en": "Discussion / Strength outcomes / Power outcomes",
+      "text_en": "While previous research has shown an increase in countermovement jump height after ingestion of a caffeine-containing energy drink, it was unclear if the effect was attributable to the caffeine content or the presence of other substances, such as taurine. A recent meta-analysis on caffeinated energy drinks found a significant association between their taurine content and performance, but not between their caffeine content and performance. As postulated by Bloms et al., motor schema might play a role when assessing the association between caffeine and muscle power. Bloms et al. tested the effect of caffeine on muscle power among a cohort of athletes and reported significant increases in jumping height. By contrast, Gauvin reported no effects of caffeine ingestion on muscle power in a group of untrained men, with no previous experience in the exercise. The subgroup analysis for training status indicated a significant effect for athletes, but not for non-athletes. It may be suggested that future studies should control for this confounding factor by including only participants with or without previous experience in the task, or by performing initial familiarization sessions.",
+      "section_ru": "Дискуссия / Силовые результаты / Силовые результаты",
+      "text_ru_machine": "В то время как предыдущие исследования показали увеличение высоты контрдвижения после приема энергетического напитка, содержащего кофеин, было неясно, связан ли эффект с содержанием кофеина или присутствием других веществ, таких как таурин. Недавний мета-анализ энергетических напитков с кофеином обнаружил значительную связь между содержанием таурина и производительностью, но не между содержанием кофеина и производительностью. Как постулируют Бломс и др., моторная схема может играть роль при оценке связи между кофеином и мышечной силой. Bloms et al. проверили влияние кофеина на мышечную силу среди когорты спортсменов и сообщили о значительном увеличении высоты прыжков. В отличие от этого, Гаувин не сообщил о влиянии потребления кофеина на мышечную силу у группы неподготовленных мужчин, не имея предыдущего опыта в упражнении. Подгрупповой анализ состояния тренировок показал значительный эффект для спортсменов, но не для не спортсменов. Можно предположить, что будущие исследования должны контролировать этот сбивающий с толку фактор, включая только участников с предыдущим опытом работы или без него, или выполняя начальные ознакомительные сессии.",
+      "text_ru": "В то время как предыдущие исследования показали увеличение высоты контрдвижения после приема энергетического напитка, содержащего кофеин, было неясно, связан ли эффект с содержанием кофеина или присутствием других веществ, таких как таурин. Недавний мета-анализ энергетических напитков с кофеином обнаружил значительную связь между содержанием таурина и работоспособностью, но не между содержанием кофеина и работоспособностью. Как постулируют Бломс и др., моторная схема может играть роль при оценке связи между кофеином и мышечной силой. Bloms et al. проверили влияние кофеина на мышечную силу среди когорты спортсменов и сообщили о значительном увеличении высоты прыжков. В отличие от этого, Гаувин не сообщил о влиянии потребления кофеина на мышечную силу у группы неподготовленных мужчин, не имея предыдущего опыта в упражнении. Подгрупповой анализ состояния тренировок показал значительный эффект для спортсменов, но не для не спортсменов. Можно предположить, что будущие исследования должны контролировать этот сбивающий с толку фактор, включая только участников с предыдущим опытом работы или без него, или выполняя начальные ознакомительные сессии.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "While previous research has shown an increase in countermovement jump height after ingestion of a caffeine-containing energy drink, it was unclear if the effect was attributable to the caffeine content or the presence of other substances, such as taurine.",
+          "ru": "В то время как предыдущие исследования показали увеличение высоты контрдвижения после приема энергетического напитка, содержащего кофеин, было неясно, связан ли эффект с содержанием кофеина или присутствием других веществ, таких как таурин.",
+          "output_tokens": 45,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В то время как предыдущие исследования показали увеличение высоты контрдвижения после приема энергетического напитка, содержащего кофеин, было неясно, связан ли эффект с содержанием кофеина или присутствием других веществ, таких как таурин.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "A recent meta-analysis on caffeinated energy drinks found a significant association between their taurine content and performance, but not between their caffeine content and performance.",
+          "ru": "Недавний мета-анализ энергетических напитков с кофеином обнаружил значительную связь между содержанием таурина и производительностью, но не между содержанием кофеина и производительностью.",
+          "output_tokens": 34,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Недавний мета-анализ энергетических напитков с кофеином обнаружил значительную связь между содержанием таурина и работоспособностью, но не между содержанием кофеина и работоспособностью.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        },
+        {
+          "en": "As postulated by Bloms et al., motor schema might play a role when assessing the association between caffeine and muscle power.",
+          "ru": "Как постулируют Бломс и др., моторная схема может играть роль при оценке связи между кофеином и мышечной силой.",
+          "output_tokens": 30,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Как постулируют Бломс и др., моторная схема может играть роль при оценке связи между кофеином и мышечной силой.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Bloms et al. tested the effect of caffeine on muscle power among a cohort of athletes and reported significant increases in jumping height.",
+          "ru": "Bloms et al. проверили влияние кофеина на мышечную силу среди когорты спортсменов и сообщили о значительном увеличении высоты прыжков.",
+          "output_tokens": 33,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Bloms et al. проверили влияние кофеина на мышечную силу среди когорты спортсменов и сообщили о значительном увеличении высоты прыжков.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "By contrast, Gauvin reported no effects of caffeine ingestion on muscle power in a group of untrained men, with no previous experience in the exercise.",
+          "ru": "В отличие от этого, Гаувин не сообщил о влиянии потребления кофеина на мышечную силу у группы неподготовленных мужчин, не имея предыдущего опыта в упражнении.",
+          "output_tokens": 39,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В отличие от этого, Гаувин не сообщил о влиянии потребления кофеина на мышечную силу у группы неподготовленных мужчин, не имея предыдущего опыта в упражнении.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The subgroup analysis for training status indicated a significant effect for athletes, but not for non-athletes.",
+          "ru": "Подгрупповой анализ состояния тренировок показал значительный эффект для спортсменов, но не для не спортсменов.",
+          "output_tokens": 18,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Подгрупповой анализ состояния тренировок показал значительный эффект для спортсменов, но не для не спортсменов.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "It may be suggested that future studies should control for this confounding factor by including only participants with or without previous experience in the task, or by performing initial familiarization sessions.",
+          "ru": "Можно предположить, что будущие исследования должны контролировать этот сбивающий с толку фактор, включая только участников с предыдущим опытом работы или без него, или выполняя начальные ознакомительные сессии.",
+          "output_tokens": 39,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Можно предположить, что будущие исследования должны контролировать этот сбивающий с толку фактор, включая только участников с предыдущим опытом работы или без него, или выполняя начальные ознакомительные сессии.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_performance_wording"
+      ],
+      "section_ru_machine": "Дискуссия / Силовые результаты / Силовые результаты",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 2
+      }
+    },
+    {
+      "paragraph_id": "SU-007:p0052",
+      "section_en": "Discussion / Strength outcomes / Power outcomes",
+      "text_en": "None of the remaining subgroup analysis showed a significant effect of caffeine. These results might be due to the small sample sizes in different subgroup analysis. More studies are needed before reaching conclusions about context-specific effects of caffeine. Furthermore, while the body of evidence evaluating effects of caffeine on muscle power is still limited; the current meta-analysis shows promising findings, but more studies are needed on this topic. Specifically, studies including different forms of vertical jumping and sport-specific jumping tasks, different population groups, larger sample sizes, and different doses and forms of caffeine are required.",
+      "section_ru": "Дискуссия / Силовые результаты / Силовые результаты",
+      "text_ru_machine": "Ни один из оставшихся подгрупповых анализов не показал значительного эффекта кофеина. Эти результаты могут быть связаны с небольшими размерами выборки в различных подгруппах анализа. Необходимы дополнительные исследования, прежде чем делать выводы о конкретных эффектах кофеина. Кроме того, хотя количество доказательств, оценивающих влияние кофеина на мышечную силу, все еще ограничено; текущий мета-анализ показывает многообещающие результаты, но необходимы дополнительные исследования по этой теме. В частности, необходимы исследования, включающие различные формы вертикальных прыжков и спортивных задач, различные группы населения, большие размеры выборки и различные дозы и формы кофеина.",
+      "text_ru": "Ни один из оставшихся подгрупповых анализов не показал значительного эффекта кофеина. Эти результаты могут быть связаны с небольшими размерами выборки в различных подгруппах анализа. Необходимы дополнительные исследования, прежде чем делать выводы о конкретных эффектах кофеина. Кроме того, хотя количество доказательств, оценивающих влияние кофеина на мышечную силу, все еще ограничено; текущий мета-анализ показывает многообещающие результаты, но необходимы дополнительные исследования по этой теме. В частности, необходимы исследования, включающие различные формы вертикальных прыжков и спортивных задач, различные группы населения, большие размеры выборки и различные дозы и формы кофеина.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "None of the remaining subgroup analysis showed a significant effect of caffeine.",
+          "ru": "Ни один из оставшихся подгрупповых анализов не показал значительного эффекта кофеина.",
+          "output_tokens": 16,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Ни один из оставшихся подгрупповых анализов не показал значительного эффекта кофеина.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "These results might be due to the small sample sizes in different subgroup analysis.",
+          "ru": "Эти результаты могут быть связаны с небольшими размерами выборки в различных подгруппах анализа.",
+          "output_tokens": 19,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Эти результаты могут быть связаны с небольшими размерами выборки в различных подгруппах анализа.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "More studies are needed before reaching conclusions about context-specific effects of caffeine.",
+          "ru": "Необходимы дополнительные исследования, прежде чем делать выводы о конкретных эффектах кофеина.",
+          "output_tokens": 18,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Необходимы дополнительные исследования, прежде чем делать выводы о конкретных эффектах кофеина.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Furthermore, while the body of evidence evaluating effects of caffeine on muscle power is still limited; the current meta-analysis shows promising findings, but more studies are needed on this topic.",
+          "ru": "Кроме того, хотя количество доказательств, оценивающих влияние кофеина на мышечную силу, все еще ограничено; текущий мета-анализ показывает многообещающие результаты, но необходимы дополнительные исследования по этой теме.",
+          "output_tokens": 41,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Кроме того, хотя количество доказательств, оценивающих влияние кофеина на мышечную силу, все еще ограничено; текущий мета-анализ показывает многообещающие результаты, но необходимы дополнительные исследования по этой теме.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Specifically, studies including different forms of vertical jumping and sport-specific jumping tasks, different population groups, larger sample sizes, and different doses and forms of caffeine are required.",
+          "ru": "В частности, необходимы исследования, включающие различные формы вертикальных прыжков и спортивных задач, различные группы населения, большие размеры выборки и различные дозы и формы кофеина.",
+          "output_tokens": 37,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В частности, необходимы исследования, включающие различные формы вертикальных прыжков и спортивных задач, различные группы населения, большие размеры выборки и различные дозы и формы кофеина.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [],
+      "section_ru_machine": "Дискуссия / Силовые результаты / Силовые результаты",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 0
+      }
+    },
+    {
+      "paragraph_id": "SU-007:p0053",
+      "section_en": "Discussion / Strength outcomes / Methodological quality",
+      "text_en": "The PEDro scale showed good to excellent quality among the included studies, suggesting that the results of the current meta-analysis were not confounded by the inclusion of studies with poor research methodology. Only two studies reported receiving funding from parties that may have had commercial interest for conducting the research, so it is improbable that the overall results of the current study were significantly affected by financial bias. To further improve the quality of evidence, future studies should use a double-blind rather than a single-blind design and assess the effectiveness of the blinding. Only three studies reported assessing the effectiveness of the blinding. This information is of importance as participants’ recognition of the caffeine trial may influence outcomes, because psychological effects of ‘expectancy’ and ‘belief’ might have an impact on performance. In some studies, performance-enhancing responses were found with perceived ‘caffeine’ ingestion, when in fact, a placebo was consumed. Future studies examining this topic should include a questionnaire of perception of the trials to prevent possible issues associated with such confounding.",
+      "section_ru": "Дискуссия / Сильные результаты / Методологическое качество",
+      "text_ru_machine": "Шкала PEDro показала хорошее и отличное качество среди включенных исследований, предполагая, что результаты текущего мета-анализа не были смущены включением исследований с плохой методологией исследования. Только два исследования сообщили о получении финансирования от сторон, которые могли иметь коммерческий интерес для проведения исследования, поэтому маловероятно, что общие результаты текущего исследования были значительно затронуты финансовым уклоном. Для дальнейшего улучшения качества доказательств в будущих исследованиях следует использовать двойной слепой, а не однослепой дизайн и оценить эффективность ослепления. Только три исследования показали эффективность ослепления. Эта информация имеет важное значение, поскольку признание участниками исследования кофеина может повлиять на результаты, поскольку психологические эффекты «ожидания» и «веры» могут повлиять на производительность. В некоторых исследованиях ответы, повышающие производительность, были обнаружены при приеме «кофеина», когда на самом деле употреблялось плацебо. Будущие исследования по этой теме должны включать вопросник о восприятии испытаний для предотвращения возможных проблем, связанных с такой путаницей.",
+      "text_ru": "Шкала PEDro показала хорошее и отличное качество среди включенных исследований, предполагая, что результаты текущего мета-анализа не были смущены включением исследований с плохой методологией исследования. Только два исследования сообщили о получении финансирования от сторон, которые могли иметь коммерческий интерес для проведения исследования, поэтому маловероятно, что общие результаты текущего исследования были значительно затронуты финансовым уклоном. Для дальнейшего улучшения качества доказательств в будущих исследованиях следует использовать двойной слепой, а не однослепой дизайн и оценить эффективность ослепления. Только три исследования показали эффективность ослепления. Эта информация имеет важное значение, поскольку признание участниками исследования кофеина может повлиять на результаты, поскольку психологические эффекты «ожидания» и «веры» могут повлиять на работоспособность. В некоторых исследованиях ответы, повышающие работоспособность, были обнаружены при приеме «кофеина», когда на самом деле употреблялось плацебо. Будущие исследования по этой теме должны включать вопросник о восприятии испытаний для предотвращения возможных проблем, связанных с такой путаницей.",
+      "flags": [],
+      "review_status": "targeted_checks_passed",
+      "segments": [
+        {
+          "en": "The PEDro scale showed good to excellent quality among the included studies, suggesting that the results of the current meta-analysis were not confounded by the inclusion of studies with poor research methodology.",
+          "ru": "Шкала PEDro показала хорошее и отличное качество среди включенных исследований, предполагая, что результаты текущего мета-анализа не были смущены включением исследований с плохой методологией исследования.",
+          "output_tokens": 44,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Шкала PEDro показала хорошее и отличное качество среди включенных исследований, предполагая, что результаты текущего мета-анализа не были смущены включением исследований с плохой методологией исследования.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Only two studies reported receiving funding from parties that may have had commercial interest for conducting the research, so it is improbable that the overall results of the current study were significantly affected by financial bias.",
+          "ru": "Только два исследования сообщили о получении финансирования от сторон, которые могли иметь коммерческий интерес для проведения исследования, поэтому маловероятно, что общие результаты текущего исследования были значительно затронуты финансовым уклоном.",
+          "output_tokens": 37,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Только два исследования сообщили о получении финансирования от сторон, которые могли иметь коммерческий интерес для проведения исследования, поэтому маловероятно, что общие результаты текущего исследования были значительно затронуты финансовым уклоном.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "To further improve the quality of evidence, future studies should use a double-blind rather than a single-blind design and assess the effectiveness of the blinding.",
+          "ru": "Для дальнейшего улучшения качества доказательств в будущих исследованиях следует использовать двойной слепой, а не однослепой дизайн и оценить эффективность ослепления.",
+          "output_tokens": 29,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Для дальнейшего улучшения качества доказательств в будущих исследованиях следует использовать двойной слепой, а не однослепой дизайн и оценить эффективность ослепления.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Only three studies reported assessing the effectiveness of the blinding.",
+          "ru": "Только три исследования показали эффективность ослепления.",
+          "output_tokens": 8,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Только три исследования показали эффективность ослепления.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "This information is of importance as participants’ recognition of the caffeine trial may influence outcomes, because psychological effects of ‘expectancy’ and ‘belief’ might have an impact on performance.",
+          "ru": "Эта информация имеет важное значение, поскольку признание участниками исследования кофеина может повлиять на результаты, поскольку психологические эффекты «ожидания» и «веры» могут повлиять на производительность.",
+          "output_tokens": 37,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Эта информация имеет важное значение, поскольку признание участниками исследования кофеина может повлиять на результаты, поскольку психологические эффекты «ожидания» и «веры» могут повлиять на работоспособность.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        },
+        {
+          "en": "In some studies, performance-enhancing responses were found with perceived ‘caffeine’ ingestion, when in fact, a placebo was consumed.",
+          "ru": "В некоторых исследованиях ответы, повышающие производительность, были обнаружены при приеме «кофеина», когда на самом деле употреблялось плацебо.",
+          "output_tokens": 30,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В некоторых исследованиях ответы, повышающие работоспособность, были обнаружены при приеме «кофеина», когда на самом деле употреблялось плацебо.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Future studies examining this topic should include a questionnaire of perception of the trials to prevent possible issues associated with such confounding.",
+          "ru": "Будущие исследования по этой теме должны включать вопросник о восприятии испытаний для предотвращения возможных проблем, связанных с такой путаницей.",
+          "output_tokens": 30,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Будущие исследования по этой теме должны включать вопросник о восприятии испытаний для предотвращения возможных проблем, связанных с такой путаницей.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_performance_wording"
+      ],
+      "section_ru_machine": "Дискуссия / Сильные результаты / Методологическое качество",
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": false,
+        "manually_edited_segments": 0,
+        "rule_applications": 2
+      }
+    },
+    {
+      "paragraph_id": "SU-007:p0055",
+      "section_en": "Conclusion",
+      "text_en": "Caffeine appears to provide significant ergogenic effects on muscle strength and power. The expression of strength in the form of 1RM is most specific to the sport of powerlifting but may translate to performance improvements in a variety of other strength-power sports. The effects of caffeine on muscle power may apply to athletes in a variety of sports in which jumping is a predominant activity that affects the sport-specific performance. Subgroup-analyses suggested that the effects of caffeine on strength may be more pronounced in upper body muscles, but further research on this topic is warranted. The results of the present meta-analysis are based on limited evidence, and thus need to be interpreted with caution. Future studies should explore the optimal dosage and form of caffeine for maximizing effects on strength and power. Finally, responses to caffeine ingestion have a high degree of inter-individual variability, and as such, the applicability of the current findings must be assessed on a case-by-case basis, based on the specific characteristics of the individual and the sports activity or other physical tasks.",
+      "section_ru": "Выводы",
+      "text_ru_machine": "Кофеин оказывает значительное эргогенное воздействие на мышечную силу и силу. Выражение силы в форме 1RM наиболее характерно для спорта пауэрлифтинга, но может привести к улучшению производительности в ряде других силовых видов спорта. Влияние кофеина на мышечную силу может применяться к спортсменам в различных видах спорта, в которых прыжки являются преобладающей деятельностью, которая влияет на спортивные результаты. Подгрупповые анализы показали, что влияние кофеина на силу может быть более выраженным в мышцах верхней части тела, но дальнейшие исследования на эту тему оправданы. Результаты настоящего метаанализа основаны на ограниченных доказательствах и поэтому должны интерпретироваться с осторожностью. В будущих исследованиях следует изучить оптимальную дозу и форму кофеина для максимального воздействия на силу и мощность. Наконец, реакции на прием кофеина имеют высокую степень межиндивидуальной изменчивости, и поэтому применимость текущих результатов должна оцениваться в каждом конкретном случае на основе конкретных характеристик человека и спортивной активности или других физических задач.",
+      "text_ru": "Кофеин, по данным метаанализа, может значимо повышать мышечную силу и мощность. Одноповторный максимум наиболее специфичен для пауэрлифтинга, но улучшение может быть полезно и в других силовых и скоростно-силовых дисциплинах. Изменения мощности могут иметь значение в видах спорта, где результат зависит от прыжков. Анализ подгрупп предполагает более выраженное влияние на силу верхней части тела, однако это требует проверки. Доказательств пока немного, поэтому выводы нужно трактовать осторожно. Нужны исследования оптимальных доз и форм кофеина. Индивидуальная реакция сильно различается; применимость результатов зависит от особенностей человека, вида спорта и конкретной задачи.",
+      "flags": [],
+      "review_status": "reviewed",
+      "segments": [
+        {
+          "en": "Caffeine appears to provide significant ergogenic effects on muscle strength and power.",
+          "ru": "Кофеин оказывает значительное эргогенное воздействие на мышечную силу и силу.",
+          "output_tokens": 17,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Кофеин оказывает значительное эргогенное воздействие на мышечную силу и силу.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The expression of strength in the form of 1RM is most specific to the sport of powerlifting but may translate to performance improvements in a variety of other strength-power sports.",
+          "ru": "Выражение силы в форме 1RM наиболее характерно для спорта пауэрлифтинга, но может привести к улучшению производительности в ряде других силовых видов спорта.",
+          "output_tokens": 35,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Выражение силы в форме 1RM наиболее характерно для спорта пауэрлифтинга, но может привести к улучшению работоспособности в ряде других силовых видов спорта.",
+          "editorial_status": "rule_edited",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The effects of caffeine on muscle power may apply to athletes in a variety of sports in which jumping is a predominant activity that affects the sport-specific performance.",
+          "ru": "Влияние кофеина на мышечную силу может применяться к спортсменам в различных видах спорта, в которых прыжки являются преобладающей деятельностью, которая влияет на спортивные результаты.",
+          "output_tokens": 37,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Влияние кофеина на мышечную силу может применяться к спортсменам в различных видах спорта, в которых прыжки являются преобладающей деятельностью, которая влияет на спортивные результаты.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Subgroup-analyses suggested that the effects of caffeine on strength may be more pronounced in upper body muscles, but further research on this topic is warranted.",
+          "ru": "Подгрупповые анализы показали, что влияние кофеина на силу может быть более выраженным в мышцах верхней части тела, но дальнейшие исследования на эту тему оправданы.",
+          "output_tokens": 35,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Подгрупповые анализы показали, что влияние кофеина на силу может быть более выраженным в мышцах верхней части тела, но дальнейшие исследования на эту тему оправданы.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "The results of the present meta-analysis are based on limited evidence, and thus need to be interpreted with caution.",
+          "ru": "Результаты настоящего метаанализа основаны на ограниченных доказательствах и поэтому должны интерпретироваться с осторожностью.",
+          "output_tokens": 21,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Результаты настоящего метаанализа основаны на ограниченных доказательствах и поэтому должны интерпретироваться с осторожностью.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Future studies should explore the optimal dosage and form of caffeine for maximizing effects on strength and power.",
+          "ru": "В будущих исследованиях следует изучить оптимальную дозу и форму кофеина для максимального воздействия на силу и мощность.",
+          "output_tokens": 22,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "В будущих исследованиях следует изучить оптимальную дозу и форму кофеина для максимального воздействия на силу и мощность.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        },
+        {
+          "en": "Finally, responses to caffeine ingestion have a high degree of inter-individual variability, and as such, the applicability of the current findings must be assessed on a case-by-case basis, based on the specific characteristics of the individual and the sports activity or other physical tasks.",
+          "ru": "Наконец, реакции на прием кофеина имеют высокую степень межиндивидуальной изменчивости, и поэтому применимость текущих результатов должна оцениваться в каждом конкретном случае на основе конкретных характеристик человека и спортивной активности или других физических задач.",
+          "output_tokens": 44,
+          "possible_output_truncation": false,
+          "flags_machine": [],
+          "text_ru_edited": "Наконец, реакции на прием кофеина имеют высокую степень межиндивидуальной изменчивости, и поэтому применимость текущих результатов должна оцениваться в каждом конкретном случае на основе конкретных характеристик человека и спортивной активности или других физических задач.",
+          "editorial_status": "automatic_checks_only",
+          "flags_after_edit": []
+        }
+      ],
+      "flags_machine": [
+        "check_performance_wording"
+      ],
+      "section_ru_machine": "Заключение",
+      "editorial_review": {
+        "reviewer": "Codex: перевод и сопоставление с оригиналом без сторонних моделей",
+        "reason": "Самостоятельный редакторский перевод ранее не вошедшего в чанки раздела; смысл, ограничения и числа сопоставлены с английским оригиналом.",
+        "original_sha256": "515e06fa2825929cade90b519516485712e1707065f04af784d2eadcf45ff9e1",
+        "review_date": "2026-11-20",
+        "text_sha256": "6bced3f2f297d73549c3376868c2ee1fc347eda3a8be571f04b4a48fa4c0cd44"
+      },
+      "excluded_from_corpus": false,
+      "editorial_coverage": {
+        "whole_paragraph_reviewed": true,
+        "manually_edited_segments": 0,
+        "rule_applications": 1
+      }
+    }
+  ]
+}
