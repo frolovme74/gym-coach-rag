@@ -9,6 +9,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 from app.llm import GigaChatClient, LLMError
+from app.rag.planner import LEVELS, build_program
 from app.rag.prompts import messages, passages
 from app.rag.runtime_retrieval import RuntimeRetrieval
 from app.rag.retrieval import RULESET, ConceptBM25, _digest, _fingerprint
@@ -24,11 +25,6 @@ GOALS = {
     "endurance": "мышечная выносливость",
     "fitness": "общая физподготовка",
     "body_composition": "снижение жировой массы",
-}
-LEVELS = {
-    "beginner": "новичок начинающий",
-    "intermediate": "средний уровень тренированности",
-    "advanced": "продвинутый уровень",
 }
 EQUIPMENT = {
     "gym": "тренажерный зал штанга",
@@ -440,6 +436,4 @@ class RAGPipeline:
         if type(payload.get("days")) is not int or not 2 <= payload["days"] <= 5:
             raise ValueError("Число дней должно быть целым от 2 до 5")
         parameters = {k: payload[k] for k in ("goal", "level", "days", "equipment")}
-        from app.rag.planner import build_program
-
         return build_program(self, parameters)

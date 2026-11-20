@@ -5,6 +5,13 @@ from itertools import chain
 from app.llm import LLMError
 from app.rag.prompts import passages
 
+LEVELS = {
+    "beginner": "Новичок",
+    "intermediate": "Средний уровень",
+    "advanced": "Продвинутый уровень",
+}
+LEVEL_PATTERNS = {"knee", "push"}
+
 SCHEDULES = {
     2: [("Понедельник", "full"), ("Четверг", "full")],
     3: [("Понедельник", "full"), ("Среда", "full"), ("Пятница", "full")],
@@ -38,9 +45,12 @@ LABELS = {
 
 def prepare(pipeline, params):
     catalog, prescription, rule_doc, schedule_doc = {}, None, None, None
+    level_exercises = None
     entries = chain(pipeline.manifest.items(), pipeline.program_cards.items())
     for did, metadata in entries:
         program = metadata.get("program", {})
+        equipment_levels = program.get("level_exercises", {})
+        level_exercises = equipment_levels.get(params["equipment"], level_exercises)
         for ex in program.get("exercises", []):
             if params["equipment"] in ex["equipment"]:
                 catalog[ex["id"]] = {**ex, "doc_id": did}
@@ -51,6 +61,18 @@ def prepare(pipeline, params):
             schedule_doc = did
     if not catalog or not prescription or not schedule_doc:
         return None
+    if level_exercises is not None:
+        variants = set(level_exercises.get(params["level"], []))
+        if (
+            not variants <= catalog.keys()
+            or {catalog[eid]["pattern"] for eid in variants} != LEVEL_PATTERNS
+        ):
+            raise LLMError("config", "В каталоге неполный набор упражнений для уровня.")
+        catalog = {
+            eid: ex
+            for eid, ex in catalog.items()
+            if ex["pattern"] not in LEVEL_PATTERNS or eid in variants
+        }
     # Prefer machines in gym mode, without removing dumbbell alternatives.
     ordered = sorted(
         catalog,
@@ -223,8 +245,11 @@ def build_program(pipeline, params):
             )
         days.append(dict(name=f"{weekday} — {LABELS[kind]}", exercises=exercises))
     note = (
-        f"Базовая программа для здорового взрослого. Отдых между рабочими подходами: {rule['rest']}. "
-        f"Начинайте с нагрузки, при которой сохраняется контроль движений; разминочные подходы не включены в таблицу. [{rule_ref}] "
+        f"{LEVELS[params['level']]}. На основных тренировках "
+        f"{rule['sets']} × {rule['reps']} на упражнение. "
+        f"Отдых между рабочими подходами — {rule['rest']}. "
+        "Начинайте с нагрузки, при которой сохраняется контроль движений. "
+        f"В таблице указаны рабочие подходы. [{rule_ref}] "
         f"Сохраняйте промежутки между тренировками одной группы мышц. [{schedule_ref}]"
     )
     if guidance := rule.get("guidance"):

@@ -322,7 +322,7 @@ function renderProgram(data, scroll) {
   }
   const note = el("p", "answer note");
   appendWithCitations(note, data.note, data.sources.length);
-  showResult(data.title, data, [days, note], scroll);
+  showResult(data.title, data, [note, days], scroll);
 }
 
 // Формы

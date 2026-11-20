@@ -505,5 +505,183 @@
         "guidance": "При снижении жировой массы учитывайте общую физическую активность, а силовой блок используйте для работы основных групп мышц."
       }
     }
+  },
+  {
+    "doc_id": "guide_program_level_variants",
+    "topic": "training",
+    "source": "Практический справочник Gym Coach",
+    "section": "Варианты основных упражнений по уровню",
+    "text": "Поочерёдный жим гантелей лёжа на полу. Выжимайте гантели по одной, сохраняя положение корпуса.\nСплит-приседание с гантелями и паузой. Оставляйте стопы на месте и ненадолго останавливайтесь в нижней части контролируемого движения.\nЖим гантелей лёжа на полу с паузой. На опускании мягко коснитесь пола плечами, сделайте паузу и продолжайте жим.\nСплит-приседание с паузой без отягощения. Сохраняйте разножку и устойчивый корпус, останавливаясь перед подъёмом.\nОтжимание от пола с паузой. Коротко остановитесь в нижней точке, сохраняя корпус в одной линии.\nПоочерёдный жим резиновой петли от груди. Проведите петлю за спиной и поочерёдно выпрямляйте руки, сохраняя устойчивость корпуса.\nСплит-приседание с резиновой петлёй и паузой. Прижмите петлю передней стопой, удерживайте её руками и сделайте короткую паузу перед подъёмом.\nЖим резиновой петли от груди с паузой. Расположите петлю за спиной и остановитесь в конце жима перед плавным возвращением рук.\nЖим гири лёжа на полу с паузой. Ненадолго остановите движение после лёгкого касания пола плечом, затем выжмите гирю.\nСплит-приседание с гирей и паузой. Удерживайте гирю у груди и коротко остановитесь внизу, не меняя положение стоп.\nЖим гири лёжа на полу с медленным опусканием. Плавно опускайте гирю с контролем от верхней точки до касания пола плечом.",
+    "references": [
+      "https://www.acefitness.org/resources/everyone/exercise-library/",
+      "https://doi.org/10.1249/MSS.0000000000003897"
+    ],
+    "program": {
+      "exercises": [
+        {
+          "id": "db_alternating_press",
+          "name": "Поочерёдный жим гантелей лёжа на полу",
+          "pattern": "push",
+          "equipment": [
+            "dumbbells"
+          ]
+        },
+        {
+          "id": "db_split_pause",
+          "name": "Сплит-приседание с гантелями и паузой",
+          "pattern": "knee",
+          "equipment": [
+            "gym",
+            "dumbbells"
+          ]
+        },
+        {
+          "id": "db_press_pause",
+          "name": "Жим гантелей лёжа на полу с паузой",
+          "pattern": "push",
+          "equipment": [
+            "gym",
+            "dumbbells"
+          ]
+        },
+        {
+          "id": "bw_split_pause",
+          "name": "Сплит-приседание с паузой без отягощения",
+          "pattern": "knee",
+          "equipment": [
+            "bodyweight"
+          ]
+        },
+        {
+          "id": "bw_pushup_pause",
+          "name": "Отжимание от пола с паузой",
+          "pattern": "push",
+          "equipment": [
+            "bodyweight"
+          ]
+        },
+        {
+          "id": "band_alternating_press",
+          "name": "Поочерёдный жим резиновой петли от груди",
+          "pattern": "push",
+          "equipment": [
+            "bands"
+          ]
+        },
+        {
+          "id": "band_split_pause",
+          "name": "Сплит-приседание с резиновой петлёй и паузой",
+          "pattern": "knee",
+          "equipment": [
+            "bands"
+          ]
+        },
+        {
+          "id": "band_press_pause",
+          "name": "Жим резиновой петли от груди с паузой",
+          "pattern": "push",
+          "equipment": [
+            "bands"
+          ]
+        },
+        {
+          "id": "kb_press_pause",
+          "name": "Жим гири лёжа на полу с паузой",
+          "pattern": "push",
+          "equipment": [
+            "kettlebell"
+          ]
+        },
+        {
+          "id": "kb_split_pause",
+          "name": "Сплит-приседание с гирей и паузой",
+          "pattern": "knee",
+          "equipment": [
+            "kettlebell"
+          ]
+        },
+        {
+          "id": "kb_press_slow",
+          "name": "Жим гири лёжа на полу с медленным опусканием",
+          "pattern": "push",
+          "equipment": [
+            "kettlebell"
+          ]
+        }
+      ],
+      "level_exercises": {
+        "gym": {
+          "beginner": [
+            "gym_legpress",
+            "gym_chest"
+          ],
+          "intermediate": [
+            "db_squat",
+            "db_lunge",
+            "db_floor"
+          ],
+          "advanced": [
+            "db_split_pause",
+            "db_press_pause"
+          ]
+        },
+        "dumbbells": {
+          "beginner": [
+            "db_squat",
+            "db_floor"
+          ],
+          "intermediate": [
+            "db_lunge",
+            "db_alternating_press"
+          ],
+          "advanced": [
+            "db_split_pause",
+            "db_press_pause"
+          ]
+        },
+        "bodyweight": {
+          "beginner": [
+            "bw_lower_squat",
+            "bw_upper_kneeling_pushup"
+          ],
+          "intermediate": [
+            "bw_lower_lunge",
+            "bw_upper_pushup"
+          ],
+          "advanced": [
+            "bw_split_pause",
+            "bw_pushup_pause"
+          ]
+        },
+        "bands": {
+          "beginner": [
+            "band_lower_squat",
+            "band_upper_chest"
+          ],
+          "intermediate": [
+            "band_lower_lunge",
+            "band_alternating_press"
+          ],
+          "advanced": [
+            "band_split_pause",
+            "band_press_pause"
+          ]
+        },
+        "kettlebell": {
+          "beginner": [
+            "kb_lower_squat",
+            "kb_upper_floor_press"
+          ],
+          "intermediate": [
+            "kb_lower_lunge",
+            "kb_press_pause"
+          ],
+          "advanced": [
+            "kb_split_pause",
+            "kb_press_slow"
+          ]
+        }
+      }
+    }
   }
 ]

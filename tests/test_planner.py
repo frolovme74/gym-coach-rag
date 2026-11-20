@@ -30,6 +30,9 @@ class PlannerTest(unittest.TestCase):
                 self.assertTrue(result["found"])
                 self.assertEqual(days, len(result["days"]))
                 catalog, rule, rule_doc, _, draft, _ = prepare(self.pipeline, params)
+                self.assertTrue(result["note"].startswith(LEVELS[level]))
+                self.assertIn(f"{rule['sets']} × {rule['reps']}", result["note"])
+                self.assertIn(rule["rest"], result["note"])
                 self.assertTrue(valid_days({"days": draft}, catalog, params))
                 self.assertTrue(
                     all(equipment in e["equipment"] for e in catalog.values())
@@ -81,17 +84,31 @@ class PlannerTest(unittest.TestCase):
             self.pipeline.documents.keys() & self.pipeline.program_cards.keys()
         )
 
+    def test_main_exercises_change_with_level_for_every_equipment(self):
+        for equipment in EQUIPMENT:
+            with self.subTest(equipment=equipment):
+                names_by_level = []
+                for level in LEVELS:
+                    params = dict(goal="muscle", level=level, days=3, equipment=equipment)
+                    catalog, _, _, _, _, _ = prepare(self.pipeline, params)
+                    names_by_level.append({
+                        ex["name"] for ex in catalog.values()
+                        if ex["pattern"] in {"knee", "push"}
+                    })
+                for first, second in itertools.combinations(names_by_level, 2):
+                    self.assertTrue(first.isdisjoint(second), first & second)
+
     def test_model_can_select_valid_alternative(self):
         params = dict(goal="muscle", level="beginner", days=2, equipment="gym")
         catalog, _, _, _, draft, _ = prepare(self.pipeline, params)
-        draft[0]["exercise_ids"][0] = "db_lunge"
+        draft[0]["exercise_ids"][1] = "db_rdl"
         self.assertTrue(valid_days({"days": draft}, catalog, params))
         self.client.generate.return_value = LLMResponse(
             json.dumps({"found": True, "days": draft}), "test", {}
         )
         result = self.pipeline.program(params)
         self.assertEqual(
-            "Выпад назад с гантелями", result["days"][0]["exercises"][0]["name"]
+            "Румынская тяга с гантелями", result["days"][0]["exercises"][1]["name"]
         )
 
     def test_unknown_or_wrong_equipment_is_not_published(self):
