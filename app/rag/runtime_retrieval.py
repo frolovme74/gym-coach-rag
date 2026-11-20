@@ -11,6 +11,9 @@ class RuntimeRetrieval:
             for m in manifest
             if m.get("answer_patterns")
         }
+        self.exclusions = {
+            m["doc_id"]: m.get("answer_exclude_patterns", []) for m in manifest
+        }
 
     def __getattr__(self, key):
         return getattr(self.base, key)
@@ -31,4 +34,5 @@ class RuntimeRetrieval:
             did
             for did, rules in self.rules.items()
             if any(re.search(rule, text) for rule in rules)
+            and not any(re.search(rule, text) for rule in self.exclusions.get(did, []))
         }

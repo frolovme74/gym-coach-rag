@@ -1,0 +1,5 @@
+{
+  "stage": "before_first_v5_retrieval",
+  "sha256": "fd779031942bad2a709f1ed4269cf1af876f1a25ba666ff971343cee1145a5b8",
+  "role": "author_written_target_card_regression_not_independent_full_qrels"
+}

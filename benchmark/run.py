@@ -340,6 +340,11 @@ def run(
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--plain-bm25",
+        action="store_true",
+        help="Учебный базовый индекс вместо профиля приложения",
+    )
     parser.add_argument("--index", type=Path, default=ROOT / "data/index/bm25.json")
     parser.add_argument(
         "--corpus", type=Path, default=ROOT / "data/corpus/documents.json"
@@ -355,12 +360,25 @@ def main(argv=None):
         / "benchmark/results"
         / (
             datetime.now(ZoneInfo("Europe/Moscow")).strftime("%Y-%m-%d_%H%M%S")
-            + "-baseline.json"
+            + "-retrieval.json"
         ),
     )
     parser.add_argument("--refusal-threshold", type=float, default=0.0)
     args = parser.parse_args(argv)
     try:
+        if not args.plain_bm25:
+            from benchmark.evaluate import run as run_current
+
+            if (
+                args.index != ROOT / "data/index/bm25.json"
+                or args.corpus != ROOT / "data/corpus/documents.json"
+                or args.queries != ROOT / "benchmark/queries.json"
+                or args.judgments != ROOT / "benchmark/judgments.json"
+                or args.refusal_threshold != 0.0
+            ):
+                parser.error("Для произвольного учебного индекса укажите --plain-bm25")
+            run_current(args.output)
+            return
         run(
             args.index,
             args.corpus,

@@ -1,4 +1,4 @@
-"""Единый корпус v4 → GigaChat → проверяемые цитаты → контракт API."""
+"""Единый корпус v5 → GigaChat → проверяемые цитаты → контракт API."""
 
 import json
 import math
@@ -14,7 +14,7 @@ from app.rag.runtime_retrieval import RuntimeRetrieval
 from app.rag.retrieval import RULESET, ConceptBM25, _digest, _fingerprint
 
 ROOT = Path(__file__).resolve().parents[2]
-PROFILE = "data/corpus-v4/profile.json"
+PROFILE = "data/corpus/profile.json"
 NO_ANSWER = "В найденных материалах недостаточно сведений для обоснованного ответа. Попробуйте уточнить вопрос."
 NO_PROGRAM = "В найденных материалах недостаточно сведений для полной программы с указанными параметрами. Попробуйте другие параметры."
 OUT_OF_SCOPE = "Я отвечаю на общие вопросы о тренировках, питании, спортивных добавках и восстановлении. Лечение, запрещённые средства и экстремальные диеты не входят в задачи ассистента."
@@ -99,7 +99,14 @@ class Evidence:
                 raise invalid_output()
             selected = [parts[i - 1] for i in ids]
             if n not in self.used:
-                self.used[n] = {**self.candidates[n - 1], "quotes": []}
+                self.used[n] = {
+                    **{
+                        k: v
+                        for k, v in self.candidates[n - 1].items()
+                        if not k.startswith("_")
+                    },
+                    "quotes": [],
+                }
             for quote in selected:
                 if quote not in self.used[n]["quotes"]:
                     self.used[n]["quotes"].append(quote)
@@ -150,9 +157,27 @@ class Evidence:
                 raise invalid_output(
                     "Числовая норма в цитате относится к отсутствию дефицита калорий. Обязательно сохрани это условие в ответе."
                 )
-            if re.search(
-                r"\d\s*(?:мг|г)\s*/\s*(?:день|сут)", text, re.I
-            ) and not re.search(r"исследован|в обзоре|протокол", text, re.I):
+            approved = [
+                q
+                for e in claim["evidence"]
+                for q in self.candidates[e["source"] - 1].get(
+                    "_general_dose_passages", []
+                )
+                if q in quotes
+            ]
+            if (
+                re.search(
+                    r"\d\s*(?:мг|г)\s*(?:/\s*(?:день|сут)|в\s+(?:день|сутки)|ежедневно)",
+                    text,
+                    re.I,
+                )
+                and not re.search(r"исследован|в обзоре|протокол", text, re.I)
+                and not (
+                    approved
+                    and numbers(text) <= numbers(" ".join(approved))
+                    and not ("мг" in text and "мг" not in " ".join(approved))
+                )
+            ):
                 raise invalid_output(
                     "Дозировка из исследовательского протокола изложена как общее правило. Если вопрос не о дозировке, убери её; иначе явно укажи исследовательский контекст, сохрани единицы и сроки."
                 )
@@ -168,10 +193,10 @@ class RAGPipeline:
         self._client_lock = threading.Lock()
 
     @classmethod
-    def from_project(cls, root=ROOT, client=None):
+    def from_project(cls, root=ROOT, client=None, profile_path=PROFILE):
         root = Path(root)
         try:
-            profile = json.loads((root / PROFILE).read_text())
+            profile = json.loads((root / profile_path).read_text())
             raw = (root / profile["corpus"]).read_bytes()
             documents = json.loads(raw)
             if _fingerprint(documents) != profile["corpus_sha256"]:
@@ -205,7 +230,7 @@ class RAGPipeline:
         except (OSError, ValueError, KeyError, TypeError) as exc:
             raise LLMError(
                 "config",
-                "Не удалось загрузить согласованный корпус и индекс v4. Проверьте файлы проекта.",
+                "Не удалось загрузить согласованный корпус и индекс. Проверьте файлы проекта.",
             ) from exc
         return cls(
             documents, RuntimeRetrieval(index, manifest), manifest, threshold, client
@@ -235,6 +260,17 @@ class RAGPipeline:
             section=d["section"],
             fragment=d["text"],
             score=score,
+            selection="parameters" if score is None else "bm25",
+            references=[
+                u
+                for u in self.manifest[doc_id].get("references", [])
+                if isinstance(u, str)
+                and urlsplit(u).scheme in ("http", "https")
+                and urlsplit(u).netloc
+            ],
+            _general_dose_passages=self.manifest[doc_id].get(
+                "general_dose_passages", []
+            ),
             url=url,
         )
 

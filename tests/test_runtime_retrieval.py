@@ -47,7 +47,9 @@ class RuntimeRetrievalTest(unittest.TestCase):
             ("Сколько нужно спать?", "guide_sleep"),
         ]:
             self.assertEqual([did], [s["doc_id"] for s in p.retrieve(query)])
-        self.assertEqual(5, len(p.retrieve("Как периодизация влияет на рост силы?")))
+        self.assertEqual(
+            5, len(p.retrieve("Как частота силовых занятий влияет на гипертрофию?"))
+        )
 
     def test_changed_manifest_fails_before_generation(self):
         from pathlib import Path
@@ -56,7 +58,7 @@ class RuntimeRetrievalTest(unittest.TestCase):
 
         def changed(path, *args, **kwargs):
             value = read(path, *args, **kwargs)
-            if path.name == "manifest.json" and path.parent.name == "corpus-v4":
+            if path.name == "manifest.json" and path.parent.name == "corpus":
                 data = json.loads(value)
                 data[-1]["program"] = {"tampered": True}
                 return json.dumps(data)

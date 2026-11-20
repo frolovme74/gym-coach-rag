@@ -163,11 +163,16 @@ function renderSource(source, index, maxScore) {
   toggle.setAttribute("aria-expanded", "false");
 
   const score = el("span", "source-score");
-  const bar = el("span", "source-bar");
-  const fill = el("i");
-  fill.style.width = `${maxScore > 0 ? Math.round((source.score / maxScore) * 100) : 0}%`;
-  bar.append(fill);
-  score.append("BM25", bar, source.score.toFixed(2));
+  if (source.selection === "parameters" || !Number.isFinite(source.score)) {
+    score.textContent = "Подобрано под программу";
+  } else {
+    const bar = el("span", "source-bar");
+    const fill = el("i");
+    fill.style.width = `${maxScore > 0 ? Math.round((source.score / maxScore) * 100) : 0}%`;
+    bar.append(fill);
+    score.append("BM25", bar, source.score.toFixed(2));
+    score.title = "Оценка совпадения с запросом, не достоверность источника";
+  }
 
   toggle.append(
     el("span", "source-num", String(number)),
@@ -184,6 +189,14 @@ function renderSource(source, index, maxScore) {
   item.addEventListener("mouseleave", () => setActive(number, false));
 
   item.append(toggle);
+  for (const url of source.references || []) {
+    if (!/^https?:\/\//i.test(url)) continue;
+    const link = el("a", "source-original", "Материал к справке ↗");
+    link.href = url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    item.append(link);
+  }
   if (/^https?:\/\//i.test(source.url || "")) {
     const link = el("a", "source-original", "Открыть оригинал ↗");
     link.href = source.url;
