@@ -76,6 +76,7 @@ class ApiTest(unittest.TestCase):
     def test_ask_returns_answer_with_sources(self):
         status, data = self.json("/api/ask", {"question": QUESTIONS["training"]})
         self.assertEqual(200, status)
+        self.assertEqual("rag", data["mode"])
         self.assertTrue(data["found"])
         self.assertIn("[1]", data["answer"])
         self.assert_sources(data["sources"])
@@ -96,6 +97,7 @@ class ApiTest(unittest.TestCase):
     def test_ask_outside_corpus_has_no_sources(self):
         status, data = self.json("/api/ask", {"question": "Какая завтра погода?"})
         self.assertEqual(200, status)
+        self.assertEqual("rag", data["mode"])
         self.assertFalse(data["found"])
         self.assertEqual([], data["sources"])
         self.assertTrue(data["answer"])
@@ -120,20 +122,22 @@ class ApiTest(unittest.TestCase):
                 self.assertIn("error", data)
 
     def test_program_returns_requested_days_with_real_catalog(self):
-        for days in range(2, 6):
-            with self.subTest(days=days):
+        options = [
+            dict(goal="muscle", level="beginner", days=2, equipment="gym"),
+            dict(goal="fitness", level="intermediate", days=3, equipment="bodyweight", format="split"),
+            dict(goal="body_composition", level="advanced", days=4, equipment="bands", format="full_body"),
+            dict(goal="strength", level="advanced", days=5, equipment="kettlebell"),
+        ]
+        for params in options:
+            with self.subTest(**params):
                 status, data = self.json(
                     "/api/program",
-                    {
-                        "goal": "muscle",
-                        "level": "beginner",
-                        "days": days,
-                        "equipment": "gym",
-                    },
+                    params,
                 )
                 self.assertEqual(200, status)
+                self.assertEqual("rag", data["mode"])
                 self.assertTrue(data["found"])
-                self.assertEqual(days, len(data["days"]))
+                self.assertEqual(params["days"], len(data["days"]))
                 self.assert_sources(data["sources"])
 
     def test_provider_errors_have_distinct_http_status(self):
@@ -157,6 +161,8 @@ class ApiTest(unittest.TestCase):
             ("days", 7),
             ("days", "3"),
             ("equipment", "none"),
+            ("format", "hybrid"),
+            ("format", None),
         ):
             with self.subTest(field=field, value=value):
                 status, data = self.json("/api/program", {**valid, field: value})

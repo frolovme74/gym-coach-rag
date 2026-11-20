@@ -27,19 +27,35 @@ const TOPIC_LABELS = {
 
 const tabs = { ask: $("tab-ask"), program: $("tab-program") };
 const panels = { ask: $("panel-ask"), program: $("panel-program") };
+const results = {};
+let activeTab = "ask";
 
 function selectTab(name) {
+  if (activeTab === name) return;
+  activeTab = name;
   for (const key of Object.keys(tabs)) {
     tabs[key].setAttribute("aria-selected", String(key === name));
     panels[key].hidden = key !== name;
   }
   $("result").hidden = true;
+  showActiveResult();
 }
 
 tabs.ask.addEventListener("click", () => selectTab("ask"));
 tabs.program.addEventListener("click", () => selectTab("program"));
 
 // Запросы
+
+const INVALID_RESPONSE = "Не удалось обработать ответ сервера. Попробуйте ещё раз.";
+const HTTP_ERRORS = {
+  502: "Не удалось сформировать корректный ответ. Попробуйте ещё раз.",
+  503: "Сервис ответов сейчас недоступен. Попробуйте позже.",
+  504: "Сервис ответов не ответил вовремя. Попробуйте ещё раз.",
+};
+const PROVIDER_ERRORS = {
+  quota: "Квота сервиса ответов исчерпана. Попробуйте позже.",
+  rate_limit: "Слишком много запросов к сервису ответов. Попробуйте позже.",
+};
 
 async function post(path, payload) {
   let response;
@@ -50,30 +66,60 @@ async function post(path, payload) {
       body: JSON.stringify(payload),
     });
   } catch {
-    throw new Error("Не удалось получить ответ. Проверьте, что сервер запущен.");
+    throw new Error("Не удалось соединиться с сервером. Проверьте подключение и попробуйте ещё раз.");
   }
-  const data = await response.json().catch(() => ({}));
+  const data = await response.json().catch(() => null);
   if (!response.ok) {
-    throw new Error(data.error || "Не удалось получить ответ.");
+    if (response.status === 400 && typeof data?.error === "string") {
+      throw new Error(data.error);
+    }
+    const providerMessage = response.status === 503 && Object.hasOwn(PROVIDER_ERRORS, data?.code)
+      ? PROVIDER_ERRORS[data.code]
+      : null;
+    throw new Error(providerMessage || HTTP_ERRORS[response.status] || INVALID_RESPONSE);
   }
+  if (!Array.isArray(data?.sources)) throw new Error(INVALID_RESPONSE);
   return data;
 }
 
-async function submit(form, hint, path, payload, render) {
-  const button = form.querySelector("button[type=submit]");
-  const label = button.textContent;
+async function submit(name, form, payload, render) {
+  if (form.querySelector("button[type=submit]").disabled) return;
+  const controls = form.querySelectorAll("button:enabled, textarea:enabled, input:enabled");
+  const status = $(name + "-status");
+  const hint = $(name + "-hint");
+
+  delete results[name];
+  if (activeTab === name) $("result").hidden = true;
   hint.textContent = "";
-  $("result").hidden = true;
-  button.disabled = true;
-  button.textContent = button.dataset.busy;
+  status.textContent = status.dataset.loading;
+  for (const control of controls) control.disabled = true;
+
   try {
-    render(await post(path, payload));
+    const data = await post("/api/" + name, payload);
+    results[name] = { data, render };
   } catch (error) {
     hint.textContent = error.message;
   } finally {
-    button.disabled = false;
-    button.textContent = label;
+    status.textContent = "";
+    for (const control of controls) control.disabled = false;
   }
+  if (activeTab === name) showActiveResult(true);
+}
+
+function showActiveResult(scroll = false) {
+  const result = results[activeTab];
+  if (!result) return;
+  try {
+    result.render(result.data, scroll);
+  } catch {
+    delete results[activeTab];
+    $(activeTab + "-hint").textContent = INVALID_RESPONSE;
+  }
+}
+
+function scrollToElement(element) {
+  const reduceMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  element.scrollIntoView({ behavior: reduceMotion ? "instant" : "smooth", block: "nearest" });
 }
 
 // Связь чипов в тексте с карточками источников
@@ -93,7 +139,7 @@ function openSource(number) {
   const card = sourceCard(number);
   if (!card) return;
   card.querySelector(".source-toggle").setAttribute("aria-expanded", "true");
-  card.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  scrollToElement(card.querySelector("mark") ?? card);
   card.classList.add("flash");
   setTimeout(() => card.classList.remove("flash"), 900);
 }
@@ -132,9 +178,13 @@ function appendWithCitations(parent, text, sourceCount) {
 function highlightedFragment(source) {
   const fragment = el("span", "source-fragment");
   const ranges = [];
-  for (const quote of source.quotes || []) {
-    const start = source.fragment.indexOf(quote);
-    if (start >= 0 && quote.length) ranges.push([start, start + quote.length]);
+  for (const quote of source.quotes ?? []) {
+    if (typeof quote !== "string" || !quote) continue;
+    let start = source.fragment.indexOf(quote);
+    while (start !== -1) {
+      ranges.push([start, start + quote.length]);
+      start = source.fragment.indexOf(quote, start + quote.length);
+    }
   }
   ranges.sort((a, b) => a[0] - b[0]);
   const merged = [];
@@ -217,38 +267,43 @@ function trustLine(sources) {
   );
 }
 
-function showResult(title, data, body) {
+function showResult(title, data, body, scroll) {
   const maxScore = Math.max(0, ...data.sources.map((source) => source.score));
+  const sources = data.sources.map((source, index) => renderSource(source, index, maxScore));
   $("result-title").textContent = title;
   $("result-badge").hidden = data.mode !== "stub";
   $("trust").textContent = trustLine(data.sources);
   $("trust").hidden = data.sources.length === 0;
   $("result-body").replaceChildren(...body);
   $("caution").hidden = !data.sources.some((source) => source.topic === "supplements");
-  $("sources").replaceChildren(
-    ...data.sources.map((source, index) => renderSource(source, index, maxScore)),
-  );
+  $("sources").replaceChildren(...sources);
   $("sources-block").hidden = data.sources.length === 0;
   $("result").classList.toggle("no-sources", data.sources.length === 0);
   $("result").hidden = false;
-  $("result").scrollIntoView({ behavior: "smooth", block: "nearest" });
+  if (scroll) scrollToElement($("result"));
 }
 
-function renderAnswer(data) {
+function renderAnswer(data, scroll) {
+  if (typeof data.found !== "boolean" || typeof data.answer !== "string") {
+    throw new Error(INVALID_RESPONSE);
+  }
   if (!data.found) {
     const empty = el("div", "empty");
     empty.append(el("strong", "", "В материалах не найдено"), data.answer);
-    showResult("Ответ", data, [empty]);
+    showResult("Ответ", data, [empty], scroll);
     return;
   }
   const answer = el("p", "answer");
   appendWithCitations(answer, data.answer, data.sources.length);
-  showResult("Ответ", data, [answer]);
+  showResult("Ответ", data, [answer], scroll);
 }
 
-function renderProgram(data) {
-  if (!data.found) {
-    showResult(data.title, data, [el("p", "answer", data.note)]);
+function renderProgram(data, scroll, caption) {
+  if (typeof data.title !== "string" || typeof data.note !== "string") {
+    throw new Error(INVALID_RESPONSE);
+  }
+  if (data.found === false) {
+    showResult(data.title, data, [el("p", "answer", data.note)], scroll);
     return;
   }
   const days = el("div", "days");
@@ -258,7 +313,8 @@ function renderProgram(data) {
     for (const exercise of day.exercises) {
       const row = table.insertRow();
       const name = row.insertCell();
-      appendWithCitations(name, exercise.name + " " + exercise.citations.map(n => `[${n}]`).join(" "), data.sources.length);
+      const citations = (exercise.citations ?? []).map((n) => `[${n}]`).join(" ");
+      appendWithCitations(name, exercise.name + " " + citations, data.sources.length);
       row.insertCell().textContent = `${exercise.sets} × ${exercise.reps}`;
     }
     block.append(el("h4", "", day.name), table);
@@ -266,8 +322,126 @@ function renderProgram(data) {
   }
   const note = el("p", "answer note");
   appendWithCitations(note, data.note, data.sources.length);
-  showResult(data.title, data, [days, note]);
+  const body = [note, days];
+  if (data.found === true) body.splice(1, 0, programSaveActions(data, caption));
+  showResult(data.title, data, body, scroll);
 }
+
+const SAVED_PROGRAM_KEY = "gym-coach.program.v1.";
+
+function readSavedPrograms() {
+  const programs = [];
+  try {
+    for (const key of Object.keys(localStorage)) {
+      if (!key.startsWith(SAVED_PROGRAM_KEY)) continue;
+      try {
+        const entry = JSON.parse(localStorage.getItem(key));
+        const { data, caption, savedAt } = entry;
+        if (
+          typeof caption === "string" && Number.isFinite(savedAt) &&
+          data?.found === true && typeof data.title === "string" &&
+          typeof data.note === "string" && Array.isArray(data.days) &&
+          Array.isArray(data.sources)
+        ) programs.push({ data, caption, savedAt, key });
+      } catch {
+        // A damaged record does not prevent opening the others.
+      }
+    }
+  } catch {
+    // The browser can disable local storage.
+  }
+  return programs.sort((first, second) => second.savedAt - first.savedAt);
+}
+
+function renderSavedPrograms() {
+  const list = $("saved-program-list");
+  const saved = readSavedPrograms();
+  list.replaceChildren();
+  $("saved-programs").hidden = saved.length === 0;
+  for (const [index, { data, caption, key }] of saved.entries()) {
+    const item = el("li");
+    const open = el("button", "saved-program");
+    open.type = "button";
+    open.append(el("strong", "", data.title), el("span", "", caption));
+    open.addEventListener("click", () => {
+      results.program = {
+        data,
+        savedKey: key,
+        render: (program, scroll) => renderProgram(program, scroll, caption),
+      };
+      showActiveResult(true);
+    });
+    const remove = el("button", "remove-program", "Удалить");
+    remove.type = "button";
+    remove.setAttribute("aria-label", "Удалить сохранённую программу " + data.title + ". " + caption);
+    remove.addEventListener("click", () => deleteSavedProgram(key, data, index));
+    item.append(open, remove);
+    list.append(item);
+  }
+}
+
+function deleteSavedProgram(key, data, index) {
+  const status = $("saved-program-status");
+  try {
+    localStorage.removeItem(key);
+  } catch {
+    status.classList.add("hint");
+    status.textContent = "Не удалось удалить программу.";
+    return;
+  }
+  status.classList.remove("hint");
+  status.textContent = "Программа удалена.";
+  renderSavedPrograms();
+
+  if (results.program?.savedKey === key) {
+    delete results.program;
+    $("result").hidden = true;
+  } else if (JSON.stringify(results.program?.data) === JSON.stringify(data)) {
+    showActiveResult();
+  }
+  const remaining = $("saved-program-list").querySelectorAll(".saved-program");
+  const next = remaining[Math.min(index, remaining.length - 1)];
+  (next ?? $("program-form").querySelector("button[type=submit]")).focus({ preventScroll: true });
+}
+
+function programSaveActions(data, caption) {
+  const actions = el("div", "save-actions");
+  const button = el("button", "save-program", "Сохранить программу");
+  const status = el("span", "save-status");
+  button.type = "button";
+  status.setAttribute("role", "status");
+  actions.append(button, status);
+
+  const snapshot = JSON.stringify(data);
+  const isSaved = () => readSavedPrograms().some((entry) => JSON.stringify(entry.data) === snapshot);
+  const markSaved = () => {
+    button.disabled = true;
+    status.classList.remove("hint");
+    status.textContent = "Сохранено в этом браузере.";
+  };
+
+  if (isSaved()) markSaved();
+  button.addEventListener("click", () => {
+    try {
+      if (!isSaved()) {
+        const id = crypto.getRandomValues(new Uint32Array(4)).join("-");
+        localStorage.setItem(SAVED_PROGRAM_KEY + id, JSON.stringify({
+          data, caption, savedAt: Date.now(),
+        }));
+      }
+    } catch {
+      status.classList.add("hint");
+      status.textContent = "Не удалось сохранить программу в браузере.";
+      return;
+    }
+    markSaved();
+    $("saved-program-status").textContent = "";
+    renderSavedPrograms();
+  });
+  return actions;
+}
+
+renderSavedPrograms();
 
 // Формы
 
@@ -278,7 +452,7 @@ $("ask-form").addEventListener("submit", (event) => {
     $("ask-hint").textContent = "Введите вопрос";
     return;
   }
-  submit(event.target, $("ask-hint"), "/api/ask", { question }, renderAnswer);
+  submit("ask", event.currentTarget, { question }, renderAnswer);
 });
 
 $("question").addEventListener("keydown", (event) => {
@@ -297,12 +471,17 @@ $("examples").addEventListener("click", (event) => {
 
 $("program-form").addEventListener("submit", (event) => {
   event.preventDefault();
-  const form = new FormData(event.target);
+  const formElement = event.currentTarget;
+  const form = new FormData(formElement);
   const payload = {
     goal: form.get("goal"),
     level: form.get("level"),
     days: Number(form.get("days")),
     equipment: form.get("equipment"),
+    format: form.get("format"),
   };
-  submit(event.target, $("program-hint"), "/api/program", payload, renderProgram);
+  const caption = ["format", "goal", "level", "equipment"].map(
+    (name) => formElement.querySelector("[name=" + name + "]:checked + span").textContent,
+  ).join(" · ");
+  submit("program", formElement, payload, (data, scroll) => renderProgram(data, scroll, caption));
 });

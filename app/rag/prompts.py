@@ -77,13 +77,15 @@ PROGRAM = (
     COMMON
     + """
 Собери программу из parameters.catalog. В parameters.schedule указаны дни и
-тип занятия full/upper/lower/light; draft_days содержит уже проверенный вариант.
+тип занятия full/upper/lower/push/pull и признак light. В draft_days уже проверенный вариант.
 Можно сохранить его или заменить упражнения на другие из каталога с той же
 двигательной группой. Никогда не вводи новые id. Соблюдай доступное оборудование.
 Формат ответа: {"found":true,"days":[{"exercise_ids":["id_1","id_2"]}]}.
-Дней ровно parameters.days; упражнений 4–6 в каждом дне, без повторов внутри дня.
-Full и light: knee, posterior, push, pull, core. Upper: push, pull, shoulders
-и ещё pull или arms. Lower: knee, posterior, calf, core. Сохрани порядок дней.
+Дней ровно parameters.days. Упражнений 4–6 в full, upper и lower, 3–6 в push
+и pull, без повторов внутри дня. Full: knee, posterior, push, pull, core.
+Upper: push, pull, shoulders и ещё pull или arms. Lower: knee, posterior,
+calf, core. Push: push, shoulders, core. Pull: pull, core и ещё pull или arms.
+Для отдельных групп не добавляй движения из других дней. Сохрани порядок дней.
 Числа подходов, повторений, названия и ссылки добавит сервер из карточек базы.
 Не возвращай claims, note, названия или дозировки: только found и days.
 """
