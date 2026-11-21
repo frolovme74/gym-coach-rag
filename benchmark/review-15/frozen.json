@@ -1,0 +1,8 @@
+{
+  "selection": "First three questions in each topic in existing queries.json, then hf01/hf04/hf12; chosen before live generation.",
+  "not_independent": true,
+  "sha256": {
+    "questions.json": "6c0509a13e02dc424c1490c5bf802784f133c14f94147d41f335f824d89f4c9f",
+    "gold.json": "54477a5f96e8191c01911955c4ab823cbb1037a97181423fd01762c77dae0b0e"
+  }
+}
